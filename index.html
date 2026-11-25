@@ -282,6 +282,7 @@ const seriesList = Object.entries(D.series).sort((a,b) => a[1].order - b[1].orde
 function chip(label, pressed, data, extra='') {
   return `<button class="chip" aria-pressed="${pressed}" ${data}>${label}${extra}</button>`;
 }
+const CARD_FK = ['remoteHmi','gpViewer','proFaceConnect','ftp','email'];
 function pills(m, keys = FK) {
   return keys.map(k => { const s = f(m,k).s || 'unknown';
     return `<span class="pill s-${s}" title="${esc(D.featureDefs[k]?.label)}：${SLAB[s]}">${esc(D.featureDefs[k]?.label)} ${s==='yes'?'✓':s==='no'?'✗':'△'}</span>`; }).join('');
@@ -431,7 +432,7 @@ function renderFind() {
       ${badge(m)}
       <div class="spec">${m.inch ? `<span><b>${esc(m.inch)}</b> 吋</span>` : ''}<span>${esc(m.resolutionPx || m.resolution || '')}</span><span>開口 <b>${esc(cutKey(m.cutout) || cutTxt(m.cutout))}</b></span></div>
       ${boxes.length ? `<div class="meta">可搭配 Box：${esc(boxes.join('、'))}</div>` : ''}
-      <div class="pills">${pills(m, ['remoteHmi','gpViewer','proFaceConnect','ftp','email'])}</div>
+      ${!current(m) && CARD_FK.every(k => f(m,k).s === 'no') ? '' : `<div class="pills">${pills(m, CARD_FK)}</div>`}
       ${i.best.miss.length ? `<div class="miss">差異：${esc(i.best.miss.join('、'))}</div>` : ''}
       ${i.best.cond.length ? `<div class="miss">注意：${esc(i.best.cond.join('、'))}</div>` : ''}
       <div class="act"><button class="btn solid" data-open="${esc(m.key)}">詳細</button>${cmpBtn(m.key)}</div></article>`;
