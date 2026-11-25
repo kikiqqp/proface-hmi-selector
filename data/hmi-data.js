@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:29:51",
+ "updated": "2026-11-25 13:43:12",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -502,6 +502,22 @@ window.HMI_DATA = {
   "S_C_GP470": {
    "title": "GP-470／570 Series User's Manual（GP470570-MM21-ENG）",
    "url": ""
+  },
+  "S_IPSEC": {
+   "title": "GP-Pro EX 手冊：以 IPsec 加密通訊資料",
+   "url": "https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/convenient/convenient_ov_ipsec.htm"
+  },
+  "S_IPSEC_FAQ": {
+   "title": "Pro-face FAQ：GP-Pro EX 如何設定 IPsec",
+   "url": "https://www.proface.com/en/support/faq/FAQ000269741"
+  },
+  "S_EMAIL": {
+   "title": "GP-Pro EX 手冊：以 E-mail 確認人機資訊",
+   "url": "https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/remote/remote_ov_email.htm"
+  },
+  "S_EMAIL_INTRO": {
+   "title": "GP-Pro EX Ver.4.09.100 E-mail 傳送功能介紹（日文）",
+   "url": "https://proface.com/media/49467"
   }
  },
  "switches": [],
