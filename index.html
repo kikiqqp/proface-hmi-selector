@@ -292,7 +292,7 @@ const vst = (m,v) => (m.versions && m.versions[v]) || 'absent';
 const PB3 = 'PB III';
 const isPB = m => /PB\s*III/i.test(m.software || '');
 const vOk = (m,v) => v === PB3 ? isPB(m) : ['full','free'].includes(vst(m,v));
-const badge = m => isPB(m) ? `<span class="vers"><span class="badge b-pb3" title="舊硬體，GP-Pro EX 不支援，開發軟體為 ${esc(m.software)}">PB III 舊硬體</span></span>` : `<span class="vers">${VERS.map(v => `<span class="badge b-${vst(m,v)}" title="GP-Pro EX ${esc(v)}：${esc(VLONG[vst(m,v)])}">${esc(v)} ${esc(VS[vst(m,v)])}</span>`).join('')}</span>`;
+const badge = m => isPB(m) ? `<span class="vers"><span class="badge b-pb3" title="舊硬體，開發軟體為 ${esc(m.software)}；舊專案可用 GP-Pro EX 工程轉換器轉換">PB III 舊硬體</span></span>` : `<span class="vers">${VERS.map(v => `<span class="badge b-${vst(m,v)}" title="GP-Pro EX ${esc(v)}：${esc(VLONG[vst(m,v)])}">${esc(v)} ${esc(VS[vst(m,v)])}</span>`).join('')}</span>`;
 const verText = m => isPB(m) ? 'GP-Pro EX 不支援，開發軟體為 ' + m.software : VERS.map(v => `${v} ${VLONG[vst(m,v)]}`).join('；');
 
 /* ---------- 比較清單 ---------- */
@@ -372,7 +372,7 @@ function renderFilters() {
    <div class="row" style="justify-content:space-between;margin-bottom:.5rem"><b>條件</b><button class="btn" id="fReset">重新選擇</button></div>
    <p class="hint f-tip">每個條件都可以複選：同一區塊選多項代表「符合其中一項即可」，不同區塊則要同時符合。不選代表不限。</p>
    ${grp('series', '系列', F.series.length, `${seriesChips(k => F.series.includes(k), 'data-f="series" data-v')}<p class="hint">不選代表全部系列。</p>`)}
-   ${grp('ver', 'GP-Pro EX 版本', F.ver.length, `<div class="chips">${VERS.map(v => chip(esc(v + ' 可開發'), F.ver.includes(v), `data-f="ver" data-v="${esc(v)}"`)).join('')}${chip('PB III 舊硬體', F.ver.includes(PB3), `data-f="ver" data-v="${PB3}"`)}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種；選「PB III 舊硬體」只列出 GP-Pro EX 不支援、需用 GP-PRO/PB III 的舊機。</p>`)}
+   ${grp('ver', 'GP-Pro EX 版本', F.ver.length, `<div class="chips">${VERS.map(v => chip(esc(v + ' 可開發'), F.ver.includes(v), `data-f="ver" data-v="${esc(v)}"`)).join('')}${chip('PB III 舊硬體', F.ver.includes(PB3), `data-f="ver" data-v="${PB3}"`)}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種；選「PB III 舊硬體」只列出要用 GP-PRO/PB III 開發的舊機。</p>`)}
    ${grp('size', '螢幕尺寸', F.size.length + F.aspect.length, `<div class="chips">${sizeBuckets.map(b => chip(b.lab, F.size.includes(b.id), `data-f="size" data-v="${b.id}"`)).join('')}</div>
       <div class="tier">畫面比例</div><div class="chips">${[['w','寬螢幕'],['n','4:3']].map(([v,l]) => chip(l, F.aspect.includes(v), `data-f="aspect" data-v="${v}"`)).join('')}</div>`)}
    ${grp('cut', '開口尺寸 (mm)', F.cut.length, `<div class="plate">${plateSvg(F.cut)}</div>
@@ -602,7 +602,7 @@ function specRows(m) {
     ['LAN 埠', portN(m.ethernet)], ['COM 埠', m.com.map(c => c.port + ' ' + c.type).join('、') || '無'],
     ['USB A', portN(m.usbA)], ['USB mini／micro B', [m.usbMiniB ? 'mini ' + m.usbMiniB : '', m.usbMicroB ? 'micro ' + m.usbMicroB : ''].filter(Boolean).join('、') || '無'],
     ['記憶卡槽', m.cardSlot ? '有' : m.cardSlot === false ? '無' : '未標示'],
-    ['傳輸線', cableTxt(m)], ['開發軟體', m.software || 'GP-Pro EX'],
+    ['傳輸線', cableTxt(m)], ['開發軟體', m.software || 'GP-Pro EX'], ...(m.convert ? [['GP-Pro EX 專案轉換', m.convert.to]] : []),
     ['畫面記憶體', m.appMemoryMB ? m.appMemoryMB + ' MB' + (m.appMemoryExpandedMB ? `（可擴充至 ${m.appMemoryExpandedMB} MB）` : '') : '未標示'],
     ...VERS.map(v => ['GP-Pro EX ' + v, VLONG[vst(m,v)]]),
     [m.key.startsWith('extra|') ? '分組／型號' : 'XML 名稱', m.group ? m.group + '／' + m.name : m.name]
@@ -620,7 +620,7 @@ function cutDrawing(c) {
 function renderDetail(m, target) {
   const c = m.cutout || {};
   const sc = sameCut(m);
-  const srcs = [...new Set([...(m.featureSrc || []), c.src, ...m.replace.map(r => r.src), ...(m.cable?.src || '').split('|')].filter(Boolean))];
+  const srcs = [...new Set([...(m.featureSrc || []), c.src, ...m.replace.map(r => r.src), ...(m.cable?.src || '').split('|'), m.convert?.src].filter(Boolean))];
   $(target).innerHTML = `
    <div class="row" style="justify-content:space-between;align-items:flex-start;margin-bottom:0.75rem">
     <div><h2 class="title">${esc(name(m))}</h2><div class="row">${badge(m)}<span class="meta">${esc(ser(m.series).label)}　${esc(ser(m.series).desc || '')}</span></div></div>
@@ -667,6 +667,7 @@ function renderReplace(m) {
    <h2 class="title">${esc(name(m))}</h2>
    <div class="row" style="margin-bottom:1rem">${badge(m)}<span class="meta">開口 ${esc(cutTxt(m.cutout))}${m.inch ? '　' + esc(m.inch) + ' 吋' : ''}　${esc(resTxt(m))}</span><button class="btn" data-open="${esc(m.key)}">舊機詳細</button></div>
    <div class="box" style="margin-bottom:1.25rem"><h3>原廠建議替換</h3>${m.replace.length ? `<ul class="src">${m.replace.map(r => `<li><b>${esc(r.to)}</b>${r.sameCutout === true ? '（開口相同）' : r.sameCutout === false ? '（開口不同，需改孔或轉接）' : ''}${r.n ? '，' + esc(r.n) : ''}<br>${srcLink(r.src)}</li>`).join('')}</ul>` : `<span class="meta">原廠替換手冊未列此機種，請參考下方${sc.length ? '開口相同' : '開口相近'}的機種，或使用</span> ` + srcLink('S_R_DISCON')}</div>
+   ${m.convert ? `<div class="box" style="margin-bottom:1.25rem"><h3>舊專案轉到 GP-Pro EX</h3><p>GP-Pro EX 的工程轉換器可把這台的 PB III 專案轉成：<b>${esc(m.convert.to)}</b></p><p class="hint">PB III 專案需先在 GP-PRO/PB III for Windows 存成 .prw，再用 GP-Pro EX 工程轉換器轉換。轉換後可再更換為其他現行機種。 ${srcLink(m.convert.src)}</p></div>` : ''}
    <h3 class="sub">${sc.length ? '開口相同、可直接換裝的現行機種' : '開口相同的現行機種：無'}</h3>
    ${sc.length ? `<div class="cards">${sc.map(x => { const d = diffList(m, x); return `<article class="card">
      <div class="row" style="justify-content:space-between"><span class="meta">${esc(ser(x.series).label)}</span>${badge(x)}</div>
@@ -732,7 +733,7 @@ function renderAbout() {
     <div class="box"><h3>標示意義</h3><table><tbody>
      ${Object.entries(SLAB).map(([k,v]) => `<tr><td><span class="pill s-${k}">${v}</span></td><td>${{yes:'原廠文件明確支援',no:'原廠文件明確不支援',cond:'需符合特定條件，詳見備註',ended:'只有較舊的 GP-Pro EX 版本支援',unknown:'尚未找到原廠明確資料'}[k]}</td></tr>`).join('')}
      ${Object.entries(VS).map(([k,v]) => `<tr><td><span class="badge b-${k}">${esc(VERS[VERS.length-1])} ${v}</span></td><td>${esc(D.status[k] || VLONG[k])}</td></tr>`).join('')}
-     <tr><td><span class="badge b-pb3">PB III 舊硬體</span></td><td>只用於舊硬體（例如 GP2000 系列）：GP-Pro EX 各版本都不支援，開發軟體為 GP-PRO/PB III，不顯示 GP-Pro EX 版本標籤</td></tr>
+     <tr><td><span class="badge b-pb3">PB III 舊硬體</span></td><td>只用於舊硬體（例如 GP2000 系列）：開發軟體為 GP-PRO/PB III，GP-Pro EX 不能直接選這台開發，所以不顯示 GP-Pro EX 版本標籤。舊專案可用 GP-Pro EX 工程轉換器轉到現行機種，對應機種寫在規格與舊機替換頁</td></tr>
     </tbody></table>
     <h3 style="margin-top:1.12rem">資料版本</h3><p class="meta">機種清單取自 GP-Pro EX ${esc(VERS.join('、'))} 的 HmiInfo.xml，取聯集共 ${M.length} 筆，每台機種分別標示各版本的支援狀態。${D.updated ? `資料庫日期 ${esc(D.updated)}（台灣時間，資料有變更時才更新）。` : ''}功能、開口與替換資料依原廠手冊與網頁整理，每筆附來源。</p></div>
    </div>
