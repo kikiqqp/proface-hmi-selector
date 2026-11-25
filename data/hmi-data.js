@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 11:42:14",
+ "updated": "2026-11-25 12:10:45",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -439,6 +439,10 @@ window.HMI_DATA = {
   "S_XML": {
    "title": "GP-Pro EX HmiInfo.xml 機種資料",
    "url": ""
+  },
+  "S_C_GP4000M": {
+   "title": "GP4000M 系列產品頁（φ22 mm 圓孔安裝）",
+   "url": "https://www.proface.com/en/product/hmi/gp4000m/top"
   }
  },
  "switches": [],
@@ -7018,8 +7022,9 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "round",
-    "verify": true,
-    "n": "模組型圓孔安裝，孔徑待查"
+    "d": 22,
+    "n": "GP4000M 模組型，φ22 圓孔安裝",
+    "src": "S_C_GP4000M"
    },
    "replace": [
     {
@@ -7389,8 +7394,9 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "round",
-    "verify": true,
-    "n": "模組型圓孔安裝，孔徑待查"
+    "d": 22,
+    "n": "GP4000M 模組型，φ22 圓孔安裝",
+    "src": "S_C_GP4000M"
    },
    "replace": [
     {
