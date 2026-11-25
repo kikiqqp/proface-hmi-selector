@@ -76,7 +76,13 @@ main{padding:1.25rem max(4vw,1rem) 3rem;max-width:1480px;margin:0 auto}
 .plate svg{display:block;width:100%;height:auto}
 .plate rect{cursor:pointer}
 .hint{font-size:.85rem;color:var(--muted);margin:.4rem 0 0}
+[hidden]{display:none!important}
 .fbar{display:none}
+.fopen{flex:1;display:flex;align-items:center;gap:.5rem;background:var(--acc);color:#fff;border:0;border-radius:.75rem;padding:.7rem 1rem;min-height:3.1rem;font-size:1.05rem;font-weight:700;cursor:pointer;box-shadow:0 .2rem .6rem rgb(0 0 0 / .18);text-align:left}
+.fopen .fc{background:#fff;color:var(--acc);border-radius:999px;padding:.05rem .6rem;font-size:.85rem}
+.fopen .fgo{margin-left:auto;font-weight:600;font-size:.95rem;opacity:.95}
+.fopen:active{transform:translateY(1px)}
+.f-tip{margin:.25rem 0 .75rem}
 .res-head{display:flex;justify-content:space-between;align-items:center;gap:.75rem;flex-wrap:wrap;margin-bottom:.75rem}
 .res-head h2{margin:0;font-size:clamp(1.4rem,2.4vw,1.9rem);line-height:1.15}
 .active{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem}
@@ -114,6 +120,23 @@ th{color:var(--muted);font-weight:600}
 .cmp-wrap{overflow-x:auto}
 .cmp td,.cmp th{min-width:10rem}.cmp th:first-child{min-width:8rem;position:sticky;left:0;background:var(--bg);z-index:1}
 .cmp tr.diff td{background:var(--acc-soft)}
+.print-only{display:none}
+@media print{
+ @page{size:A4 landscape;margin:10mm}
+ html{font-size:10pt;color-scheme:light}
+ *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+ body{background:#fff;color:#000}
+ header,footer,.tray,.res-head .row,.cmp .btn{display:none!important}
+ main{padding:0;max-width:none}
+ .print-only{display:block;margin:0 0 .6rem;font-size:11pt}
+ .res-head h2{font-size:13pt;margin:0 0 .4rem}
+ .cmp-wrap{overflow:visible}
+ .cmp{width:100%;table-layout:fixed;font-size:8.5pt;line-height:1.25;border-collapse:collapse}
+ .cmp td,.cmp th{min-width:0;padding:.12rem .4rem;border:1px solid #bbb;word-break:break-word}
+ .cmp th:first-child{position:static;width:11rem;white-space:nowrap}
+ .cmp tr.diff td{background:#fde9e2}
+ .cmp tr{break-inside:avoid}
+}
 .tray{position:sticky;bottom:0;background:var(--deep);color:#fff;padding:.65rem max(4vw,1rem);display:none;gap:.6rem;align-items:center;flex-wrap:wrap;z-index:5;padding-bottom:max(.65rem,env(safe-area-inset-bottom))}
 .tray.on{display:flex}.tray .btn{color:#fff;border-color:#fff;min-height:2.5rem}
 .tray span{font-size:.9rem;flex:1 1 12rem}
@@ -166,14 +189,14 @@ footer{color:var(--muted);font-size:.85rem;padding:0 max(4vw,1rem) 2rem;max-widt
   <div class="grid">
    <aside class="side filters" id="filters" aria-label="篩選條件"></aside>
    <div>
-    <div class="fbar"><button class="btn solid" id="fOpen">篩選條件 <span id="fCnt"></span></button><span class="meta" id="fNum"></span></div>
+    <div class="fbar"><button class="fopen" id="fOpen" aria-label="開啟篩選條件"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 5h18l-7 8v5l-4 2v-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="ft">篩選條件</span><span class="fc" id="fCnt"></span><span class="fgo">點此設定 ›</span></button><span class="meta" id="fNum"></span></div>
     <div id="findRes"></div>
    </div>
   </div>
  </section>
  <section class="view" id="v-model">
   <div class="side" style="margin-bottom:1.25rem">
-   <h2>1. 選系列</h2><div id="mSeries"></div>
+   <div class="row" style="justify-content:space-between"><h2 style="margin:0">1. 選系列</h2><button class="btn" id="mReset" hidden>重新選擇</button></div><div id="mSeries"></div>
    <div id="mGroupWrap" hidden><h2>2. 選子系列</h2><div class="chips" id="mGroups"></div></div>
    <h2 id="mModelsH">2. 選機種</h2><div class="chips" id="mModels"><span class="hint">先選系列</span></div>
    <div id="mBoxWrap" hidden><h2>3. 選 Box</h2><div class="chips" id="mBoxes"></div></div>
@@ -182,7 +205,7 @@ footer{color:var(--muted);font-size:.85rem;padding:0 max(4vw,1rem) 2rem;max-widt
  </section>
  <section class="view" id="v-replace">
   <div class="side" style="margin-bottom:1.25rem">
-   <h2>1. 現場舊機的系列</h2><div id="rSeries"></div>
+   <div class="row" style="justify-content:space-between"><h2 style="margin:0">1. 現場舊機的系列</h2><button class="btn" id="rReset" hidden>重新選擇</button></div><div id="rSeries"></div>
    <div id="rGroupWrap" hidden><h2>2. 子系列</h2><div class="chips" id="rGroups"></div></div>
    <h2 id="rModelsH">2. 舊機型號</h2><div class="chips" id="rModels"><span class="hint">先選系列</span></div>
   </div>
@@ -283,9 +306,10 @@ function renderTray() {
 const cmpBtn = k => `<button class="btn" data-cmp="${esc(k)}">${cmp.includes(k) ? '移出比較' : '加入比較'}</button>`;
 
 /* ---------- 找機種 ---------- */
-const F = Object.assign({series:[], ver:'', size:[], aspect:'', cut:'', feats:[], iface:[], touch:[], cable:[]}, store.get('find', {}));
-if (!Array.isArray(F.cable)) F.cable = [];
-delete F.legacy; if (F.ver && !VERS.includes(F.ver)) F.ver = '';
+const F = Object.assign({series:[], ver:[], size:[], aspect:[], cut:[], feats:[], iface:[], touch:[], cable:[]}, store.get('find', {}));
+/* 每個條件都是陣列：同一區塊內符合任一項即可，不同區塊需同時符合。舊版存成字串的條件在這裡轉成陣列 */
+for (const k of ['series','ver','size','aspect','cut','feats','iface','touch','cable']) F[k] = Array.isArray(F[k]) ? F[k] : (F[k] ? [F[k]] : []);
+delete F.legacy; F.ver = F.ver.filter(v => VERS.includes(v));
 const FEAT_OPTS = [['remoteHmi','Remote HMI（手機／平板）'],['gpViewer','GP-Viewer EX（電腦）'],['proFaceConnect','Pro-face Connect'],['ftp','FTP Server'],['email','E-mail 通知'],['ipsec','IPsec 加密']];
 const IFACE_OPTS = [['lan1','有 LAN 埠'],['lan2','LAN 2 埠以上'],['rs232','RS-232C'],['rs485','RS-422/485'],['usb','USB A'],['card','SD／CF 卡槽']];
 const TOUCH_OPTS = [['analog','類比電阻'],['multi','多點觸控'],['pcap','投射電容'],['matrix','矩陣']];
@@ -296,10 +320,10 @@ const cableTxt = m => m.cable ? m.cable.t + (m.cable.n ? '（' + m.cable.n + '�
 function plateSvg(sel) {
   const maxW = 520, maxH = 320, W = 560, H = 350, sc = Math.min((W-24)/maxW, (H-24)/maxH);
   const rects = cutouts.slice().reverse().map(c => {
-    const on = sel === c.k, w = c.w*sc, h = c.h*sc;
+    const on = sel.includes(c.k), w = c.w*sc, h = c.h*sc;
     return `<rect x="12" y="12" width="${w.toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="${on ? 'var(--acc)' : 'transparent'}" fill-opacity="${on ? .22 : 0}" stroke="${on ? 'var(--acc)' : 'var(--muted)'}" stroke-width="${on ? 2.5 : 1}" data-cut="${esc(c.k)}"><title>${esc(c.k)} mm，${c.cur} 款現行機種</title></rect>`;
   }).join('');
-  const s = cutouts.find(c => c.k === sel);
+  const s = sel.length === 1 ? cutouts.find(c => c.k === sel[0]) : null;
   const lab = s ? `<text class="lab" x="${(12 + s.w*sc/2).toFixed(1)}" y="${(12 + s.h*sc/2).toFixed(1)}" text-anchor="middle" style="font-size:13px;fill:var(--ink);font-weight:600">${esc(s.k)}</text>` : '';
   return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="依比例繪製的標準開口">${rects}${lab}</svg>`;
 }
@@ -332,7 +356,7 @@ function grp(id, title, n, body) {
   return `<details class="grp" data-g="${id}"${GOPEN[id] ? ' open' : ''}><summary>${title}${n ? `<span class="cnt">${n}</span>` : ''}</summary><div class="body">${body}</div></details>`;
 }
 function critCount() {
-  return F.series.length + (F.ver?1:0) + F.size.length + (F.aspect?1:0) + (F.cut?1:0) + F.feats.length + F.iface.length + F.touch.length + F.cable.length;
+  return F.series.length + F.ver.length + F.size.length + F.aspect.length + F.cut.length + F.feats.length + F.iface.length + F.touch.length + F.cable.length;
 }
 function renderFilters() {
   const el = $('#filters');
@@ -340,13 +364,14 @@ function renderFilters() {
   el.innerHTML = `
    <div class="f-head"><b>篩選條件</b><button class="btn" id="fClose">關閉</button></div>
    <div class="f-in">
+   <p class="hint f-tip">每個條件都可以複選：同一區塊選多項代表「符合其中一項即可」，不同區塊則要同時符合。不選代表不限。</p>
    ${grp('series', '系列', F.series.length, `${seriesChips(k => F.series.includes(k), 'data-f="series" data-v')}<p class="hint">不選代表全部系列。</p>`)}
-   ${grp('ver', 'GP-Pro EX 版本', F.ver?1:0, `<div class="chips">${[['','不限版本'], ...VERS.map(v => [v, v + ' 可開發'])].map(([v,l]) => chip(esc(l), F.ver === v, `data-f="ver" data-v="${esc(v)}"`)).join('')}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種。</p>`)}
-   ${grp('size', '螢幕尺寸', F.size.length + (F.aspect?1:0), `<div class="chips">${sizeBuckets.map(b => chip(b.lab, F.size.includes(b.id), `data-f="size" data-v="${b.id}"`)).join('')}</div>
-      <div class="tier">畫面比例</div><div class="chips">${[['','不限比例'],['w','寬螢幕'],['n','4:3']].map(([v,l]) => chip(l, F.aspect === v, `data-f="aspect" data-v="${v}"`)).join('')}</div>`)}
-   ${grp('cut', '開口尺寸 (mm)', F.cut?1:0, `<div class="plate">${plateSvg(F.cut)}</div>
+   ${grp('ver', 'GP-Pro EX 版本', F.ver.length, `<div class="chips">${VERS.map(v => chip(esc(v + ' 可開發'), F.ver.includes(v), `data-f="ver" data-v="${esc(v)}"`)).join('')}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種。</p>`)}
+   ${grp('size', '螢幕尺寸', F.size.length + F.aspect.length, `<div class="chips">${sizeBuckets.map(b => chip(b.lab, F.size.includes(b.id), `data-f="size" data-v="${b.id}"`)).join('')}</div>
+      <div class="tier">畫面比例</div><div class="chips">${[['w','寬螢幕'],['n','4:3']].map(([v,l]) => chip(l, F.aspect.includes(v), `data-f="aspect" data-v="${v}"`)).join('')}</div>`)}
+   ${grp('cut', '開口尺寸 (mm)', F.cut.length, `<div class="plate">${plateSvg(F.cut)}</div>
       <p class="hint">點圖上的框，或點下方尺寸。圖依實際比例繪製。</p>
-      <div class="chips" style="margin-top:.5rem">${cutouts.map(c => chip(esc(c.k), F.cut === c.k, `data-f="cut" data-v="${esc(c.k)}"`, `<small>${[...c.inch].sort((a,b)=>a-b).map(i=>i+'吋').join('／')}</small>`)).join('')}</div>`)}
+      <div class="chips" style="margin-top:.5rem">${cutouts.map(c => chip(esc(c.k), F.cut.includes(c.k), `data-f="cut" data-v="${esc(c.k)}"`, `<small>${[...c.inch].sort((a,b)=>a-b).map(i=>i+'吋').join('／')}</small>`)).join('')}</div>`)}
    ${grp('feat', '需要的遠端與網路功能', F.feats.length, `<div class="chips">${FEAT_OPTS.map(([k,l]) => chip(esc(l), F.feats.includes(k), `data-f="feats" data-v="${k}"`)).join('')}</div>`)}
    ${grp('iface', '介面', F.iface.length, `<div class="chips">${IFACE_OPTS.map(([k,l]) => chip(esc(l), F.iface.includes(k), `data-f="iface" data-v="${k}"`)).join('')}</div>`)}
    ${grp('touch', '觸控', F.touch.length, `<div class="chips">${TOUCH_OPTS.map(([k,l]) => chip(esc(l), F.touch.includes(k), `data-f="touch" data-v="${k}"`)).join('')}</div>`)}
@@ -360,8 +385,8 @@ function renderFilters() {
 function check(m) {
   const miss = [], cond = [];
   if (F.size.length && !(m.inch && sizeBuckets.some(b => F.size.includes(b.id) && b.t(m.inch)))) miss.push('尺寸 ' + (m.inch ? m.inch + ' 吋' : '不適用'));
-  if (F.aspect) { const w = WIDE.has(m.resolution); if ((F.aspect === 'w') !== w) miss.push(w ? '寬螢幕' : '非寬螢幕'); }
-  if (F.cut && cutKey(m.cutout) !== F.cut) miss.push('開口 ' + (cutKey(m.cutout) || '未建檔'));
+  if (F.aspect.length) { const w = WIDE.has(m.resolution); if (!F.aspect.includes(w ? 'w' : 'n')) miss.push(w ? '寬螢幕' : '非寬螢幕'); }
+  if (F.cut.length && !F.cut.includes(cutKey(m.cutout))) miss.push('開口 ' + (cutKey(m.cutout) || '未建檔'));
   for (const k of F.feats) { const s = f(m,k).s; if (s === 'cond') cond.push(D.featureDefs[k].label + ' 有條件'); else if (s !== 'yes') miss.push(D.featureDefs[k].label + ' ' + (SLAB[s] || '待確認')); }
   const IF = {lan1:m.ethernet >= 1, lan2:m.ethernet >= 2, rs232:comHas(m,'RS232C'), rs485:comHas(m,'RS422/485'), usb:m.usbA >= 1, card:m.cardSlot === true};
   for (const k of F.iface) if (!IF[k]) miss.push(IFACE_OPTS.find(o => o[0]===k)[1] + ' 不符');
@@ -375,7 +400,7 @@ function check(m) {
 }
 
 function renderFind() {
-  const pool = M.filter(m => (!F.ver || vOk(m, F.ver)) && (!F.series.length || F.series.includes(m.series)));
+  const pool = M.filter(m => (!F.ver.length || F.ver.some(v => vOk(m, v))) && (!F.series.length || F.series.includes(m.series)));
   const groups = new Map();
   for (const m of pool) {
     const r = check(m), g = isSP(m) ? 'SP|' + m.name : m.key;
@@ -388,9 +413,9 @@ function renderFind() {
     const best = g.list[0];
     return {g, best, score: best.miss.length * 10 + best.cond.length};
   });
-  const nCrit = F.size.length + (F.aspect?1:0) + (F.cut?1:0) + F.feats.length + F.iface.length + (F.touch.length?1:0);
+  const nCrit = F.size.length + (F.aspect.length?1:0) + (F.cut.length?1:0) + F.feats.length + F.iface.length + (F.touch.length?1:0);
   const full = items.filter(i => i.best.miss.length === 0).sort(sortItems);
-  const near = nCrit ? items.filter(i => i.best.miss.length > 0 && i.best.miss.length <= 2 && !((F.size.length || F.cut) && !i.best.m.inch))
+  const near = nCrit ? items.filter(i => i.best.miss.length > 0 && i.best.miss.length <= 2 && !((F.size.length || F.cut.length) && !i.best.m.inch))
     .sort((a,b) => a.score - b.score || closeness(a.best.m) - closeness(b.best.m) || sortItems(a,b)) : [];
   const card = (i, isNear) => {
     const m = i.best.m;
@@ -409,10 +434,11 @@ function renderFind() {
   };
   const n = critCount();
   const j = $('#fJump'); if (j) j.textContent = `看結果（${full.length} 款）`;
-  $('#fCnt').textContent = n ? `（已選 ${n}）` : '';
+  $('#fCnt').textContent = n ? `已選 ${n}` : '';
+  $('#fCnt').hidden = !n;
   $('#fNum').textContent = `${full.length} 款符合`;
   $('#findRes').innerHTML = `
-    <div class="res-head"><h2>${nCrit || F.series.length || F.ver ? `符合條件 ${full.length} 款` : `全部 ${full.length} 款`}</h2>
+    <div class="res-head"><h2>${nCrit || F.series.length || F.ver.length ? `符合條件 ${full.length} 款` : `全部 ${full.length} 款`}</h2>
      ${seg([['','依系列'],['asc','尺寸小到大'],['desc','尺寸大到小']], F.sort || '', 'data-sort')}</div>
     ${n ? `<div class="active">${activeList().map(([f,v,l]) => `<button class="chip" data-rm="${esc(f)}" data-v="${esc(v)}" aria-label="移除條件 ${esc(l)}">${esc(l)}</button>`).join('')}<button class="chip" data-rm="*" data-v="">全部清除</button></div>`
        : '<p class="meta" style="margin-top:0">點選條件開始篩選，所有版本收錄的機種都會列出。</p>'}
@@ -423,10 +449,10 @@ function activeList() {
   const out = [];
   F.feats.forEach(k => out.push(['feats', k, FEAT_OPTS.find(o => o[0]===k)?.[1] || k]));
   F.size.forEach(k => out.push(['size', k, sizeBuckets.find(b => b.id===k)?.lab || k]));
-  if (F.aspect) out.push(['aspect', '', F.aspect === 'w' ? '寬螢幕' : '4:3']);
-  if (F.cut) out.push(['cut', '', '開口 ' + F.cut]);
+  F.aspect.forEach(k => out.push(['aspect', k, k === 'w' ? '寬螢幕' : '4:3']));
+  F.cut.forEach(k => out.push(['cut', k, '開口 ' + k]));
   F.series.forEach(k => out.push(['series', k, ser(k).label]));
-  if (F.ver) out.push(['ver', '', F.ver + ' 可開發']);
+  F.ver.forEach(k => out.push(['ver', k, k + ' 可開發']));
   F.iface.forEach(k => out.push(['iface', k, IFACE_OPTS.find(o => o[0]===k)?.[1] || k]));
   F.touch.forEach(k => out.push(['touch', k, TOUCH_OPTS.find(o => o[0]===k)?.[1] || k]));
   F.cable.forEach(k => out.push(['cable', k, CABLE_OPTS.find(o => o[0]===k)?.[1] || k]));
@@ -434,8 +460,8 @@ function activeList() {
 }
 function closeness(m) {
   let d = 0;
-  if (F.cut && m.cutout && m.cutout.w) { const c = cutouts.find(x => x.k === F.cut); if (c) d += Math.abs(m.cutout.w - c.w) + Math.abs(m.cutout.h - c.h); }
-  else if (F.cut) d += 1000;
+  if (F.cut.length && m.cutout && m.cutout.w) { const ds = cutouts.filter(x => F.cut.includes(x.k)).map(c => Math.abs(m.cutout.w - c.w) + Math.abs(m.cutout.h - c.h)); if (ds.length) d += Math.min(...ds); }
+  else if (F.cut.length) d += 1000;
   if (F.size.length && m.inch) { const mids = {s4:4,s5:5.7,s7:7.2,s10:10.2,s12:12.1,s15:15.3,s19:20}; d += 20 * Math.min(...F.size.map(k => Math.abs(m.inch - mids[k]))); }
   return d;
 }
@@ -445,7 +471,7 @@ function sortItems(a,b) {
   return ser(ma.series).order - ser(mb.series).order || (ma.inch||0) - (mb.inch||0) || name(ma).localeCompare(name(mb));
 }
 
-const RESET = () => Object.assign(F, {series:[], ver:'', size:[], aspect:'', cut:'', feats:[], iface:[], touch:[], cable:[]});
+const RESET = () => Object.assign(F, {series:[], ver:[], size:[], aspect:[], cut:[], feats:[], iface:[], touch:[], cable:[]});
 function sheet(open) {
   $('#filters').classList.toggle('open', open);
   document.body.classList.toggle('lock', open);
@@ -473,18 +499,21 @@ $('#filters').addEventListener('click', e => {
   if (r) { RESET(); }
   else if (b) {
     const k = b.dataset.f, v = b.dataset.v;
-    if (k === 'aspect' || k === 'cut' || k === 'ver') F[k] = (F[k] === v && v) ? '' : v;
-    else { const a = F[k]; const i = a.indexOf(v); i >= 0 ? a.splice(i,1) : a.push(v); }
+    const a = F[k]; const i = a.indexOf(v); i >= 0 ? a.splice(i,1) : a.push(v);
   } else {
     const rc = e.target.closest('rect[data-cut]'); if (!rc) return;
-    F.cut = F.cut === rc.dataset.cut ? '' : rc.dataset.cut;
+    const i = F.cut.indexOf(rc.dataset.cut); i >= 0 ? F.cut.splice(i,1) : F.cut.push(rc.dataset.cut);
   }
   store.set('find', F); renderFilters(); renderFind();
 });
 
 /* ---------- 查機種 ---------- */
 let mSel = {series:'', group:'', model:'', disp:''};
+const M_EMPTY = '<div class="empty">選一個機種，這裡會顯示規格、遠端功能支援、開口尺寸與替換建議</div>';
+const R_EMPTY = '<div class="empty">選擇現場的舊機，這裡會列出原廠建議替換機種，以及開口相同、可直接換裝的現行機種</div>';
 function renderModelPick() {
+  $('#mReset').hidden = !mSel.series;
+  if (!mSel.series) { $('#mModels').innerHTML = '<span class="hint">先選系列</span>'; $('#mBoxWrap').hidden = true; }
   $('#mSeries').innerHTML = seriesChips(k => mSel.series === k, 'data-ms');
   groupStep(mSel.series, mSel.group, 'data-mg', '#mGroupWrap', '#mGroups', '#mModelsH', 2);
   if (!mSel.series) return;
@@ -500,6 +529,7 @@ function renderModelPick() {
   }
 }
 $('#v-model').addEventListener('click', e => {
+  if (e.target.closest('#mReset')) { mSel = {series:'', group:'', model:'', disp:''}; renderModelPick(); $('#mDetail').innerHTML = M_EMPTY; window.scrollTo({top:0, behavior:'smooth'}); return; }
   const s = e.target.closest('[data-ms]'), g = e.target.closest('[data-mg]'), d = e.target.closest('[data-md]'), k = e.target.closest('[data-mk]');
   if (s) mSel = {series:s.dataset.ms, group:'', model:'', disp:''};
   else if (g) { mSel.group = g.dataset.mg; mSel.model = ''; }
@@ -579,6 +609,8 @@ function renderDetail(m, target) {
 let rSel = {series:'', group:'', model:''};
 const oldSeries = seriesList;
 function renderReplacePick() {
+  $('#rReset').hidden = !rSel.series;
+  if (!rSel.series) $('#rModels').innerHTML = '<span class="hint">先選系列</span>';
   $('#rSeries').innerHTML = seriesChips(k => rSel.series === k, 'data-rs');
   groupStep(rSel.series, rSel.group, 'data-rg', '#rGroupWrap', '#rGroups', '#rModelsH', 2);
   if (!rSel.series) return;
@@ -610,6 +642,7 @@ function renderReplace(m) {
     : '<div class="empty">沒有開口相同的現行機種，或舊機開口尚未建檔</div>'}`;
 }
 $('#v-replace').addEventListener('click', e => {
+  if (e.target.closest('#rReset')) { rSel = {series:'', group:'', model:''}; renderReplacePick(); $('#rDetail').innerHTML = R_EMPTY; window.scrollTo({top:0, behavior:'smooth'}); return; }
   const s = e.target.closest('[data-rs]'), g = e.target.closest('[data-rg]'), k = e.target.closest('[data-rk]'), p = e.target.closest('[data-pair]');
   if (s) { rSel = {series:s.dataset.rs, group:'', model:''}; renderReplacePick(); }
   else if (g) { rSel.group = g.dataset.rg; rSel.model = ''; renderReplacePick(); }
@@ -628,7 +661,8 @@ function renderCompare() {
     ['LAN 埠', m => m.ethernet ?? ''], ['COM 埠', m => m.com.map(c => c.port + ' ' + c.type).join('、')], ['USB A', m => m.usbA ?? ''],
     ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['畫面記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : ''],
     ['傳輸線', m => m.cable ? m.cable.t : '待確認'], ['開發軟體', m => m.software || 'GP-Pro EX']];
-  $('#cmp').innerHTML = `<div class="res-head"><h2>比較 ${ms.length} 台</h2><div class="row"><span class="meta">底色標示有差異的項目</span><button class="btn" id="cmpClr">清空</button></div></div>
+  const today = new Date().toLocaleDateString('sv-SE');
+  $('#cmp').innerHTML = `<div class="print-only"><b>Pro-face HMI 機種比較</b>　列印日期 ${today}${D.updated ? '　資料庫日期 ' + esc(D.updated) : ''}</div><div class="res-head"><h2>比較 ${ms.length} 台</h2><div class="row"><span class="meta">底色標示有差異的項目</span><button class="btn solid" id="cmpPrint">列印／存成 PDF</button><button class="btn" id="cmpClr">清空</button></div></div>
    <div class="cmp-wrap"><table class="cmp"><thead><tr><th>項目</th>${ms.map(m => `<th>${esc(name(m))}<br><button class="btn" style="margin-top:0.375rem" data-cmp="${esc(m.key)}">移出</button></th>`).join('')}</tr></thead>
    <tbody>${rows.map(([l, fn]) => { const v = ms.map(m => String(fn(m))); const diff = new Set(v).size > 1;
      return `<tr class="${diff ? 'diff' : ''}"><th>${esc(l)}</th>${v.map(x => `<td>${esc(x)}</td>`).join('')}</tr>`; }).join('')}</tbody></table></div>`;
@@ -689,6 +723,7 @@ document.addEventListener('click', e => {
   if (o) openModel(o.dataset.open);
   else if (c) toggleCmp(c.dataset.cmp);
   else if (e.target.closest('#trayGo')) go('compare');
+  else if (e.target.closest('#cmpPrint')) window.print();
   else if (e.target.closest('#trayClr') || e.target.closest('#cmpClr')) { cmp = []; store.set('cmp', cmp); renderTray(); renderFind(); renderCompare(); }
 });
 window.addEventListener('hashchange', () => go(location.hash.slice(1)));
