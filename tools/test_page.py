@@ -79,6 +79,9 @@ async def run(chrome):
             await pg.click('[data-f="ver"][data-v="5.01"]')
             names = await pg.locator("#findRes .card:not(.near) h3").all_inner_texts()
             ok("GP-4402WW" not in names and len(names) > 0, "找機種：選 5.01 可開發時排除 GP-4402WW")
+            await pg.click('[data-f="ver"][data-v="4.09"]')
+            names = await pg.locator("#findRes .card:not(.near) h3").all_inner_texts()
+            ok("GP-4402WW" in names, "找機種：版本可複選，4.09 或 5.01 可開發時列出 GP-4402WW")
             await pg.click("#fReset")
             if phone:
                 await pg.click("#fJump")
@@ -124,6 +127,9 @@ async def run(chrome):
             else:
                 ok("特殊開關切換" not in txt, "查機種：公開版不顯示特殊開關切換")
 
+            await pg.click("#mReset")
+            ok(await pg.locator("#mDetail .empty").count() == 1, "查機種：重新選擇會清除")
+
             await pg.click('nav [data-v="replace"]')
             await pg.click('[data-rs="GP3000"]')
             await pg.click("#rModels .chip >> text=AGP-3500T")
@@ -133,7 +139,15 @@ async def run(chrome):
             await pg.wait_for_timeout(200)
             n = await pg.locator(".cmp tr.diff").count()
             ok(n > 0, f"比較：標出 {n} 項差異")
+            ok(await pg.locator("#cmpPrint").count() == 1, "比較：有列印／存成 PDF 按鈕")
+            await pg.emulate_media(media="print")
+            ok(await pg.locator("header").is_hidden() and await pg.locator(".cmp").is_visible(), "比較：列印時只留比較表")
+            await pg.emulate_media(media="screen")
             await pg.screenshot(path=str(OUT / f"{tag}_比較.png"))
+
+            await pg.click('nav [data-v="replace"]')
+            await pg.click("#rReset")
+            ok(await pg.locator("#rDetail .empty").count() == 1 and await pg.locator("#rReset").is_hidden(), "舊機替換：重新選擇會清除")
 
             sw = await pg.evaluate("document.documentElement.scrollWidth")
             ok(sw <= w, f"沒有橫向捲動（{sw} ≤ {w}）")
