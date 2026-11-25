@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 12:29:52",
+ "updated": "2026-11-25 13:21:21",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -557,7 +557,8 @@ window.HMI_DATA = {
     "n": "DIN 盒型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00251500||PFXGP6540WC*",
@@ -648,7 +649,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000A"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00221500||PFXGP6540TM*",
@@ -739,7 +741,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000A"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00231500||PFXGP6640TM*",
@@ -830,7 +833,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000A"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00261500||PFXGP6640WC*",
@@ -921,7 +925,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000A"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00241500||PFXGP6740TM*",
@@ -1012,7 +1017,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000A"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "005B1500||PFXGP6740WC*",
@@ -1103,7 +1109,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000A"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00281500||PFXGP6840WC*",
@@ -1194,7 +1201,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000A"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00291500||PFXGP6940WC*",
@@ -1285,7 +1293,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000A"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04491500||PFXGP6300TA*",
@@ -1375,7 +1384,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000S"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "044A1500||PFXGP6400TA*",
@@ -1465,7 +1475,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000S"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "044B1500||PFXGP6500TA*",
@@ -1555,7 +1566,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000S"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "044C1500||PFXGP6500TM*",
@@ -1645,7 +1657,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000S"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "044D1500||PFXGP6600TA*",
@@ -1735,7 +1748,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000S"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "044E1500||PFXGP6600TM*",
@@ -1825,7 +1839,8 @@ window.HMI_DATA = {
     "src": "S_C_GP6000S"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00021600||PFXGPH6400WA*",
@@ -1906,7 +1921,8 @@ window.HMI_DATA = {
     "src": "S_C_GPH6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00031600||PFXGPH6500WC*",
@@ -1987,7 +2003,8 @@ window.HMI_DATA = {
     "src": "S_C_GPH6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20400A00|SP-5B00|DC Power Supply Adapter",
@@ -2075,7 +2092,8 @@ window.HMI_DATA = {
     "n": "Box 單獨使用"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20200A00|SP-5B00|SP5400WAD",
@@ -2166,7 +2184,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "201C0A00|SP-5B00|SP5500WAD",
@@ -2257,7 +2276,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20000A00|SP-5B00|SP5500TPD",
@@ -2348,7 +2368,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20140A00|SP-5B00|SP5600TAD",
@@ -2439,7 +2460,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20040A00|SP-5B00|SP5600TPD",
@@ -2530,7 +2552,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20180A00|SP-5B00|SP5600WAD",
@@ -2621,7 +2644,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20080A00|SP-5B00|SP5660TPD",
@@ -2712,7 +2736,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "200C0A00|SP-5B00|SP5700TPD",
@@ -2803,7 +2828,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "202C0A00|SP-5B00|SP5700WCD",
@@ -2894,7 +2920,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20300A00|SP-5B00|SP5800WCD",
@@ -2985,7 +3012,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00400A00|SP-5B10|DC Power Supply Adapter",
@@ -3074,7 +3102,8 @@ window.HMI_DATA = {
     "n": "Box 單獨使用"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00200A00|SP-5B10|SP5400WAD",
@@ -3166,7 +3195,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "001C0A00|SP-5B10|SP5500WAD",
@@ -3258,7 +3288,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00000A00|SP-5B10|SP5500TPD",
@@ -3350,7 +3381,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00140A00|SP-5B10|SP5600TAD",
@@ -3441,7 +3473,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00040A00|SP-5B10|SP5600TPD",
@@ -3533,7 +3566,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00180A00|SP-5B10|SP5600WAD",
@@ -3625,7 +3659,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00080A00|SP-5B10|SP5660TPD",
@@ -3717,7 +3752,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "000C0A00|SP-5B10|SP5700TPD",
@@ -3809,7 +3845,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "002C0A00|SP-5B10|SP5700WCD",
@@ -3901,7 +3938,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00300A00|SP-5B10|SP5800WCD",
@@ -3993,7 +4031,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04400A00|SP-5B40|DC Power Supply Adapter",
@@ -4089,7 +4128,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04200A00|SP-5B40|SP5400WAD",
@@ -4188,7 +4228,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "041C0A00|SP-5B40|SP5500WAD",
@@ -4287,7 +4328,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04000A00|SP-5B40|SP5500TPD",
@@ -4386,7 +4428,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04040A00|SP-5B40|SP5600TPD",
@@ -4485,7 +4528,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04180A00|SP-5B40|SP5600WAD",
@@ -4584,7 +4628,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04080A00|SP-5B40|SP5660TPD",
@@ -4683,7 +4728,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "040C0A00|SP-5B40|SP5700TPD",
@@ -4782,7 +4828,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14400A00|SP-5B41/5B41*|DC Power Supply Adapter",
@@ -4878,7 +4925,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14200A00|SP-5B41/5B41*|SP5400WAD",
@@ -4977,7 +5025,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "141C0A00|SP-5B41/5B41*|SP5500WAD",
@@ -5076,7 +5125,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14000A00|SP-5B41/5B41*|SP5500TPD",
@@ -5175,7 +5225,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14140A00|SP-5B41/5B41*|SP5600TAD",
@@ -5273,7 +5324,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14040A00|SP-5B41/5B41*|SP5600TPD",
@@ -5372,7 +5424,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14180A00|SP-5B41/5B41*|SP5600WAD",
@@ -5471,7 +5524,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14080A00|SP-5B41/5B41*|SP5660TPD",
@@ -5570,7 +5624,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "140C0A00|SP-5B41/5B41*|SP5700TPD",
@@ -5669,7 +5724,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "142C0A00|SP-5B41/5B41*|SP5700WCD",
@@ -5768,7 +5824,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14300A00|SP-5B41/5B41*|SP5800WCD",
@@ -5867,7 +5924,8 @@ window.HMI_DATA = {
      "src": "S_R_SP5B41"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00340A02|SP-5B90|SP5490WAD",
@@ -5959,7 +6017,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5490X"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00380A02|SP-5B90|SP5690WAD",
@@ -6051,7 +6110,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000X"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "003C0A02|SP-5B90|SP5790WAD",
@@ -6143,7 +6203,8 @@ window.HMI_DATA = {
     "src": "S_C_SP5000X"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "50010400|GP-41** Series|GP-4104",
@@ -6234,7 +6295,8 @@ window.HMI_DATA = {
      "n": "開口不同，可用轉接框"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00010400|GP-41** Series|GP-4105",
@@ -6330,7 +6392,8 @@ window.HMI_DATA = {
      "n": "開口不同，可用轉接框"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10010400|GP-41** Series|GP-4106",
@@ -6426,7 +6489,8 @@ window.HMI_DATA = {
      "n": "開口不同，可用轉接框"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20410400|GP-41** Series|GP-4107",
@@ -6522,7 +6586,8 @@ window.HMI_DATA = {
      "n": "開口不同，可用轉接框"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00000B00|GP-41** Series|GP-4114T",
@@ -6609,7 +6674,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4100"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04000B00|GP-41** Series|GP-4115T",
@@ -6698,7 +6764,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4100"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04010B00|GP-41** Series|GP-4115T3",
@@ -6787,7 +6854,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4100"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "08000B00|GP-41** Series|GP-4116T",
@@ -6876,7 +6944,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4100"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00000600|GP-42** Series|GP-4201T",
@@ -6966,7 +7035,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "300D0800|GP-42** Series|GP-4201TM (Modular Type)",
@@ -7062,7 +7132,8 @@ window.HMI_DATA = {
      "src": "S_R_GP4000M_STM"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "08000600|GP-42** Series|GP-4201TW",
@@ -7154,7 +7225,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04000600|GP-42** Series|GP-4203T",
@@ -7244,7 +7316,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0C000600|GP-43** Series|GP-4301T",
@@ -7338,7 +7411,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "308D0800|GP-43** Series|GP-4301TM (Modular Type)",
@@ -7434,7 +7508,8 @@ window.HMI_DATA = {
      "src": "S_R_GP4000M_STM"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "14000600|GP-43** Series|GP-4301TW",
@@ -7528,7 +7603,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10000600|GP-43** Series|GP-4303T",
@@ -7622,7 +7698,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "54000600|GP-43** Series|GP-4311HT",
@@ -7714,7 +7791,8 @@ window.HMI_DATA = {
      "src": "S_R_GP4000H_GPH"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "1C000600|GP-44** Series|GP-4401WW",
@@ -7808,7 +7886,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "007B0B00|GP-44** Series|GP-4402WW",
@@ -7907,7 +7986,8 @@ window.HMI_DATA = {
      "src": "S_R_GP4000E_ET"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "18000600|GP-44** Series|GP-4401T",
@@ -8001,7 +8081,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "005B0B00|GP-45** Series|GP-4502WW",
@@ -8100,7 +8181,8 @@ window.HMI_DATA = {
      "src": "S_R_GP4000E_ET"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20000600|GP-45** Series|GP-4501T (Analog Touch Panel)",
@@ -8200,7 +8282,8 @@ window.HMI_DATA = {
      "src": "S_R_GP4500_GP6000A"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "24000600|GP-45** Series|GP-4501T (Matrix Touch Panel)",
@@ -8294,7 +8377,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "64000600|GP-45** Series|GP-4501TTF",
@@ -8386,7 +8470,8 @@ window.HMI_DATA = {
     "src": "S_FIELD"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "2C000600|GP-45** Series|GP-4501TW",
@@ -8481,7 +8566,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "28000600|GP-45** Series|GP-4503T",
@@ -8575,7 +8661,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "5C000600|GP-45** Series|GP-4521T",
@@ -8669,7 +8756,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "30000600|GP-46** Series|GP-4601T (Analog Touch Panel)",
@@ -8763,7 +8851,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "34000600|GP-46** Series|GP-4601T (Matrix Touch Panel)",
@@ -8857,7 +8946,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "68000600|GP-46** Series|GP-4601TTF",
@@ -8949,7 +9039,8 @@ window.HMI_DATA = {
     "src": "S_FIELD"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "38000600|GP-46** Series|GP-4603T",
@@ -9043,7 +9134,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "60000600|GP-46** Series|GP-4621T",
@@ -9137,7 +9229,8 @@ window.HMI_DATA = {
     "src": "S_C_GP4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "58000600|GP-4G** Series|GP-4G01",
@@ -9223,7 +9316,8 @@ window.HMI_DATA = {
     "n": "盒型，無顯示器"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "318D0800|GP-Rear Module Series|GP-4000M (Rear Modular Type)",
@@ -9311,7 +9405,8 @@ window.HMI_DATA = {
     "n": "後模組"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F00|ST-62** Series|ST-6200WA WQVGA (480*272)",
@@ -9397,7 +9492,8 @@ window.HMI_DATA = {
     "src": "S_C_ST6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F80|ST-63** Series|ST-6300TA VGA (640*480)",
@@ -9487,7 +9583,8 @@ window.HMI_DATA = {
     "src": "S_C_ST6300"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F10|ST-64** Series|ST-6400WA WVGA (800*480)",
@@ -9577,7 +9674,8 @@ window.HMI_DATA = {
     "src": "S_C_ST6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F20|ST-65** Series|ST-6500WA WSVGA (1024*600)",
@@ -9667,7 +9765,8 @@ window.HMI_DATA = {
     "src": "S_C_ST6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F90|ST-65** Series|ST-6500TA SVGA (800*600)",
@@ -9758,7 +9857,8 @@ window.HMI_DATA = {
     "src": "S_C_ST6500TA"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F30|ST-66** Series|ST-6600WA WXGA (1280*800)",
@@ -9848,7 +9948,8 @@ window.HMI_DATA = {
     "src": "S_C_ST6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0FF0|ST-66** Series|ST-6600WA01 WXGA (1280*800)",
@@ -9938,7 +10039,8 @@ window.HMI_DATA = {
     "src": "S_C_ST6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F40|ST-67** Series|ST-6700WA FWXGA (1366*768)",
@@ -10028,7 +10130,8 @@ window.HMI_DATA = {
     "src": "S_C_ST6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F60|STM-62** Series|STM-6200WA WQVGA (480*272)",
@@ -10113,7 +10216,8 @@ window.HMI_DATA = {
     "src": "S_C_STM6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F70|STM-64** Series|STM-6400WA WVGA (800*480)",
@@ -10198,7 +10302,8 @@ window.HMI_DATA = {
     "src": "S_C_STM6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0F50|STM-GatewaySeries|STM-6B00",
@@ -10281,7 +10386,8 @@ window.HMI_DATA = {
     "n": "後模組／閘道"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "010B0FA0|STC-63** Series|STC-6300TA VGA (640*480)",
@@ -10369,7 +10475,8 @@ window.HMI_DATA = {
     "src": "S_C_STC6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "000B0F40|ET-64** Series|ET-6400WA WVGA (800*480)",
@@ -10458,7 +10565,8 @@ window.HMI_DATA = {
     "src": "S_C_ET6400"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "020B0F00|ET-64** Series|ET-6400WA01 WVGA (800*480)",
@@ -10546,7 +10654,8 @@ window.HMI_DATA = {
     "src": "S_C_ET6400"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "000B0F50|ET-65** Series|ET-6500WA WSVGA (1024*600)",
@@ -10635,7 +10744,8 @@ window.HMI_DATA = {
     "src": "S_C_ET6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "020B0F10|ET-65** Series|ET-6500WA01 WSVGA (1024*600)",
@@ -10723,7 +10833,8 @@ window.HMI_DATA = {
     "src": "S_C_ET6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "000B0F60|ET-66** Series|ET-6600WA WXGA (1280*800)",
@@ -10812,7 +10923,8 @@ window.HMI_DATA = {
     "src": "S_C_ET6600"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "000B0FD0|ET-67** Series|ET-6700WA FWXGA (1366*768)",
@@ -10901,7 +11013,8 @@ window.HMI_DATA = {
     "src": "S_C_ET6000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "000B0FE0|ET-54** Series|ET-5400WA WVGA (800*480)",
@@ -10985,7 +11098,8 @@ window.HMI_DATA = {
     "src": "S_C_ET5400"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "000B0FF0|ET-55** Series|ET-5500WA WSVGA (1024*600)",
@@ -11068,7 +11182,8 @@ window.HMI_DATA = {
     "src": "S_C_ET5500"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00030900|LT-42** Series|LT-4201TM (Modular Type Analog)",
@@ -11157,7 +11272,8 @@ window.HMI_DATA = {
     "src": "S_C_LT4000M"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "00020900|LT-42** Series|LT-4201TM (Modular Type DIO)",
@@ -11246,7 +11362,8 @@ window.HMI_DATA = {
     "src": "S_C_LT4000M"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04030900|LT-43** Series|LT-4301TM (Modular Type Analog)",
@@ -11335,7 +11452,8 @@ window.HMI_DATA = {
     "src": "S_C_LT4000M"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "04020900|LT-43** Series|LT-4301TM (Modular Type DIO)",
@@ -11424,7 +11542,8 @@ window.HMI_DATA = {
     "src": "S_C_LT4000M"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0C030900|LT-Rear Module Series|LT-4000M (Rear Module Analog)",
@@ -11510,7 +11629,8 @@ window.HMI_DATA = {
     "n": "後模組"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0C020900|LT-Rear Module Series|LT-4000M (Rear Module DIO)",
@@ -11596,7 +11716,8 @@ window.HMI_DATA = {
     "n": "後模組"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "70660700|GC-44** Series|GC-4401W",
@@ -11683,7 +11804,8 @@ window.HMI_DATA = {
     "src": "S_C_GC4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "60660700|GC-44** Series|GC-4408W",
@@ -11770,7 +11892,8 @@ window.HMI_DATA = {
     "src": "S_C_GC4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "80660700|GC-45** Series|GC-4501W",
@@ -11857,7 +11980,8 @@ window.HMI_DATA = {
     "src": "S_C_GC4000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "03010200|GP-32** Series|AGP-3200A",
@@ -11942,7 +12066,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "03060200|GP-32** Series|AGP-3200T",
@@ -12027,7 +12152,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F000100|GP-33** Series|AGP-3300E",
@@ -12123,7 +12249,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_GP6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "03010300|GP-33** Series|AGP-3300HL",
@@ -12212,7 +12339,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3000H_GP4000H"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "07040300|GP-33** Series|AGP-3300HS",
@@ -12301,7 +12429,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3000H_GP4000H"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F010100|GP-33** Series|AGP-3300L",
@@ -12403,7 +12532,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_ST6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F010100|GP-33** Series|AGP-3300L-CA1M",
@@ -12505,7 +12635,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_ST6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F010100|GP-33** Series|AGP-3300L-D81",
@@ -12612,7 +12743,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300DIO_STC"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F010100|GP-33** Series|AGP-3300L-FN1M",
@@ -12714,7 +12846,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_ST6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F040100|GP-33** Series|AGP-3300S",
@@ -12816,7 +12949,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_ST6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F040100|GP-33** Series|AGP-3300S-CA1M",
@@ -12918,7 +13052,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_ST6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F040100|GP-33** Series|AGP-3300S-D81",
@@ -13025,7 +13160,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300DIO_STC"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F060100|GP-33** Series|AGP-3300T-CA1M",
@@ -13122,7 +13258,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_GP6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F060100|GP-33** Series|AGP-3300T-D81",
@@ -13224,7 +13361,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300DIO_STC"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F060100|GP-33** Series|AGP-3300T-FN1M",
@@ -13321,7 +13459,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_GP6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0F060100|GP-33** Series|AGP-3300T/U",
@@ -13418,7 +13557,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_GP6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "07010100|GP-33** Series|AGP-3301L",
@@ -13509,7 +13649,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "07040100|GP-33** Series|AGP-3301S",
@@ -13600,7 +13741,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "02810100|GP-33** Series|AGP-3302B",
@@ -13689,7 +13831,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0B160300|GP-33** Series|AGP-3310HT",
@@ -13778,7 +13921,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3000H_GP4000H"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "93160000|GP-33** Series|AGP-3310T",
@@ -13873,7 +14017,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3300_GP6300"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "83160000|GP-33** Series|AGP-3360T",
@@ -13968,7 +14113,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3000M_SP5000"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "17140000|GP-34** Series|AGP-3400S",
@@ -14065,7 +14211,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3400_GP6400"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "17140000|GP-34** Series|AGP-3400S-CA1M",
@@ -14162,7 +14309,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3400_GP6400"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "17140000|GP-34** Series|AGP-3400S-D81",
@@ -14259,7 +14407,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3400_GP6400"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "1B160000|GP-34** Series|AGP-3400T",
@@ -14356,7 +14505,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3400_GP6400"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "1B160000|GP-34** Series|AGP-3400T-CA1M",
@@ -14453,7 +14603,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3400_GP6400"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "1B160000|GP-34** Series|AGP-3400T-D81",
@@ -14550,7 +14701,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3400_GP6400"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "1B160000|GP-34** Series|AGP-3400T-FN1M",
@@ -14647,7 +14799,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3400_GP6400"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "13160000|GP-34** Series|AGP-3450T",
@@ -14742,7 +14895,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3400_GP6400"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "23120000|GP-35** Series|AGP-3500L",
@@ -14833,7 +14987,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "23120000|GP-35** Series|AGP-3500L-D81",
@@ -14924,7 +15079,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "23150000|GP-35** Series|AGP-3500S",
@@ -15015,7 +15171,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "23150000|GP-35** Series|AGP-3500S-CA1M",
@@ -15106,7 +15263,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "23150000|GP-35** Series|AGP-3500S-D81",
@@ -15197,7 +15355,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "37160000|GP-35** Series|AGP-3500T",
@@ -15294,7 +15453,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3500_GP6500"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "37160000|GP-35** Series|AGP-3500T-CA1M",
@@ -15391,7 +15551,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3500_GP6500"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "37160000|GP-35** Series|AGP-3500T-D81",
@@ -15488,7 +15649,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3500_GP6500"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "37160000|GP-35** Series|AGP-3500T-FN1M",
@@ -15585,7 +15747,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3500_GP6500"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "77260000|GP-35** Series|AGP-3510T",
@@ -15682,7 +15845,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3500_GP6500"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "77260000|GP-35** Series|AGP-3510T-CA1M",
@@ -15779,7 +15943,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3500_GP6500"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "2B160000|GP-35** Series|AGP-3550T",
@@ -15868,7 +16033,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "6B260000|GP-35** Series|AGP-3560T",
@@ -15957,7 +16123,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "27260000|GP-36** Series|AGP-3600T",
@@ -16048,7 +16215,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "27260000|GP-36** Series|AGP-3600T-D81",
@@ -16139,7 +16307,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "27260000|GP-36** Series|AGP-3600T-FN1M",
@@ -16230,7 +16399,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "27260000|GP-36** Series|AGP-3600T/U-CA1M",
@@ -16321,7 +16491,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "2F260000|GP-36** Series|AGP-3650T/U",
@@ -16410,7 +16581,8 @@ window.HMI_DATA = {
     "src": "S_C_GP3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "332E0000|GP-37** Series|AGP-3750T",
@@ -16505,7 +16677,8 @@ window.HMI_DATA = {
      "src": "S_R_GP3000M_SP5000"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "43010100|LT-32** Series|LT-3201A",
@@ -16591,7 +16764,8 @@ window.HMI_DATA = {
      "n": "開口由 118.5×92.5 方孔改為 φ22 圓孔"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "47010100|LT-33** Series|LT-3300L",
@@ -16676,7 +16850,8 @@ window.HMI_DATA = {
     "src": "S_C_LT3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "47040100|LT-33** Series|LT-3300S",
@@ -16761,7 +16936,8 @@ window.HMI_DATA = {
     "src": "S_C_LT3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "47060100|LT-33** Series|LT-3300T",
@@ -16852,7 +17028,8 @@ window.HMI_DATA = {
      "src": "S_R_LT3300_STC"
     }
    ],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "4B010100|LT-33** Series|LT-3301L",
@@ -16937,7 +17114,8 @@ window.HMI_DATA = {
     "src": "S_C_LT3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "07010200|ST-32** Series|AST-3201A(SIO)",
@@ -17024,7 +17202,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "0B010200|ST-32** Series|AST-3211A(MPI)",
@@ -17111,7 +17290,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "13010200|ST-33** Series|AST-3301B",
@@ -17198,7 +17378,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "13040200|ST-33** Series|AST-3301S",
@@ -17285,7 +17466,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "13060200|ST-33** Series|AST-3301T",
@@ -17372,7 +17554,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "33010200|ST-33** Series|AST-3302B(MPI)",
@@ -17459,7 +17642,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "1B160200|ST-34** Series|AST-3401T",
@@ -17546,7 +17730,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "27160200|ST-35** Series|AST-3501C",
@@ -17633,7 +17818,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "23160200|ST-35** Series|AST-3501T",
@@ -17720,7 +17906,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "13010208|ST-33**W Series|AST-3301WB",
@@ -17807,7 +17994,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000CN"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "13040208|ST-33**W Series|AST-3301WS",
@@ -17894,7 +18082,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000CN"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "23160208|ST-35**W Series|AST-3501WT",
@@ -17981,7 +18170,8 @@ window.HMI_DATA = {
     "src": "S_C_ST3000CN"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "1306020A|ST-33** Series|HTK3300V",
@@ -18067,7 +18257,8 @@ window.HMI_DATA = {
     "src": "S_FIELD"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "F02F8400|OSP Series|OSP-P2W",
@@ -18183,7 +18374,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "F03F8400|OSP Series|PC/AT",
@@ -18299,7 +18491,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "F01F8400|PC/AT|PC/AT",
@@ -18417,7 +18610,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "20118400|PL Series|APL-3*00",
@@ -18535,7 +18729,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10218400|PS Series|PS-2000B",
@@ -18653,7 +18848,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10828400|PS Series|PS-3450A/3000B",
@@ -18771,7 +18967,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10728400|PS Series|PS-3451A/3001B",
@@ -18889,7 +19086,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10318400|PS Series|PS-5000,PS(A)-6000",
@@ -19007,7 +19205,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10128400|PS Series|PS-3650A",
@@ -19125,7 +19324,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10228400|PS Series|PS-3651A",
@@ -19243,7 +19443,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10328400|PS Series|PS-3700A",
@@ -19361,7 +19562,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10528400|PS Series|PS-3710A",
@@ -19479,7 +19681,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   },
   {
    "key": "10628400|PS Series|PS-3711A",
@@ -19597,7 +19800,8 @@ window.HMI_DATA = {
     "n": "工業電腦／PC，依實際機型"
    },
    "replace": [],
-   "switches": []
+   "switches": [],
+   "cable": null
   }
  ]
 };
