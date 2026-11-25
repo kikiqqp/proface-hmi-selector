@@ -283,11 +283,15 @@ function renderTray() {
 const cmpBtn = k => `<button class="btn" data-cmp="${esc(k)}">${cmp.includes(k) ? '移出比較' : '加入比較'}</button>`;
 
 /* ---------- 找機種 ---------- */
-const F = Object.assign({series:[], ver:'', size:[], aspect:'', cut:'', feats:[], iface:[], touch:[]}, store.get('find', {}));
+const F = Object.assign({series:[], ver:'', size:[], aspect:'', cut:'', feats:[], iface:[], touch:[], cable:[]}, store.get('find', {}));
+if (!Array.isArray(F.cable)) F.cable = [];
 delete F.legacy; if (F.ver && !VERS.includes(F.ver)) F.ver = '';
 const FEAT_OPTS = [['remoteHmi','Remote HMI（手機／平板）'],['gpViewer','GP-Viewer EX（電腦）'],['proFaceConnect','Pro-face Connect'],['ftp','FTP Server'],['email','E-mail 通知'],['ipsec','IPsec 加密']];
 const IFACE_OPTS = [['lan1','有 LAN 埠'],['lan2','LAN 2 埠以上'],['rs232','RS-232C'],['rs485','RS-422/485'],['usb','USB A'],['card','SD／CF 卡槽']];
 const TOUCH_OPTS = [['analog','類比電阻'],['multi','多點觸控'],['pcap','投射電容'],['matrix','矩陣']];
+/* 傳輸線接頭：USB A 指 USB A 對 USB A 專用傳輸線 CA3-USBCB-01；Tool 指 GP2000 等舊機的圓形 Tool 連接埠 */
+const CABLE_OPTS = [['USB mini-B','USB A 對 mini-B'],['USB micro-B','USB A 對 micro-B'],['USB A','USB A 對 USB A 專用線（CA3-USBCB-01）'],['Tool','圓形 Tool 連接埠（GP2000）']];
+const cableTxt = m => m.cable ? m.cable.t + (m.cable.n ? '（' + m.cable.n + '）' : '') : '待確認';
 
 function plateSvg(sel) {
   const maxW = 520, maxH = 320, W = 560, H = 350, sc = Math.min((W-24)/maxW, (H-24)/maxH);
@@ -323,12 +327,12 @@ function seriesChips(isOn, attr) {
 function seg(items, cur, attr) {
   return `<div class="seg" role="group">${items.map(([v,l]) => `<button aria-pressed="${cur === v}" ${attr} data-v="${esc(v)}">${esc(l)}</button>`).join('')}</div>`;
 }
-const GOPEN = Object.assign({series:true, ver:true, size:true, cut:true, feat:true, iface:false, touch:false}, store.get('gopen', {}));
+const GOPEN = Object.assign({series:true, ver:true, size:true, cut:true, feat:true, iface:false, touch:false, cable:false}, store.get('gopen', {}));
 function grp(id, title, n, body) {
   return `<details class="grp" data-g="${id}"${GOPEN[id] ? ' open' : ''}><summary>${title}${n ? `<span class="cnt">${n}</span>` : ''}</summary><div class="body">${body}</div></details>`;
 }
 function critCount() {
-  return F.series.length + (F.ver?1:0) + F.size.length + (F.aspect?1:0) + (F.cut?1:0) + F.feats.length + F.iface.length + F.touch.length;
+  return F.series.length + (F.ver?1:0) + F.size.length + (F.aspect?1:0) + (F.cut?1:0) + F.feats.length + F.iface.length + F.touch.length + F.cable.length;
 }
 function renderFilters() {
   const el = $('#filters');
@@ -346,6 +350,7 @@ function renderFilters() {
    ${grp('feat', '需要的遠端與網路功能', F.feats.length, `<div class="chips">${FEAT_OPTS.map(([k,l]) => chip(esc(l), F.feats.includes(k), `data-f="feats" data-v="${k}"`)).join('')}</div>`)}
    ${grp('iface', '介面', F.iface.length, `<div class="chips">${IFACE_OPTS.map(([k,l]) => chip(esc(l), F.iface.includes(k), `data-f="iface" data-v="${k}"`)).join('')}</div>`)}
    ${grp('touch', '觸控', F.touch.length, `<div class="chips">${TOUCH_OPTS.map(([k,l]) => chip(esc(l), F.touch.includes(k), `data-f="touch" data-v="${k}"`)).join('')}</div>`)}
+   ${grp('cable', '傳輸線', F.cable.length, `<div class="chips">${CABLE_OPTS.map(([k,l]) => chip(esc(l), F.cable.includes(k), `data-f="cable" data-v="${esc(k)}"`)).join('')}</div><p class="hint">選手上有的傳輸線，列出可以用這條線傳畫面的機種。</p>`)}
    <div class="row" style="padding:1rem 0 .25rem"><button class="btn" id="fReset">清除所有條件</button></div>
    </div>
    <div class="jump"><button class="btn" id="fReset2">清除</button><button class="btn solid" id="fJump">看結果</button></div>`;
@@ -365,6 +370,7 @@ function check(m) {
     const T = {analog:t.startsWith('analog'), multi:t.includes('multi'), pcap:t.startsWith('p-cap'), matrix:t === 'matrix'};
     if (!F.touch.some(k => T[k])) miss.push('觸控 ' + (TOUCH[t] || '無'));
   }
+  if (F.cable.length && !F.cable.some(k => (m.cable?.kinds || []).includes(k))) miss.push('傳輸線 ' + (m.cable ? m.cable.t : '待確認'));
   return {miss, cond};
 }
 
@@ -423,6 +429,7 @@ function activeList() {
   if (F.ver) out.push(['ver', '', F.ver + ' 可開發']);
   F.iface.forEach(k => out.push(['iface', k, IFACE_OPTS.find(o => o[0]===k)?.[1] || k]));
   F.touch.forEach(k => out.push(['touch', k, TOUCH_OPTS.find(o => o[0]===k)?.[1] || k]));
+  F.cable.forEach(k => out.push(['cable', k, CABLE_OPTS.find(o => o[0]===k)?.[1] || k]));
   return out;
 }
 function closeness(m) {
@@ -438,7 +445,7 @@ function sortItems(a,b) {
   return ser(ma.series).order - ser(mb.series).order || (ma.inch||0) - (mb.inch||0) || name(ma).localeCompare(name(mb));
 }
 
-const RESET = () => Object.assign(F, {series:[], ver:'', size:[], aspect:'', cut:'', feats:[], iface:[], touch:[]});
+const RESET = () => Object.assign(F, {series:[], ver:'', size:[], aspect:'', cut:'', feats:[], iface:[], touch:[], cable:[]});
 function sheet(open) {
   $('#filters').classList.toggle('open', open);
   document.body.classList.toggle('lock', open);
@@ -530,9 +537,10 @@ function specRows(m) {
     ['LAN 埠', m.ethernet ?? '未標示'], ['COM 埠', m.com.map(c => c.port + ' ' + c.type).join('、') || '無'],
     ['USB A', m.usbA ?? '未標示'], ['USB mini／micro B', [m.usbMiniB ? 'mini ' + m.usbMiniB : '', m.usbMicroB ? 'micro ' + m.usbMicroB : ''].filter(Boolean).join('、') || '無'],
     ['記憶卡槽', m.cardSlot ? '有' : m.cardSlot === false ? '無' : '未標示'],
+    ['傳輸線', cableTxt(m)], ['開發軟體', m.software || 'GP-Pro EX'],
     ['畫面記憶體', m.appMemoryMB ? m.appMemoryMB + ' MB' + (m.appMemoryExpandedMB ? `（可擴充至 ${m.appMemoryExpandedMB} MB）` : '') : '未標示'],
     ...VERS.map(v => ['GP-Pro EX ' + v, VLONG[vst(m,v)]]),
-    ['XML 名稱', m.group ? m.group + '／' + m.name : m.name]
+    [m.key.startsWith('extra|') ? '分組／型號' : 'XML 名稱', m.group ? m.group + '／' + m.name : m.name]
   ].concat(m.revisions.length ? [['硬體版本差異', m.revisions.join('；')]] : []).concat(m.manualNote ? [['備註', m.manualNote]] : []);
 }
 function cutDrawing(c) {
@@ -547,7 +555,7 @@ function cutDrawing(c) {
 function renderDetail(m, target) {
   const c = m.cutout || {};
   const sc = sameCut(m);
-  const srcs = [...new Set([...(m.featureSrc || []), c.src, ...m.replace.map(r => r.src)].filter(Boolean))];
+  const srcs = [...new Set([...(m.featureSrc || []), c.src, ...m.replace.map(r => r.src), ...(m.cable?.src || '').split('|')].filter(Boolean))];
   $(target).innerHTML = `
    <div class="row" style="justify-content:space-between;align-items:flex-start;margin-bottom:0.75rem">
     <div><h2 class="title">${esc(name(m))}</h2><div class="row">${badge(m)}<span class="meta">${esc(ser(m.series).label)}　${esc(ser(m.series).desc || '')}</span></div></div>
@@ -618,7 +626,8 @@ function renderCompare() {
     ['解析度', resTxt], ['開口', m => cutTxt(m.cutout)],
     ...FK.map(k => [D.featureDefs[k].label, m => { const v = f(m,k); return (SLAB[v.s] || '待確認') + (v.conn ? `（${v.conn} 台）` : ''); }]),
     ['LAN 埠', m => m.ethernet ?? ''], ['COM 埠', m => m.com.map(c => c.port + ' ' + c.type).join('、')], ['USB A', m => m.usbA ?? ''],
-    ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['畫面記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : '']];
+    ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['畫面記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : ''],
+    ['傳輸線', m => m.cable ? m.cable.t : '待確認'], ['開發軟體', m => m.software || 'GP-Pro EX']];
   $('#cmp').innerHTML = `<div class="res-head"><h2>比較 ${ms.length} 台</h2><div class="row"><span class="meta">底色標示有差異的項目</span><button class="btn" id="cmpClr">清空</button></div></div>
    <div class="cmp-wrap"><table class="cmp"><thead><tr><th>項目</th>${ms.map(m => `<th>${esc(name(m))}<br><button class="btn" style="margin-top:0.375rem" data-cmp="${esc(m.key)}">移出</button></th>`).join('')}</tr></thead>
    <tbody>${rows.map(([l, fn]) => { const v = ms.map(m => String(fn(m))); const diff = new Set(v).size > 1;
@@ -638,7 +647,23 @@ function renderAbout() {
    </div>
    ${(D.switches || []).length ? `<div class="box" style="margin-top:1.25rem"><h3>特殊開關切換</h3><p class="meta">${SW_HINT}「適用」空白者為通用開關。</p>
     <table class="stack"><thead><tr><th>開關</th><th>說明</th><th>適用</th><th>補充</th></tr></thead><tbody>${D.switches.map(x => `<tr><td>${esc(x.sw)}</td><td>${esc(x.zh || x.en)}${x.zh && x.en && x.en !== 'Reserved' ? `<br><span class="meta">${esc(x.en)}</span>` : ''}</td><td>${esc(x.series ? ser(x.series).label + (x.use ? '：' + x.use : '') : '')}</td><td>${esc(x.n)}</td></tr>`).join('')}</tbody></table></div>` : ''}
+   ${cableBox()}
    <div class="box" style="margin-top:1.25rem"><h3>全部資料來源</h3><ul class="src">${Object.keys(D.sources).map(k => `<li>${srcLink(k)}</li>`).join('')}</ul></div>`;
+}
+
+function cableBox() {
+  const by = k => seriesList.filter(sk => M.some(m => m.series === sk && (m.cable?.kinds || []).includes(k)));
+  const only = by('USB A').filter(sk => M.filter(m => m.series === sk && m.cable).every(m => m.cable.kinds.join() === 'USB A'));
+  const also = by('USB A').filter(sk => !only.includes(sk));
+  const lab = a => a.map(sk => ser(sk).label.replace(/（舊）$/, '')).join('、');
+  const srcs = [...new Set(M.map(m => m.cable?.src).filter(Boolean).flatMap(x => x.split('|')))];
+  return `<div class="box" style="margin-top:1.25rem"><h3>傳輸線</h3><table class="stack"><thead><tr><th>型式</th><th>適用</th></tr></thead><tbody>
+   <tr><td>USB A 對 USB A 專用傳輸線 CA3-USBCB-01（原廠，已停產）</td><td>只能用這條線：${esc(lab(only))}。<br>也可以用：${esc(lab(also))}（GP-4104 至 4107 不行）。<br>這是需要安裝驅動程式的專用連結線，一般 USB A 對 A 線不能代替；不支援 GP2000 與 GP-PRO/PB III C-Package。</td></tr>
+   <tr><td>USB A 對 mini-B</td><td>${esc(lab(by('USB mini-B')))}，一般市售線即可</td></tr>
+   <tr><td>USB A 對 micro-B</td><td>${esc(lab(by('USB micro-B')))}，一般市售線即可</td></tr>
+   <tr><td>圓形 Tool 連接埠</td><td>${esc(lab(by('Tool')))}：依機種為 GPW-CB02（RS-232C）、GPW-CB03（USB）或 GPW-CB-SET，也有市售相容線</td></tr>
+  </tbody></table><p class="hint">尚未建檔：${esc(lab(seriesList.filter(sk => M.some(m => m.series === sk && !m.cable))))}。</p>
+  <ul class="src">${srcs.map(x => `<li>${srcLink(x)}</li>`).join('')}</ul></div>`;
 }
 
 /* ---------- 分頁 ---------- */
