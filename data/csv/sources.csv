@@ -40,7 +40,7 @@ S_C_ET6600,ET-6600WA 原廠規格頁,https://proface.com/en/product/spec/PFXET66
 S_C_ET6000,ET6000 Series 規格書,https://proface.com/media/44720
 S_C_ET5400,ET-5400WA 原廠規格頁,https://www.proface.com/en/product/spec/PFXET5400WAD
 S_C_ET5500,ET-5500WA 原廠規格頁,https://www.proface.com/en/product/spec/PFXET5500WAD
-S_C_GC4000,GC4000 安裝指南（第三方網站轉載）,https://manuals.online/pro-face/monitor/gc4000-series/user-manual/1nold
+S_C_GC4000,GC4000 系列硬體手冊（簡體中文）：面板開孔尺寸,https://www.proface.tech/otasuke/files/manual/gp_hard/GC4000_MM_CN-PDF.pdf
 S_C_GPH6000,GPH6000 使用手冊：安裝孔,https://www.proface.com/data/ql/GPH6000/GPH6000%20Series%20User%20Guide/English/BM_GPH6000%20Series%20User%20Guide_DD00720566_files/PanelCut-outDimensions-D655961A.html
 S_R_DISCON,原廠停產品替換查詢,https://www.proface.com/en/product/discon/top
 S_R_GP3300_GP6300,替換手冊 GP3000 5.7 吋 → GP6000 Standard,https://www.proface.com/media/59245
@@ -62,3 +62,9 @@ S_R_GP3000H_GP4000H,替換手冊 GP3000H → GP4000H,https://proface.com/media/4
 S_FIELD,現場工程師實機確認（2026-11）,
 S_XML,GP-Pro EX HmiInfo.xml 機種資料,
 S_C_GP4000M,GP4000M 系列產品頁（φ22 mm 圓孔安裝）,https://www.proface.com/en/product/hmi/gp4000m/top
+S_C_GP4104,GP-4104 至 4107 原廠規格頁（開孔 W105 × H66，面板厚 1～5 mm）,https://www.proface.com/zh-hant/product/hmi/gp4100/spec/GP4104G1D
+S_C_SP5490X,SP-5490WA 原廠規格頁,https://www.proface.com/en/product/spec/PFXSP5490WAD
+S_C_SP5000X,SP5000X 顯示模組規格書（datasheet_sp5000x_displaymodule_en）,
+S_C_LT4000M,LT-4201TM／4301TM 硬體手冊（LT4243TM-MM01-ENG，2021-08）：面板開孔,
+S_R_LT3201A,替換指南 LT-3201A → LT-4201TM,https://www.proface.com/en/replace/lt3201a_lt4201tm
+S_C_ST3000CN,ST3000 系列硬體手冊（簡體中文，2007）：面板開孔尺寸,
