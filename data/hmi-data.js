@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 14:13:26",
+ "updated": "2026-11-25 14:36:03",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -544,6 +544,110 @@ window.HMI_DATA = {
   "S_R_GP37W2": {
    "title": "GP37W2-BG41-24V 原廠產品頁（停售、停修日期與替換選項）",
    "url": "https://www.proface.com/en/product/spec/GP37W2-BG41-24V"
+  },
+  "S_DC_GP2300_LG41_24V": {
+   "title": "GP2300-LG41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2300-LG41-24V"
+  },
+  "S_DC_GP2300_SC41_24V": {
+   "title": "GP2300-SC41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2300-SC41-24V"
+  },
+  "S_DC_GP2300_TC41_24V": {
+   "title": "GP2300-TC41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2300-TC41-24V"
+  },
+  "S_DC_GP2301_LG41_24V": {
+   "title": "GP2301-LG41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2301-LG41-24V"
+  },
+  "S_DC_GP2301_SC41_24V": {
+   "title": "GP2301-SC41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2301-SC41-24V"
+  },
+  "S_DC_GP2301_TC41_24V": {
+   "title": "GP2301-TC41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2301-TC41-24V"
+  },
+  "S_DC_GP2400_TC41_24V": {
+   "title": "GP2400-TC41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2400-TC41-24V"
+  },
+  "S_DC_GP2500_LG41_24V": {
+   "title": "GP2500-LG41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2500-LG41-24V"
+  },
+  "S_DC_GP2500_SC41_24V": {
+   "title": "GP2500-SC41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2500-SC41-24V"
+  },
+  "S_DC_GP2500_TC11": {
+   "title": "GP2500-TC11 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2500-TC11"
+  },
+  "S_DC_GP2500_TC41_24V": {
+   "title": "GP2500-TC41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2500-TC41-24V"
+  },
+  "S_DC_GP2600_TC11": {
+   "title": "GP2600-TC11 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2600-TC11"
+  },
+  "S_DC_GP2600_TC41_24V": {
+   "title": "GP2600-TC41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP2600-TC41-24V"
+  },
+  "S_DC_GP470_EG11": {
+   "title": "GP470-EG11 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP470-EG11"
+  },
+  "S_DC_GP470_EG21_24VP": {
+   "title": "GP470-EG21-24VP 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP470-EG21-24VP"
+  },
+  "S_DC_GP470_EG31_24V": {
+   "title": "GP470-EG31-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP470-EG31-24V"
+  },
+  "S_DC_GP570_SC11": {
+   "title": "GP570-SC11 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP570-SC11"
+  },
+  "S_DC_GP570_SC21_24VP": {
+   "title": "GP570-SC21-24VP 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP570-SC21-24VP"
+  },
+  "S_DC_GP570_SC31_24V": {
+   "title": "GP570-SC31-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP570-SC31-24V"
+  },
+  "S_DC_GP570_TC11": {
+   "title": "GP570-TC11 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP570-TC11"
+  },
+  "S_DC_GP570_TC21_24VP": {
+   "title": "GP570-TC21-24VP 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP570-TC21-24VP"
+  },
+  "S_DC_GP570_TC31_24V": {
+   "title": "GP570-TC31-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP570-TC31-24V"
+  },
+  "S_DC_GP571_TC11": {
+   "title": "GP571-TC11 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP571-TC11"
+  },
+  "S_CONV_OV": {
+   "title": "GP-Pro EX 手冊 4.1.1 轉換前後的機種名稱（PB III 專案需先存成 .prw 再轉換）",
+   "url": "https://www.proface.tech/otasuke/files/manual/gpproex/new/refer/mergedProjects/update/update_ov_compatibledisplayunits.htm"
+  },
+  "S_CONV_GP2000": {
+   "title": "GP-Pro EX 手冊 4.1.1.2 GP2000／GP2000H 系列轉換對應機種",
+   "url": "https://www.proface.tech/otasuke/files/manual/gpproex/new/refer/mergedProjects/update/update_mm_gp2000_h.htm"
+  },
+  "S_CONV_GP70": {
+   "title": "GP-Pro EX 手冊 4.1.1.1 GP70／77R 系列轉換對應機種",
+   "url": "https://www.proface.tech/otasuke/files/manual/gpproex/new/refer/mergedProjects/update/update_mm_gp70_77r.htm"
   }
  },
  "switches": [],
