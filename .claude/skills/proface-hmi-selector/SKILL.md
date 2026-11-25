@@ -71,13 +71,21 @@ index.html
 
 寫在 `data/csv/models_extra.csv`。`build.py` 的 `load_extra_models()` 讀取：「最新版狀態」（可新建、免費版、僅開啟，空白為可新建；舊欄名「5x狀態」仍可讀）決定 `statusLatest`；「首次版本」是 `xml/` 中已有的版本時，該版以後各版都標為最新版狀態，之前標 `absent`，空白或不在 XML 版本內時只標最新版。
 
+### 傳輸線
+
+`data/csv/cables.csv` 由 `build.py` 讀成每台機種的 `cable = {t, kinds, n, src}`。`kinds` 只能是 `CABLE_KINDS`（`USB A`、`USB mini-B`、`USB micro-B`、`Tool`），網頁「找機種」的傳輸線篩選用它比對，說明頁的傳輸線表也由它自動產生。使用者要求：一般 USB 線只寫型式，不寫原廠型號；只有原廠專用線（USB A 對 USB A 的 CA3-USBCB-01、GP2000 的 GPW-CB02、GPW-CB03、GPW-CB-SET）寫型號，並註明支援機種。目前未建檔：GPH6000、ET5000、HTK。
+
+### GP2000 與其他非 GP-Pro EX 機種
+
+寫在 `models_extra.csv`，「最新版狀態」填「不支援」，所有版本標 `absent`；「開發軟體」欄寫實際軟體（例如 GP-PRO/PB III），網頁規格表顯示，空白時顯示 GP-Pro EX。
+
 ### 修改網頁
 
 1. `index.html` 是單一檔案：CSS、HTML、JavaScript 都在裡面，不使用框架或建置工具。
 2. 所有從資料來的文字都要經過 `esc()` 再放進 HTML。
 3. **尺寸一律用 rem**，不要寫 px（SVG 內部座標除外）。字級切換是改 `html` 的 `font-size`（`data-fs` 屬性），用 px 會讓該元素不跟著縮放。
 4. 版面斷點：900px 以下條件改為全螢幕面板（`.filters.open`），600px 以下表格改為堆疊顯示（`.stack`）。新增的條件區塊用 `grp()` 產生，才會有收合與已選數量。
-5. 「找機種」條件區塊順序固定為：系列、GP-Pro EX 版本、螢幕尺寸（含畫面比例）、開口尺寸、遠端與網路功能、介面、觸控。預設展開狀態在 `GOPEN`，使用者的展開狀態存在瀏覽器（`gopen`）。
+5. 「找機種」條件區塊順序固定為：系列、GP-Pro EX 版本、螢幕尺寸（含畫面比例）、開口尺寸、遠端與網路功能、介面、觸控、傳輸線。預設展開狀態在 `GOPEN`，使用者的展開狀態存在瀏覽器（`gopen`）。
 6. 條件面板內一律用 `chip()` 按鈕（會自然換行）；`seg()` 分段按鈕不會換行，只用在空間足夠、選項短的地方（目前只有結果排序）。
 7. 「查機種」「舊機替換」的步驟是 系列 → 子系列 → 機種（SP5000 為 系列 → 顯示器 → Box）。型號按鈕只顯示型號與尺寸，**不加註版本狀態**（例如「5.01 不可新建」），版本狀態只在詳細頁與找機種卡片顯示。
 8. 功能狀態代碼：`yes`、`no`、`cond`、`ended`、`unknown`。版本狀態代碼（每台機種的 `versions[版本]`）：`full` 可新建、`free` 免費版可用、`open-only` 僅可開啟、`absent` 該版未收錄。`statusLatest` 等於最新版的狀態。
