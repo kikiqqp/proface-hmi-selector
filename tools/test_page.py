@@ -110,6 +110,12 @@ async def run(chrome):
             await pg.click('[data-ms="GP6000A"]')
             ok(await pg.locator("#mGroupWrap").is_hidden(), "查機種：沒有子系列的系列不顯示子系列")
 
+            await pg.click('[data-ms="GP2000"]')
+            await pg.click('#mGroups [data-mg="GP-23** Series"]')
+            await pg.click("#mModels .chip >> nth=0")
+            txt = await pg.inner_text("#mDetail")
+            ok("GPW-CB02" in txt and "GP-PRO/PB III" in txt, "查機種：GP2000 顯示傳輸線與開發軟體")
+
             await pg.click('[data-ms="ET6000"]')
             await pg.click("#mModels .chip >> nth=0")
             txt = await pg.inner_text("#mDetail")
