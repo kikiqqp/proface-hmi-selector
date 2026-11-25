@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 12:29:18",
+ "updated": "2026-11-25 12:29:52",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -16583,7 +16583,14 @@ window.HMI_DATA = {
     "h": 92.5,
     "src": "S_R_LT3201A"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "LT-4201TM（LT4000M 模組型）",
+     "sameCutout": false,
+     "src": "S_R_LT3201A",
+     "n": "開口由 118.5×92.5 方孔改為 φ22 圓孔"
+    }
+   ],
    "switches": []
   },
   {
