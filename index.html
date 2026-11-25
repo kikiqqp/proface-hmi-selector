@@ -102,7 +102,7 @@ main{padding:1.25rem max(4vw,1rem) 3rem;max-width:1480px;margin:0 auto}
 .s-yes{background:var(--ok-bg);color:var(--ok)}.s-no{background:var(--no-bg);color:var(--no)}
 .s-cond,.s-ended{background:var(--cond-bg);color:var(--cond)}.s-unknown,.s-{background:var(--unk-bg);color:var(--unk)}
 .badge{font-size:.8rem;font-weight:600;border-radius:.4rem;padding:.12rem .5rem;white-space:nowrap}
-.b-full{background:var(--ok-bg);color:var(--ok)}.b-free{background:light-dark(#e0eff8,#13293a);color:var(--deep2)}.b-open-only{background:var(--cond-bg);color:var(--cond)}.b-absent{background:var(--unk-bg);color:var(--unk)}
+.b-full{background:var(--ok-bg);color:var(--ok)}.b-free{background:light-dark(#e0eff8,#13293a);color:var(--deep2)}.b-open-only{background:var(--cond-bg);color:var(--cond)}.b-absent{background:var(--unk-bg);color:var(--unk)}.b-pb3{background:light-dark(#efe7f7,#2a2036);color:light-dark(#5b3a85,#cdb6ea);font-weight:600}
 .vers{display:inline-flex;flex-wrap:wrap;gap:.2rem}.vers .badge{font-weight:500}
 .card .act{margin-top:auto;display:flex;gap:.45rem;flex-wrap:wrap;padding-top:.25rem}
 .card .act .btn{flex:1 1 auto;justify-content:center}
@@ -250,6 +250,7 @@ const cutTxt = c => {
   if (c.d) return 'φ' + c.d + ' mm 圓孔';
   return {box:'不適用（盒型）',handheld:'不適用（手持）',ipc:'不適用（IPC）',round:'圓孔，孔徑待查',rect:'待查'}[c.mount] || '未建檔';
 };
+const portN = v => v == null ? '未標示' : v ? v + ' 埠' : '無';
 const comHas = (m,t) => m.com.some(c => c.type.includes(t));
 const resTxt = m => [m.resolution, m.resolutionPx].filter(Boolean).join(' ');
 const srcLink = id => { const s = D.sources[id]; if (!s) return ''; return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title); };
@@ -287,9 +288,11 @@ function pills(m, keys = FK) {
 }
 const VERS = D.versions || [D.sourceVersion];
 const vst = (m,v) => (m.versions && m.versions[v]) || 'absent';
-const vOk = (m,v) => ['full','free'].includes(vst(m,v));
-const badge = m => `<span class="vers">${VERS.map(v => `<span class="badge b-${vst(m,v)}" title="GP-Pro EX ${esc(v)}：${esc(VLONG[vst(m,v)])}">${esc(v)} ${esc(VS[vst(m,v)])}</span>`).join('')}</span>`;
-const verText = m => VERS.map(v => `${v} ${VLONG[vst(m,v)]}`).join('；');
+const PB3 = 'PB III';
+const isPB = m => /PB\s*III/i.test(m.software || '');
+const vOk = (m,v) => v === PB3 ? isPB(m) : ['full','free'].includes(vst(m,v));
+const badge = m => isPB(m) ? `<span class="vers"><span class="badge b-pb3" title="舊硬體，GP-Pro EX 不支援，開發軟體為 ${esc(m.software)}">PB III 舊硬體</span></span>` : `<span class="vers">${VERS.map(v => `<span class="badge b-${vst(m,v)}" title="GP-Pro EX ${esc(v)}：${esc(VLONG[vst(m,v)])}">${esc(v)} ${esc(VS[vst(m,v)])}</span>`).join('')}</span>`;
+const verText = m => isPB(m) ? 'GP-Pro EX 不支援，開發軟體為 ' + m.software : VERS.map(v => `${v} ${VLONG[vst(m,v)]}`).join('；');
 
 /* ---------- 比較清單 ---------- */
 let cmp = store.get('cmp', []).filter(k => byKey.has(k));
@@ -310,7 +313,7 @@ const cmpBtn = k => `<button class="btn" data-cmp="${esc(k)}">${cmp.includes(k) 
 const F = Object.assign({series:[], ver:[], size:[], aspect:[], cut:[], feats:[], iface:[], touch:[], cable:[]}, store.get('find', {}));
 /* 每個條件都是陣列：同一區塊內符合任一項即可，不同區塊需同時符合。舊版存成字串的條件在這裡轉成陣列 */
 for (const k of ['series','ver','size','aspect','cut','feats','iface','touch','cable']) F[k] = Array.isArray(F[k]) ? F[k] : (F[k] ? [F[k]] : []);
-delete F.legacy; F.ver = F.ver.filter(v => VERS.includes(v));
+delete F.legacy; F.ver = F.ver.filter(v => VERS.includes(v) || v === PB3);
 const FEAT_OPTS = [['remoteHmi','Remote HMI（手機／平板）'],['gpViewer','GP-Viewer EX（電腦）'],['proFaceConnect','Pro-face Connect'],['ftp','FTP Server'],['email','E-mail 通知'],['ipsec','IPsec 加密']];
 const IFACE_OPTS = [['lan1','有 LAN 埠'],['lan2','LAN 2 埠以上'],['rs232','RS-232C'],['rs485','RS-422/485'],['usb','USB A'],['card','SD／CF 卡槽']];
 const TOUCH_OPTS = [['analog','類比電阻'],['multi','多點觸控'],['pcap','投射電容'],['matrix','矩陣']];
@@ -367,7 +370,7 @@ function renderFilters() {
    <div class="f-in">
    <p class="hint f-tip">每個條件都可以複選：同一區塊選多項代表「符合其中一項即可」，不同區塊則要同時符合。不選代表不限。</p>
    ${grp('series', '系列', F.series.length, `${seriesChips(k => F.series.includes(k), 'data-f="series" data-v')}<p class="hint">不選代表全部系列。</p>`)}
-   ${grp('ver', 'GP-Pro EX 版本', F.ver.length, `<div class="chips">${VERS.map(v => chip(esc(v + ' 可開發'), F.ver.includes(v), `data-f="ver" data-v="${esc(v)}"`)).join('')}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種。</p>`)}
+   ${grp('ver', 'GP-Pro EX 版本', F.ver.length, `<div class="chips">${VERS.map(v => chip(esc(v + ' 可開發'), F.ver.includes(v), `data-f="ver" data-v="${esc(v)}"`)).join('')}${chip('PB III 舊硬體', F.ver.includes(PB3), `data-f="ver" data-v="${PB3}"`)}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種；選「PB III 舊硬體」只列出 GP-Pro EX 不支援、需用 GP-PRO/PB III 的舊機。</p>`)}
    ${grp('size', '螢幕尺寸', F.size.length + F.aspect.length, `<div class="chips">${sizeBuckets.map(b => chip(b.lab, F.size.includes(b.id), `data-f="size" data-v="${b.id}"`)).join('')}</div>
       <div class="tier">畫面比例</div><div class="chips">${[['w','寬螢幕'],['n','4:3']].map(([v,l]) => chip(l, F.aspect.includes(v), `data-f="aspect" data-v="${v}"`)).join('')}</div>`)}
    ${grp('cut', '開口尺寸 (mm)', F.cut.length, `<div class="plate">${plateSvg(F.cut)}</div>
@@ -453,7 +456,7 @@ function activeList() {
   F.aspect.forEach(k => out.push(['aspect', k, k === 'w' ? '寬螢幕' : '4:3']));
   F.cut.forEach(k => out.push(['cut', k, '開口 ' + k]));
   F.series.forEach(k => out.push(['series', k, ser(k).label]));
-  F.ver.forEach(k => out.push(['ver', k, k + ' 可開發']));
+  F.ver.forEach(k => out.push(['ver', k, k === PB3 ? 'PB III 舊硬體' : k + ' 可開發']));
   F.iface.forEach(k => out.push(['iface', k, IFACE_OPTS.find(o => o[0]===k)?.[1] || k]));
   F.touch.forEach(k => out.push(['touch', k, TOUCH_OPTS.find(o => o[0]===k)?.[1] || k]));
   F.cable.forEach(k => out.push(['cable', k, CABLE_OPTS.find(o => o[0]===k)?.[1] || k]));
@@ -593,8 +596,8 @@ function specRows(m) {
   return [
     ['系列', ser(m.series).label], ['尺寸', m.inch ? m.inch + ' 吋' : '不適用'], ['解析度', resTxt(m)],
     ['色彩', m.color === 'Color' ? '彩色' : m.color === 'Mono' ? '單色' : m.color], ['觸控', TOUCH[m.touch] || (m.touch ? m.touch : '未標示')],
-    ['LAN 埠', m.ethernet ?? '未標示'], ['COM 埠', m.com.map(c => c.port + ' ' + c.type).join('、') || '無'],
-    ['USB A', m.usbA ?? '未標示'], ['USB mini／micro B', [m.usbMiniB ? 'mini ' + m.usbMiniB : '', m.usbMicroB ? 'micro ' + m.usbMicroB : ''].filter(Boolean).join('、') || '無'],
+    ['LAN 埠', portN(m.ethernet)], ['COM 埠', m.com.map(c => c.port + ' ' + c.type).join('、') || '無'],
+    ['USB A', portN(m.usbA)], ['USB mini／micro B', [m.usbMiniB ? 'mini ' + m.usbMiniB : '', m.usbMicroB ? 'micro ' + m.usbMicroB : ''].filter(Boolean).join('、') || '無'],
     ['記憶卡槽', m.cardSlot ? '有' : m.cardSlot === false ? '無' : '未標示'],
     ['傳輸線', cableTxt(m)], ['開發軟體', m.software || 'GP-Pro EX'],
     ['畫面記憶體', m.appMemoryMB ? m.appMemoryMB + ' MB' + (m.appMemoryExpandedMB ? `（可擴充至 ${m.appMemoryExpandedMB} MB）` : '') : '未標示'],
@@ -708,7 +711,7 @@ function renderCompare() {
     ['系列', m => ser(m.series).label], ...VERS.map(v => ['GP-Pro EX ' + v, m => VLONG[vst(m,v)]]), ['尺寸', m => m.inch ? m.inch + ' 吋' : '不適用'],
     ['解析度', resTxt], ['開口', m => cutTxt(m.cutout)],
     ...FK.map(k => [D.featureDefs[k].label, m => { const v = f(m,k); return (SLAB[v.s] || '待確認') + (v.conn ? `（${v.conn} 台）` : ''); }]),
-    ['LAN 埠', m => m.ethernet ?? ''], ['COM 埠', m => m.com.map(c => c.port + ' ' + c.type).join('、')], ['USB A', m => m.usbA ?? ''],
+    ['LAN 埠', m => portN(m.ethernet)], ['COM 埠', m => m.com.map(c => c.port + ' ' + c.type).join('、')], ['USB A', m => portN(m.usbA)],
     ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['畫面記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : ''],
     ['傳輸線', m => m.cable ? m.cable.t : '待確認'], ['開發軟體', m => m.software || 'GP-Pro EX']];
   const today = new Date().toLocaleDateString('sv-SE');
@@ -726,6 +729,7 @@ function renderAbout() {
     <div class="box"><h3>標示意義</h3><table><tbody>
      ${Object.entries(SLAB).map(([k,v]) => `<tr><td><span class="pill s-${k}">${v}</span></td><td>${{yes:'原廠文件明確支援',no:'原廠文件明確不支援',cond:'需符合特定條件，詳見備註',ended:'只有較舊的 GP-Pro EX 版本支援',unknown:'尚未找到原廠明確資料'}[k]}</td></tr>`).join('')}
      ${Object.entries(VS).map(([k,v]) => `<tr><td><span class="badge b-${k}">${esc(VERS[VERS.length-1])} ${v}</span></td><td>${esc(D.status[k] || VLONG[k])}</td></tr>`).join('')}
+     <tr><td><span class="badge b-pb3">PB III 舊硬體</span></td><td>只用於舊硬體（例如 GP2000 系列）：GP-Pro EX 各版本都不支援，開發軟體為 GP-PRO/PB III，不顯示 GP-Pro EX 版本標籤</td></tr>
     </tbody></table>
     <h3 style="margin-top:1.12rem">資料版本</h3><p class="meta">機種清單取自 GP-Pro EX ${esc(VERS.join('、'))} 的 HmiInfo.xml，取聯集共 ${M.length} 筆，每台機種分別標示各版本的支援狀態。${D.updated ? `資料庫日期 ${esc(D.updated)}（台灣時間，資料有變更時才更新）。` : ''}功能、開口與替換資料依原廠手冊與網頁整理，每筆附來源。</p></div>
    </div>
