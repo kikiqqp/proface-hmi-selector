@@ -1,0 +1,63 @@
+﻿代號,名稱,網址
+S_REL50,GP-Pro EX Ver.5.0 Readme（停止支援機種與功能）,https://www.proface.com/media/59646
+S_LIC50,GP-Pro EX Ver.5.00 以後注意事項（授權種類、Free 版機種）,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_rr_gpproex500.htm
+S_REL501,GP-Pro EX Ver.5.01.000 更新內容,https://www.proface.com/en/news/2025/1205a
+S_RHMI_WIN,Pro-face Remote HMI Client for Win 支援機種與連線數,https://www.proface.com/en/product/soft/remotehmi_client/spec/remotehmi_client
+S_RHMI_APP,Pro-face Remote HMI（手機／平板 App）版本資訊,https://www.proface.com/en-us/product/soft/remotehmi/top
+S_GPV_LIC,GP-Viewer EX 授權可設定機種,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/maintenance/maintenance_pr_gp-viewer_ex_rpa_license.htm
+S_GPV_OV,GP-Viewer EX 授權與同時連線數,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/remote/remote_ov_gpviewerrundisplayunit.htm
+S_GPV_MODEL,GP-Viewer EX 相關軟體與型號,https://www.proface.com/en/product/soft/gpviewerex/model
+S_PFC,Pro-face Connect 支援機種,https://www.proface.com/en/product/soft/proface_connect/environment
+S_F_GP4100,GP-Pro EX 手冊 1.5 支援功能：GP-4100,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_gp4100.htm
+S_F_GP4200,GP-Pro EX 手冊 1.5 支援功能：GP-4200,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_gp4200.htm
+S_F_GP4300,GP-Pro EX 手冊 1.5 支援功能：GP-4300,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_gp4300.htm
+S_F_GP4400,GP-Pro EX 手冊 1.5 支援功能：GP-4400,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_gp4400.htm
+S_F_GP4500,GP-Pro EX 手冊 1.5 支援功能：GP-4500,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_gp4500.htm
+S_F_GP4600,GP-Pro EX 手冊 1.5 支援功能：GP-4600,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_gp4600.htm
+S_F_SP5000,GP-Pro EX 手冊 1.5 支援功能：SP5000,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_sp5000.htm
+S_F_ST6000,GP-Pro EX 手冊 1.5 支援功能：ST6000,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_st6000.htm
+S_F_STM6000,GP-Pro EX 手冊 1.5 支援功能：STM6000,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_stm6000.htm
+S_F_ET6000,GP-Pro EX 手冊 1.5 支援功能：ET6000,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_et6000.htm
+S_F_GP6000S,GP-Pro EX 手冊 1.5 支援功能：GP6000 Standard,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_gp6000.htm
+S_F_LT4000,GP-Pro EX 手冊 1.5 支援功能：LT4000,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/welcome/welcome_mm_lt4000.htm
+S_C_GP4000,GP4000 Series 硬體手冊,https://proface.com/media/48911
+S_C_GP4100,GP-4114T 原廠規格頁,https://www.proface.com/en/product/spec/PFXGP4114T2D
+S_C_GP4402WW,GP-4402WW 原廠規格頁,https://www.proface.com/en/product/spec/PFXGP4402WADW
+S_C_GP4502WW,GP-4502WW 原廠規格頁,https://proface.com/en/product/spec/PFXGP4502WADW
+S_C_GP3000,GP3000 Series 硬體手冊,https://www.proface.com/media/48933
+S_C_ST3000,ST3000 Series 納入仕樣書,https://www.proface.com/media/58640
+S_C_LT3000,LT Type A 換 LT3000 替換手冊,https://www.proface.com/media/43487
+S_C_GP6000S,GP6000 Standard 使用手冊：開口尺寸,https://www.proface.com/data/ql/GP6000-STD/GP6000%20Series%20Standard%20Model%20User%20Guide/English/BM_GP6000%20Series%20Standard%20User%20Guide_DD00627115_files/PanelCutDimensions-98714D9B.html
+S_C_GP6000A,GP6000 Advanced 使用手冊：開口尺寸,https://www.proface.com/data/ql/GP6000/GP6000%20Series%20Advanced%20Model%20User%20Guide/English/BM_GP6000%20Series%20Advanced%20Model%20User%20Guide_DD00729816_files/PanelCutDimensions-DC4AAF7E.html
+S_C_SP5000,SP5000 Series 型錄（日文）,https://www.proface.com/sites/default/files/2024-03/Catalog_SP5000_19_ja.pdf
+S_C_ST6000,ST6000 Series 規格書,https://proface.com/media/45029
+S_C_ST6300,ST-6300TA 原廠規格頁,https://proface.com/en/product/spec/PFXST6300TADE
+S_C_ST6500TA,ST-6500TA 原廠規格頁,https://proface.com/en/product/spec/PFXST6500TADE
+S_C_STC6000,STC6000 硬體手冊：結構規格,https://www.proface.com/data/ql/STC6000/STC6000%20Series%20Hardware%20Manual/English/BM_STC6000%20Series%20Hardware%20Manual_0001000644_files/D-SE-0087975.html
+S_C_STM6000,STM6000 硬體手冊：開口尺寸,https://www.proface.com/data/ql/STM6000/STM6000%20Series%20Hardware%20Manual/English/STM6000%20Series%20Hardware%20Manual_0000520148_files/PanelCutDimensionsREF_0000421122.html
+S_C_ET6400,ET-6400WA 原廠規格頁,https://proface.com/en/product/spec/pfxet6400wad
+S_C_ET6600,ET-6600WA 原廠規格頁,https://proface.com/en/product/spec/PFXET6600WAD
+S_C_ET6000,ET6000 Series 規格書,https://proface.com/media/44720
+S_C_ET5400,ET-5400WA 原廠規格頁,https://www.proface.com/en/product/spec/PFXET5400WAD
+S_C_ET5500,ET-5500WA 原廠規格頁,https://www.proface.com/en/product/spec/PFXET5500WAD
+S_C_GC4000,GC4000 安裝指南（第三方網站轉載）,https://manuals.online/pro-face/monitor/gc4000-series/user-manual/1nold
+S_C_GPH6000,GPH6000 使用手冊：安裝孔,https://www.proface.com/data/ql/GPH6000/GPH6000%20Series%20User%20Guide/English/BM_GPH6000%20Series%20User%20Guide_DD00720566_files/PanelCut-outDimensions-D655961A.html
+S_R_DISCON,原廠停產品替換查詢,https://www.proface.com/en/product/discon/top
+S_R_GP3300_GP6300,替換手冊 GP3000 5.7 吋 → GP6000 Standard,https://www.proface.com/media/59245
+S_R_GP3400_GP6400,替換手冊 GP3000 7 吋 → GP6000 Standard,https://www.proface.com/media/59240
+S_R_GP3500_GP6500,替換手冊 GP3000 10 吋 → GP6000 Standard,https://www.proface.com/media/59246
+S_R_GP3300_ST6300,替換手冊 GP-3300S/L → ST-6300TA,https://proface.com/media/57238
+S_R_GP3300DIO_STC,替換手冊 GP-3300 DIO 型 → STC-6300TA,https://proface.com/media/57216
+S_R_LT3300_STC,替換手冊 LT-3300T → STC-6300TA,https://proface.com/media/57215
+S_R_GP4000M_STM,替換手冊 GP4000M → STM6000,https://proface.com/media/57213
+S_R_GP4000E_ET,替換手冊 GP4000E (GP-4402WW/4502WW) → ET6000,https://www.proface.com/media/59323
+S_R_GP4000H_GPH,替換手冊 GP4000H → GPH6000,https://www.proface.com/media/60483
+S_R_GP4500_GP6000A,替換手冊 GP4000 10 吋 → GP6000 Advanced 12 吋寬,https://www.proface.com/media/60202
+S_R_GP3000M_SP5000,GP3000 M class 停產與建議替代,https://www.proface.com/en/news/2017/0512
+S_R_GP4104,GP-4104 原廠規格頁（建議替代）,https://proface.com/en/product/spec/GP4104G1D
+S_R_SP5B41,Pro-face HMI 產品總覽（SP5000 Open Box 建議替代）,https://www.proface.com/en/product/hmi/top
+S_L_GP4000,GP4000 產品線（含停產日期）,https://www.proface.com/en-us/product/hmi/gp4000/lineup
+S_L_SP5000,SP5000 產品線（含停產日期）,https://www.proface.com/en/product/hmi/sp5000/lineup
+S_R_GP3000H_GP4000H,替換手冊 GP3000H → GP4000H,https://proface.com/media/43718
+S_FIELD,現場工程師實機確認（2026-11）,
+S_XML,GP-Pro EX HmiInfo.xml 機種資料,

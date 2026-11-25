@@ -1,0 +1,9 @@
+﻿功能代號,顯示名稱,說明,來源
+remoteHmi,Pro-face Remote HMI,手機／平板 App（iOS、Android）與 Windows 版 Client 遠端監看操作。Windows 版需另購授權 PFXEXRHCLS。,S_RHMI_APP|S_RHMI_WIN
+gpViewer,GP-Viewer EX,Windows 電腦端遠端監看操作。每台人機需一組授權 EX-VIEWER-LICENSE，一組授權最多 3 個 GP-Viewer EX 同時連線。,S_GPV_LIC|S_GPV_OV|S_GPV_MODEL
+proFaceConnect,Pro-face Connect,跨網路安全遠端連線（人機可登錄為 SiteManager）。,S_PFC
+ftp,FTP Server,人機內建 FTP，可遠端存取 SD／USB 檔案。,
+web,Web Server,瀏覽器存取人機。GP-Pro EX 4.09.450 以後版本已不支援。,
+email,E-mail 通知,,
+ipsec,IPsec 加密,,
+ezLan,EZ LAN Adapter,以轉接器增加一個 LAN 埠。,

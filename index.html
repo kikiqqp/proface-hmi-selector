@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pro-face HMI 選型</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap">
+<style>
+/* VOICE: 工程師遞給業務的選型手冊，冷靜、精確、一眼看懂
+   IDEA: 控制盤的開孔鋼板與狀態指示燈
+   PICTURE: 依實際比例畫出所有標準開口的「開孔板」，可直接點選
+   COLOUR and TYPE: 白底、深青藍盤面色、訊號橘選取色；燈號綠紅琥珀只表狀態；IBM Plex Sans 配 Noto Sans TC
+   LAYOUT: 電腦版左側固定條件欄、右側結果；手機版條件收進全螢幕面板，結果在第一屏
+   全部尺寸使用 rem，字級切換只改 html 的 font-size */
+:root{color-scheme:light dark;
+ --bg:light-dark(#ffffff,#0f1719);--panel:light-dark(#f4f7f7,#162125);--ink:light-dark(#152226,#e6eeef);
+ --muted:light-dark(#53636a,#9fb0b5);--line:light-dark(#d5dfe0,#2c3d42);
+ --deep:#0e4a57;--deep2:light-dark(#0e4a57,#86cbd9);--acc:#d9481e;--acc-soft:light-dark(#fde9e2,#3a2119);
+ --ok:light-dark(#17773f,#5fd08f);--ok-bg:light-dark(#e1f3e8,#163023);--no:light-dark(#b3311f,#ff8a7a);--no-bg:light-dark(#fbe5e1,#36191a);
+ --cond:light-dark(#8a5600,#f0b85a);--cond-bg:light-dark(#fff1d2,#352a12);--unk:light-dark(#5f6f75,#9fb0b5);--unk-bg:light-dark(#edf1f2,#1f2a2e);
+ --r:.75rem;--hh:0px}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+html{font-size:17px;-webkit-text-size-adjust:100%;scroll-padding-top:4.5rem}
+html[data-fs=l]{font-size:19px}html[data-fs=xl]{font-size:21.5px}
+@media(max-width:600px){html{font-size:16px}html[data-fs=l]{font-size:18px}html[data-fs=xl]{font-size:20px}}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.6 "IBM Plex Sans","Noto Sans TC","Microsoft JhengHei","PingFang TC",sans-serif;overflow-x:clip}
+a{color:var(--deep2)}
+button{font:inherit}
+header{background:var(--deep);color:#fff;padding:1rem max(4vw,1rem) 0}
+.top{display:flex;justify-content:space-between;align-items:flex-start;gap:.75rem;flex-wrap:wrap}
+header h1{margin:0;font-size:clamp(1.5rem,3.2vw,2.1rem);line-height:1.1;font-weight:700}
+header p{margin:.35rem 0 .75rem;color:#cfe6eb;font-size:.9rem}
+.fs{display:flex;align-items:center;gap:.25rem;font-size:.85rem;color:#cfe6eb}
+.fs button{border:1px solid #6fa3ae;background:transparent;color:#fff;border-radius:.5rem;padding:.25rem .6rem;min-height:2.2rem;cursor:pointer}
+.fs button[aria-pressed=true]{background:#fff;color:var(--deep);border-color:#fff;font-weight:700}
+nav{display:flex;gap:.25rem;overflow-x:auto;scrollbar-width:none}
+nav button{flex:none;border:0;background:transparent;color:#d6eaee;font-weight:600;font-size:1rem;padding:.75rem 1.1rem;border-radius:.6rem .6rem 0 0;cursor:pointer;min-height:2.9rem}
+nav button[aria-selected=true]{background:var(--bg);color:var(--ink)}
+:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+main{padding:1.25rem max(4vw,1rem) 3rem;max-width:1480px;margin:0 auto}
+.view{display:none}.view.on{display:block}
+.grid{display:grid;grid-template-columns:minmax(0,22rem) minmax(0,1fr);gap:1.5rem;align-items:start}
+.side{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:1rem}
+.filters{position:sticky;top:.75rem;max-height:calc(100vh - 1.5rem);overflow:auto;overscroll-behavior:contain;padding:0}
+.f-in{padding:.5rem 1rem 1rem}
+.f-head{display:none}
+.grp{border-bottom:1px solid var(--line)}
+.grp:last-of-type{border-bottom:0}
+.grp>summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:.5rem;padding:.85rem 0;font-weight:700;font-size:1rem;min-height:2.9rem}
+.grp>summary::-webkit-details-marker{display:none}
+.grp>summary::after{content:"";width:.55rem;height:.55rem;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin:0 .3rem .25rem auto;flex:none}
+.grp[open]>summary::after{transform:rotate(225deg);margin-bottom:-.15rem}
+.grp .cnt{font-size:.8rem;font-weight:600;background:var(--acc);color:#fff;border-radius:999px;padding:.05rem .55rem}
+.grp .body{padding:0 0 1rem}
+.tier{font-size:.8rem;color:var(--muted);margin:.6rem 0 .35rem;font-weight:600}
+.tier:first-child{margin-top:0}
+.side h2{font-size:1rem;margin:1rem 0 .5rem;color:var(--ink);font-weight:700}
+.side h2:first-child{margin-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem}
+.chip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);font-size:.95rem;padding:.45rem .9rem;border-radius:999px;cursor:pointer;min-height:2.6rem;line-height:1.25;display:inline-flex;align-items:center;gap:.35rem;text-align:left}
+.chip:hover{border-color:var(--deep2)}
+.chip[aria-pressed=true]{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:600}
+.chip[aria-pressed=true]::before{content:"✓"}
+.chip small{opacity:.8;font-size:.8em}
+
+.seg{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden;max-width:100%}
+.seg button{white-space:nowrap;border:0;background:var(--bg);color:var(--ink);padding:.45rem .9rem;min-height:2.5rem;cursor:pointer;font-size:.9rem}
+.seg button+button{border-left:1.5px solid var(--line)}
+.seg button[aria-pressed=true]{background:var(--deep);color:#fff;font-weight:600}
+.row{display:flex;gap:.5rem;align-items:center;flex-wrap:wrap}
+.btn{border:1.5px solid var(--deep2);background:transparent;color:var(--deep2);font-size:.95rem;font-weight:600;padding:.5rem 1rem;border-radius:.6rem;cursor:pointer;min-height:2.75rem;text-decoration:none;display:inline-flex;align-items:center}
+.btn.solid{background:var(--deep);color:#fff;border-color:var(--deep)}
+.plate{border:1px solid var(--line);border-radius:.6rem;background:light-dark(#eaf0f0,#121c1f);padding:.5rem}
+.plate svg{display:block;width:100%;height:auto}
+.plate rect{cursor:pointer}
+.hint{font-size:.85rem;color:var(--muted);margin:.4rem 0 0}
+.fbar{display:none}
+.res-head{display:flex;justify-content:space-between;align-items:center;gap:.75rem;flex-wrap:wrap;margin-bottom:.75rem}
+.res-head h2{margin:0;font-size:clamp(1.4rem,2.4vw,1.9rem);line-height:1.15}
+.active{display:flex;flex-wrap:wrap;gap:.4rem;margin:0 0 1rem}
+.active .chip{background:var(--acc-soft);border-color:transparent;font-size:.85rem;min-height:2.3rem}
+.active .chip::after{content:"✕";font-size:.8em;opacity:.7}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,17.5rem),1fr));gap:.85rem}
+.card{border:1px solid var(--line);border-radius:var(--r);padding:1rem;background:var(--bg);display:flex;flex-direction:column;gap:.55rem}
+.card.near{border-style:dashed}
+.card h3{margin:0;font-size:1.2rem;line-height:1.25}
+.meta{font-size:.88rem;color:var(--muted)}
+.spec{display:flex;flex-wrap:wrap;gap:.25rem 1rem;font-size:.92rem}
+.spec b{font-weight:600}
+.miss{font-size:.88rem;color:var(--cond);background:var(--cond-bg);border-radius:.45rem;padding:.35rem .6rem}
+.pills{display:flex;flex-wrap:wrap;gap:.3rem}
+.pill{font-size:.82rem;border-radius:.4rem;padding:.12rem .5rem;white-space:nowrap;font-weight:500}
+.s-yes{background:var(--ok-bg);color:var(--ok)}.s-no{background:var(--no-bg);color:var(--no)}
+.s-cond,.s-ended{background:var(--cond-bg);color:var(--cond)}.s-unknown,.s-{background:var(--unk-bg);color:var(--unk)}
+.badge{font-size:.8rem;font-weight:600;border-radius:.4rem;padding:.12rem .5rem;white-space:nowrap}
+.b-full{background:var(--ok-bg);color:var(--ok)}.b-free{background:light-dark(#e0eff8,#13293a);color:var(--deep2)}.b-open-only{background:var(--cond-bg);color:var(--cond)}.b-absent{background:var(--unk-bg);color:var(--unk)}
+.vers{display:inline-flex;flex-wrap:wrap;gap:.2rem}.vers .badge{font-weight:500}
+.card .act{margin-top:auto;display:flex;gap:.45rem;flex-wrap:wrap;padding-top:.25rem}
+.card .act .btn{flex:1 1 auto;justify-content:center}
+.sub{margin:1.75rem 0 .65rem;font-size:1.2rem}
+.detail{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:1.25rem}
+.box{border:1px solid var(--line);border-radius:var(--r);padding:1rem}
+.box h3{margin:0 0 .65rem;font-size:1.1rem}
+table{border-collapse:collapse;width:100%;font-size:.95rem}
+th,td{text-align:left;padding:.5rem .55rem;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600}
+.title{font-size:clamp(1.6rem,3vw,2.2rem);line-height:1.1;margin:0 0 .4rem}
+.big{font-size:1.5rem;font-weight:700}
+.src{font-size:.88rem;padding-left:1.2rem}
+.src li{margin:.2rem 0}
+.empty{padding:1.5rem;border:1px dashed var(--line);border-radius:var(--r);color:var(--muted);text-align:center}
+.cmp-wrap{overflow-x:auto}
+.cmp td,.cmp th{min-width:10rem}.cmp th:first-child{min-width:8rem;position:sticky;left:0;background:var(--bg);z-index:1}
+.cmp tr.diff td{background:var(--acc-soft)}
+.tray{position:sticky;bottom:0;background:var(--deep);color:#fff;padding:.65rem max(4vw,1rem);display:none;gap:.6rem;align-items:center;flex-wrap:wrap;z-index:5;padding-bottom:max(.65rem,env(safe-area-inset-bottom))}
+.tray.on{display:flex}.tray .btn{color:#fff;border-color:#fff;min-height:2.5rem}
+.tray span{font-size:.9rem;flex:1 1 12rem}
+footer{color:var(--muted);font-size:.85rem;padding:0 max(4vw,1rem) 2rem;max-width:1480px;margin:0 auto}
+.jump{display:none}
+@media(max-width:1100px){.detail{grid-template-columns:minmax(0,1fr)}}
+@media(max-width:900px){
+ .grid{grid-template-columns:minmax(0,1fr)}
+ .fbar{display:flex;position:sticky;top:0;z-index:6;gap:.5rem;align-items:center;background:var(--bg);padding:.6rem 0;margin:-.6rem 0 .6rem;border-bottom:1px solid var(--line)}
+ .fbar .btn{flex:1}
+ .filters{display:none;position:fixed;inset:0;z-index:20;max-height:none;border-radius:0;border:0;background:var(--bg)}
+ .filters.open{display:flex;flex-direction:column}
+ .f-head{display:flex;justify-content:space-between;align-items:center;padding:.75rem 1rem;border-bottom:1px solid var(--line);background:var(--panel)}
+ .f-head b{font-size:1.15rem}
+ .f-in{flex:1;overflow:auto}
+ .jump{display:flex;position:sticky;bottom:0;gap:.5rem;padding:.75rem 1rem max(.75rem,env(safe-area-inset-bottom));background:var(--panel);border-top:1px solid var(--line)}
+ .jump .btn{flex:1;justify-content:center;min-height:3rem;font-size:1rem}
+ body.lock{overflow:hidden}
+}
+@media(max-width:600px){
+ main{padding-top:.9rem}
+ header p{display:none}
+ header{padding-top:.75rem}
+ .top{margin-bottom:.5rem}
+ .stack thead{display:none}.stack tr{display:grid;padding-block:.6rem;border-bottom:1px solid var(--line)}.stack td{display:flow-root;border:0;padding:.15rem 0;padding-inline-start:7.5em;text-align:start}.stack td::before{content:attr(data-l);float:inline-start;width:7em;margin-inline-start:-7.5em;white-space:normal;color:var(--muted)}.stack td:empty{display:none}
+ .card .act .btn{min-height:3rem}
+}
+@media(prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.chip{transition:background .12s}}
+</style>
+<script>new MutationObserver(()=>{for(const c of document.querySelectorAll('.stack td:not([data-l])')){let i=0,p=c;while(p=p.previousElementSibling)i+=p.colSpan;c.dataset.l=c.closest('table').rows[0].cells[i]?.textContent||''}}).observe(document,{childList:true,subtree:true})</script>
+</head>
+<body>
+<header>
+ <div class="top">
+  <div><h1>Pro-face HMI 選型</h1><p id="ver">載入資料中</p></div>
+  <div class="fs" role="group" aria-label="字級">字級
+   <button data-fs="" aria-pressed="true">標準</button><button data-fs="l" aria-pressed="false">大</button><button data-fs="xl" aria-pressed="false">特大</button>
+  </div>
+ </div>
+ <nav role="tablist">
+  <button role="tab" data-v="find">找機種</button>
+  <button role="tab" data-v="model">查機種</button>
+  <button role="tab" data-v="replace">舊機替換</button>
+  <button role="tab" data-v="compare">比較 <span id="cmpN"></span></button>
+  <button role="tab" data-v="about">說明與來源</button>
+ </nav>
+</header>
+<main>
+ <section class="view" id="v-find">
+  <div class="grid">
+   <aside class="side filters" id="filters" aria-label="篩選條件"></aside>
+   <div>
+    <div class="fbar"><button class="btn solid" id="fOpen">篩選條件 <span id="fCnt"></span></button><span class="meta" id="fNum"></span></div>
+    <div id="findRes"></div>
+   </div>
+  </div>
+ </section>
+ <section class="view" id="v-model">
+  <div class="side" style="margin-bottom:1.25rem">
+   <h2>1. 選系列</h2><div id="mSeries"></div>
+   <div id="mGroupWrap" hidden><h2>2. 選子系列</h2><div class="chips" id="mGroups"></div></div>
+   <h2 id="mModelsH">2. 選機種</h2><div class="chips" id="mModels"><span class="hint">先選系列</span></div>
+   <div id="mBoxWrap" hidden><h2>3. 選 Box</h2><div class="chips" id="mBoxes"></div></div>
+  </div>
+  <div id="mDetail"><div class="empty">選一個機種，這裡會顯示規格、遠端功能支援、開口尺寸與替換建議</div></div>
+ </section>
+ <section class="view" id="v-replace">
+  <div class="side" style="margin-bottom:1.25rem">
+   <h2>1. 現場舊機的系列</h2><div id="rSeries"></div>
+   <div id="rGroupWrap" hidden><h2>2. 子系列</h2><div class="chips" id="rGroups"></div></div>
+   <h2 id="rModelsH">2. 舊機型號</h2><div class="chips" id="rModels"><span class="hint">先選系列</span></div>
+  </div>
+  <div id="rDetail"><div class="empty">選擇現場的舊機，這裡會列出原廠建議替換機種，以及開口相同、可直接換裝的現行機種</div></div>
+ </section>
+ <section class="view" id="v-compare"><div id="cmp"></div></section>
+ <section class="view" id="v-about"><div id="about"></div></section>
+</main>
+<div class="tray" id="tray"><span id="trayTxt"></span><button class="btn" id="trayGo">開始比較</button><button class="btn" id="trayClr">清空</button></div>
+<footer>本工具為初步選型。正式採購、改孔或替換前，請依確切型號、硬體版本、GP-Pro EX 版本與原廠最新文件確認。</footer>
+<script src="data/hmi-data.js"></script>
+<script>
+{
+const D = window.HMI_DATA;
+const $ = s => document.querySelector(s);
+const esc = v => String(v ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const FK = ['remoteHmi','gpViewer','proFaceConnect','ftp','email','ipsec','web','ezLan'];
+const SLAB = {yes:'支援',no:'不支援',cond:'有條件',ended:'舊版才有',unknown:'待確認'};
+const VS = {full:'✓', free:'✓ 免費版', 'open-only':'僅開啟', absent:'未收錄'};
+const VLONG = {full:'可新建', free:'可新建（免費版可用）', 'open-only':'僅可開啟，不可新建', absent:'未收錄'};
+const TOUCH = {'analog':'類比電阻','analog(multi-touch)':'類比電阻多點','p-cap(multi-touch)':'投射電容多點','matrix':'矩陣電阻','none':'無'};
+const WIDE = new Set(['WVGA','WQVGA','NCPQVGA','WSVGA','WXGA','FWXGA','FullHD','WXGAV']);
+const store = {get(k,d){try{return JSON.parse(localStorage.getItem('pfsel.'+k))??d}catch(e){return d}},set(k,v){try{localStorage.setItem('pfsel.'+k,JSON.stringify(v))}catch(e){}}};
+
+if (!D) { $('#ver').textContent = '找不到資料檔 data/hmi-data.js'; throw new Error('no data'); }
+
+/* ---------- 資料整理 ---------- */
+const M = D.models;
+const byKey = new Map(M.map(m => [m.key, m]));
+const ser = k => D.series[k] || {label:k, order:99, tier:'', url:''};
+const isSP = m => m.series === 'SP5000';
+const spDisp = m => m.name === 'DC Power Supply Adapter' ? 'DC 電源轉接（Box 單獨）' : m.name.slice(0,2) + '-' + m.name.slice(2,-1);
+const spBox = m => m.group.replace('/5B41*', 'x');
+const clean = n => n.replace(/\s+\S+\s*\(\d+\*\d+\)$/, '');
+const name = m => isSP(m) ? spDisp(m) + ' + ' + spBox(m) : clean(m.name);
+const f = (m,k) => (m.features && m.features[k]) || {};
+const cutKey = c => !c ? '' : c.w ? c.w + '×' + c.h : c.d ? 'φ' + c.d : '';
+const cutTxt = c => {
+  if (!c) return '未建檔';
+  if (c.w) return c.w + ' × ' + c.h + ' mm';
+  if (c.d) return 'φ' + c.d + ' mm 圓孔';
+  return {box:'不適用（盒型）',handheld:'不適用（手持）',ipc:'不適用（IPC）',round:'圓孔，孔徑待查',rect:'待查'}[c.mount] || '未建檔';
+};
+const comHas = (m,t) => m.com.some(c => c.type.includes(t));
+const resTxt = m => [m.resolution, m.resolutionPx].filter(Boolean).join(' ');
+const srcLink = id => { const s = D.sources[id]; if (!s) return ''; return s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>` : esc(s.title); };
+const current = m => ['full','free'].includes(m.statusLatest);
+
+const sizeBuckets = [
+  {id:'s4', lab:'4.3 吋以下', t:i => i <= 4.3},
+  {id:'s5', lab:'5.7 吋', t:i => i > 4.3 && i < 6.5},
+  {id:'s7', lab:'7～7.5 吋', t:i => i >= 6.5 && i < 9},
+  {id:'s10', lab:'10～10.4 吋', t:i => i >= 9 && i < 11.5},
+  {id:'s12', lab:'12.1 吋', t:i => i >= 11.5 && i < 13.5},
+  {id:'s15', lab:'15～15.6 吋', t:i => i >= 13.5 && i < 17},
+  {id:'s19', lab:'18 吋以上', t:i => i >= 17}];
+
+const cutouts = (() => {
+  const mp = new Map();
+  for (const m of M) {
+    const c = m.cutout; if (!c || !c.w) continue;
+    const k = cutKey(c);
+    if (!mp.has(k)) mp.set(k, {k, w:c.w, h:c.h, n:0, cur:0, inch:new Set()});
+    const o = mp.get(k); o.n++; if (current(m)) o.cur++; if (m.inch) o.inch.add(m.inch);
+  }
+  return [...mp.values()].sort((a,b) => a.w*a.h - b.w*b.h);
+})();
+
+const seriesList = Object.entries(D.series).sort((a,b) => a[1].order - b[1].order).map(([k]) => k).filter(k => M.some(m => m.series === k));
+
+/* ---------- 共用元件 ---------- */
+function chip(label, pressed, data, extra='') {
+  return `<button class="chip" aria-pressed="${pressed}" ${data}>${label}${extra}</button>`;
+}
+function pills(m, keys = FK) {
+  return keys.map(k => { const s = f(m,k).s || 'unknown';
+    return `<span class="pill s-${s}" title="${esc(D.featureDefs[k]?.label)}：${SLAB[s]}">${esc(D.featureDefs[k]?.label)} ${s==='yes'?'✓':s==='no'?'✗':'△'}</span>`; }).join('');
+}
+const VERS = D.versions || [D.sourceVersion];
+const vst = (m,v) => (m.versions && m.versions[v]) || 'absent';
+const vOk = (m,v) => ['full','free'].includes(vst(m,v));
+const badge = m => `<span class="vers">${VERS.map(v => `<span class="badge b-${vst(m,v)}" title="GP-Pro EX ${esc(v)}：${esc(VLONG[vst(m,v)])}">${esc(v)} ${esc(VS[vst(m,v)])}</span>`).join('')}</span>`;
+const verText = m => VERS.map(v => `${v} ${VLONG[vst(m,v)]}`).join('；');
+
+/* ---------- 比較清單 ---------- */
+let cmp = store.get('cmp', []).filter(k => byKey.has(k));
+function toggleCmp(k) {
+  const i = cmp.indexOf(k);
+  if (i >= 0) cmp.splice(i,1); else { if (cmp.length >= 4) cmp.shift(); cmp.push(k); }
+  store.set('cmp', cmp); renderTray(); renderFind(); if (cur === 'compare') renderCompare();
+  document.querySelectorAll('[data-cmp]').forEach(b => b.textContent = cmp.includes(b.dataset.cmp) ? '移出比較' : '加入比較');
+}
+function renderTray() {
+  $('#cmpN').textContent = cmp.length ? `(${cmp.length})` : '';
+  $('#tray').classList.toggle('on', cmp.length > 0 && cur !== 'compare');
+  $('#trayTxt').textContent = `比較清單 ${cmp.length}/4：` + cmp.map(k => name(byKey.get(k))).join('、');
+}
+const cmpBtn = k => `<button class="btn" data-cmp="${esc(k)}">${cmp.includes(k) ? '移出比較' : '加入比較'}</button>`;
+
+/* ---------- 找機種 ---------- */
+const F = Object.assign({series:[], ver:'', size:[], aspect:'', cut:'', feats:[], iface:[], touch:[]}, store.get('find', {}));
+delete F.legacy; if (F.ver && !VERS.includes(F.ver)) F.ver = '';
+const FEAT_OPTS = [['remoteHmi','Remote HMI（手機／平板）'],['gpViewer','GP-Viewer EX（電腦）'],['proFaceConnect','Pro-face Connect'],['ftp','FTP Server'],['email','E-mail 通知'],['ipsec','IPsec 加密']];
+const IFACE_OPTS = [['lan1','有 LAN 埠'],['lan2','LAN 2 埠以上'],['rs232','RS-232C'],['rs485','RS-422/485'],['usb','USB A'],['card','SD／CF 卡槽']];
+const TOUCH_OPTS = [['analog','類比電阻'],['multi','多點觸控'],['pcap','投射電容'],['matrix','矩陣']];
+
+function plateSvg(sel) {
+  const maxW = 520, maxH = 320, W = 560, H = 350, sc = Math.min((W-24)/maxW, (H-24)/maxH);
+  const rects = cutouts.slice().reverse().map(c => {
+    const on = sel === c.k, w = c.w*sc, h = c.h*sc;
+    return `<rect x="12" y="12" width="${w.toFixed(1)}" height="${h.toFixed(1)}" rx="3" fill="${on ? 'var(--acc)' : 'transparent'}" fill-opacity="${on ? .22 : 0}" stroke="${on ? 'var(--acc)' : 'var(--muted)'}" stroke-width="${on ? 2.5 : 1}" data-cut="${esc(c.k)}"><title>${esc(c.k)} mm，${c.cur} 款現行機種</title></rect>`;
+  }).join('');
+  const s = cutouts.find(c => c.k === sel);
+  const lab = s ? `<text class="lab" x="${(12 + s.w*sc/2).toFixed(1)}" y="${(12 + s.h*sc/2).toFixed(1)}" text-anchor="middle" style="font-size:13px;fill:var(--ink);font-weight:600">${esc(s.k)}</text>` : '';
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="依比例繪製的標準開口">${rects}${lab}</svg>`;
+}
+
+const TIERS = [['advanced','進階'],['standard','標準'],['basic','基本'],['entry','入門'],['legacy','舊機種'],['ipc','工業電腦']];
+/* 子系列：取 XML 的 group（例如 GP-41** Series），系列內有兩組以上才顯示這一層 */
+const grpNo = g => { const x = /-(\d+)\*/.exec(g); return x ? +x[1] : 1e9; };
+const grpCmp = (a, b) => grpNo(a) - grpNo(b) || a.localeCompare(b, 'en');
+const subGroups = sk => sk === 'SP5000' ? [] : (g => g.length > 1 ? g : [])([...new Set(M.filter(m => m.series === sk && m.group).map(m => m.group))].sort(grpCmp));
+function groupStep(sk, cur, attr, wrap, box, head, n) {
+  const gs = subGroups(sk);
+  $(wrap).hidden = !gs.length;
+  $(head).textContent = (gs.length ? n + 1 : n) + $(head).textContent.replace(/^\d+/, '');
+  if (!gs.length) return null;
+  const cnt = g => M.filter(m => m.series === sk && (g === '' || m.group === g)).length;
+  $(box).innerHTML = [chip('全部', cur === '', `${attr}=""`, `<small>${cnt('')}</small>`), ...gs.map(g => chip(esc(g), cur === g, `${attr}="${esc(g)}"`, `<small>${cnt(g)}</small>`))].join('');
+  return gs;
+}
+function seriesChips(isOn, attr) {
+  return TIERS.map(([t, lab]) => {
+    const ks = seriesList.filter(k => (ser(k).tier || 'legacy') === t);
+    return ks.length ? `<div class="tier">${lab}</div><div class="chips">${ks.map(k => chip(esc(ser(k).label.replace(/（舊）$/, '')), isOn(k), `${attr}="${esc(k)}"`)).join('')}</div>` : '';
+  }).join('');
+}
+function seg(items, cur, attr) {
+  return `<div class="seg" role="group">${items.map(([v,l]) => `<button aria-pressed="${cur === v}" ${attr} data-v="${esc(v)}">${esc(l)}</button>`).join('')}</div>`;
+}
+const GOPEN = Object.assign({series:true, ver:true, size:true, cut:true, feat:true, iface:false, touch:false}, store.get('gopen', {}));
+function grp(id, title, n, body) {
+  return `<details class="grp" data-g="${id}"${GOPEN[id] ? ' open' : ''}><summary>${title}${n ? `<span class="cnt">${n}</span>` : ''}</summary><div class="body">${body}</div></details>`;
+}
+function critCount() {
+  return F.series.length + (F.ver?1:0) + F.size.length + (F.aspect?1:0) + (F.cut?1:0) + F.feats.length + F.iface.length + F.touch.length;
+}
+function renderFilters() {
+  const el = $('#filters');
+  const sc = el.querySelector('.f-in')?.scrollTop || 0;
+  el.innerHTML = `
+   <div class="f-head"><b>篩選條件</b><button class="btn" id="fClose">關閉</button></div>
+   <div class="f-in">
+   ${grp('series', '系列', F.series.length, `${seriesChips(k => F.series.includes(k), 'data-f="series" data-v')}<p class="hint">不選代表全部系列。</p>`)}
+   ${grp('ver', 'GP-Pro EX 版本', F.ver?1:0, `<div class="chips">${[['','不限版本'], ...VERS.map(v => [v, v + ' 可開發'])].map(([v,l]) => chip(esc(l), F.ver === v, `data-f="ver" data-v="${esc(v)}"`)).join('')}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種。</p>`)}
+   ${grp('size', '螢幕尺寸', F.size.length + (F.aspect?1:0), `<div class="chips">${sizeBuckets.map(b => chip(b.lab, F.size.includes(b.id), `data-f="size" data-v="${b.id}"`)).join('')}</div>
+      <div class="tier">畫面比例</div><div class="chips">${[['','不限比例'],['w','寬螢幕'],['n','4:3']].map(([v,l]) => chip(l, F.aspect === v, `data-f="aspect" data-v="${v}"`)).join('')}</div>`)}
+   ${grp('cut', '開口尺寸 (mm)', F.cut?1:0, `<div class="plate">${plateSvg(F.cut)}</div>
+      <p class="hint">點圖上的框，或點下方尺寸。圖依實際比例繪製。</p>
+      <div class="chips" style="margin-top:.5rem">${cutouts.map(c => chip(esc(c.k), F.cut === c.k, `data-f="cut" data-v="${esc(c.k)}"`, `<small>${[...c.inch].sort((a,b)=>a-b).map(i=>i+'吋').join('／')}</small>`)).join('')}</div>`)}
+   ${grp('feat', '需要的遠端與網路功能', F.feats.length, `<div class="chips">${FEAT_OPTS.map(([k,l]) => chip(esc(l), F.feats.includes(k), `data-f="feats" data-v="${k}"`)).join('')}</div>`)}
+   ${grp('iface', '介面', F.iface.length, `<div class="chips">${IFACE_OPTS.map(([k,l]) => chip(esc(l), F.iface.includes(k), `data-f="iface" data-v="${k}"`)).join('')}</div>`)}
+   ${grp('touch', '觸控', F.touch.length, `<div class="chips">${TOUCH_OPTS.map(([k,l]) => chip(esc(l), F.touch.includes(k), `data-f="touch" data-v="${k}"`)).join('')}</div>`)}
+   <div class="row" style="padding:1rem 0 .25rem"><button class="btn" id="fReset">清除所有條件</button></div>
+   </div>
+   <div class="jump"><button class="btn" id="fReset2">清除</button><button class="btn solid" id="fJump">看結果</button></div>`;
+  const fi = el.querySelector('.f-in'); if (fi) fi.scrollTop = sc;
+}
+
+function check(m) {
+  const miss = [], cond = [];
+  if (F.size.length && !(m.inch && sizeBuckets.some(b => F.size.includes(b.id) && b.t(m.inch)))) miss.push('尺寸 ' + (m.inch ? m.inch + ' 吋' : '不適用'));
+  if (F.aspect) { const w = WIDE.has(m.resolution); if ((F.aspect === 'w') !== w) miss.push(w ? '寬螢幕' : '非寬螢幕'); }
+  if (F.cut && cutKey(m.cutout) !== F.cut) miss.push('開口 ' + (cutKey(m.cutout) || '未建檔'));
+  for (const k of F.feats) { const s = f(m,k).s; if (s === 'cond') cond.push(D.featureDefs[k].label + ' 有條件'); else if (s !== 'yes') miss.push(D.featureDefs[k].label + ' ' + (SLAB[s] || '待確認')); }
+  const IF = {lan1:m.ethernet >= 1, lan2:m.ethernet >= 2, rs232:comHas(m,'RS232C'), rs485:comHas(m,'RS422/485'), usb:m.usbA >= 1, card:m.cardSlot === true};
+  for (const k of F.iface) if (!IF[k]) miss.push(IFACE_OPTS.find(o => o[0]===k)[1] + ' 不符');
+  if (F.touch.length) {
+    const t = m.touch || '';
+    const T = {analog:t.startsWith('analog'), multi:t.includes('multi'), pcap:t.startsWith('p-cap'), matrix:t === 'matrix'};
+    if (!F.touch.some(k => T[k])) miss.push('觸控 ' + (TOUCH[t] || '無'));
+  }
+  return {miss, cond};
+}
+
+function renderFind() {
+  const pool = M.filter(m => (!F.ver || vOk(m, F.ver)) && (!F.series.length || F.series.includes(m.series)));
+  const groups = new Map();
+  for (const m of pool) {
+    const r = check(m), g = isSP(m) ? 'SP|' + m.name : m.key;
+    if (!groups.has(g)) groups.set(g, {m, list:[]});
+    groups.get(g).list.push({m, ...r});
+  }
+  const items = [...groups.values()].map(g => {
+    const nv = m => VERS.filter(v => vOk(m,v)).length;
+    g.list.sort((a,b) => a.miss.length - b.miss.length || a.cond.length - b.cond.length || nv(b.m) - nv(a.m));
+    const best = g.list[0];
+    return {g, best, score: best.miss.length * 10 + best.cond.length};
+  });
+  const nCrit = F.size.length + (F.aspect?1:0) + (F.cut?1:0) + F.feats.length + F.iface.length + (F.touch.length?1:0);
+  const full = items.filter(i => i.best.miss.length === 0).sort(sortItems);
+  const near = nCrit ? items.filter(i => i.best.miss.length > 0 && i.best.miss.length <= 2 && !((F.size.length || F.cut) && !i.best.m.inch))
+    .sort((a,b) => a.score - b.score || closeness(a.best.m) - closeness(b.best.m) || sortItems(a,b)) : [];
+  const card = (i, isNear) => {
+    const m = i.best.m;
+    const boxes = isSP(m) ? i.g.list.filter(x => x.miss.length === i.best.miss.length).map(x => spBox(x.m)) : [];
+    const title = isSP(m) ? spDisp(m) : clean(m.name);
+    return `<article class="card${isNear ? ' near' : ''}">
+      <span class="meta">${esc(ser(m.series).label)}</span>
+      <h3>${esc(title)}</h3>
+      ${badge(m)}
+      <div class="spec">${m.inch ? `<span><b>${esc(m.inch)}</b> 吋</span>` : ''}<span>${esc(m.resolutionPx || m.resolution || '')}</span><span>開口 <b>${esc(cutKey(m.cutout) || cutTxt(m.cutout))}</b></span></div>
+      ${boxes.length ? `<div class="meta">可搭配 Box：${esc(boxes.join('、'))}</div>` : ''}
+      <div class="pills">${pills(m, ['remoteHmi','gpViewer','proFaceConnect','ftp','email'])}</div>
+      ${i.best.miss.length ? `<div class="miss">差異：${esc(i.best.miss.join('、'))}</div>` : ''}
+      ${i.best.cond.length ? `<div class="miss">注意：${esc(i.best.cond.join('、'))}</div>` : ''}
+      <div class="act"><button class="btn solid" data-open="${esc(m.key)}">詳細</button>${cmpBtn(m.key)}</div></article>`;
+  };
+  const n = critCount();
+  const j = $('#fJump'); if (j) j.textContent = `看結果（${full.length} 款）`;
+  $('#fCnt').textContent = n ? `（已選 ${n}）` : '';
+  $('#fNum').textContent = `${full.length} 款符合`;
+  $('#findRes').innerHTML = `
+    <div class="res-head"><h2>${nCrit || F.series.length || F.ver ? `符合條件 ${full.length} 款` : `全部 ${full.length} 款`}</h2>
+     ${seg([['','依系列'],['asc','尺寸小到大'],['desc','尺寸大到小']], F.sort || '', 'data-sort')}</div>
+    ${n ? `<div class="active">${activeList().map(([f,v,l]) => `<button class="chip" data-rm="${esc(f)}" data-v="${esc(v)}" aria-label="移除條件 ${esc(l)}">${esc(l)}</button>`).join('')}<button class="chip" data-rm="*" data-v="">全部清除</button></div>`
+       : '<p class="meta" style="margin-top:0">點選條件開始篩選，所有版本收錄的機種都會列出。</p>'}
+    ${full.length ? `<div class="cards">${full.map(i => card(i,false)).join('')}</div>` : `<div class="empty">沒有完全符合的機種，請看下方接近機種，或減少條件</div>`}
+    ${near.length ? `<h3 class="sub">接近機種（差 1～2 項）</h3><div class="cards">${near.slice(0,30).map(i => card(i,true)).join('')}</div>` : ''}`;
+}
+function activeList() {
+  const out = [];
+  F.feats.forEach(k => out.push(['feats', k, FEAT_OPTS.find(o => o[0]===k)?.[1] || k]));
+  F.size.forEach(k => out.push(['size', k, sizeBuckets.find(b => b.id===k)?.lab || k]));
+  if (F.aspect) out.push(['aspect', '', F.aspect === 'w' ? '寬螢幕' : '4:3']);
+  if (F.cut) out.push(['cut', '', '開口 ' + F.cut]);
+  F.series.forEach(k => out.push(['series', k, ser(k).label]));
+  if (F.ver) out.push(['ver', '', F.ver + ' 可開發']);
+  F.iface.forEach(k => out.push(['iface', k, IFACE_OPTS.find(o => o[0]===k)?.[1] || k]));
+  F.touch.forEach(k => out.push(['touch', k, TOUCH_OPTS.find(o => o[0]===k)?.[1] || k]));
+  return out;
+}
+function closeness(m) {
+  let d = 0;
+  if (F.cut && m.cutout && m.cutout.w) { const c = cutouts.find(x => x.k === F.cut); if (c) d += Math.abs(m.cutout.w - c.w) + Math.abs(m.cutout.h - c.h); }
+  else if (F.cut) d += 1000;
+  if (F.size.length && m.inch) { const mids = {s4:4,s5:5.7,s7:7.2,s10:10.2,s12:12.1,s15:15.3,s19:20}; d += 20 * Math.min(...F.size.map(k => Math.abs(m.inch - mids[k]))); }
+  return d;
+}
+function sortItems(a,b) {
+  const ma = a.best.m, mb = b.best.m;
+  if (F.sort) { const d = ((ma.inch||99) - (mb.inch||99)) * (F.sort === 'desc' ? -1 : 1); if (d) return d; }
+  return ser(ma.series).order - ser(mb.series).order || (ma.inch||0) - (mb.inch||0) || name(ma).localeCompare(name(mb));
+}
+
+const RESET = () => Object.assign(F, {series:[], ver:'', size:[], aspect:'', cut:'', feats:[], iface:[], touch:[]});
+function sheet(open) {
+  $('#filters').classList.toggle('open', open);
+  document.body.classList.toggle('lock', open);
+  if (!open) $('#v-find').scrollIntoView({block:'start'});
+}
+$('#fOpen').addEventListener('click', () => sheet(true));
+$('#filters').addEventListener('toggle', e => {
+  const d = e.target.closest && e.target.closest('details[data-g]'); if (!d) return;
+  GOPEN[d.dataset.g] = d.open; store.set('gopen', GOPEN);
+}, true);
+$('#findRes').addEventListener('click', e => {
+  const rm = e.target.closest('[data-rm]'), so = e.target.closest('[data-sort]');
+  if (rm) {
+    const k = rm.dataset.rm, v = rm.dataset.v;
+    if (k === '*') RESET();
+    else if (Array.isArray(F[k])) F[k] = F[k].filter(x => x !== v);
+    else F[k] = '';
+  } else if (so) F.sort = so.dataset.v;
+  else return;
+  store.set('find', F); renderFilters(); renderFind();
+});
+$('#filters').addEventListener('click', e => {
+  if (e.target.closest('#fJump') || e.target.closest('#fClose')) { sheet(false); return; }
+  const b = e.target.closest('[data-f]'), r = e.target.closest('#fReset') || e.target.closest('#fReset2');
+  if (r) { RESET(); }
+  else if (b) {
+    const k = b.dataset.f, v = b.dataset.v;
+    if (k === 'aspect' || k === 'cut' || k === 'ver') F[k] = (F[k] === v && v) ? '' : v;
+    else { const a = F[k]; const i = a.indexOf(v); i >= 0 ? a.splice(i,1) : a.push(v); }
+  } else {
+    const rc = e.target.closest('rect[data-cut]'); if (!rc) return;
+    F.cut = F.cut === rc.dataset.cut ? '' : rc.dataset.cut;
+  }
+  store.set('find', F); renderFilters(); renderFind();
+});
+
+/* ---------- 查機種 ---------- */
+let mSel = {series:'', group:'', model:'', disp:''};
+function renderModelPick() {
+  $('#mSeries').innerHTML = seriesChips(k => mSel.series === k, 'data-ms');
+  groupStep(mSel.series, mSel.group, 'data-mg', '#mGroupWrap', '#mGroups', '#mModelsH', 2);
+  if (!mSel.series) return;
+  const list = M.filter(m => m.series === mSel.series && (!mSel.group || m.group === mSel.group));
+  if (mSel.series === 'SP5000') {
+    const disps = [...new Set(list.map(spDisp))];
+    $('#mModels').innerHTML = disps.map(d => chip(esc(d), mSel.disp === d, `data-md="${esc(d)}"`)).join('');
+    $('#mBoxWrap').hidden = !mSel.disp;
+    $('#mBoxes').innerHTML = list.filter(m => spDisp(m) === mSel.disp).map(m => chip(esc(spBox(m)), mSel.model === m.key, `data-mk="${esc(m.key)}"`)).join('');
+  } else {
+    $('#mBoxWrap').hidden = true;
+    $('#mModels').innerHTML = list.map(m => chip(esc(clean(m.name)), mSel.model === m.key, `data-mk="${esc(m.key)}"`, m.inch ? `<small>${esc(m.inch)}吋</small>` : '')).join('');
+  }
+}
+$('#v-model').addEventListener('click', e => {
+  const s = e.target.closest('[data-ms]'), g = e.target.closest('[data-mg]'), d = e.target.closest('[data-md]'), k = e.target.closest('[data-mk]');
+  if (s) mSel = {series:s.dataset.ms, group:'', model:'', disp:''};
+  else if (g) { mSel.group = g.dataset.mg; mSel.model = ''; }
+  else if (d) { mSel.disp = d.dataset.md; mSel.model = ''; }
+  else if (k) mSel.model = k.dataset.mk;
+  else return;
+  renderModelPick();
+  if (mSel.model) { renderDetail(byKey.get(mSel.model), '#mDetail'); if (k) $('#mDetail').scrollIntoView({behavior:'smooth', block:'start'}); }
+});
+
+function sameCut(m) {
+  const k = cutKey(m.cutout); if (!k) return [];
+  return M.filter(x => x !== m && cutKey(x.cutout) === k && current(x) && !(isSP(x) && x.group !== 'SP-5B10'));
+}
+const swText = x => `特殊開關切換 ${x.sw}：${x.use || x.zh || x.en}`;
+const SW_HINT = '預設全部 OFF，按 Shift 鍵與 X 鍵開啟設定。';
+function swBox(m) {
+  const list = m.switches || [];
+  return `<div class="box"><h3>特殊開關切換</h3>${list.length
+    ? `<table class="stack"><thead><tr><th>開關</th><th>用途</th><th>說明</th></tr></thead><tbody>${list.map(x => `<tr><td>${esc(x.sw)}</td><td>${esc(x.use || x.zh)}</td><td>${esc([x.zh !== x.use ? x.zh : '', x.n].filter(Boolean).join('；'))}</td></tr>`).join('')}</tbody></table><p class="hint">${SW_HINT}</p>`
+    : '<span class="meta">此機種沒有專屬的特殊開關</span>'}
+    <p class="hint">通用特殊開關請見「說明與來源」分頁。</p></div>`;
+}
+function featTable(m) {
+  return `<table class="stack"><thead><tr><th>功能</th><th>狀態</th><th>連線數／最低版本</th><th>備註</th></tr></thead><tbody>${
+    FK.map(k => { const v = f(m,k), s = v.s || 'unknown';
+      const note = [v.n, ...(m.switches || []).filter(x => x.feature === k).map(swText)].filter(Boolean).join('；');
+      return `<tr><td>${esc(D.featureDefs[k].label)}</td><td><span class="pill s-${s}">${SLAB[s]}</span></td><td>${[v.conn ? v.conn + ' 台' : '', v.ver ? v.ver + ' 以上' : ''].filter(Boolean).join('，')}</td><td>${esc(note)}</td></tr>`; }).join('')
+  }</tbody></table>`;
+}
+function specRows(m) {
+  return [
+    ['系列', ser(m.series).label], ['尺寸', m.inch ? m.inch + ' 吋' : '不適用'], ['解析度', resTxt(m)],
+    ['色彩', m.color === 'Color' ? '彩色' : m.color === 'Mono' ? '單色' : m.color], ['觸控', TOUCH[m.touch] || (m.touch ? m.touch : '未標示')],
+    ['LAN 埠', m.ethernet ?? '未標示'], ['COM 埠', m.com.map(c => c.port + ' ' + c.type).join('、') || '無'],
+    ['USB A', m.usbA ?? '未標示'], ['USB mini／micro B', [m.usbMiniB ? 'mini ' + m.usbMiniB : '', m.usbMicroB ? 'micro ' + m.usbMicroB : ''].filter(Boolean).join('、') || '無'],
+    ['記憶卡槽', m.cardSlot ? '有' : m.cardSlot === false ? '無' : '未標示'],
+    ['畫面記憶體', m.appMemoryMB ? m.appMemoryMB + ' MB' + (m.appMemoryExpandedMB ? `（可擴充至 ${m.appMemoryExpandedMB} MB）` : '') : '未標示'],
+    ...VERS.map(v => ['GP-Pro EX ' + v, VLONG[vst(m,v)]]),
+    ['XML 名稱', m.group ? m.group + '／' + m.name : m.name]
+  ].concat(m.revisions.length ? [['硬體版本差異', m.revisions.join('；')]] : []).concat(m.manualNote ? [['備註', m.manualNote]] : []);
+}
+function cutDrawing(c) {
+  if (!c || !c.w) return '';
+  const W = 300, sc = Math.min(260 / 520, 160 / 320), w = c.w*sc, h = c.h*sc;
+  return `<svg viewBox="0 0 ${W} 180" style="width:100%;max-width:22rem;height:auto;display:block;margin-top:0.5rem" role="img" aria-label="開口比例">
+   <rect x="20" y="10" width="${(520*sc).toFixed(1)}" height="${(320*sc).toFixed(1)}" fill="none" stroke="var(--line)" stroke-dasharray="4 4"/>
+   <rect x="20" y="10" width="${w.toFixed(1)}" height="${h.toFixed(1)}" rx="2" fill="var(--acc)" fill-opacity=".18" stroke="var(--acc)" stroke-width="2"/>
+   <text x="${(20 + w/2).toFixed(1)}" y="${(10 + h/2 + 4).toFixed(1)}" text-anchor="middle" style="font-size:12px;fill:var(--ink)">${esc(c.w)} × ${esc(c.h)}</text></svg>
+   <p class="hint">虛線為 520 × 320 mm 參考框，方便比較大小</p>`;
+}
+function renderDetail(m, target) {
+  const c = m.cutout || {};
+  const sc = sameCut(m);
+  const srcs = [...new Set([...(m.featureSrc || []), c.src, ...m.replace.map(r => r.src)].filter(Boolean))];
+  $(target).innerHTML = `
+   <div class="row" style="justify-content:space-between;align-items:flex-start;margin-bottom:0.75rem">
+    <div><h2 class="title">${esc(name(m))}</h2><div class="row">${badge(m)}<span class="meta">${esc(ser(m.series).label)}　${esc(ser(m.series).desc || '')}</span></div></div>
+    <div class="row">${cmpBtn(m.key)}${ser(m.series).url ? `<a class="btn" href="${esc(ser(m.series).url)}" target="_blank" rel="noopener">原廠系列頁</a>` : ''}</div>
+   </div>
+   <div class="detail">
+    <div class="box"><h3>遠端與網路功能</h3>${featTable(m)}</div>
+    <div style="display:grid;gap:1.25rem">
+     <div class="box"><h3>開口尺寸</h3><div class="big">${esc(cutTxt(m.cutout))}</div>
+      <div class="meta">${c.t ? '面板厚 ' + esc(c.t) + ' mm　' : ''}${c.verify ? '<span class="pill s-cond">需再確認</span> ' : ''}${esc(c.n || '')}</div>${cutDrawing(c)}</div>
+     <div class="box"><h3>原廠建議替換</h3>${m.replace.length ? `<ul class="src">${m.replace.map(r => `<li>${esc(r.to)}${r.sameCutout === true ? '（開口相同）' : r.sameCutout === false ? '（開口不同）' : ''}${r.n ? '，' + esc(r.n) : ''}<br>${srcLink(r.src)}</li>`).join('')}</ul>` : '<span class="meta">無原廠替換資料</span>'}</div>
+     ${(D.switches || []).length ? swBox(m) : ''}
+    </div>
+    <div class="box"><h3>規格</h3><table class="stack"><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody>${specRows(m).map(([a,b]) => `<tr><td>${esc(a)}</td><td>${esc(b)}</td></tr>`).join('')}</tbody></table></div>
+    <div class="box"><h3>開口相同的現行機種</h3>${sc.length ? `<div class="chips">${sc.map(x => `<button class="chip" data-open="${esc(x.key)}">${esc(isSP(x) ? spDisp(x) : clean(x.name))}<small>${esc(ser(x.series).label)}</small></button>`).join('')}</div><p class="hint">SP5000 以 Power Box 代表，其他 Box 開口相同</p>` : '<span class="meta">沒有開口相同的現行機種，或開口尚未建檔</span>'}
+     <h3 style="margin-top:1.12rem">資料來源</h3><ul class="src">${srcs.map(s => `<li>${srcLink(s)}</li>`).join('') || '<li>XML</li>'}</ul></div>
+   </div>`;
+}
+
+/* ---------- 舊機替換 ---------- */
+let rSel = {series:'', group:'', model:''};
+const oldSeries = seriesList;
+function renderReplacePick() {
+  $('#rSeries').innerHTML = seriesChips(k => rSel.series === k, 'data-rs');
+  groupStep(rSel.series, rSel.group, 'data-rg', '#rGroupWrap', '#rGroups', '#rModelsH', 2);
+  if (!rSel.series) return;
+  const list = M.filter(m => m.series === rSel.series && (!rSel.group || m.group === rSel.group));
+  $('#rModels').innerHTML = list.map(m => chip(esc(name(m)), rSel.model === m.key, `data-rk="${esc(m.key)}"`)).join('');
+}
+function diffList(a, b) {
+  const out = [];
+  for (const k of FK) { const sa = f(a,k).s, sb = f(b,k).s; if (sa === 'yes' && sb !== 'yes') out.push(D.featureDefs[k].label + ' ' + (SLAB[sb] || '待確認')); }
+  if ((a.ethernet||0) > (b.ethernet||0)) out.push('LAN 埠較少');
+  if (comHas(a,'RS232C') && !comHas(b,'RS232C')) out.push('無 RS-232C');
+  if (comHas(a,'RS422/485') && !comHas(b,'RS422/485')) out.push('無 RS-422/485');
+  if (a.cardSlot && b.cardSlot === false) out.push('無記憶卡槽');
+  return out;
+}
+function renderReplace(m) {
+  const sc = sameCut(m);
+  $('#rDetail').innerHTML = `
+   <h2 class="title">${esc(name(m))}</h2>
+   <div class="row" style="margin-bottom:1rem">${badge(m)}<span class="meta">開口 ${esc(cutTxt(m.cutout))}${m.inch ? '　' + esc(m.inch) + ' 吋' : ''}　${esc(resTxt(m))}</span><button class="btn" data-open="${esc(m.key)}">舊機詳細</button></div>
+   <div class="box" style="margin-bottom:1.25rem"><h3>原廠建議替換</h3>${m.replace.length ? `<ul class="src">${m.replace.map(r => `<li><b>${esc(r.to)}</b>${r.sameCutout === true ? '（開口相同）' : r.sameCutout === false ? '（開口不同，需改孔或轉接）' : ''}${r.n ? '，' + esc(r.n) : ''}<br>${srcLink(r.src)}</li>`).join('')}</ul>` : '<span class="meta">原廠替換手冊未列此機種，請參考下方開口相同的機種，或使用</span> ' + srcLink('S_R_DISCON')}</div>
+   <h3 class="sub">開口相同、可直接換裝的現行機種</h3>
+   ${sc.length ? `<div class="cards">${sc.map(x => { const d = diffList(m, x); return `<article class="card">
+     <div class="row" style="justify-content:space-between"><span class="meta">${esc(ser(x.series).label)}</span>${badge(x)}</div>
+     <h3>${esc(isSP(x) ? spDisp(x) + ' + Box' : clean(x.name))}</h3><div class="meta">${x.inch ? esc(x.inch) + ' 吋　' : ''}${esc(resTxt(x))}</div>
+     <div class="pills">${pills(x, ['remoteHmi','gpViewer','proFaceConnect','ftp','email'])}</div>
+     ${d.length ? `<div class="miss">比舊機少：${esc(d.join('、'))}</div>` : '<div class="pill s-yes" style="align-self:flex-start">功能不少於舊機</div>'}
+     <div class="act"><button class="btn solid" data-open="${esc(x.key)}">詳細</button><button class="btn" data-pair="${esc(m.key)}::${esc(x.key)}">與舊機比較</button></div></article>`; }).join('')}</div>`
+    : '<div class="empty">沒有開口相同的現行機種，或舊機開口尚未建檔</div>'}`;
+}
+$('#v-replace').addEventListener('click', e => {
+  const s = e.target.closest('[data-rs]'), g = e.target.closest('[data-rg]'), k = e.target.closest('[data-rk]'), p = e.target.closest('[data-pair]');
+  if (s) { rSel = {series:s.dataset.rs, group:'', model:''}; renderReplacePick(); }
+  else if (g) { rSel.group = g.dataset.rg; rSel.model = ''; renderReplacePick(); }
+  else if (k) { rSel.model = k.dataset.rk; renderReplacePick(); renderReplace(byKey.get(rSel.model)); $('#rDetail').scrollIntoView({behavior:'smooth', block:'start'}); }
+  else if (p) { cmp = p.dataset.pair.split('::'); store.set('cmp', cmp); go('compare'); }
+});
+
+/* ---------- 比較 ---------- */
+function renderCompare() {
+  const ms = cmp.map(k => byKey.get(k)).filter(Boolean);
+  if (!ms.length) { $('#cmp').innerHTML = '<div class="empty">還沒有加入比較的機種。在找機種或查機種按「加入比較」，最多 4 台</div>'; return; }
+  const rows = [
+    ['系列', m => ser(m.series).label], ...VERS.map(v => ['GP-Pro EX ' + v, m => VLONG[vst(m,v)]]), ['尺寸', m => m.inch ? m.inch + ' 吋' : '不適用'],
+    ['解析度', resTxt], ['開口', m => cutTxt(m.cutout)],
+    ...FK.map(k => [D.featureDefs[k].label, m => { const v = f(m,k); return (SLAB[v.s] || '待確認') + (v.conn ? `（${v.conn} 台）` : ''); }]),
+    ['LAN 埠', m => m.ethernet ?? ''], ['COM 埠', m => m.com.map(c => c.port + ' ' + c.type).join('、')], ['USB A', m => m.usbA ?? ''],
+    ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['畫面記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : '']];
+  $('#cmp').innerHTML = `<div class="res-head"><h2>比較 ${ms.length} 台</h2><div class="row"><span class="meta">底色標示有差異的項目</span><button class="btn" id="cmpClr">清空</button></div></div>
+   <div class="cmp-wrap"><table class="cmp"><thead><tr><th>項目</th>${ms.map(m => `<th>${esc(name(m))}<br><button class="btn" style="margin-top:0.375rem" data-cmp="${esc(m.key)}">移出</button></th>`).join('')}</tr></thead>
+   <tbody>${rows.map(([l, fn]) => { const v = ms.map(m => String(fn(m))); const diff = new Set(v).size > 1;
+     return `<tr class="${diff ? 'diff' : ''}"><th>${esc(l)}</th>${v.map(x => `<td>${esc(x)}</td>`).join('')}</tr>`; }).join('')}</tbody></table></div>`;
+}
+
+/* ---------- 說明 ---------- */
+function renderAbout() {
+  $('#about').innerHTML = `
+   <div class="detail">
+    <div class="box"><h3>遠端功能說明</h3><table class="stack"><thead><tr><th>功能</th><th>說明</th></tr></thead><tbody>${FK.map(k => `<tr><td>${esc(D.featureDefs[k].label)}</td><td>${esc(D.featureDefs[k].desc)} ${(D.featureDefs[k].src||[]).map(srcLink).join('、')}</td></tr>`).join('')}</tbody></table></div>
+    <div class="box"><h3>標示意義</h3><table><tbody>
+     ${Object.entries(SLAB).map(([k,v]) => `<tr><td><span class="pill s-${k}">${v}</span></td><td>${{yes:'原廠文件明確支援',no:'原廠文件明確不支援',cond:'需符合特定條件，詳見備註',ended:'只有較舊的 GP-Pro EX 版本支援',unknown:'尚未找到原廠明確資料'}[k]}</td></tr>`).join('')}
+     ${Object.entries(VS).map(([k,v]) => `<tr><td><span class="badge b-${k}">${esc(VERS[VERS.length-1])} ${v}</span></td><td>${esc(D.status[k] || VLONG[k])}</td></tr>`).join('')}
+    </tbody></table>
+    <h3 style="margin-top:1.12rem">資料版本</h3><p class="meta">機種清單取自 GP-Pro EX ${esc(VERS.join('、'))} 的 HmiInfo.xml，取聯集共 ${M.length} 筆，每台機種分別標示各版本的支援狀態。${D.updated ? `資料庫日期 ${esc(D.updated)}（台灣時間，資料有變更時才更新）。` : ''}功能、開口與替換資料依原廠手冊與網頁整理，每筆附來源。</p></div>
+   </div>
+   ${(D.switches || []).length ? `<div class="box" style="margin-top:1.25rem"><h3>特殊開關切換</h3><p class="meta">${SW_HINT}「適用」空白者為通用開關。</p>
+    <table class="stack"><thead><tr><th>開關</th><th>說明</th><th>適用</th><th>補充</th></tr></thead><tbody>${D.switches.map(x => `<tr><td>${esc(x.sw)}</td><td>${esc(x.zh || x.en)}${x.zh && x.en && x.en !== 'Reserved' ? `<br><span class="meta">${esc(x.en)}</span>` : ''}</td><td>${esc(x.series ? ser(x.series).label + (x.use ? '：' + x.use : '') : '')}</td><td>${esc(x.n)}</td></tr>`).join('')}</tbody></table></div>` : ''}
+   <div class="box" style="margin-top:1.25rem"><h3>全部資料來源</h3><ul class="src">${Object.keys(D.sources).map(k => `<li>${srcLink(k)}</li>`).join('')}</ul></div>`;
+}
+
+/* ---------- 分頁 ---------- */
+const VIEWS = ['find','model','replace','compare','about'];
+let cur = '';
+function go(v) {
+  if (!VIEWS.includes(v)) v = 'find';
+  cur = v;
+  document.querySelectorAll('nav button').forEach(b => b.setAttribute('aria-selected', b.dataset.v === v));
+  document.querySelectorAll('.view').forEach(s => s.classList.toggle('on', s.id === 'v-' + v));
+  if (v === 'compare') renderCompare();
+  if (location.hash.slice(1) !== v) history.replaceState(null, '', '#' + v);
+  renderTray();
+}
+function openModel(k) {
+  const m = byKey.get(k); if (!m) return;
+  mSel = {series:m.series, group: subGroups(m.series).length ? m.group : '', model:k, disp: isSP(m) ? spDisp(m) : ''};
+  renderModelPick(); renderDetail(m, '#mDetail'); go('model'); window.scrollTo({top:0});
+}
+document.querySelector('nav').addEventListener('click', e => { const b = e.target.closest('button'); if (b) go(b.dataset.v); });
+document.addEventListener('click', e => {
+  const o = e.target.closest('[data-open]'), c = e.target.closest('[data-cmp]');
+  if (o) openModel(o.dataset.open);
+  else if (c) toggleCmp(c.dataset.cmp);
+  else if (e.target.closest('#trayGo')) go('compare');
+  else if (e.target.closest('#trayClr') || e.target.closest('#cmpClr')) { cmp = []; store.set('cmp', cmp); renderTray(); renderFind(); renderCompare(); }
+});
+window.addEventListener('hashchange', () => go(location.hash.slice(1)));
+
+function setFs(v) {
+  if (v) document.documentElement.dataset.fs = v; else delete document.documentElement.dataset.fs;
+  document.querySelectorAll('.fs button').forEach(b => b.setAttribute('aria-pressed', b.dataset.fs === v));
+  store.set('fs', v);
+}
+document.querySelector('.fs').addEventListener('click', e => { const b = e.target.closest('button'); if (b) setFs(b.dataset.fs); });
+setFs(store.get('fs', ''));
+$('#ver').textContent = `機種資料 ${M.length} 筆` + (D.updated ? `，資料庫日期: ${D.updated}` : '');
+renderFilters(); renderFind(); renderModelPick(); renderReplacePick(); renderAbout();
+go(location.hash.slice(1) || 'find');
+}
+</script>
+</body>
+</html>

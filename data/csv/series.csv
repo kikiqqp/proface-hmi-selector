@@ -1,0 +1,19 @@
+﻿系列代號,排序,顯示名稱,等級,說明,原廠網址
+GP6000A,1,GP6000 Advanced,advanced,進階型，寬螢幕至 22 吋，可擴充介面，SP5000 P/S Box 的後繼。,https://www.proface.com/en-us/product/hmi/gp6000/top
+GP6000S,2,GP6000 Standard,advanced,4:3 標準型，GP3000／GP4000 同尺寸開口替換首選。,https://www.proface.com/en-us/product/hmi/gp6000/top
+GPH6000,3,GPH6000 手持型,advanced,手持式人機，GP4000H 後繼。,https://www.proface.com/en/product/hmi/gph6000/feature
+SP5000,4,SP5000 模組型,advanced,顯示器與 Box 分離組合。5B00 Standard、5B10 Power、5B40/5B41 Open (Windows)、5B90 戶外 SP5000X。,https://www.proface.com/en/product/hmi/sp5000/lineup
+GP4000,5,GP4000 標準型,standard,標準機種，含 GP4100 小型機、GP4000M 模組型、W 型。,https://www.proface.com/en/product/hmi/gp4000/top
+ST6000,6,ST6000 基本型,basic,寬螢幕基本型人機，鋁合金面板。,https://www.proface.com/en/product/hmi/top
+STM6000,7,STM6000 模組型,basic,φ22 圓孔安裝的小型模組人機。,https://www.proface.com/en/product/hmi/top
+STC6000,8,STC6000 控制型,basic,內建 DIO 的人機控制器。,https://www.proface.com/en/product/hmi/top
+ET6000,9,ET6000 入門型,entry,入門型寬螢幕，GP-Pro EX 5.x 免費版可開發。,https://www.proface.com/en/product/hmi/et6000/top
+ET5000,10,ET5000 入門型,entry,經濟型寬螢幕。,https://www.proface.com/en/product/hmi/top
+LT4000,11,LT4000M 控制型,standard,模組型人機加 PLC 控制（DIO／類比）。,https://www.proface.com/en/product/hmi/top
+GC4000,12,GC4000,legacy,寬螢幕經濟型，無 LAN。,https://www.proface.com/en/product/hmi/top
+GP3000,13,GP3000（舊）,legacy,GP-Pro EX 5.x 起停止支援。,https://www.proface.com/en/product/discon/top
+LT3000,14,LT3000（舊）,legacy,GP-Pro EX 5.x 起停止支援。,https://www.proface.com/en/product/discon/top
+ST3000,15,ST3000（舊）,legacy,GP-Pro EX 5.x 起停止支援。,https://www.proface.com/en/product/discon/top
+ST3000W,16,ST3000W（舊）,legacy,,https://www.proface.com/en/product/discon/top
+HTK,17,HTK,legacy,,https://www.proface.com/en/product/hmi/top
+IPC,18,IPC／WinGP,ipc,工業電腦執行 WinGP。,https://www.proface.com/en/product/hmi/top
