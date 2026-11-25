@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 14:12:48",
+ "updated": "2026-11-25 14:13:26",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -22549,7 +22549,7 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；藍白單色；備份記憶體 96KB；只有序列埠，無 LAN",
+   "manualNote": "電源 DC 24V；藍白單色；備份記憶體 96KB；只有序列埠，無 LAN；停售 2013/09/30，停修 2019/12/27",
    "software": "GP-PRO/PB III C-Package03",
    "features": {
     "remoteHmi": {
@@ -22587,7 +22587,20 @@ window.HMI_DATA = {
     "n": "依使用者資料",
     "src": "S_USER_XLSX"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "STM-6400WA（PFXSTM6400WADE）",
+     "sameCutout": false,
+     "src": "S_R_GP37W2",
+     "n": "改為 22 mm 圓孔安裝；DC 電源、TFT 彩色，解析度不同"
+    },
+    {
+     "to": "GP-4301TW（PFXGP4301TADW）",
+     "sameCutout": false,
+     "src": "S_R_GP37W2",
+     "n": "開口不同，原廠有轉接框 CA4-ATM5-01；TFT 彩色，可用單色模式"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB-MMI-GP（相容線）",
