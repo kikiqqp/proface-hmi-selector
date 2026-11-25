@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 14:37:48",
+ "updated": "2026-11-25 17:49:55",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -648,6 +648,446 @@ window.HMI_DATA = {
   "S_CONV_GP70": {
    "title": "GP-Pro EX 手冊 4.1.1.1 GP70／77R 系列轉換對應機種",
    "url": "https://www.proface.tech/otasuke/files/manual/gpproex/new/refer/mergedProjects/update/update_mm_gp70_77r.htm"
+  },
+  "S_DC_GP4104G1D": {
+   "title": "GP4104G1D 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP4104G1D"
+  },
+  "S_DC_GP4104W1D": {
+   "title": "GP4104W1D 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP4104W1D"
+  },
+  "S_DC_GP4105G1D": {
+   "title": "GP4105G1D 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP4105G1D"
+  },
+  "S_DC_GP4105W1D": {
+   "title": "GP4105W1D 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP4105W1D"
+  },
+  "S_DC_GP4106G1D": {
+   "title": "GP4106G1D 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP4106G1D"
+  },
+  "S_DC_GP4106W1D": {
+   "title": "GP4106W1D 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP4106W1D"
+  },
+  "S_DC_GP4107G1D": {
+   "title": "GP4107G1D 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP4107G1D"
+  },
+  "S_DC_GP4107W1D": {
+   "title": "GP4107W1D 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP4107W1D"
+  },
+  "S_DC_PFXGP4402WADW": {
+   "title": "PFXGP4402WADW 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4402WADW"
+  },
+  "S_DC_PFXGP4502WADW": {
+   "title": "PFXGP4502WADW 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4502WADW"
+  },
+  "S_DC_PFXGP4G01DNWLS": {
+   "title": "PFXGP4G01DNWLS 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4G01DNWLS"
+  },
+  "S_DC_AGP3200_A1_D24": {
+   "title": "AGP3200-A1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP3200AAD"
+  },
+  "S_DC_AGP3200_T1_D24": {
+   "title": "AGP3200-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3200-T1-D24"
+  },
+  "S_DC_AGP3300H_L1_D24_xxx_xxx": {
+   "title": "AGP3300H-L1-D24-xxx-xxx 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP3300HLADxx"
+  },
+  "S_DC_AGP3300H_S1_D24_xxx_xxx": {
+   "title": "AGP3300H-S1-D24-xxx-xxx 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP3300HSADxx"
+  },
+  "S_DC_AGP3300_L1_D24": {
+   "title": "AGP3300-L1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-L1-D24"
+  },
+  "S_DC_AGP3300_L1_D24_CA1M": {
+   "title": "AGP3300-L1-D24-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-L1-D24-CA1M"
+  },
+  "S_DC_AGP3300_L1_D24_D81C": {
+   "title": "AGP3300-L1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-L1-D24-D81C"
+  },
+  "S_DC_AGP3300_L1_D24_D81K": {
+   "title": "AGP3300-L1-D24-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-L1-D24-D81K"
+  },
+  "S_DC_AGP3300_L1_D24_FN1M": {
+   "title": "AGP3300-L1-D24-FN1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-L1-D24-FN1M"
+  },
+  "S_DC_AGP3300_S1_D24": {
+   "title": "AGP3300-S1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-S1-D24"
+  },
+  "S_DC_AGP3300_S1_D24_D81C": {
+   "title": "AGP3300-S1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-S1-D24-D81C"
+  },
+  "S_DC_AGP3300_S1_D24_D81K": {
+   "title": "AGP3300-S1-D24-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-S1-D24-D81K"
+  },
+  "S_DC_AGP3300_T1_D24_CA1M": {
+   "title": "AGP3300-T1-D24-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP3300TADCA"
+  },
+  "S_DC_AGP3300_T1_D24_D81C": {
+   "title": "AGP3300-T1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP3300TADD"
+  },
+  "S_DC_AGP3300_T1_D24_D81K": {
+   "title": "AGP3300-T1-D24-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP3300TADDK"
+  },
+  "S_DC_AGP3300_T1_D24": {
+   "title": "AGP3300-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-T1-D24"
+  },
+  "S_DC_AGP3300_U1_D24": {
+   "title": "AGP3300-U1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3300-U1-D24"
+  },
+  "S_DC_AGP3301_L1_D24": {
+   "title": "AGP3301-L1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3301-L1-D24"
+  },
+  "S_DC_AGP3301_S1_D24": {
+   "title": "AGP3301-S1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3301-S1-D24"
+  },
+  "S_DC_AGP3302_B1_D24": {
+   "title": "AGP3302-B1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3302-B1-D24"
+  },
+  "S_DC_AGP3310H_T1_D24_xxx_xxx": {
+   "title": "AGP3310H-T1-D24-xxx-xxx 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP3310HTADxx"
+  },
+  "S_DC_AGP3310_T1_D24": {
+   "title": "AGP3310-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3310-T1-D24"
+  },
+  "S_DC_AGP3360_T1_D24": {
+   "title": "AGP3360-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3360-T1-D24"
+  },
+  "S_DC_AGP3400_S1_D24": {
+   "title": "AGP3400-S1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3400-S1-D24"
+  },
+  "S_DC_AGP3400_S1_D24_D81C": {
+   "title": "AGP3400-S1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3400-S1-D24-D81C"
+  },
+  "S_DC_AGP3400_T1_D24_CA1M": {
+   "title": "AGP3400-T1-D24-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3400-T1-D24-CA1M"
+  },
+  "S_DC_AGP3400_T1_D24_D81C": {
+   "title": "AGP3400-T1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3400-T1-D24-D81C"
+  },
+  "S_DC_AGP3400_T1_D24_D81K": {
+   "title": "AGP3400-T1-D24-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3400-T1-D24-D81K"
+  },
+  "S_DC_AGP3400_T1_D24_FN1M": {
+   "title": "AGP3400-T1-D24-FN1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3400-T1-D24-FN1M"
+  },
+  "S_DC_AGP3450_T1_D24": {
+   "title": "AGP3450-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3450-T1-D24"
+  },
+  "S_DC_AGP3500_L1_D24": {
+   "title": "AGP3500-L1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-L1-D24"
+  },
+  "S_DC_AGP3500_L1_D24_D81C": {
+   "title": "AGP3500-L1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-L1-D24-D81C"
+  },
+  "S_DC_AGP3500_S1_AF": {
+   "title": "AGP3500-S1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-S1-AF"
+  },
+  "S_DC_AGP3500_S1_D24": {
+   "title": "AGP3500-S1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-S1-D24"
+  },
+  "S_DC_AGP3500_S1_AF_D81C": {
+   "title": "AGP3500-S1-AF-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-S1-AF-D81C"
+  },
+  "S_DC_AGP3500_S1_AF_D81K": {
+   "title": "AGP3500-S1-AF-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-S1-AF-D81K"
+  },
+  "S_DC_AGP3500_S1_D24_D81C": {
+   "title": "AGP3500-S1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-S1-D24-D81C"
+  },
+  "S_DC_AGP3500_S1_D24_D81K": {
+   "title": "AGP3500-S1-D24-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-S1-D24-D81K"
+  },
+  "S_DC_AGP3500_T1_AF": {
+   "title": "AGP3500-T1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-AF"
+  },
+  "S_DC_AGP3500_T1_D24": {
+   "title": "AGP3500-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-D24"
+  },
+  "S_DC_AGP3500_T1_AF_CA1M": {
+   "title": "AGP3500-T1-AF-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-AF-CA1M"
+  },
+  "S_DC_AGP3500_T1_D24_CA1M": {
+   "title": "AGP3500-T1-D24-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-D24-CA1M"
+  },
+  "S_DC_AGP3500_T1_AF_D81C": {
+   "title": "AGP3500-T1-AF-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-AF-D81C"
+  },
+  "S_DC_AGP3500_T1_AF_D81K": {
+   "title": "AGP3500-T1-AF-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-AF-D81K"
+  },
+  "S_DC_AGP3500_T1_D24_D81C": {
+   "title": "AGP3500-T1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-D24-D81C"
+  },
+  "S_DC_AGP3500_T1_D24_D81K": {
+   "title": "AGP3500-T1-D24-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-D24-D81K"
+  },
+  "S_DC_AGP3500_T1_AF_FN1M": {
+   "title": "AGP3500-T1-AF-FN1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-AF-FN1M"
+  },
+  "S_DC_AGP3500_T1_D24_FN1M": {
+   "title": "AGP3500-T1-D24-FN1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3500-T1-D24-FN1M"
+  },
+  "S_DC_AGP3510_T1_AF": {
+   "title": "AGP3510-T1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3510-T1-AF"
+  },
+  "S_DC_AGP3510_T1_AF_CA1M": {
+   "title": "AGP3510-T1-AF-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3510-T1-AF-CA1M"
+  },
+  "S_DC_AGP3550_T1_AF": {
+   "title": "AGP3550-T1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3550-T1-AF"
+  },
+  "S_DC_AGP3560_T1_AF": {
+   "title": "AGP3560-T1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3560-T1-AF"
+  },
+  "S_DC_AGP3600_T1_AF": {
+   "title": "AGP3600-T1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-AF"
+  },
+  "S_DC_AGP3600_T1_D24": {
+   "title": "AGP3600-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-D24"
+  },
+  "S_DC_AGP3600_T1_AF_D81C": {
+   "title": "AGP3600-T1-AF-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-AF-D81C"
+  },
+  "S_DC_AGP3600_T1_AF_D81K": {
+   "title": "AGP3600-T1-AF-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-AF-D81K"
+  },
+  "S_DC_AGP3600_T1_D24_D81C": {
+   "title": "AGP3600-T1-D24-D81C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-D24-D81C"
+  },
+  "S_DC_AGP3600_T1_D24_D81K": {
+   "title": "AGP3600-T1-D24-D81K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-D24-D81K"
+  },
+  "S_DC_AGP3600_T1_AF_FN1M": {
+   "title": "AGP3600-T1-AF-FN1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-AF-FN1M"
+  },
+  "S_DC_AGP3600_T1_D24_FN1M": {
+   "title": "AGP3600-T1-D24-FN1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-D24-FN1M"
+  },
+  "S_DC_AGP3600_T1_AF_CA1M": {
+   "title": "AGP3600-T1-AF-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-AF-CA1M"
+  },
+  "S_DC_AGP3600_T1_D24_CA1M": {
+   "title": "AGP3600-T1-D24-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-T1-D24-CA1M"
+  },
+  "S_DC_AGP3600_U1_D24_CA1M": {
+   "title": "AGP3600-U1-D24-CA1M 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3600-U1-D24-CA1M"
+  },
+  "S_DC_AGP3650_T1_AF": {
+   "title": "AGP3650-T1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3650-T1-AF"
+  },
+  "S_DC_AGP3650_U1_D24": {
+   "title": "AGP3650-U1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3650-U1-D24"
+  },
+  "S_DC_AGP3750_T1_AF": {
+   "title": "AGP3750-T1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3750-T1-AF"
+  },
+  "S_DC_AGP3750_T1_D24": {
+   "title": "AGP3750-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AGP3750-T1-D24"
+  },
+  "S_DC_LT3201_A1_D24_C": {
+   "title": "LT3201-A1-D24-C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/LT3201-A1-D24-C"
+  },
+  "S_DC_LT3201_A1_D24_K": {
+   "title": "LT3201-A1-D24-K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/LT3201-A1-D24-K"
+  },
+  "S_DC_LT3300_L1_D24_C": {
+   "title": "LT3300-L1-D24-C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/LT3300-L1-D24-C"
+  },
+  "S_DC_LT3300_L1_D24_K": {
+   "title": "LT3300-L1-D24-K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/LT3300-L1-D24-K"
+  },
+  "S_DC_LT3300_S1_D24_C": {
+   "title": "LT3300-S1-D24-C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/LT3300-S1-D24-C"
+  },
+  "S_DC_LT3300_S1_D24_K": {
+   "title": "LT3300-S1-D24-K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/LT3300-S1-D24-K"
+  },
+  "S_DC_LT3300_T1_D24_C": {
+   "title": "LT3300-T1-D24-C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXLT3300TADC"
+  },
+  "S_DC_LT3300_T1_D24_K": {
+   "title": "LT3300-T1-D24-K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXLT3300TADK"
+  },
+  "S_DC_LT3301_L1_D24_C": {
+   "title": "LT3301-L1-D24-C 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/LT3301-L1-D24-C"
+  },
+  "S_DC_LT3301_L1_D24_K": {
+   "title": "LT3301-L1-D24-K 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/LT3301-L1-D24-K"
+  },
+  "S_DC_AST3201_A1_D24": {
+   "title": "AST3201-A1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3201-A1-D24"
+  },
+  "S_DC_AST3211_A1_D24": {
+   "title": "AST3211-A1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3211-A1-D24"
+  },
+  "S_DC_AST3301_B1_D24": {
+   "title": "AST3301-B1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3301-B1-D24"
+  },
+  "S_DC_AST3301_S1_D24": {
+   "title": "AST3301-S1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3301-S1-D24"
+  },
+  "S_DC_AST3301_T1_D24": {
+   "title": "AST3301-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3301-T1-D24"
+  },
+  "S_DC_AST3302_B1_D24": {
+   "title": "AST3302-B1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3302-B1-D24"
+  },
+  "S_DC_AST3401_T1_D24": {
+   "title": "AST3401-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3401-T1-D24"
+  },
+  "S_DC_AST3501_C1_AF": {
+   "title": "AST3501-C1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3501-C1-AF"
+  },
+  "S_DC_AST3501_C1_D24": {
+   "title": "AST3501-C1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3501-C1-D24"
+  },
+  "S_DC_AST3501_T1_AF": {
+   "title": "AST3501-T1-AF 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3501-T1-AF"
+  },
+  "S_DC_AST3501_T1_D24": {
+   "title": "AST3501-T1-D24 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/AST3501-T1-D24"
+  },
+  "S_BLUE_MODEL": {
+   "title": "BLUE 支援機種（原廠）",
+   "url": "https://www.proface.com/en/product/soft/blue/model"
+  },
+  "S_BOS_MODEL": {
+   "title": "BLUE Open Studio 支援機種（原廠）",
+   "url": "https://www.proface.com/zh-hant/product/soft/blue-os/supported_models"
+  },
+  "S_BOS_EDGE": {
+   "title": "STM6000 Edge Box HMI 快速入門指南（需 BLUE Open Studio 2020 SP2 以上）",
+   "url": "https://www.proface.com/media/52585"
+  },
+  "S_DC_PFXGP4201TAD": {
+   "title": "PFXGP4201TAD 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4201TAD"
+  },
+  "S_DC_PFXGP4201TADW": {
+   "title": "PFXGP4201TADW 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4201TADW"
+  },
+  "S_DC_PFXGP4203TAD": {
+   "title": "PFXGP4203TAD 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4203TAD"
+  },
+  "S_DC_PFXGP4301TADW": {
+   "title": "PFXGP4301TADW 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4301TADW"
+  },
+  "S_DC_PFXGP4401WADW": {
+   "title": "PFXGP4401WADW 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4401WADW"
+  },
+  "S_DC_PFXGP4501TADW": {
+   "title": "PFXGP4501TADW 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXGP4501TADW"
+  },
+  "S_DC_PFXSP5B40": {
+   "title": "PFXSP5B40 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXSP5B40"
+  },
+  "S_DC_PFXSP5660TPD": {
+   "title": "PFXSP5660TPD 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/PFXSP5660TPD"
   }
  },
  "switches": [],
