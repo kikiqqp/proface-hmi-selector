@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 14:37:15",
+ "updated": "2026-11-25 14:37:48",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -21466,9 +21466,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 256KB；LAN 為 10BASE-T",
+   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 256KB；LAN 為 10BASE-T；停售 2013/09/30，停修 2019/12/27",
    "software": "GP-PRO/PB III",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3300L、GP-4301TM、GP-4301TW、GP-4301T",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21578,9 +21581,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 256KB；LAN 為 10BASE-T",
+   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 256KB；LAN 為 10BASE-T；停售 2012/06/29，停修 2019/01/31",
    "software": "GP-PRO/PB III",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3300S、GP-4301TM、GP-4301TW、GP-4301T",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21678,9 +21684,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 256KB；LAN 為 10BASE-T",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 256KB；LAN 為 10BASE-T；停售 2012/06/29，停修 2019/01/31",
    "software": "GP-PRO/PB III",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3300T、GP-4301TM、GP-4301TW、GP-4301T",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21774,9 +21783,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
+   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）；停售 2013/09/30，停修 2019/12/27",
    "software": "GP-PRO/PB III",
-   "convert": null,
+   "convert": {
+    "to": "AST-3301B、GP-4301TM、GP-4301TW、GP-4301T",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21876,9 +21888,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
+   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）；停售 2013/09/30，停修 2019/12/27",
    "software": "GP-PRO/PB III",
-   "convert": null,
+   "convert": {
+    "to": "AST-3301S、GP-4301TM、GP-4301TW、GP-4301T",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21978,9 +21993,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）；停售 2012/06/29，停修 2019/01/31",
    "software": "GP-PRO/PB III",
-   "convert": null,
+   "convert": {
+    "to": "AST-3301S、GP-4301TM、GP-4301TW、GP-4301T",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22090,9 +22108,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB；停售 2010/10/29，停修 2017/10/27",
    "software": "GP-PRO/PB III、Pro-Designer",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3400T、GP-4401T",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22190,9 +22211,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 512KB",
+   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 512KB；停售 2013/09/30，停修 2019/12/27",
    "software": "GP-PRO/PB III、Pro-Designer",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3500L、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22309,9 +22333,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 512KB",
+   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 512KB；停售 2010/02/26，停修 2016/10/31",
    "software": "GP-PRO/PB III、Pro-Designer",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3500S、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22434,9 +22461,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB",
+   "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB；停售 2012/12/28，停修 2019/03/29",
    "software": "GP-PRO/PB III、Pro-Designer",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3500T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22559,9 +22589,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB；停售 2012/12/28，停修 2019/03/29",
    "software": "GP-PRO/PB III、Pro-Designer",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3500T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22684,9 +22717,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB",
+   "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB；停售 2011/02/28，停修 2017/11/30（Rev. 3 以前的版本，最後受理維修為 2012/09/30）",
    "software": "GP-PRO/PB III、Pro-Designer",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3600T、GP-4601T（類比觸控）、GP-4601T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22797,9 +22833,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB；停售 2011/02/28，停修 2017/11/30（Rev. 3 以前的版本，最後受理維修為 2012/09/30）",
    "software": "GP-PRO/PB III、Pro-Designer",
-   "convert": null,
+   "convert": {
+    "to": "AGP-3600T、GP-4601T（類比觸控）、GP-4601T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
+    "src": "S_CONV_GP2000"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22908,7 +22947,10 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；藍白單色；備份記憶體 96KB；只有序列埠，無 LAN；停售 2013/09/30，停修 2019/12/27",
    "software": "GP-PRO/PB III C-Package03",
-   "convert": null,
+   "convert": {
+    "to": "AST-3302B、GP-4301TW、GP-4301TM、GP-4301T",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23010,9 +23052,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 AC 110V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 AC 110V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2002/12/26，停修 2008/03/26",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23119,9 +23164,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2002/12/26，停修 2008/03/26",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23228,9 +23276,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2002/12/26，停修 2008/03/26",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23337,9 +23388,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 AC 110V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 AC 110V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2001/04/27，停修 2006/09/28",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23447,9 +23501,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2001/04/27，停修 2006/09/28",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23557,9 +23614,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2001/04/27，停修 2006/09/28",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23667,9 +23727,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 AC 110V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 AC 110V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2002/03/29，停修 2007/06/28",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23777,9 +23840,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2002/03/29，停修 2007/06/28",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23887,9 +23953,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2002/03/29，停修 2007/06/28",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23997,9 +24066,12 @@ window.HMI_DATA = {
     "5.01": "absent"
    },
    "statusLatest": "absent",
-   "manualNote": "電源 AC 110V；TFT 彩色 64 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
+   "manualNote": "電源 AC 110V；TFT 彩色 64 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）；停售 2002/03/29，停修 2007/06/28",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
-   "convert": null,
+   "convert": {
+    "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
+    "src": "S_CONV_GP70"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
