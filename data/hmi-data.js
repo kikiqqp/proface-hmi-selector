@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:58:05",
+ "updated": "2026-11-25 14:12:48",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -540,6 +540,10 @@ window.HMI_DATA = {
   "S_R_GP3301S": {
    "title": "替換指南 GP-3301S → GP-4301TW（GP-3301S 無 Ethernet）",
    "url": "https://www.proface.com/en/replace/gp3301s_gp4301tw"
+  },
+  "S_R_GP37W2": {
+   "title": "GP37W2-BG41-24V 原廠產品頁（停售、停修日期與替換選項）",
+   "url": "https://www.proface.com/en/product/spec/GP37W2-BG41-24V"
   }
  },
  "switches": [],
