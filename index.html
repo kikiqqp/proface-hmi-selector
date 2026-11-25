@@ -102,7 +102,7 @@ main{padding:1.25rem max(4vw,1rem) 3rem;max-width:1480px;margin:0 auto}
 .s-yes{background:var(--ok-bg);color:var(--ok)}.s-no{background:var(--no-bg);color:var(--no)}
 .s-cond,.s-ended{background:var(--cond-bg);color:var(--cond)}.s-unknown,.s-{background:var(--unk-bg);color:var(--unk)}
 .badge{font-size:.8rem;font-weight:600;border-radius:.4rem;padding:.12rem .5rem;white-space:nowrap}
-.b-full{background:var(--ok-bg);color:var(--ok)}.b-free{background:light-dark(#e0eff8,#13293a);color:var(--deep2)}.b-open-only{background:var(--cond-bg);color:var(--cond)}.b-absent{background:var(--unk-bg);color:var(--unk)}.b-eos{background:var(--no-bg);color:var(--no);font-weight:600}.b-rec{background:var(--ok-bg);color:var(--ok);font-weight:700}.b-pb3{background:light-dark(#efe7f7,#2a2036);color:light-dark(#5b3a85,#cdb6ea);font-weight:600}
+.b-full{background:var(--ok-bg);color:var(--ok)}.b-free{background:light-dark(#e0eff8,#13293a);color:var(--deep2)}.b-open-only{background:var(--cond-bg);color:var(--cond)}.b-absent{background:var(--unk-bg);color:var(--unk)}.b-eos{background:var(--no-bg);color:var(--no);font-weight:600}.b-sw{background:light-dark(#e6eefb,#18243a);color:light-dark(#2a4f8f,#a9c3f0)}.b-rec{background:var(--ok-bg);color:var(--ok);font-weight:700}.b-pb3{background:light-dark(#efe7f7,#2a2036);color:light-dark(#5b3a85,#cdb6ea);font-weight:600}
 .vers{display:inline-flex;flex-wrap:wrap;gap:.2rem}.vers .badge{font-weight:500}
 .card .act{margin-top:auto;display:flex;gap:.45rem;flex-wrap:wrap;padding-top:.25rem}
 .card .act .btn{flex:1 1 auto;justify-content:center}
@@ -292,7 +292,11 @@ const vst = (m,v) => (m.versions && m.versions[v]) || 'absent';
 const PB3 = 'PB III';
 const isPB = m => /PB\s*III/i.test(m.software || '');
 const vOk = (m,v) => v === PB3 ? isPB(m) : ['full','free'].includes(vst(m,v));
-const badge = m => isPB(m) ? `<span class="vers"><span class="badge b-pb3" title="舊硬體，開發軟體為 ${esc(m.software)}；舊專案可用 GP-Pro EX 工程轉換器轉換">PB III 舊硬體</span></span>` : `<span class="vers">${VERS.map(v => `<span class="badge b-${vst(m,v)}" title="GP-Pro EX ${esc(v)}：${esc(VLONG[vst(m,v)])}">${esc(v)} ${esc(VS[vst(m,v)])}</span>`).join('')}</span>`;
+const badge = m => isPB(m) ? `<span class="vers"><span class="badge b-pb3" title="舊硬體，開發軟體為 ${esc(m.software)}；舊專案可用 GP-Pro EX 工程轉換器轉換">PB III 舊硬體</span></span>` : `<span class="vers">${VERS.map(v => `<span class="badge b-${vst(m,v)}" title="GP-Pro EX ${esc(v)}：${esc(VLONG[vst(m,v)])}">${esc(v)} ${esc(VS[vst(m,v)])}</span>`).join('')}${swBadges(m)}</span>`;
+function swBadges(m) {
+  return [['blue','BLUE'],['bos','BOS']].map(([k, l]) => { const v = (m.soft || {})[k]; if (!v || !['yes','ended'].includes(v.s)) return '';
+    return `<span class="badge ${v.s === 'yes' ? 'b-sw' : 'b-open-only'}" title="${esc(k === 'bos' ? 'BLUE Open Studio' : 'BLUE')}：${esc(SLAB[v.s] + (v.v ? '，' + v.v : ''))}">${l} ${v.s === 'yes' ? '✓' : '舊版'}</span>`; }).join('');
+}
 const verText = m => isPB(m) ? 'GP-Pro EX 不支援，開發軟體為 ' + m.software : VERS.map(v => `${v} ${VLONG[vst(m,v)]}`).join('；');
 
 /* ---------- 比較清單 ---------- */
@@ -372,7 +376,7 @@ function renderFilters() {
    <div class="row" style="justify-content:space-between;margin-bottom:.5rem"><b>條件</b><button class="btn" id="fReset">重新選擇</button></div>
    <p class="hint f-tip">每個條件都可以複選：同一區塊選多項代表「符合其中一項即可」，不同區塊則要同時符合。不選代表不限。</p>
    ${grp('series', '系列', F.series.length, `${seriesChips(k => F.series.includes(k), 'data-f="series" data-v')}<p class="hint">不選代表全部系列。</p>`)}
-   ${grp('ver', 'GP-Pro EX 版本', F.ver.length, `<div class="chips">${VERS.map(v => chip(esc(v + ' 可開發'), F.ver.includes(v), `data-f="ver" data-v="${esc(v)}"`)).join('')}${chip('PB III 舊硬體', F.ver.includes(PB3), `data-f="ver" data-v="${PB3}"`)}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種；選「PB III 舊硬體」只列出要用 GP-PRO/PB III 開發的舊機。</p>`)}
+   ${grp('ver', '開發軟體', F.ver.length + F.sw.length, `<p class="meta">GP-Pro EX</p><div class="chips">${VERS.map(v => chip(esc(v + ' 可開發'), F.ver.includes(v), `data-f="ver" data-v="${esc(v)}"`)).join('')}</div><p class="meta">其他開發軟體</p><div class="chips">${SW_OPTS.map(([k,l]) => chip(esc(l), F.sw.includes(k), `data-f="sw" data-v="${esc(k)}"`)).join('')}${chip('PB III 舊硬體', F.ver.includes(PB3), `data-f="ver" data-v="${PB3}"`)}</div><p class="hint">可複選，符合任一項即列出。GP-Pro EX 版本只列出該版可以新建專案的機種；BLUE、BOS（BLUE Open Studio）依原廠支援機種頁，只列出目前版本可用的機種；「PB III 舊硬體」只列出要用 GP-PRO/PB III 開發的舊機。</p>`)}
    ${grp('size', '螢幕尺寸', F.size.length + F.aspect.length, `<div class="chips">${sizeBuckets.map(b => chip(b.lab, F.size.includes(b.id), `data-f="size" data-v="${b.id}"`)).join('')}</div>
       <div class="tier">畫面比例</div><div class="chips">${[['w','寬螢幕'],['n','4:3']].map(([v,l]) => chip(l, F.aspect.includes(v), `data-f="aspect" data-v="${v}"`)).join('')}</div>`)}
    ${grp('cut', '開口尺寸 (mm)', F.cut.length, `<div class="plate">${plateSvg(F.cut)}</div>
@@ -382,14 +386,13 @@ function renderFilters() {
    ${grp('iface', '介面', F.iface.length, `<div class="chips">${IFACE_OPTS.map(([k,l]) => chip(esc(l), F.iface.includes(k), `data-f="iface" data-v="${k}"`)).join('')}</div>`)}
    ${grp('touch', '觸控', F.touch.length, `<div class="chips">${TOUCH_OPTS.map(([k,l]) => chip(esc(l), F.touch.includes(k), `data-f="touch" data-v="${k}"`)).join('')}</div>`)}
    ${grp('cable', '傳輸線', F.cable.length, `<div class="chips">${CABLE_OPTS.map(([k,l]) => chip(esc(l), F.cable.includes(k), `data-f="cable" data-v="${esc(k)}"`)).join('')}</div><p class="hint">選手上有的傳輸線，列出可以用這條線傳畫面的機種。</p>`)}
-   ${grp('sw', '其他開發軟體', F.sw.length, `<div class="chips">${SW_OPTS.map(([k,l]) => chip(esc(l), F.sw.includes(k), `data-f="sw" data-v="${esc(k)}"`)).join('')}</div><p class="hint">依原廠支援機種頁，只列出目前版本可用的機種。</p>`)}
    ${grp('eos', '停售狀態', F.eos.length, `<div class="chips">${chip('排除已停售', F.eos.includes('hide'), 'data-f="eos" data-v="hide"')}</div><p class="hint">依原廠停售與推薦替換產品頁，排除停售日已過的機種。</p>`)}
    </div>
    <div class="jump"><button class="btn" id="fReset2">清除</button><button class="btn solid" id="fJump">看結果</button></div>`;
   const fi = el.querySelector('.f-in'); if (fi) fi.scrollTop = sc;
 }
 
-const SW_OPTS = [['blue','BLUE 可用'],['bos','BLUE Open Studio 可用']];
+const SW_OPTS = [['blue','BLUE 可開發'],['bos','BOS 可開發']];
 function check(m) {
   const miss = [], cond = [];
   if (F.size.length && !(m.inch && sizeBuckets.some(b => F.size.includes(b.id) && b.t(m.inch)))) miss.push('尺寸 ' + (m.inch ? m.inch + ' 吋' : '不適用'));
@@ -404,13 +407,12 @@ function check(m) {
     if (!F.touch.some(k => T[k])) miss.push('觸控 ' + (TOUCH[t] || '無'));
   }
   if (F.cable.length && !F.cable.some(k => (m.cable?.kinds || []).includes(k))) miss.push('傳輸線 ' + (m.cable ? m.cable.t : '待確認'));
-  for (const k of F.sw) if ((m.soft || {})[k]?.s !== 'yes') miss.push(SW_OPTS.find(o => o[0]===k)[1].replace(' 可用', '') + ' ' + (SLAB[(m.soft || {})[k]?.s] || '待確認'));
   if (F.eos.includes('hide') && isEOS(m)) miss.push('已停售');
   return {miss, cond};
 }
 
 function renderFind() {
-  const pool = M.filter(m => (!F.ver.length || F.ver.some(v => vOk(m, v))) && (!F.series.length || F.series.includes(m.series)));
+  const pool = M.filter(m => ((!F.ver.length && !F.sw.length) || F.ver.some(v => vOk(m, v)) || F.sw.some(k => (m.soft || {})[k]?.s === 'yes')) && (!F.series.length || F.series.includes(m.series)));
   const groups = new Map();
   for (const m of pool) {
     const r = check(m), g = isSP(m) ? 'SP|' + m.name : m.key;
@@ -758,7 +760,10 @@ function renderAbout() {
     <div class="box"><h3>標示意義</h3><table><tbody>
      ${Object.entries(SLAB).map(([k,v]) => `<tr><td><span class="pill s-${k}">${v}</span></td><td>${{yes:'原廠文件明確支援',no:'原廠文件明確不支援',cond:'需符合特定條件，詳見備註',ended:'只有較舊的 GP-Pro EX 版本支援',unknown:'尚未找到原廠明確資料'}[k]}</td></tr>`).join('')}
      ${Object.entries(VS).map(([k,v]) => `<tr><td><span class="badge b-${k}">${esc(VERS[VERS.length-1])} ${v}</span></td><td>${esc(D.status[k] || VLONG[k])}</td></tr>`).join('')}
-     <tr><td><span class="badge b-eos">已停售 2025/06/30</span></td><td>原廠停售與推薦替換產品頁列出的停售日已過，日期為最早的停售日；停修日寫在規格表</td></tr>
+     <tr><td><span class="badge b-eos">已停售</span></td><td>原廠停售與推薦替換產品頁列出的停售日已過；卡片上會附停售日，停修日寫在規格表</td></tr>
+     <tr><td><span class="badge b-sw">BLUE ✓</span></td><td>可用 BLUE 開發，版本條件寫在規格表（例如 ST6000 需 BLUE 3.1 以上）</td></tr>
+     <tr><td><span class="badge b-open-only">BLUE 舊版</span></td><td>只有較舊的 BLUE 版本支援（例如 GP4000 自 BLUE 3.1 SP1 起不支援）</td></tr>
+     <tr><td><span class="badge b-sw">BOS ✓</span></td><td>可用 BLUE Open Studio 開發</td></tr>
      <tr><td><span class="badge b-rec">原廠建議</span></td><td>舊機替換時，開口相同的機種同時是原廠建議的替換機種，排在最前面</td></tr>
      <tr><td><span class="badge b-pb3">PB III 舊硬體</span></td><td>只用於舊硬體（例如 GP2000 系列）：開發軟體為 GP-PRO/PB III，GP-Pro EX 不能直接選這台開發，所以不顯示 GP-Pro EX 版本標籤。舊專案可用 GP-Pro EX 工程轉換器轉到現行機種，對應機種寫在規格與舊機替換頁</td></tr>
     </tbody></table>
