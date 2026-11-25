@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:43:12",
+ "updated": "2026-11-25 13:43:42",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -184,13 +184,19 @@ window.HMI_DATA = {
   },
   "email": {
    "label": "E-mail 通知",
-   "desc": "",
-   "src": []
+   "desc": "可讓機台在發生警報（Alarm）、數值異常或特定位元（Bit）觸發時，透過 SMTP 協定自動發送電子郵件給維運人員，並支援附加資料取樣（CSV）或警報歷史紀錄。支援 TLS／SSL 加密與認證，GP-Pro EX 4.09.100 起提供。",
+   "src": [
+    "S_EMAIL",
+    "S_EMAIL_INTRO"
+   ]
   },
   "ipsec": {
    "label": "IPsec 加密",
-   "desc": "",
-   "src": []
+   "desc": "人機與電腦以乙太網路連線時，用 IPsec 將通訊資料加密，防止竊聽與竄改。可加密 LAN 傳送畫面、Pass-Through、GP-Viewer EX、FTP Server、Pro-face Remote HMI 等功能；電腦端需 Windows 10 以上，並在 Windows Defender 防火牆設定 IPsec。",
+   "src": [
+    "S_IPSEC",
+    "S_IPSEC_FAQ"
+   ]
   },
   "ezLan": {
    "label": "EZ LAN Adapter",
