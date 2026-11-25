@@ -1,0 +1,21 @@
+﻿系列,比對方式,比對值,傳輸線,接頭,備註,來源
+GP3000,全部,,USB A 對 USB A 專用傳輸線 CA3-USBCB-01,USB A,一般 USB 線不能使用,S_CAB_FAQ
+LT3000,全部,,USB A 對 USB A 專用傳輸線 CA3-USBCB-01,USB A,一般 USB 線不能使用,S_CAB_FAQ
+ST3000,全部,,USB A 對 USB A 專用傳輸線 CA3-USBCB-01,USB A,一般 USB 線不能使用,S_CAB_FAQ
+ST3000W,全部,,USB A 對 USB A 專用傳輸線 CA3-USBCB-01,USB A,屬 ST3000 系列；一般 USB 線不能使用,S_CAB_FAQ
+IPC,全部,,USB A 對 USB A 專用傳輸線 CA3-USBCB-01,USB A,一般 USB 線不能使用,S_CAB_FAQ
+GP4000,全部,,USB A 對 mini-B,USB mini-B|USB A,也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01,S_CAB_FAQ
+GP4000,開頭,GP-4104|GP-4105|GP-4106|GP-4107,USB A 對 mini-B,USB mini-B,不能使用 CA3-USBCB-01,S_CAB_FAQ
+SP5000,全部,,USB A 對 mini-B,USB mini-B|USB A,也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01,S_CAB_FAQ
+LT4000,全部,,USB A 對 mini-B,USB mini-B|USB A,也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01,S_CAB_FAQ
+GC4000,全部,,USB A 對 mini-B,USB mini-B,,S_USER_XLSX
+ST6000,全部,,USB A 對 micro-B,USB micro-B,,S_CAB_FAQ
+STM6000,全部,,USB A 對 micro-B,USB micro-B,,S_CAB_FAQ
+STC6000,全部,,USB A 對 micro-B,USB micro-B,,S_CAB_FAQ
+ET6000,全部,,USB A 對 micro-B,USB micro-B,,S_CAB_FAQ
+GP6000S,全部,,USB A 對 micro-B,USB micro-B,,S_CAB_GP6000S
+GP6000A,全部,,USB A 對 micro-B,USB micro-B,,S_CAB_GP6000A
+GP2000,全部,,USB-MMI-GP（相容線）,Tool,圓形 Tool 連接埠；依使用者資料，未找到原廠文件,S_USER_XLSX
+GP2000,XML群組,GP-23** Series,GPW-CB02（RS-232C）或 GPW-CB03（USB）,Tool,接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP,S_C_GP2300
+GP2000,XML群組,GP-24** Series|GP-25** Series|GP-26** Series,GPW-CB02（RS-232C）,Tool,接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP,S_C_GP2000E
+GP2000,XML群組,GP-47** Series|GP-57** Series,GPW-CB-SET 傳輸線組,Tool,接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP,S_C_GP470
