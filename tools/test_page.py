@@ -98,6 +98,12 @@ async def run(chrome):
             ok(n > 0 and n == npb, f"找機種：選 PB III 舊硬體只列舊機（{n} 張卡片）")
             ok(await pg.locator("#findRes .card:not(.near) .pills").count() == 0, "找機種：舊機沒有任何遠端功能時不顯示功能標籤")
             await pg.click("#fReset")
+            await open_group("ver")
+            await pg.click('[data-f="sw"][data-v="bos"]')
+            n = await pg.locator("#findRes .card:not(.near)").count()
+            nb = await pg.locator("#findRes .card:not(.near) .b-sw", has_text="BOS").count()
+            ok(n > 0 and n == nb, f"找機種：開發軟體選 BOS 只列 BLUE Open Studio 可開發的機種（{n} 張卡片）")
+            await pg.click("#fReset")
             if phone:
                 await pg.click("#fJump")
                 ok(await pg.locator("#filters.open").count() == 0, "手機版：按看結果關閉面板")
