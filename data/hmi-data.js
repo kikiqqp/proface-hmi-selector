@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 12:10:45",
+ "updated": "2026-11-25 12:28:45",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -357,8 +357,8 @@ window.HMI_DATA = {
    "url": "https://www.proface.com/en/product/spec/PFXET5500WAD"
   },
   "S_C_GC4000": {
-   "title": "GC4000 安裝指南（第三方網站轉載）",
-   "url": "https://manuals.online/pro-face/monitor/gc4000-series/user-manual/1nold"
+   "title": "GC4000 系列硬體手冊（簡體中文）：面板開孔尺寸",
+   "url": "https://www.proface.tech/otasuke/files/manual/gp_hard/GC4000_MM_CN-PDF.pdf"
   },
   "S_C_GPH6000": {
    "title": "GPH6000 使用手冊：安裝孔",
@@ -443,6 +443,30 @@ window.HMI_DATA = {
   "S_C_GP4000M": {
    "title": "GP4000M 系列產品頁（φ22 mm 圓孔安裝）",
    "url": "https://www.proface.com/en/product/hmi/gp4000m/top"
+  },
+  "S_C_GP4104": {
+   "title": "GP-4104 至 4107 原廠規格頁（開孔 W105 × H66，面板厚 1～5 mm）",
+   "url": "https://www.proface.com/zh-hant/product/hmi/gp4100/spec/GP4104G1D"
+  },
+  "S_C_SP5490X": {
+   "title": "SP-5490WA 原廠規格頁",
+   "url": "https://www.proface.com/en/product/spec/PFXSP5490WAD"
+  },
+  "S_C_SP5000X": {
+   "title": "SP5000X 顯示模組規格書（datasheet_sp5000x_displaymodule_en）",
+   "url": ""
+  },
+  "S_C_LT4000M": {
+   "title": "LT-4201TM／4301TM 硬體手冊（LT4243TM-MM01-ENG，2021-08）：面板開孔",
+   "url": ""
+  },
+  "S_R_LT3201A": {
+   "title": "替換指南 LT-3201A → LT-4201TM",
+   "url": "https://www.proface.com/en/replace/lt3201a_lt4201tm"
+  },
+  "S_C_ST3000CN": {
+   "title": "ST3000 系列硬體手冊（簡體中文，2007）：面板開孔尺寸",
+   "url": ""
   }
  },
  "switches": [],
