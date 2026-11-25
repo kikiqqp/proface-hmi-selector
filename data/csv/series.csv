@@ -17,3 +17,4 @@ ST3000,15,ST3000（舊）,legacy,GP-Pro EX 5.x 起停止支援。,https://www.pr
 ST3000W,16,ST3000W（舊）,legacy,,https://www.proface.com/en/product/discon/top
 HTK,17,HTK,legacy,,https://www.proface.com/en/product/hmi/top
 IPC,18,IPC／WinGP,ipc,工業電腦執行 WinGP。,https://www.proface.com/en/product/hmi/top
+GP2000,19,GP2000（舊）,legacy,GP-Pro EX 不支援，以 GP-PRO/PB III 開發；另含更早的 GP-37W2、GP-470、GP-570。,https://www.proface.com/en/product/discon/top
