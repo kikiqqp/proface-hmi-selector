@@ -1,0 +1,87 @@
+# 選型網站的自動建置與部署
+# Pull Request：只檢查 CSV，有錯會顯示紅色叉叉
+# 推送到 main：檢查通過後重建資料，提交回 repo，並部署到 GitHub Pages
+# 也可以在 Actions 頁面手動執行（Run workflow）
+# 公開網站只部署 index.html 與 data/hmi-data.js，XML、CSV、文件不會出現在網站上
+# 各 action 使用支援 Node 24 的版本（GitHub 已於 2026-09 移除 Node 20）
+
+name: 建置並部署選型網站
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: 檢查有沒有誤傳內部機密檔
+        run: |
+          if [ -f data/csv/special_switches.csv ]; then
+            echo "::error::data/csv/special_switches.csv 是內部機密資料，不可放在儲存庫，請刪除這個檔案並視情況清除提交紀錄"
+            exit 1
+          fi
+
+      - name: 由 XML 產生機種清單
+        run: python tools/xml2models.py
+
+      - name: 檢查 CSV
+        run: python tools/build.py --check
+
+      - name: 重建 data/hmi-data.js
+        run: python tools/build.py
+
+      - name: 提交更新後的資料檔
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/hmi-data.js data/models.generated.json
+          if git diff --cached --quiet; then
+            echo "資料沒有變更"
+          else
+            git commit -m "自動重建選型資料"
+            git push
+          fi
+
+      - name: 準備網站檔案（只放網頁與資料）
+        if: github.event_name != 'pull_request'
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp data/hmi-data.js _site/data/
+
+      - name: 上傳網站檔案
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
