@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:23:04",
+ "updated": "2026-11-25 13:23:49",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -21273,6 +21273,1846 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   }
+  },
+  {
+   "key": "extra|GP-23** Series|GP2300-LG41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-23** Series",
+   "name": "GP2300-LG41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Mono",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 2,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 256KB",
+   "software": "GP-PRO/PB III",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2300",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-23** Series|GP2300-SC41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-23** Series",
+   "name": "GP2300-SC41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 2,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 256KB",
+   "software": "GP-PRO/PB III",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2300",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-23** Series|GP2300-TC41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-23** Series",
+   "name": "GP2300-TC41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 2,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 256KB",
+   "software": "GP-PRO/PB III",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2300",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-23** Series|GP2301-LG41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-23** Series",
+   "name": "GP2301-LG41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Mono",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 128KB",
+   "software": "GP-PRO/PB III",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2300",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-23** Series|GP2301-SC41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-23** Series",
+   "name": "GP2301-SC41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 128KB",
+   "software": "GP-PRO/PB III",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2300",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-23** Series|GP2301-TC41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-23** Series",
+   "name": "GP2301-TC41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 128KB",
+   "software": "GP-PRO/PB III",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2300",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-24** Series|GP2400-TC41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-24** Series",
+   "name": "GP2400-TC41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 7.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
+   "software": "GP-PRO/PB III、Pro-Designer",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2000E",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-25** Series|GP2500-LG41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-25** Series",
+   "name": "GP2500-LG41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Mono",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 512KB",
+   "software": "GP-PRO/PB III、Pro-Designer",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2000E",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-25** Series|GP2500-SC41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-25** Series",
+   "name": "GP2500-SC41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 512KB",
+   "software": "GP-PRO/PB III、Pro-Designer",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2000E",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-25** Series|GP2500-TC11",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-25** Series",
+   "name": "GP2500-TC11",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB",
+   "software": "GP-PRO/PB III、Pro-Designer",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2000E",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-25** Series|GP2500-TC41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-25** Series",
+   "name": "GP2500-TC41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
+   "software": "GP-PRO/PB III、Pro-Designer",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2000E",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-26** Series|GP2600-TC11",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-26** Series",
+   "name": "GP2600-TC11",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 12.1,
+   "resolution": "SVGA",
+   "resolutionPx": "800×600",
+   "color": "Color",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB",
+   "software": "GP-PRO/PB III、Pro-Designer",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2000E",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-26** Series|GP2600-TC41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-26** Series",
+   "name": "GP2600-TC41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 12.1,
+   "resolution": "SVGA",
+   "resolutionPx": "800×600",
+   "color": "Color",
+   "touch": "",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
+   "software": "GP-PRO/PB III、Pro-Designer",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB02（RS-232C）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP2000E",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-37W2|GP37W2-BG41-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-37W2",
+   "name": "GP37W2-BG41-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Mono",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 96KB",
+   "software": "GP-PRO/PB II（依使用者資料）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "USB-MMI-GP（相容線）",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_USER_XLSX",
+    "n": "圓形 Tool 連接埠；依使用者資料，未找到原廠文件"
+   }
+  },
+  {
+   "key": "extra|GP-47** Series|GP470-EG11",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-47** Series",
+   "name": "GP470-EG11",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 8.9,
+   "resolution": "",
+   "resolutionPx": "640×400",
+   "color": "Mono",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 AC 110V；琥珀色 EL 單色顯示；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-47** Series|GP470-EG21-24VP",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-47** Series",
+   "name": "GP470-EG21-24VP",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 8.9,
+   "resolution": "",
+   "resolutionPx": "640×400",
+   "color": "Mono",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-47** Series|GP470-EG31-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-47** Series",
+   "name": "GP470-EG31-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 8.9,
+   "resolution": "",
+   "resolutionPx": "640×400",
+   "color": "Mono",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-57** Series|GP570-SC11",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-57** Series",
+   "name": "GP570-SC11",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 AC 110V；STN 彩色 8 色；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-57** Series|GP570-SC21-24VP",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-57** Series",
+   "name": "GP570-SC21-24VP",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-57** Series|GP570-SC31-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-57** Series",
+   "name": "GP570-SC31-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-57** Series|GP570-TC11",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-57** Series",
+   "name": "GP570-TC11",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 AC 110V；TFT 彩色 8 色；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-57** Series|GP570-TC21-24VP",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-57** Series",
+   "name": "GP570-TC21-24VP",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-57** Series|GP570-TC31-24V",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-57** Series",
+   "name": "GP570-TC31-24V",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   }
+  },
+  {
+   "key": "extra|GP-57** Series|GP571-TC11",
+   "seriesXml": "",
+   "series": "GP2000",
+   "group": "GP-57** Series",
+   "name": "GP571-TC11",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "",
+   "ethernet": null,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422"
+    }
+   ],
+   "usbA": 0,
+   "usbMiniB": null,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": null,
+   "webXml": null,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 1,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": null,
+   "revisions": [],
+   "firstSeen": "人工新增",
+   "inVersions": [],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent"
+   },
+   "statusLatest": "absent",
+   "manualNote": "電源 AC 110V；TFT 彩色 64 色；備份記憶體 32KB",
+   "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "features": {
+    "remoteHmi": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "GPW-CB-SET 傳輸線組",
+    "kinds": [
+     "Tool"
+    ],
+    "src": "S_C_GP470",
+    "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
    }
   }
  ]
