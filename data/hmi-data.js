@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:24:16",
+ "updated": "2026-11-25 13:24:47",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -21350,7 +21350,12 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 156,
+    "h": 123.5,
+    "src": "S_C_GP2300"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -21437,7 +21442,12 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 156,
+    "h": 123.5,
+    "src": "S_C_GP2300"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -21524,7 +21534,12 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 156,
+    "h": 123.5,
+    "src": "S_C_GP2300"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -21607,7 +21622,12 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 156,
+    "h": 123.5,
+    "src": "S_C_GP2300"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -21690,7 +21710,12 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 156,
+    "h": 123.5,
+    "src": "S_C_GP2300"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -21773,7 +21798,12 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 156,
+    "h": 123.5,
+    "src": "S_C_GP2300"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -21860,7 +21890,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 204.5,
+    "h": 159.5,
+    "t": "1.6～10",
+    "src": "S_C_GP2000E"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -21947,7 +21983,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～10",
+    "src": "S_C_GP2000E"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22034,7 +22076,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～10",
+    "src": "S_C_GP2000E"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22121,7 +22169,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～10",
+    "src": "S_C_GP2000E"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22208,7 +22262,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～10",
+    "src": "S_C_GP2000E"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22295,7 +22355,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～10",
+    "src": "S_C_GP2000E"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22382,7 +22448,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～10",
+    "src": "S_C_GP2000E"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22465,7 +22537,14 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 191.5,
+    "h": 141.5,
+    "verify": true,
+    "n": "依使用者資料",
+    "src": "S_USER_XLSX"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22548,7 +22627,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 259,
+    "h": 201,
+    "t": "1.6～5",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22631,7 +22716,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 259,
+    "h": 201,
+    "t": "1.6～5",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22714,7 +22805,13 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 259,
+    "h": 201,
+    "t": "1.6～5",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22797,7 +22894,14 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～5",
+    "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22880,7 +22984,14 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～5",
+    "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -22963,7 +23074,14 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～5",
+    "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -23046,7 +23164,14 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～5",
+    "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -23129,7 +23254,14 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～5",
+    "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -23212,7 +23344,14 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～5",
+    "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
@@ -23295,7 +23434,14 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [],
-   "cutout": null,
+   "cutout": {
+    "mount": "rect",
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～5",
+    "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
+    "src": "S_C_GP470"
+   },
    "replace": [],
    "switches": [],
    "cable": {
