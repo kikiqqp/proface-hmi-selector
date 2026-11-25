@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 14:36:30",
+ "updated": "2026-11-25 14:37:15",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -21503,7 +21503,26 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP2300"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_GP2300_LG41_24V",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_GP2300_LG41_24V",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_GP2300_LG41_24V",
+     "n": "有 SD 卡槽"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
@@ -21596,7 +21615,14 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP2300"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_GP2300_SC41_24V",
+     "n": "有 SD 卡槽"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
@@ -21689,7 +21715,14 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP2300"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_GP2300_TC41_24V",
+     "n": "有 SD 卡槽"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
@@ -21778,7 +21811,20 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP2300"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "STM-6400WA（PFXSTM6400WADE）",
+     "sameCutout": null,
+     "src": "S_DC_GP2301_LG41_24V",
+     "n": "原廠作為 GP4000M 的建議替代；DC 電源；TFT 彩色；解析度不同；詳見替換手冊；原廠頁寫開口相同，但 STM6000 為 22 mm 圓孔安裝，請以替換手冊確認"
+    },
+    {
+     "to": "GP-4301TW（PFXGP4301TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP2301_LG41_24V",
+     "n": "無 SD 卡槽"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
@@ -21867,7 +21913,20 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP2300"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "STM-6400WA（PFXSTM6400WADE）",
+     "sameCutout": null,
+     "src": "S_DC_GP2301_SC41_24V",
+     "n": "原廠作為 GP4000M 的建議替代；DC 電源；TFT 彩色；解析度不同；詳見替換手冊；原廠頁寫開口相同，但 STM6000 為 22 mm 圓孔安裝，請以替換手冊確認"
+    },
+    {
+     "to": "GP-4301TW（PFXGP4301TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP2301_SC41_24V",
+     "n": "無 SD 卡槽"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
@@ -21956,7 +22015,26 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP2300"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_GP2301_TC41_24V",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_GP2301_TC41_24V",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_GP2301_TC41_24V",
+     "n": "有 SD 卡槽"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）或 GPW-CB03（USB）",
@@ -22050,7 +22128,13 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_GP2000E"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4401T（PFXGP4401TAD）",
+     "sameCutout": true,
+     "src": "S_DC_GP2400_TC41_24V"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）",
@@ -22144,7 +22228,32 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_GP2000E"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6600WA（PFXST6600WADE）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_LG41_24V",
+     "n": "DC 電源；12.1 吋寬螢幕 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "ST-6500TA（PFXST6500TADE）",
+     "sameCutout": true,
+     "src": "S_DC_GP2500_LG41_24V",
+     "n": "DC 電源；10.4 吋 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_LG41_24V",
+     "n": "TFT 彩色；有轉接框可用；DC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_LG41_24V",
+     "n": "TFT 彩色，可用單色模式；有轉接框可用；DC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）",
@@ -22238,7 +22347,38 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_GP2000E"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6600WA（PFXST6600WADE）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_SC41_24V",
+     "n": "DC 電源；12.1 吋寬螢幕 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "ST-6500TA（PFXST6500TADE）",
+     "sameCutout": true,
+     "src": "S_DC_GP2500_SC41_24V",
+     "n": "DC 電源；10.4 吋 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD / PFXGP4501TAD）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_SC41_24V",
+     "n": "TFT 彩色；有轉接框可用；DC 電源；PFXGP4501TMD 支援兩點觸控；PFXGP4501TAD 不支援兩點觸控"
+    },
+    {
+     "to": "SP-5600TP + SP-5B10（PFXSP5600TPD+PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_GP2500_SC41_24V",
+     "n": "與 GP4000 的差異請看原廠說明"
+    },
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD+PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_SC41_24V",
+     "n": "有轉接框可用；與 GP4000 的差異請看原廠說明"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）",
@@ -22332,7 +22472,38 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_GP2000E"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_TC11",
+     "n": "有轉接框可用；AC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMA）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_TC11",
+     "n": "有轉接框可用；AC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP2500_TC11",
+     "n": "僅 DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "SP-5600TP + SP-5B10（PFXSP5600TPD+PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_GP2500_TC11",
+     "n": "僅 DC 電源；與 GP4000 的差異請看原廠說明"
+    },
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD+PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_TC11",
+     "n": "僅 DC 電源；有轉接框可用；與 GP4000 的差異請看原廠說明"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）",
@@ -22426,7 +22597,38 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_GP2000E"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_TC41_24V",
+     "n": "有轉接框可用；DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_TC41_24V",
+     "n": "有轉接框可用；DC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP2500_TC41_24V",
+     "n": "不支援兩點觸控"
+    },
+    {
+     "to": "SP-5600TP + SP-5B10（PFXSP5600TPD+PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_GP2500_TC41_24V",
+     "n": "與 GP4000 的差異請看原廠說明"
+    },
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD+PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_GP2500_TC41_24V",
+     "n": "有轉接框可用；與 GP4000 的差異請看原廠說明"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）",
@@ -22520,7 +22722,26 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_GP2000E"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4601T（PFXGP4601TAA）",
+     "sameCutout": true,
+     "src": "S_DC_GP2600_TC11",
+     "n": "不支援兩點觸控"
+    },
+    {
+     "to": "GP-4601T（PFXGP4601TMA）",
+     "sameCutout": true,
+     "src": "S_DC_GP2600_TC11",
+     "n": "支援兩點觸控"
+    },
+    {
+     "to": "SP-5600TP + SP-5B10（PFXSP5600TPD+PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_GP2600_TC11",
+     "n": "僅 DC 電源；與 GP4000 的差異請看原廠說明"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）",
@@ -22614,7 +22835,26 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_GP2000E"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4601T（PFXGP4601TAD）",
+     "sameCutout": true,
+     "src": "S_DC_GP2600_TC41_24V",
+     "n": "不支援兩點觸控"
+    },
+    {
+     "to": "GP-4601T（PFXGP4601TMD）",
+     "sameCutout": true,
+     "src": "S_DC_GP2600_TC41_24V",
+     "n": "支援兩點觸控"
+    },
+    {
+     "to": "SP-5600TP + SP-5B10（PFXSP5600TPD+PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_GP2600_TC41_24V",
+     "n": "與 GP4000 的差異請看原廠說明"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB02（RS-232C）",
@@ -22716,7 +22956,7 @@ window.HMI_DATA = {
      "to": "GP-4301TW（PFXGP4301TADW）",
      "sameCutout": false,
      "src": "S_R_GP37W2",
-     "n": "開口不同，原廠有轉接框 CA4-ATM5-01；TFT 彩色，可用單色模式"
+     "n": "原廠有轉接框 CA4-ATM5-01；TFT 彩色，可用單色模式"
     }
    ],
    "switches": [],
@@ -22808,7 +23048,26 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": true,
+     "src": "S_DC_GP470_EG11",
+     "n": "TFT 彩色；可用單色模式"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMA）",
+     "sameCutout": true,
+     "src": "S_DC_GP470_EG11",
+     "n": "TFT 彩色；可用單色模式；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": false,
+     "src": "S_DC_GP470_EG11",
+     "n": "TFT 彩色；可用單色模式；僅 DC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -22898,7 +23157,26 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": true,
+     "src": "S_DC_GP470_EG21_24VP",
+     "n": "TFT 彩色；可用單色模式"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD）",
+     "sameCutout": true,
+     "src": "S_DC_GP470_EG21_24VP",
+     "n": "TFT 彩色；可用單色模式；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": false,
+     "src": "S_DC_GP470_EG21_24VP",
+     "n": "TFT 彩色；可用單色模式；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -22988,7 +23266,26 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": true,
+     "src": "S_DC_GP470_EG31_24V",
+     "n": "TFT 彩色；可用單色模式"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD）",
+     "sameCutout": true,
+     "src": "S_DC_GP470_EG31_24V",
+     "n": "TFT 彩色；可用單色模式；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": false,
+     "src": "S_DC_GP470_EG31_24V",
+     "n": "TFT 彩色；可用單色模式；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -23079,7 +23376,26 @@ window.HMI_DATA = {
     "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP570_SC11",
+     "n": "僅 DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMA）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_SC11",
+     "n": "有轉接框可用；AC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_SC11",
+     "n": "有轉接框可用；AC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -23170,7 +23486,26 @@ window.HMI_DATA = {
     "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP570_SC21_24VP",
+     "n": "DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_SC21_24VP",
+     "n": "有轉接框可用；DC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_SC21_24VP",
+     "n": "有轉接框可用；DC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -23261,7 +23596,26 @@ window.HMI_DATA = {
     "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP570_SC31_24V",
+     "n": "DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_SC31_24V",
+     "n": "有轉接框可用；DC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_SC31_24V",
+     "n": "有轉接框可用；DC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -23352,7 +23706,26 @@ window.HMI_DATA = {
     "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP570_TC11",
+     "n": "僅 DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMA）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_TC11",
+     "n": "有轉接框可用；AC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_TC11",
+     "n": "有轉接框可用；AC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -23443,7 +23816,26 @@ window.HMI_DATA = {
     "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP570_TC21_24VP",
+     "n": "DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_TC21_24VP",
+     "n": "有轉接框可用；DC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_TC21_24VP",
+     "n": "有轉接框可用；DC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -23534,7 +23926,26 @@ window.HMI_DATA = {
     "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP570_TC31_24V",
+     "n": "DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMD）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_TC31_24V",
+     "n": "有轉接框可用；DC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": false,
+     "src": "S_DC_GP570_TC31_24V",
+     "n": "有轉接框可用；DC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
@@ -23625,7 +24036,26 @@ window.HMI_DATA = {
     "n": "手冊標示 302 × 228（±0.5），與 301.5 × 227.5（+1／-0）為相同範圍",
     "src": "S_C_GP470"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4501TW（PFXGP4501TADW）",
+     "sameCutout": true,
+     "src": "S_DC_GP571_TC11",
+     "n": "僅 DC 電源；不支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TMA）",
+     "sameCutout": false,
+     "src": "S_DC_GP571_TC11",
+     "n": "有轉接框可用；AC 電源；支援兩點觸控"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": false,
+     "src": "S_DC_GP571_TC11",
+     "n": "有轉接框可用；AC 電源；不支援兩點觸控"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "GPW-CB-SET 傳輸線組",
