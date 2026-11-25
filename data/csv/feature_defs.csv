@@ -4,6 +4,6 @@ gpViewer,GP-Viewer EX,Windows 電腦端遠端監看操作。每台人機需一�
 proFaceConnect,Pro-face Connect,跨網路安全遠端連線（人機可登錄為 SiteManager）。,S_PFC
 ftp,FTP Server,人機內建 FTP，可遠端存取 SD／USB 檔案。,
 web,Web Server,瀏覽器存取人機。GP-Pro EX 4.09.450 以後版本已不支援。,
-email,E-mail 通知,,
-ipsec,IPsec 加密,,
+email,E-mail 通知,可讓機台在發生警報（Alarm）、數值異常或特定位元（Bit）觸發時，透過 SMTP 協定自動發送電子郵件給維運人員，並支援附加資料取樣（CSV）或警報歷史紀錄。支援 TLS／SSL 加密與認證，GP-Pro EX 4.09.100 起提供。,S_EMAIL|S_EMAIL_INTRO
+ipsec,IPsec 加密,人機與電腦以乙太網路連線時，用 IPsec 將通訊資料加密，防止竊聽與竄改。可加密 LAN 傳送畫面、Pass-Through、GP-Viewer EX、FTP Server、Pro-face Remote HMI 等功能；電腦端需 Windows 10 以上，並在 Windows Defender 防火牆設定 IPsec。,S_IPSEC|S_IPSEC_FAQ
 ezLan,EZ LAN Adapter,以轉接器增加一個 LAN 埠。,
