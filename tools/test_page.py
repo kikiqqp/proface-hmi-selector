@@ -96,6 +96,7 @@ async def run(chrome):
             n = await pg.locator("#findRes .card:not(.near)").count()
             npb = await pg.locator("#findRes .card:not(.near) .b-pb3").count()
             ok(n > 0 and n == npb, f"找機種：選 PB III 舊硬體只列舊機（{n} 張卡片）")
+            ok(await pg.locator("#findRes .card:not(.near) .pills").count() == 0, "找機種：舊機沒有任何遠端功能時不顯示功能標籤")
             await pg.click("#fReset")
             if phone:
                 await pg.click("#fJump")
