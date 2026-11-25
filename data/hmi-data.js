@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:21:21",
+ "updated": "2026-11-25 13:21:59",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -466,6 +466,34 @@ window.HMI_DATA = {
   },
   "S_C_ST3000CN": {
    "title": "ST3000 系列硬體手冊（簡體中文，2007）：面板開孔尺寸",
+   "url": ""
+  },
+  "S_CAB_FAQ": {
+   "title": "Pro-face FAQ：畫面傳送用 USB 傳輸線型式（日文）",
+   "url": "https://www.se.com/jp/ja/faqs/FA60611"
+  },
+  "S_CAB_GP6000S": {
+   "title": "GP6000 Standard 使用手冊：配件",
+   "url": "https://www.proface.com/data/ql/GP6000-STD/GP6000%20Series%20Standard%20Model%20User%20Guide/English/BM_GP6000%20Series%20Standard%20User%20Guide_DD00627115_files/Accessories-9977B12B.html"
+  },
+  "S_CAB_GP6000A": {
+   "title": "GP6000 Advanced 使用手冊：配件",
+   "url": "https://www.proface.com/data/ql/GP6000/GP6000%20Series%20Advanced%20Model%20User%20Guide/English/BM_GP6000%20Series%20Advanced%20Model%20User%20Guide_DD00729816_files/Accessories-9977B12B.html"
+  },
+  "S_C_GP2300": {
+   "title": "GP-2300／2301 硬體手冊（簡體中文，GP2300-MM21-CHS，2007）",
+   "url": ""
+  },
+  "S_C_GP2000E": {
+   "title": "GP-2400／2500／2600 Series User Manual（Pro-Designer 版，2002）",
+   "url": ""
+  },
+  "S_USER_XLSX": {
+   "title": "使用者提供的 PROFACE 機種整理表（PROFACE.xlsx）",
+   "url": ""
+  },
+  "S_C_GP470": {
+   "title": "GP-470／570 Series User's Manual（GP470570-MM21-ENG）",
    "url": ""
   }
  },
