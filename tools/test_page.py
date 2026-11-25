@@ -166,6 +166,7 @@ async def run(chrome):
             note = await pg.locator("#rDetail .near-note").inner_text()
             n = await pg.locator("#rDetail .card").count()
             ok("不是同規格" in note and n >= 2, f"舊機替換：GP37W2 無同開口，明確標示只是相近，列出 {n} 款")
+            ok("AST-3302B" in await pg.locator("#rDetail").inner_text() and "STM-6400WA" in await pg.locator("#rDetail").inner_text(), "舊機替換：GP37W2 列出原廠替換與 GP-Pro EX 專案轉換機種")
             ok(await pg.locator("#rDetail h2 + .row .b-pb3").count() == 1 and await pg.locator("#rDetail h2 + .row .b-absent").count() == 0, "舊機替換：GP2000 只顯示 PB III 舊硬體標籤")
             await pg.screenshot(path=str(OUT / f"{tag}_相近開口.png"), full_page=True)
             await pg.click("#rReset")
