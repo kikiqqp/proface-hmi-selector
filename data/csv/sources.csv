@@ -84,3 +84,29 @@ S_ETH_GP70,GP70 系列乙太網路介面單元 GP070-ET41 使用手冊（適用 
 S_LAN_GP3300,GP-3300／3400 安裝指南（AGP-3301*、AGP-3302B 無 LAN）,https://www.proface.tech/otasuke/files/manual/gp_hard/AGP3300_3400-MT02E-BTH.pdf
 S_R_GP3301S,替換指南 GP-3301S → GP-4301TW（GP-3301S 無 Ethernet）,https://www.proface.com/en/replace/gp3301s_gp4301tw
 S_R_GP37W2,GP37W2-BG41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP37W2-BG41-24V
+S_DC_GP2300_LG41_24V,GP2300-LG41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2300-LG41-24V
+S_DC_GP2300_SC41_24V,GP2300-SC41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2300-SC41-24V
+S_DC_GP2300_TC41_24V,GP2300-TC41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2300-TC41-24V
+S_DC_GP2301_LG41_24V,GP2301-LG41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2301-LG41-24V
+S_DC_GP2301_SC41_24V,GP2301-SC41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2301-SC41-24V
+S_DC_GP2301_TC41_24V,GP2301-TC41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2301-TC41-24V
+S_DC_GP2400_TC41_24V,GP2400-TC41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2400-TC41-24V
+S_DC_GP2500_LG41_24V,GP2500-LG41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2500-LG41-24V
+S_DC_GP2500_SC41_24V,GP2500-SC41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2500-SC41-24V
+S_DC_GP2500_TC11,GP2500-TC11 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2500-TC11
+S_DC_GP2500_TC41_24V,GP2500-TC41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2500-TC41-24V
+S_DC_GP2600_TC11,GP2600-TC11 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2600-TC11
+S_DC_GP2600_TC41_24V,GP2600-TC41-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP2600-TC41-24V
+S_DC_GP470_EG11,GP470-EG11 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP470-EG11
+S_DC_GP470_EG21_24VP,GP470-EG21-24VP 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP470-EG21-24VP
+S_DC_GP470_EG31_24V,GP470-EG31-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP470-EG31-24V
+S_DC_GP570_SC11,GP570-SC11 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP570-SC11
+S_DC_GP570_SC21_24VP,GP570-SC21-24VP 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP570-SC21-24VP
+S_DC_GP570_SC31_24V,GP570-SC31-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP570-SC31-24V
+S_DC_GP570_TC11,GP570-TC11 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP570-TC11
+S_DC_GP570_TC21_24VP,GP570-TC21-24VP 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP570-TC21-24VP
+S_DC_GP570_TC31_24V,GP570-TC31-24V 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP570-TC31-24V
+S_DC_GP571_TC11,GP571-TC11 原廠產品頁（停售、停修日期與替換選項）,https://www.proface.com/en/product/spec/GP571-TC11
+S_CONV_OV,GP-Pro EX 手冊 4.1.1 轉換前後的機種名稱（PB III 專案需先存成 .prw 再轉換）,https://www.proface.tech/otasuke/files/manual/gpproex/new/refer/mergedProjects/update/update_ov_compatibledisplayunits.htm
+S_CONV_GP2000,GP-Pro EX 手冊 4.1.1.2 GP2000／GP2000H 系列轉換對應機種,https://www.proface.tech/otasuke/files/manual/gpproex/new/refer/mergedProjects/update/update_mm_gp2000_h.htm
+S_CONV_GP70,GP-Pro EX 手冊 4.1.1.1 GP70／77R 系列轉換對應機種,https://www.proface.tech/otasuke/files/manual/gpproex/new/refer/mergedProjects/update/update_mm_gp70_77r.htm
