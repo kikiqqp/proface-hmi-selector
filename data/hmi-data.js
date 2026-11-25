@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:24:47",
+ "updated": "2026-11-25 13:29:51",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -22508,7 +22508,7 @@ window.HMI_DATA = {
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 96KB",
-   "software": "GP-PRO/PB II（依使用者資料）",
+   "software": "GP-PRO/PB III",
    "features": {
     "remoteHmi": {
      "s": "no",
