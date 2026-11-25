@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 14:36:03",
+ "updated": "2026-11-25 14:36:30",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -21468,6 +21468,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 256KB；LAN 為 10BASE-T",
    "software": "GP-PRO/PB III",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21560,6 +21561,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 256KB；LAN 為 10BASE-T",
    "software": "GP-PRO/PB III",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21652,6 +21654,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 256KB；LAN 為 10BASE-T",
    "software": "GP-PRO/PB III",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21740,6 +21743,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
    "software": "GP-PRO/PB III",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21828,6 +21832,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
    "software": "GP-PRO/PB III",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -21916,6 +21921,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
    "software": "GP-PRO/PB III",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22008,6 +22014,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
    "software": "GP-PRO/PB III、Pro-Designer",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22101,6 +22108,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 512KB",
    "software": "GP-PRO/PB III、Pro-Designer",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22194,6 +22202,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 512KB",
    "software": "GP-PRO/PB III、Pro-Designer",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22287,6 +22296,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB",
    "software": "GP-PRO/PB III、Pro-Designer",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22380,6 +22390,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
    "software": "GP-PRO/PB III、Pro-Designer",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22473,6 +22484,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB",
    "software": "GP-PRO/PB III、Pro-Designer",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22566,6 +22578,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
    "software": "GP-PRO/PB III、Pro-Designer",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22655,6 +22668,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；藍白單色；備份記憶體 96KB；只有序列埠，無 LAN；停售 2013/09/30，停修 2019/12/27",
    "software": "GP-PRO/PB III C-Package03",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22758,6 +22772,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 AC 110V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22847,6 +22862,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -22936,6 +22952,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23025,6 +23042,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 AC 110V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23115,6 +23133,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23205,6 +23224,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23295,6 +23315,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 AC 110V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23385,6 +23406,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23475,6 +23497,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -23565,6 +23588,7 @@ window.HMI_DATA = {
    "statusLatest": "absent",
    "manualNote": "電源 AC 110V；TFT 彩色 64 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
+   "convert": null,
    "features": {
     "remoteHmi": {
      "s": "no",
