@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 12:28:45",
+ "updated": "2026-11-25 12:29:18",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -5952,8 +5952,11 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "SP5000X 戶外型顯示器，待查"
+    "w": 190,
+    "h": 135,
+    "t": "1.6～5",
+    "n": "SP5000X 戶外型顯示器",
+    "src": "S_C_SP5490X"
    },
    "replace": [],
    "switches": []
@@ -6041,8 +6044,11 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "SP5000X 戶外型顯示器，待查"
+    "w": 295,
+    "h": 217,
+    "t": "1.6～5",
+    "n": "SP5000X 戶外型顯示器",
+    "src": "S_C_SP5000X"
    },
    "replace": [],
    "switches": []
@@ -6130,8 +6136,11 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "SP5000X 戶外型顯示器，待查"
+    "w": 394,
+    "h": 250,
+    "t": "1.6～5",
+    "n": "SP5000X 戶外型顯示器",
+    "src": "S_C_SP5000X"
    },
    "replace": [],
    "switches": []
@@ -6214,9 +6223,8 @@ window.HMI_DATA = {
     "mount": "rect",
     "w": 105,
     "h": 66,
-    "verify": true,
-    "n": "依 GP-4114T 轉接框說明推定",
-    "src": "S_C_GP4100"
+    "t": "1～5",
+    "src": "S_C_GP4104"
    },
    "replace": [
     {
@@ -6311,9 +6319,8 @@ window.HMI_DATA = {
     "mount": "rect",
     "w": 105,
     "h": 66,
-    "verify": true,
-    "n": "依 GP-4114T 轉接框說明推定",
-    "src": "S_C_GP4100"
+    "t": "1～5",
+    "src": "S_C_GP4104"
    },
    "replace": [
     {
@@ -6408,9 +6415,8 @@ window.HMI_DATA = {
     "mount": "rect",
     "w": 105,
     "h": 66,
-    "verify": true,
-    "n": "依 GP-4114T 轉接框說明推定",
-    "src": "S_C_GP4100"
+    "t": "1～5",
+    "src": "S_C_GP4104"
    },
    "replace": [
     {
@@ -6505,9 +6511,8 @@ window.HMI_DATA = {
     "mount": "rect",
     "w": 105,
     "h": 66,
-    "verify": true,
-    "n": "依 GP-4114T 轉接框說明推定",
-    "src": "S_C_GP4100"
+    "t": "1～5",
+    "src": "S_C_GP4104"
    },
    "replace": [
     {
@@ -8374,8 +8379,11 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "待查"
+    "w": 259,
+    "h": 201,
+    "t": "1.6～5",
+    "n": "與 GP-4501T 相同",
+    "src": "S_FIELD"
    },
    "replace": [],
    "switches": []
@@ -8934,8 +8942,11 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "待查"
+    "w": 301.5,
+    "h": 227.5,
+    "t": "1.6～5",
+    "n": "與 GP-4601T 相同",
+    "src": "S_FIELD"
    },
    "replace": [],
    "switches": []
@@ -11140,8 +11151,10 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "round",
-    "verify": true,
-    "n": "模組型圓孔安裝，孔徑待查"
+    "d": 22.5,
+    "t": "1.5～6",
+    "n": "孔徑 22.2 至 22.5 mm，鋼板 1.5～6 mm、玻纖強化塑膠 3～6 mm；可加防轉配件",
+    "src": "S_C_LT4000M"
    },
    "replace": [],
    "switches": []
@@ -11227,8 +11240,10 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "round",
-    "verify": true,
-    "n": "模組型圓孔安裝，孔徑待查"
+    "d": 22.5,
+    "t": "1.5～6",
+    "n": "孔徑 22.2 至 22.5 mm，鋼板 1.5～6 mm、玻纖強化塑膠 3～6 mm；可加防轉配件",
+    "src": "S_C_LT4000M"
    },
    "replace": [],
    "switches": []
@@ -11314,8 +11329,10 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "round",
-    "verify": true,
-    "n": "模組型圓孔安裝，孔徑待查"
+    "d": 22.5,
+    "t": "1.5～6",
+    "n": "孔徑 22.2 至 22.5 mm，鋼板 1.5～6 mm、玻纖強化塑膠 3～6 mm；可加防轉配件",
+    "src": "S_C_LT4000M"
    },
    "replace": [],
    "switches": []
@@ -11401,8 +11418,10 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "round",
-    "verify": true,
-    "n": "模組型圓孔安裝，孔徑待查"
+    "d": 22.5,
+    "t": "1.5～6",
+    "n": "孔徑 22.2 至 22.5 mm，鋼板 1.5～6 mm、玻纖強化塑膠 3～6 mm；可加防轉配件",
+    "src": "S_C_LT4000M"
    },
    "replace": [],
    "switches": []
@@ -11660,7 +11679,7 @@ window.HMI_DATA = {
     "w": 190,
     "h": 135,
     "t": "1.5～10",
-    "verify": true,
+    "n": "公差 W ±1、H ±0.7 mm",
     "src": "S_C_GC4000"
    },
    "replace": [],
@@ -11747,7 +11766,7 @@ window.HMI_DATA = {
     "w": 190,
     "h": 135,
     "t": "1.5～10",
-    "verify": true,
+    "n": "公差 W ±1、H ±0.7 mm",
     "src": "S_C_GC4000"
    },
    "replace": [],
@@ -11834,7 +11853,7 @@ window.HMI_DATA = {
     "w": 255,
     "h": 185,
     "t": "1.5～10",
-    "verify": true,
+    "n": "公差 W ±1.8、H +1 mm",
     "src": "S_C_GC4000"
    },
    "replace": [],
@@ -16560,8 +16579,9 @@ window.HMI_DATA = {
    ],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "待查"
+    "w": 118.5,
+    "h": 92.5,
+    "src": "S_R_LT3201A"
    },
    "replace": [],
    "switches": []
@@ -17773,8 +17793,11 @@ window.HMI_DATA = {
    "featureSrc": [],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "待查"
+    "w": 156,
+    "h": 123.5,
+    "t": "1.6～5",
+    "n": "與 ST-3300 系列相同",
+    "src": "S_C_ST3000CN"
    },
    "replace": [],
    "switches": []
@@ -17857,8 +17880,11 @@ window.HMI_DATA = {
    "featureSrc": [],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "待查"
+    "w": 156,
+    "h": 123.5,
+    "t": "1.6～5",
+    "n": "與 ST-3300 系列相同",
+    "src": "S_C_ST3000CN"
    },
    "replace": [],
    "switches": []
@@ -17941,8 +17967,11 @@ window.HMI_DATA = {
    "featureSrc": [],
    "cutout": {
     "mount": "rect",
-    "verify": true,
-    "n": "待查"
+    "w": 259,
+    "h": 201,
+    "t": "1.6～10",
+    "n": "與 ST-3500 系列相同",
+    "src": "S_C_ST3000CN"
    },
    "replace": [],
    "switches": []
@@ -18024,8 +18053,11 @@ window.HMI_DATA = {
    "featureSrc": [],
    "cutout": {
     "mount": "rect",
+    "w": 156,
+    "h": 123.5,
     "verify": true,
-    "n": "待查"
+    "n": "依使用者提供：與 3300 系列 5.7 吋相同；未找到原廠文件",
+    "src": "S_FIELD"
    },
    "replace": [],
    "switches": []
