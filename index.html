@@ -190,7 +190,7 @@ footer{color:var(--muted);font-size:.85rem;padding:0 max(4vw,1rem) 2rem;max-widt
   <div class="grid">
    <aside class="side filters" id="filters" aria-label="篩選條件"></aside>
    <div>
-    <div class="fbar"><button class="fopen" id="fOpen" aria-label="開啟篩選條件"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 5h18l-7 8v5l-4 2v-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="ft">篩選條件</span><span class="fc" id="fCnt"></span><span class="fgo">點此設定 ›</span></button><span class="meta" id="fNum"></span></div>
+    <div class="fbar"><button class="fopen" id="fOpen" aria-label="開啟篩選條件"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M3 5h18l-7 8v5l-4 2v-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg><span class="ft">篩選條件</span><span class="fc" id="fCnt"></span><span class="fgo">點此設定 ›</span></button><span class="meta" id="fNum"></span><button class="btn" id="fResetBar" hidden>重新選擇</button></div>
     <div id="findRes"></div>
    </div>
   </div>
@@ -368,6 +368,7 @@ function renderFilters() {
   el.innerHTML = `
    <div class="f-head"><b>篩選條件</b><button class="btn" id="fClose">關閉</button></div>
    <div class="f-in">
+   <div class="row" style="justify-content:space-between;margin-bottom:.5rem"><b>條件</b><button class="btn" id="fReset">重新選擇</button></div>
    <p class="hint f-tip">每個條件都可以複選：同一區塊選多項代表「符合其中一項即可」，不同區塊則要同時符合。不選代表不限。</p>
    ${grp('series', '系列', F.series.length, `${seriesChips(k => F.series.includes(k), 'data-f="series" data-v')}<p class="hint">不選代表全部系列。</p>`)}
    ${grp('ver', 'GP-Pro EX 版本', F.ver.length, `<div class="chips">${VERS.map(v => chip(esc(v + ' 可開發'), F.ver.includes(v), `data-f="ver" data-v="${esc(v)}"`)).join('')}${chip('PB III 舊硬體', F.ver.includes(PB3), `data-f="ver" data-v="${PB3}"`)}</div><p class="hint">選了版本，只列出該版本可以新建專案的機種；選「PB III 舊硬體」只列出 GP-Pro EX 不支援、需用 GP-PRO/PB III 的舊機。</p>`)}
@@ -380,7 +381,6 @@ function renderFilters() {
    ${grp('iface', '介面', F.iface.length, `<div class="chips">${IFACE_OPTS.map(([k,l]) => chip(esc(l), F.iface.includes(k), `data-f="iface" data-v="${k}"`)).join('')}</div>`)}
    ${grp('touch', '觸控', F.touch.length, `<div class="chips">${TOUCH_OPTS.map(([k,l]) => chip(esc(l), F.touch.includes(k), `data-f="touch" data-v="${k}"`)).join('')}</div>`)}
    ${grp('cable', '傳輸線', F.cable.length, `<div class="chips">${CABLE_OPTS.map(([k,l]) => chip(esc(l), F.cable.includes(k), `data-f="cable" data-v="${esc(k)}"`)).join('')}</div><p class="hint">選手上有的傳輸線，列出可以用這條線傳畫面的機種。</p>`)}
-   <div class="row" style="padding:1rem 0 .25rem"><button class="btn" id="fReset">清除所有條件</button></div>
    </div>
    <div class="jump"><button class="btn" id="fReset2">清除</button><button class="btn solid" id="fJump">看結果</button></div>`;
   const fi = el.querySelector('.f-in'); if (fi) fi.scrollTop = sc;
@@ -440,10 +440,11 @@ function renderFind() {
   const j = $('#fJump'); if (j) j.textContent = `看結果（${full.length} 款）`;
   $('#fCnt').textContent = n ? `已選 ${n}` : '';
   $('#fCnt').hidden = !n;
+  $('#fResetBar').hidden = !n;
   $('#fNum').textContent = `${full.length} 款符合`;
   $('#findRes').innerHTML = `
     <div class="res-head"><h2>${nCrit || F.series.length || F.ver.length ? `符合條件 ${full.length} 款` : `全部 ${full.length} 款`}</h2>
-     ${seg([['','依系列'],['asc','尺寸小到大'],['desc','尺寸大到小']], F.sort || '', 'data-sort')}</div>
+     <div class="row">${seg([['','依系列'],['asc','尺寸小到大'],['desc','尺寸大到小']], F.sort || '', 'data-sort')}<button class="btn" id="fResetTop" data-rm="*" data-v=""${n || F.sort ? '' : ' hidden'}>重新選擇</button></div></div>
     ${n ? `<div class="active">${activeList().map(([f,v,l]) => `<button class="chip" data-rm="${esc(f)}" data-v="${esc(v)}" aria-label="移除條件 ${esc(l)}">${esc(l)}</button>`).join('')}<button class="chip" data-rm="*" data-v="">全部清除</button></div>`
        : '<p class="meta" style="margin-top:0">點選條件開始篩選，所有版本收錄的機種都會列出。</p>'}
     ${full.length ? `<div class="cards">${full.map(i => card(i,false)).join('')}</div>` : `<div class="empty">沒有完全符合的機種，請看下方接近機種，或減少條件</div>`}
@@ -486,11 +487,12 @@ $('#filters').addEventListener('toggle', e => {
   const d = e.target.closest && e.target.closest('details[data-g]'); if (!d) return;
   GOPEN[d.dataset.g] = d.open; store.set('gopen', GOPEN);
 }, true);
+$('#fResetBar').addEventListener('click', () => { RESET(); F.sort = ''; store.set('find', F); renderFilters(); renderFind(); window.scrollTo({top:0, behavior:'smooth'}); });
 $('#findRes').addEventListener('click', e => {
   const rm = e.target.closest('[data-rm]'), so = e.target.closest('[data-sort]');
   if (rm) {
     const k = rm.dataset.rm, v = rm.dataset.v;
-    if (k === '*') RESET();
+    if (k === '*') { RESET(); F.sort = ''; }
     else if (Array.isArray(F[k])) F[k] = F[k].filter(x => x !== v);
     else F[k] = '';
   } else if (so) F.sort = so.dataset.v;
@@ -500,7 +502,7 @@ $('#findRes').addEventListener('click', e => {
 $('#filters').addEventListener('click', e => {
   if (e.target.closest('#fJump') || e.target.closest('#fClose')) { sheet(false); return; }
   const b = e.target.closest('[data-f]'), r = e.target.closest('#fReset') || e.target.closest('#fReset2');
-  if (r) { RESET(); }
+  if (r) { RESET(); F.sort = ''; }
   else if (b) {
     const k = b.dataset.f, v = b.dataset.v;
     const a = F[k]; const i = a.indexOf(v); i >= 0 ? a.splice(i,1) : a.push(v);
