@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:43:42",
+ "updated": "2026-11-25 13:57:27",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -524,6 +524,22 @@ window.HMI_DATA = {
   "S_EMAIL_INTRO": {
    "title": "GP-Pro EX Ver.4.09.100 E-mail 傳送功能介紹（日文）",
    "url": "https://proface.com/media/49467"
+  },
+  "S_C_GP37W2": {
+   "title": "GP37W2／GP37W3 規格書（序列埠、GP-PRO C-Package03）",
+   "url": "https://proface.com/media/55496"
+  },
+  "S_ETH_GP70": {
+   "title": "GP70 系列乙太網路介面單元 GP070-ET41 使用手冊（適用 GP-470／570／571）",
+   "url": "https://proface.com/media/47003"
+  },
+  "S_LAN_GP3300": {
+   "title": "GP-3300／3400 安裝指南（AGP-3301*、AGP-3302B 無 LAN）",
+   "url": "https://www.proface.tech/otasuke/files/manual/gp_hard/AGP3300_3400-MT02E-BTH.pdf"
+  },
+  "S_R_GP3301S": {
+   "title": "替換指南 GP-3301S → GP-4301TW（GP-3301S 無 Ethernet）",
+   "url": "https://www.proface.com/en/replace/gp3301s_gp4301tw"
   }
  },
  "switches": [],
