@@ -113,6 +113,7 @@ def load_extra_models():
             "appMemoryMB": num(r.get("畫面記憶體MB", ""), w, "畫面記憶體MB"), "appMemoryExpandedMB": None,
             "backupMemoryKB": None, "revisions": [], "firstSeen": r.get("首次版本", "") or "人工新增",
             "inVersions": [], "versions": {}, "statusLatest": MODEL_STATUS.get(st, "full"), "manualNote": r.get("備註", ""), "software": r.get("開發軟體", ""),
+            "convert": {"to": r["GP-Pro EX轉換"], "src": r.get("轉換來源", "")} if r.get("GP-Pro EX轉換") else None,
         })
     return out
 
@@ -221,6 +222,8 @@ def build(check_only=False):
         first = m["firstSeen"] if m["firstSeen"] in gen["versions"] else gen["sourceVersion"]
         m["versions"] = {v: (m["statusLatest"] if vk(v) >= vk(first) else "absent") for v in gen["versions"]}
         # 不支援：GP-Pro EX 任何版本都不能開發（例如 GP2000 系列）
+        if m["convert"] and m["convert"]["src"] not in sources:
+            errors.append(f"機種 {m['name']}：轉換來源代號 {m['convert']['src']} 不在 sources.csv")
     extra_names = {(m["series"], m["name"]) for m in extra}
     base = [m for m in gen["models"] if (m["series"], m["name"]) not in extra_names]
 
