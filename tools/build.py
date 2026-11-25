@@ -9,6 +9,7 @@ CSV 一律存成 UTF-8（Excel「CSV UTF-8」格式）。規則由上往下套�
 """
 import csv
 import json
+import re
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -195,6 +196,34 @@ def build(check_only=False):
                 cb["n"] = r["備註"]
             cbrules.append({"m": make_matcher(r), "cb": cb, "where": r["_where"]})
 
+    # 停售與停修（原廠停售與推薦替換產品頁）
+    drules = []
+    for r in read_csv("discon.csv"):
+        for k in ("停售", "停修"):
+            if r.get(k) and not re.fullmatch(r"\d{4}/\d{2}/\d{2}", r[k]):
+                errors.append(f"{r['_where']}：{k} 格式須為 yyyy/MM/dd（{r[k]}）")
+        dd = {"code": r["訂購型號"], "eos": r.get("停售", ""), "eor": r.get("停修", ""), "src": r.get("來源", "")}
+        if r.get("維修備註"):
+            dd["n"] = r["維修備註"]
+        drules.append({"m": make_matcher(r), "d": dd, "where": r["_where"]})
+
+    # BLUE／BLUE Open Studio 支援（原廠支援機種頁）：沒有符合的列表示原廠清單未列
+    SW = {"BLUE": "blue", "BLUE Open Studio": "bos"}
+    swrules = []
+    for r in read_csv("software.csv"):
+        if r.get("軟體") not in SW:
+            errors.append(f"{r['_where']}：軟體只能是 {'／'.join(SW)}（{r.get('軟體')}）")
+            continue
+        if r.get("支援") not in STATUS:
+            errors.append(f"{r['_where']}：支援只能是 {'／'.join(STATUS)}（{r.get('支援')}）")
+            continue
+        v = {"s": STATUS[r["支援"]], "src": r.get("來源", "")}
+        if r.get("版本"):
+            v["v"] = r["版本"]
+        if r.get("備註"):
+            v["n"] = r["備註"]
+        swrules.append({"m": make_matcher(r), "k": SW[r["軟體"]], "v": v, "where": r["_where"]})
+
     rrules = []
     for r in read_csv("replacements.csv"):
         if r.get("開口", "") not in SAME_CUT:
@@ -205,12 +234,13 @@ def build(check_only=False):
         rrules.append({"m": make_matcher(r), "r": rep, "where": r["_where"]})
 
     # 檢查來源代號與系列代號
-    for group, items in (("功能", frules), ("開口", crules), ("替換", rrules), ("特殊開關", srules), ("傳輸線", cbrules)):
+    for group, items in (("功能", frules), ("開口", crules), ("替換", rrules), ("特殊開關", srules), ("傳輸線", cbrules), ("停售", drules), ("軟體", swrules)):
         for it in items:
             if it["m"]["series"] and it["m"]["series"] not in series:
                 errors.append(f"{it['where']}：系列代號 {it['m']['series']} 不在 series.csv")
             srcs = it.get("src") or [x for x in [it.get("c", {}).get("src"), it.get("r", {}).get("src")] if x]
             srcs = [y for x in srcs for y in split_src(x)] + split_src(it.get("cb", {}).get("src", ""))
+            srcs += split_src(it.get("d", {}).get("src", "")) + split_src(it.get("v", {}).get("src", ""))
             for s in srcs:
                 if s not in sources:
                     errors.append(f"{it['where']}：來源代號 {s} 不在 sources.csv")
@@ -266,10 +296,20 @@ def build(check_only=False):
             if matches(it["m"], m):
                 used.add(("s", i))
                 sws.append(it["s"])
-        mm = dict(m, features=feats, featureSrc=fsrc, cutout=cut, replace=reps, switches=sws, cable=cable)
+        disc = []
+        for i, it in enumerate(drules):
+            if matches(it["m"], m):
+                used.add(("d", i))
+                disc.append(it["d"])
+        soft = {"blue": {"s": "no", "n": "原廠支援清單未列", "src": "S_BLUE_MODEL"}, "bos": {"s": "no", "n": "原廠支援清單未列", "src": "S_BOS_MODEL"}}
+        for i, it in enumerate(swrules):
+            if matches(it["m"], m):
+                used.add(("sw", i))
+                soft[it["k"]] = it["v"]
+        mm = dict(m, features=feats, featureSrc=fsrc, cutout=cut, replace=reps, switches=sws, cable=cable, discon=disc, soft=soft)
         models.append(mm)
 
-    for tag, items in (("f", frules), ("c", crules), ("r", rrules), ("s", srules), ("cb", cbrules)):
+    for tag, items in (("f", frules), ("c", crules), ("r", rrules), ("s", srules), ("cb", cbrules), ("d", drules), ("sw", swrules)):
         for i, it in enumerate(items):
             if (tag, i) not in used:
                 print(f"提醒：{it['where']} 沒有對應到任何機種")
