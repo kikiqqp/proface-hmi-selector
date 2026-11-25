@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 17:52:16",
+ "updated": "2026-11-25 17:54:07",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -3807,7 +3807,14 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_SP5000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "SP-5600TP（PFXSP5600TPD）",
+     "sameCutout": true,
+     "src": "S_DC_PFXSP5660TPD",
+     "n": "12 吋 TFT 彩色（Premium 顯示器，無無線功能）"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -5050,7 +5057,14 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_SP5000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "SP-5600TP（PFXSP5600TPD）",
+     "sameCutout": true,
+     "src": "S_DC_PFXSP5660TPD",
+     "n": "12 吋 TFT 彩色（Premium 顯示器，無無線功能）"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -6280,6 +6294,12 @@ window.HMI_DATA = {
      "to": "PS6000 Atom Box",
      "sameCutout": null,
      "src": "S_R_SP5B41"
+    },
+    {
+     "to": "SP-5600TP（PFXSP5600TPD）",
+     "sameCutout": true,
+     "src": "S_DC_PFXSP5660TPD",
+     "n": "12 吋 TFT 彩色（Premium 顯示器，無無線功能）"
     }
    ],
    "switches": [],
@@ -7392,6 +7412,12 @@ window.HMI_DATA = {
      "to": "PS6000 Atom Box",
      "sameCutout": null,
      "src": "S_R_SP5B41"
+    },
+    {
+     "to": "SP-5600TP（PFXSP5600TPD）",
+     "sameCutout": true,
+     "src": "S_DC_PFXSP5660TPD",
+     "n": "12 吋 TFT 彩色（Premium 顯示器，無無線功能）"
     }
    ],
    "switches": [],
@@ -8350,10 +8376,10 @@ window.HMI_DATA = {
    },
    "replace": [
     {
-     "to": "GP-4114T（GP4100 彩色機）",
+     "to": "GP-4115T（PFXGP4115T2D）",
      "sameCutout": false,
-     "src": "S_R_GP4104",
-     "n": "開口不同，可用轉接框"
+     "src": "S_DC_GP4105G1D",
+     "n": "GP4100 彩色機 RS-232C 型；TFT 彩色；有轉接框可用"
     }
    ],
    "switches": [],
@@ -8480,10 +8506,10 @@ window.HMI_DATA = {
    },
    "replace": [
     {
-     "to": "GP-4114T（GP4100 彩色機）",
+     "to": "GP-4116T（PFXGP4116T2D）",
      "sameCutout": false,
-     "src": "S_R_GP4104",
-     "n": "開口不同，可用轉接框"
+     "src": "S_DC_GP4106G1D",
+     "n": "GP4100 彩色機 RS-422/485 型；TFT 彩色；有轉接框可用"
     }
    ],
    "switches": [],
@@ -8610,10 +8636,10 @@ window.HMI_DATA = {
    },
    "replace": [
     {
-     "to": "GP-4114T（GP4100 彩色機）",
-     "sameCutout": false,
-     "src": "S_R_GP4104",
-     "n": "開口不同，可用轉接框"
+     "to": "原廠尚未公布替換機種（To be confirmed）",
+     "sameCutout": null,
+     "src": "S_DC_GP4107G1D",
+     "n": "請洽 Pro-face；適用 GP4107G1D"
     }
    ],
    "switches": [],
@@ -9181,7 +9207,14 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_GP4000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6200WA（PFXST6200WADE）",
+     "sameCutout": true,
+     "src": "S_DC_PFXGP4201TAD",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -9422,7 +9455,14 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_GP4000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6200WA（PFXST6200WADE）",
+     "sameCutout": true,
+     "src": "S_DC_PFXGP4201TADW",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -9542,7 +9582,14 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_GP4000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6200WA（PFXST6200WADE）",
+     "sameCutout": true,
+     "src": "S_DC_PFXGP4203TAD",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -9902,7 +9949,26 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_GP4000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_PFXGP4301TADW",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_PFXGP4301TADW",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP6000 Standard 5.7 吋（PFXGP6300TAD）",
+     "sameCutout": true,
+     "src": "S_DC_PFXGP4301TADW",
+     "n": "類比觸控；DC 電源；解析度不同；支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -10257,7 +10323,14 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_GP4000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_PFXGP4401WADW",
+     "n": "DC 電源；TFT 彩色；可選購安裝轉接框 PFXZHAT4W1 對應原開口；解析度相同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -11112,7 +11185,26 @@ window.HMI_DATA = {
     "n": "W 型 10.4 吋使用 12.1 吋外框",
     "src": "S_C_GP4000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6600WA（PFXST6600WADE）",
+     "sameCutout": false,
+     "src": "S_DC_PFXGP4501TADW",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6500TA（PFXST6500TADE）",
+     "sameCutout": true,
+     "src": "S_DC_PFXGP4501TADW",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP6000 Standard 10.4 吋（PFXGP6500TAD）",
+     "sameCutout": false,
+     "src": "S_DC_PFXGP4501TADW",
+     "n": "類比觸控；DC 電源；解析度不同；支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -12045,7 +12137,14 @@ window.HMI_DATA = {
     "mount": "box",
     "n": "盒型，無顯示器"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "STM-6B00（PFXSTM6B00DE）",
+     "sameCutout": null,
+     "src": "S_DC_PFXGP4G01DNWLS",
+     "n": "GP-Pro EX 開發；DC 電源；解析度不同；DIN 軌道安裝；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 mini-B",
@@ -15396,7 +15495,14 @@ window.HMI_DATA = {
     "h": 92.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6200WA（PFXST6200WADE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3200_A1_D24",
+     "n": "DC 電源；4.3 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -15509,7 +15615,14 @@ window.HMI_DATA = {
     "h": 92.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6200WA（PFXST6200WADE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3200_T1_D24",
+     "n": "DC 電源；4.3 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -15989,6 +16102,24 @@ window.HMI_DATA = {
      "to": "ST-6300TA（PFXST6300TADE），另一選擇",
      "sameCutout": true,
      "src": "S_R_GP3300_ST6300"
+    },
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_L1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3300_L1_D24",
+     "n": "有 SD 卡槽；支援閃爍功能"
+    },
+    {
+     "to": "SP-5400WA + SP-5B00（PFXSP5400WAD + PFXSP5B00）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_L1_D24",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -16119,6 +16250,12 @@ window.HMI_DATA = {
      "to": "ST-6300TA（PFXST6300TADE），另一選擇",
      "sameCutout": true,
      "src": "S_R_GP3300_ST6300"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_L1_D24_CA1M",
+     "n": "DC 電源；TFT 彩色；需 CANopen 主站單元 PFXZCHEUCAM1；I/O 控制改為 FLEX NETWORK；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -16254,6 +16391,12 @@ window.HMI_DATA = {
      "to": "STC-6300TA（DIO 控制型）",
      "sameCutout": true,
      "src": "S_R_GP3300DIO_STC"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_L1_D24_D81C",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊；支援閃爍功能"
     }
    ],
    "switches": [],
@@ -16390,6 +16533,18 @@ window.HMI_DATA = {
      "to": "ST-6300TA（PFXST6300TADE），另一選擇",
      "sameCutout": true,
      "src": "S_R_GP3300_ST6300"
+    },
+    {
+     "to": "STC-6300TA（PFXSTC6300TADDKE 或 PFXSTC6300TADDCE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3300_L1_D24_FN1M",
+     "n": "-DKE 為 Sink 輸出、-DCE 為 Source 輸出；DC 電源；5.7 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_L1_D24_FN1M",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊；支援閃爍功能"
     }
    ],
    "switches": [],
@@ -16520,6 +16675,24 @@ window.HMI_DATA = {
      "to": "ST-6300TA（PFXST6300TADE），另一選擇",
      "sameCutout": true,
      "src": "S_R_GP3300_ST6300"
+    },
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_S1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3300_S1_D24",
+     "n": "有 SD 卡槽；支援閃爍功能"
+    },
+    {
+     "to": "SP-5400WA + SP-5B00（PFXSP5400WAD + PFXSP5B00）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_S1_D24",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -16778,6 +16951,12 @@ window.HMI_DATA = {
      "to": "STC-6300TA（DIO 控制型）",
      "sameCutout": true,
      "src": "S_R_GP3300DIO_STC"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_S1_D24_D81C",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊；支援閃爍功能"
     }
    ],
    "switches": [],
@@ -16909,6 +17088,24 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 5.7 吋（PFXGP6300TA*）",
      "sameCutout": true,
      "src": "S_R_GP3300_GP6300"
+    },
+    {
+     "to": "STC-6300TA（PFXSTC6300TADDCE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3300_T1_D24_CA1M",
+     "n": "Source 輸出型；DC 電源；5.7 吋 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "STC-6300TA（PFXSTC6300TADDKE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3300_T1_D24_CA1M",
+     "n": "Sink 輸出型；DC 電源；5.7 吋 TFT 彩色；解析度不同"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_T1_D24_CA1M",
+     "n": "DC 電源；TFT 彩色；需 CANopen 主站單元 PFXZCHEUCAM1；I/O 控制改為 FLEX NETWORK；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -17039,6 +17236,12 @@ window.HMI_DATA = {
      "to": "STC-6300TA（DIO 控制型）",
      "sameCutout": true,
      "src": "S_R_GP3300DIO_STC"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_T1_D24_D81C",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊；支援閃爍功能"
     }
    ],
    "switches": [],
@@ -17288,6 +17491,24 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 5.7 吋（PFXGP6300TA*）",
      "sameCutout": true,
      "src": "S_R_GP3300_GP6300"
+    },
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3300_T1_D24",
+     "n": "有 SD 卡槽；適用 AGP3300-T1-D24"
+    },
+    {
+     "to": "SP-5400WA + SP-5B00（PFXSP5400WAD + PFXSP5B00）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_T1_D24",
+     "n": "DC 電源；TFT 彩色；解析度不同；詳見替換手冊；適用 AGP3300-T1-D24"
+    },
+    {
+     "to": "SP-5490WA + SP-5B90（PFXSP5490WAD+PFXSP5B90）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3300_U1_D24",
+     "n": "DC 電源；超高亮度 TFT 彩色；解析度不同；詳見替換手冊；適用 AGP3300-U1-D24"
     }
    ],
    "switches": [],
@@ -17414,7 +17635,20 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3301_L1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3301_L1_D24",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -17533,7 +17767,26 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3301_S1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3301_S1_D24",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3301_S1_D24",
+     "n": "有 SD 卡槽；支援閃爍功能"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -17650,7 +17903,26 @@ window.HMI_DATA = {
     "h": 123.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3302_B1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3302_B1_D24",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3302_B1_D24",
+     "n": "有 SD 卡槽；支援閃爍功能"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -17889,6 +18161,17 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 5.7 吋（PFXGP6300TA*）",
      "sameCutout": true,
      "src": "S_R_GP3300_GP6300"
+    },
+    {
+     "to": "GP-4401T（PFXGP4401TAD）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3310_T1_D24"
+    },
+    {
+     "to": "SP-5400WA + SP-5B00（PFXSP5400WAD + PFXSP5B00）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3310_T1_D24",
+     "n": "DC 電源；TFT 彩色；解析度不同；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -18012,6 +18295,18 @@ window.HMI_DATA = {
      "to": "SP-5400WA + SP-5B10（M class 停產公告）",
      "sameCutout": false,
      "src": "S_R_GP3000M_SP5000"
+    },
+    {
+     "to": "SP-5400WA + SP-5B00（PFXSP5400WAD + PFXSP5B00）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3360_T1_D24",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援視訊功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4401T（PFXGP4401TAD）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3360_T1_D24",
+     "n": "7.5 吋；不支援視訊功能"
     }
    ],
    "switches": [],
@@ -18138,6 +18433,24 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 7 吋（PFXGP6400TA*）",
      "sameCutout": true,
      "src": "S_R_GP3400_GP6400"
+    },
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3400_S1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4401T（PFXGP4401TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3400_S1_D24",
+     "n": "TFT 彩色；支援閃爍功能"
+    },
+    {
+     "to": "SP-5400WA + SP-5B00（PFXSP5400WAD + PFXSP5B00）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3400_S1_D24",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -18381,6 +18694,12 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 7 吋（PFXGP6400TA*）",
      "sameCutout": true,
      "src": "S_R_GP3400_GP6400"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3400_S1_D24_D81C",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -18624,6 +18943,12 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 7 吋（PFXGP6400TA*）",
      "sameCutout": true,
      "src": "S_R_GP3400_GP6400"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD, PFXSP5B10）",
+     "sameCutout": null,
+     "src": "S_DC_AGP3400_T1_D24_CA1M",
+     "n": "需 CANopen 主站單元 PFXZCHEUCAM1"
     }
    ],
    "switches": [],
@@ -18750,6 +19075,12 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 7 吋（PFXGP6400TA*）",
      "sameCutout": true,
      "src": "S_R_GP3400_GP6400"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3400_T1_D24_D81C",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -18881,6 +19212,12 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 7 吋（PFXGP6400TA*）",
      "sameCutout": true,
      "src": "S_R_GP3400_GP6400"
+    },
+    {
+     "to": "SP-5400WA + SP-5B10（PFXSP5400WAD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3400_T1_D24_FN1M",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1"
     }
    ],
    "switches": [],
@@ -19004,6 +19341,18 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 7 吋（PFXGP6400TA*）",
      "sameCutout": true,
      "src": "S_R_GP3400_GP6400"
+    },
+    {
+     "to": "GP-4521T + VM 單元（PFXGP4521TAD + VM Unit）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3450_T1_D24",
+     "n": "10.4 吋 TFT 彩色；支援 VM 單元（詳見替換手冊）；DC 電源"
+    },
+    {
+     "to": "GP-4401T（PFXGP4401TAD）",
+     "sameCutout": null,
+     "src": "S_DC_AGP3450_T1_D24",
+     "n": "7.5 吋；不支援視訊功能"
     }
    ],
    "switches": [],
@@ -19125,7 +19474,26 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6600WA（PFXST6600WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3500_L1_D24",
+     "n": "DC 電源；12.1 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6500TA（PFXST6500TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3500_L1_D24",
+     "n": "DC 電源；10.4 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "SP-5500TP + SP-5B00（PFXSP5500TPD + PFXSP5B00）",
+     "sameCutout": null,
+     "src": "S_DC_AGP3500_L1_D24",
+     "n": "DC 電源；TFT 彩色；不支援閃爍功能；詳見替換手冊；原廠頁寫開口相同，但 AGP-3500L 開口 301.5×227.5、SP-5500TP 開口 259×201，請以替換手冊確認"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -19244,7 +19612,14 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD + PFXSP5B10）",
+     "sameCutout": null,
+     "src": "S_DC_AGP3500_L1_D24_D81C",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊；原廠頁寫開口相同，但 AGP-3500L 開口 301.5×227.5、SP-5500TP 開口 259×201，請以替換手冊確認"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -19363,7 +19738,38 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6600WA（PFXST6600WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3500_S1_AF",
+     "n": "DC 電源；12.1 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6500TA（PFXST6500TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3500_S1_AF",
+     "n": "DC 電源；10.4 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3500_S1_AF",
+     "n": "有轉接框可用；支援閃爍功能；適用 AGP3500-S1-AF"
+    },
+    {
+     "to": "SP-5500TP + SP-5B00（PFXSP5500TPD + PFXSP5B00）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3500_S1_AF",
+     "n": "DC 電源；TFT 彩色；有轉接框可用；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3500_S1_D24",
+     "n": "有轉接框可用；支援閃爍功能；適用 AGP3500-S1-D24"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -19600,7 +20006,14 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD + PFXSP5B10）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3500_S1_AF_D81C",
+     "n": "DC 電源；有轉接框可用；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -19742,6 +20155,30 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 10 吋（PFXGP6500TA*）",
      "sameCutout": true,
      "src": "S_R_GP3500_GP6500"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3500_T1_AF",
+     "n": "適用 AGP3500-T1-AF"
+    },
+    {
+     "to": "SP-5500TP + SP-5B00（PFXSP5500TPD + PFXSP5B00）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3500_T1_AF",
+     "n": "DC 電源；TFT 彩色；詳見替換手冊"
+    },
+    {
+     "to": "GP-4521T（PFXGP4521TAA）",
+     "sameCutout": null,
+     "src": "S_DC_AGP3500_T1_AF",
+     "n": "10.4 吋 TFT 彩色；使用 VM／RGB 單元時請改選 PFXGP4521TAA；僅 AC 電源，無塗層機種"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3500_T1_D24",
+     "n": "適用 AGP3500-T1-D24"
     }
    ],
    "switches": [],
@@ -19875,6 +20312,12 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 10 吋（PFXGP6500TA*）",
      "sameCutout": true,
      "src": "S_R_GP3500_GP6500"
+    },
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD + PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3500_T1_AF_CA1M",
+     "n": "DC 電源；TFT 彩色；需 CANopen 主站單元 PFXZCHEUCAM1；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -20008,6 +20451,12 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 10 吋（PFXGP6500TA*）",
      "sameCutout": true,
      "src": "S_R_GP3500_GP6500"
+    },
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD + PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3500_T1_AF_D81C",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊；適用 AGP3500-T1-AF-D81C、AGP3500-T1-AF-D81K、AGP3500-T1-D24-D81K"
     }
    ],
    "switches": [],
@@ -20155,6 +20604,12 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 10 吋（PFXGP6500TA*）",
      "sameCutout": true,
      "src": "S_R_GP3500_GP6500"
+    },
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD + PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3500_T1_AF_FN1M",
+     "n": "DC 電源；TFT 彩色；需 FLEX NETWORK 單元 PFXZCHEUFN1；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -20288,6 +20743,18 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 10 吋（PFXGP6500TA*）",
      "sameCutout": true,
      "src": "S_R_GP3500_GP6500"
+    },
+    {
+     "to": "SP-5500TP + SP-5B00（PFXSP5500TPD + PFXSP5B00）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3510_T1_AF",
+     "n": "DC 電源；TFT 彩色；詳見替換手冊"
+    },
+    {
+     "to": "GP-4601T（PFXGP4601TAA）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3510_T1_AF",
+     "n": "12.1 吋 TFT 彩色；AC 電源"
     }
    ],
    "switches": [],
@@ -20413,6 +20880,12 @@ window.HMI_DATA = {
      "to": "GP6000 Standard 10 吋（PFXGP6500TA*）",
      "sameCutout": true,
      "src": "S_R_GP3500_GP6500"
+    },
+    {
+     "to": "SP-5500TP + SP-5B10（PFXSP5500TPD + PFXSP5B10）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3510_T1_AF_CA1M",
+     "n": "DC 電源；TFT 彩色；需 CANopen 主站單元 PFXZCHEUCAM1；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -20531,7 +21004,20 @@ window.HMI_DATA = {
     "h": 201,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4521T + VM 單元（PFXGP4521TAA+ VM Unit）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3550_T1_AF",
+     "n": "10.4 吋 TFT 彩色；支援 VM 單元（詳見替換手冊）；AC 電源；非塗層機種"
+    },
+    {
+     "to": "SP-5500TP + SP-5B00（PFXSP5500TPD + PFXSP5B00）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3550_T1_AF",
+     "n": "DC 電源；TFT 彩色；不支援視訊功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -20649,7 +21135,20 @@ window.HMI_DATA = {
     "h": 201,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4621T + VM 單元（PFXGP4621TAA+ VM Unit）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3560_T1_AF",
+     "n": "12.1 吋 TFT 彩色；支援 VM 單元（詳見替換手冊）；AC 電源；非塗層機種"
+    },
+    {
+     "to": "GP-4521T + VM 單元（PFXGP4521TAA+ VM Unit）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3560_T1_AF",
+     "n": "10.4 吋 TFT 彩色；支援 VM 單元（詳見替換手冊）；AC 電源；非塗層機種"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -20768,7 +21267,50 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP6000 Standard 12.1 吋（PFXGP6600TAA）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_AF",
+     "n": "12.1 吋 TFT 彩色；類比觸控；AC 電源；解析度不同；支援閃爍功能；詳見替換手冊；適用 AGP3600-T1-AF"
+    },
+    {
+     "to": "GP-4601T（PFXGP4601TAA）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_AF",
+     "n": "適用 AGP3600-T1-AF"
+    },
+    {
+     "to": "SP-5600TA + SP-5B00（PFXSP5600TAD + PFXSP5B00）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_AF",
+     "n": "DC 電源；TFT 彩色；解析度不同；詳見替換手冊"
+    },
+    {
+     "to": "GP-4621T（PFXGP4621TAA）",
+     "sameCutout": null,
+     "src": "S_DC_AGP3600_T1_AF",
+     "n": "12.1 吋 TFT 彩色；使用 VM／RGB 單元時請改選 PFXGP4621TAA；AC 電源，無塗層機種；適用 AGP3600-T1-AF"
+    },
+    {
+     "to": "GP6000 Standard 12.1 吋（PFXGP6600TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_D24",
+     "n": "12.1 吋 TFT 彩色；類比觸控；DC 電源；解析度不同；支援閃爍功能；詳見替換手冊；適用 AGP3600-T1-D24"
+    },
+    {
+     "to": "GP-4601T（PFXGP4601TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_D24",
+     "n": "適用 AGP3600-T1-D24"
+    },
+    {
+     "to": "GP-4621T（PFXGP4621TAD）",
+     "sameCutout": null,
+     "src": "S_DC_AGP3600_T1_D24",
+     "n": "12.1 吋 TFT 彩色；使用 VM／RGB 單元時請改選 PFXGP4621TAA；DC 電源，無塗層機種；適用 AGP3600-T1-D24"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -20895,7 +21437,20 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "SP-5600TA + SP-5B00 + FLEX NETWORK 單元（PFXSP5600TAD + PFXSP5B00 + FLEX NETWORK Unit (PFXZCHEUFN1)）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_AF_D81C",
+     "n": "DC 電源；TFT 彩色；解析度不同；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊；適用 AGP3600-T1-AF-D81C、AGP3600-T1-D24-D81C、AGP3600-T1-D24-D81K"
+    },
+    {
+     "to": "SP-5600TA + SP-5B10 + FLEX NETWORK 單元（PFXSP5600TAD + PFXSP5B10 + FLEX NETWORK Unit (PFXZCHEUFN1)）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_AF_D81K",
+     "n": "DC 電源；TFT 彩色；解析度不同；需 FLEX NETWORK 單元 PFXZCHEUFN1；I/O 控制改為 FLEX NETWORK；詳見替換手冊；適用 AGP3600-T1-AF-D81K"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -21032,7 +21587,14 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "SP-5600TA + SP-5B10 + FLEX NETWORK 單元（PFXSP5600TAD + PFXSP5B10 + FLEX NETWORK Unit (PFXZCHEUFN1)）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_AF_FN1M",
+     "n": "DC 電源；TFT 彩色；解析度不同；需 FLEX NETWORK 單元 PFXZCHEUFN1；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -21157,7 +21719,20 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "SP-5600TA + SP-5B10 + CANopen 主站單元（PFXSP5600TAD + PFXSP5B10 + CANOpen Master Unit (PFXZCHEUCAM1)）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3600_T1_AF_CA1M",
+     "n": "DC 電源；TFT 彩色；解析度不同；需 CANopen 主站單元 PFXZCHEUCAM1；詳見替換手冊；適用 AGP3600-T1-AF-CA1M、AGP3600-T1-D24-CA1M"
+    },
+    {
+     "to": "SP-5690WA + SP-5B90（PFXSP5690WAD+PFXSP5B90）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3600_U1_D24_CA1M",
+     "n": "DC 電源；超高亮度 TFT 彩色；解析度不同；需 CANopen 主站單元 PFXZCHEUCAM1；詳見替換手冊；適用 AGP3600-U1-D24-CA1M"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -21286,7 +21861,26 @@ window.HMI_DATA = {
     "h": 227.5,
     "src": "S_C_GP3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "GP-4621T + VM 單元（PFXGP4621TAA+ VM Unit）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3650_T1_AF",
+     "n": "12.1 吋 TFT 彩色；支援 VM 單元（詳見替換手冊）；AC 電源；非塗層機種；適用 AGP3650-T1-AF"
+    },
+    {
+     "to": "SP-5600TA + SP-5B00（PFXSP5600TAD + PFXSP5B00）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3650_T1_AF",
+     "n": "DC 電源；TFT 彩色；解析度不同；不支援視訊功能；詳見替換手冊；適用 AGP3650-T1-AF"
+    },
+    {
+     "to": "SP-5690WA + SP-5B90（PFXSP5690WAD+PFXSP5B90）",
+     "sameCutout": false,
+     "src": "S_DC_AGP3650_U1_D24",
+     "n": "DC 電源；超高亮度 TFT 彩色；解析度不同；不支援多媒體介面；不支援視訊單元（VM／DVI／RGB 輸入）；詳見替換手冊；適用 AGP3650-U1-D24"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -21416,6 +22010,12 @@ window.HMI_DATA = {
      "to": "SP-5700TP + SP-5B10（M class 停產公告）",
      "sameCutout": true,
      "src": "S_R_GP3000M_SP5000"
+    },
+    {
+     "to": "SP-5700TP + SP-5B00（PFXSP5700TPD + PFXSP5B00）",
+     "sameCutout": true,
+     "src": "S_DC_AGP3750_T1_AF",
+     "n": "DC 電源；TFT 彩色；不支援多媒體功能；詳見替換手冊"
     }
    ],
    "switches": [],
@@ -21660,7 +22260,20 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_LT3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "LT-3300T（LT3300-T1-D24-C）",
+     "sameCutout": true,
+     "src": "S_DC_LT3300_L1_D24_C",
+     "n": "TFT 彩色；適用 LT3300-L1-D24-C"
+    },
+    {
+     "to": "LT-3300T（LT3300-T1-D24-K）",
+     "sameCutout": true,
+     "src": "S_DC_LT3300_L1_D24_K",
+     "n": "TFT 彩色；適用 LT3300-L1-D24-K"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -21779,7 +22392,20 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_LT3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "LT-3300T（LT3300-T1-D24-C）",
+     "sameCutout": true,
+     "src": "S_DC_LT3300_S1_D24_C",
+     "n": "TFT 彩色；適用 LT3300-S1-D24-C"
+    },
+    {
+     "to": "LT-3300T（LT3300-T1-D24-K）",
+     "sameCutout": true,
+     "src": "S_DC_LT3300_S1_D24_K",
+     "n": "TFT 彩色；適用 LT3300-S1-D24-K"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22025,7 +22651,20 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_LT3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "LT-3300T（LT3300-T1-D24-C）",
+     "sameCutout": true,
+     "src": "S_DC_LT3301_L1_D24_C",
+     "n": "TFT 彩色；適用 LT3301-L1-D24-C"
+    },
+    {
+     "to": "LT-3300T（LT3300-T1-D24-K）",
+     "sameCutout": true,
+     "src": "S_DC_LT3301_L1_D24_K",
+     "n": "TFT 彩色；適用 LT3301-L1-D24-K"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22146,7 +22785,14 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6200WA（PFXST6200WADE）",
+     "sameCutout": true,
+     "src": "S_DC_AST3201_A1_D24",
+     "n": "DC 電源；4.3 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22261,7 +22907,14 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6200WA（PFXST6200WADE）",
+     "sameCutout": true,
+     "src": "S_DC_AST3211_A1_D24",
+     "n": "DC 電源；4.3 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22376,7 +23029,20 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3301_B1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AST3301_B1_D24",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22491,7 +23157,20 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3301_S1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AST3301_S1_D24",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22606,7 +23285,26 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3301_T1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AST3301_T1_D24",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4301T（PFXGP4301TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AST3301_T1_D24",
+     "n": "有 SD 卡槽；支援閃爍功能"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22721,7 +23419,26 @@ window.HMI_DATA = {
     "t": "1.6～5",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3302_B1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6300TA（PFXST6300TADE）",
+     "sameCutout": true,
+     "src": "S_DC_AST3302_B1_D24",
+     "n": "DC 電源；5.7 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4303T（PFXGP4303TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AST3302_B1_D24",
+     "n": "TFT 彩色；可用單色模式；支援閃爍功能"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22836,7 +23553,20 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6400WA（PFXST6400WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3401_T1_D24",
+     "n": "DC 電源；7 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4401T（PFXGP4401TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AST3401_T1_D24",
+     "n": "支援閃爍功能"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -22951,7 +23681,32 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6600WA（PFXST6600WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3501_C1_AF",
+     "n": "DC 電源；12.1 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6500TA（PFXST6500TADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3501_C1_AF",
+     "n": "DC 電源；10.4 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": true,
+     "src": "S_DC_AST3501_C1_AF",
+     "n": "TFT 彩色；可用單色模式；支援閃爍功能；適用 AST3501-C1-AF"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AST3501_C1_D24",
+     "n": "TFT 彩色；可用單色模式；支援閃爍功能；適用 AST3501-C1-D24"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
@@ -23072,7 +23827,32 @@ window.HMI_DATA = {
     "t": "1.6～10",
     "src": "S_C_ST3000"
    },
-   "replace": [],
+   "replace": [
+    {
+     "to": "ST-6600WA（PFXST6600WADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3501_T1_AF",
+     "n": "DC 電源；12.1 吋寬螢幕 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "ST-6500TA（PFXST6500TADE）",
+     "sameCutout": false,
+     "src": "S_DC_AST3501_T1_AF",
+     "n": "DC 電源；10.4 吋 TFT 彩色；解析度不同；不支援閃爍功能；詳見替換手冊"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAA）",
+     "sameCutout": true,
+     "src": "S_DC_AST3501_T1_AF",
+     "n": "支援閃爍功能；適用 AST3501-T1-AF"
+    },
+    {
+     "to": "GP-4501T（PFXGP4501TAD）",
+     "sameCutout": true,
+     "src": "S_DC_AST3501_T1_D24",
+     "n": "支援閃爍功能；適用 AST3501-T1-D24"
+    }
+   ],
    "switches": [],
    "cable": {
     "t": "USB A 對 USB A 專用傳輸線 CA3-USBCB-01",
