@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+review/
+~$*.xlsx
+test-output/
+_site/
+
+# 內部機密資料，不可提交
+data/csv/special_switches.csv
