@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:23:49",
+ "updated": "2026-11-25 13:24:16",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -21324,24 +21324,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -21403,24 +21411,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -21482,24 +21498,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -21557,24 +21581,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -21632,24 +21664,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -21707,24 +21747,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -21786,24 +21834,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III、Pro-Designer",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -21865,24 +21921,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III、Pro-Designer",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -21944,24 +22008,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III、Pro-Designer",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22023,24 +22095,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III、Pro-Designer",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22102,24 +22182,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III、Pro-Designer",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22181,24 +22269,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III、Pro-Designer",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22260,24 +22356,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III、Pro-Designer",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22335,24 +22439,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB II（依使用者資料）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22410,24 +22522,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22485,24 +22605,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22560,24 +22688,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22635,24 +22771,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22710,24 +22854,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22785,24 +22937,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22860,24 +23020,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -22935,24 +23103,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -23010,24 +23186,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
@@ -23085,24 +23269,32 @@ window.HMI_DATA = {
    "software": "GP-PRO/PB III（Windows 95 版或 DOS 版）",
    "features": {
     "remoteHmi": {
+     "s": "no",
+     "n": "GP-Pro EX 不支援此系列"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
      "s": "no"
     },
     "ftp": {
      "s": "no"
     },
+    "web": {
+     "s": "no"
+    },
     "email": {
+     "s": "no"
+    },
+    "ipsec": {
      "s": "no"
     },
     "ezLan": {
      "s": "no"
-    },
-    "web": {
-     "s": "no"
     }
    },
-   "featureSrc": [
-    "S_XML"
-   ],
+   "featureSrc": [],
    "cutout": null,
    "replace": [],
    "switches": [],
