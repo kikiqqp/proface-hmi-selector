@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 17:49:55",
+ "updated": "2026-11-25 17:52:16",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -1185,6 +1185,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -1283,6 +1296,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -1381,6 +1407,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -1479,6 +1518,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -1577,6 +1629,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -1675,6 +1740,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -1773,6 +1851,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -1871,6 +1962,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -1969,6 +2073,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000A"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -2066,6 +2183,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000S"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -2163,6 +2293,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000S"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -2260,6 +2403,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000S"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -2357,6 +2513,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000S"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -2454,6 +2623,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000S"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -2551,6 +2733,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_GP6000S"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -2633,7 +2828,20 @@ window.HMI_DATA = {
    },
    "replace": [],
    "switches": [],
-   "cable": null
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
   },
   {
    "key": "00031600||PFXGPH6500WC*",
@@ -2715,7 +2923,20 @@ window.HMI_DATA = {
    },
    "replace": [],
    "switches": [],
-   "cable": null
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
   },
   {
    "key": "20400A00|SP-5B00|DC Power Supply Adapter",
@@ -2812,6 +3033,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -2912,6 +3145,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3012,6 +3257,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3112,6 +3369,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3212,6 +3481,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3312,6 +3593,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3412,6 +3705,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3512,6 +3817,25 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5660TPD",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXSP5660TPD"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3612,6 +3936,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3712,6 +4048,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3812,6 +4160,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -3910,6 +4270,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4011,6 +4383,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4112,6 +4496,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4213,6 +4609,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4313,6 +4721,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4414,6 +4834,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4515,6 +4947,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4616,6 +5060,25 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5660TPD",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXSP5660TPD"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4717,6 +5180,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4818,6 +5293,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -4919,6 +5406,18 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5024,6 +5523,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5B40",
+     "eos": "2018/03/30",
+     "eor": "2024/05/31",
+     "src": "S_DC_PFXSP5B40",
+     "n": "請洽當地 Pro-face 經銷商"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5132,6 +5651,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5B40",
+     "eos": "2018/03/30",
+     "eor": "2024/05/31",
+     "src": "S_DC_PFXSP5B40",
+     "n": "請洽當地 Pro-face 經銷商"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5240,6 +5779,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5B40",
+     "eos": "2018/03/30",
+     "eor": "2024/05/31",
+     "src": "S_DC_PFXSP5B40",
+     "n": "請洽當地 Pro-face 經銷商"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5348,6 +5907,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5B40",
+     "eos": "2018/03/30",
+     "eor": "2024/05/31",
+     "src": "S_DC_PFXSP5B40",
+     "n": "請洽當地 Pro-face 經銷商"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5456,6 +6035,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5B40",
+     "eos": "2018/03/30",
+     "eor": "2024/05/31",
+     "src": "S_DC_PFXSP5B40",
+     "n": "請洽當地 Pro-face 經銷商"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5564,6 +6163,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5B40",
+     "eos": "2018/03/30",
+     "eor": "2024/05/31",
+     "src": "S_DC_PFXSP5B40",
+     "n": "請洽當地 Pro-face 經銷商"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5672,6 +6291,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5B40",
+     "eos": "2018/03/30",
+     "eor": "2024/05/31",
+     "src": "S_DC_PFXSP5B40",
+     "n": "請洽當地 Pro-face 經銷商"
+    },
+    {
+     "code": "PFXSP5660TPD",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXSP5660TPD"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5780,6 +6425,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5B40",
+     "eos": "2018/03/30",
+     "eor": "2024/05/31",
+     "src": "S_DC_PFXSP5B40",
+     "n": "請洽當地 Pro-face 經銷商"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5885,6 +6550,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -5993,6 +6672,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6101,6 +6794,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6209,6 +6916,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6316,6 +7037,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6424,6 +7159,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6532,6 +7281,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6640,6 +7403,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXSP5660TPD",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXSP5660TPD"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6748,6 +7532,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6856,6 +7654,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -6964,6 +7776,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "SP-5B41 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7065,6 +7891,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.4 以上",
+     "n": "SP5000X 系列"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7166,6 +8006,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.4 以上",
+     "n": "SP5000X 系列"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7267,6 +8121,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.4 以上",
+     "n": "SP5000X 系列"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7366,6 +8234,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "不能使用 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "GP4104G1D",
+     "eos": "2019/12/27",
+     "eor": "2026/03/31",
+     "src": "S_DC_GP4104G1D"
+    },
+    {
+     "code": "GP4104W1D",
+     "eos": "2019/12/27",
+     "eor": "2026/03/31",
+     "src": "S_DC_GP4104W1D"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "src": "S_BLUE_MODEL",
+     "n": "GP4100 單色機不支援"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7470,6 +8364,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "不能使用 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "GP4105G1D",
+     "eos": "2019/12/27",
+     "eor": "2026/03/31",
+     "src": "S_DC_GP4105G1D"
+    },
+    {
+     "code": "GP4105W1D",
+     "eos": "2019/12/27",
+     "eor": "2026/03/31",
+     "src": "S_DC_GP4105W1D"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "src": "S_BLUE_MODEL",
+     "n": "GP4100 單色機不支援"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7574,6 +8494,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "不能使用 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "GP4106G1D",
+     "eos": "2019/12/27",
+     "eor": "2026/03/31",
+     "src": "S_DC_GP4106G1D"
+    },
+    {
+     "code": "GP4106W1D",
+     "eos": "2019/12/27",
+     "eor": "2026/03/31",
+     "src": "S_DC_GP4106W1D"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "src": "S_BLUE_MODEL",
+     "n": "GP4100 單色機不支援"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7678,6 +8624,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "不能使用 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "GP4107G1D",
+     "eos": "2019/12/27",
+     "eor": "2026/03/31",
+     "src": "S_DC_GP4107G1D"
+    },
+    {
+     "code": "GP4107W1D",
+     "eos": "2019/12/27",
+     "eor": "2026/03/31",
+     "src": "S_DC_GP4107W1D"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "src": "S_BLUE_MODEL",
+     "n": "GP4100 單色機不支援"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7774,6 +8746,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "n": "GP4100 彩色機"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7872,6 +8857,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "n": "GP4100 彩色機"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -7970,6 +8968,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "n": "GP4100 彩色機"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8068,6 +9079,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "n": "GP4100 彩色機"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8167,6 +9191,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4201TAD",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXGP4201TAD"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8272,6 +9317,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8373,6 +9432,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4201TADW",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXGP4201TADW"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8472,6 +9552,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4203TAD",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXGP4203TAD"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8575,6 +9676,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8680,6 +9795,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8783,6 +9912,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4301TADW",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXGP4301TADW"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8886,6 +10036,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -8987,6 +10151,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "unknown",
+     "src": "S_BLUE_MODEL",
+     "n": "原廠支援清單未明列此機型"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9090,6 +10267,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4401WADW",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXGP4401WADW"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9198,6 +10396,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4402WADW",
+     "eos": "2024/12/31",
+     "eor": "2026/12/31",
+     "src": "S_DC_PFXGP4402WADW"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9301,6 +10520,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9409,6 +10642,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4502WADW",
+     "eos": "2024/12/31",
+     "eor": "2026/12/31",
+     "src": "S_DC_PFXGP4502WADW"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9518,6 +10772,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9621,6 +10889,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9722,6 +11004,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9826,6 +11122,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4501TADW",
+     "eos": "2025/06/30",
+     "eor": "2030/06/30",
+     "src": "S_DC_PFXGP4501TADW"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -9929,6 +11246,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10032,6 +11363,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10135,6 +11480,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10238,6 +11597,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10339,6 +11712,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10442,6 +11829,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10545,6 +11946,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10640,6 +12055,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [
+    {
+     "code": "PFXGP4G01DNWLS",
+     "eos": "2024/09/30",
+     "eor": "2027/09/30",
+     "src": "S_DC_PFXGP4G01DNWLS"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "unknown",
+     "src": "S_BLUE_MODEL",
+     "n": "原廠支援清單未明列此機型"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10737,6 +12172,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10830,6 +12279,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -10927,6 +12389,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11024,6 +12499,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11121,6 +12609,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11219,6 +12720,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11316,6 +12830,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11413,6 +12940,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11510,6 +13050,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11602,6 +13155,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1B 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11694,6 +13260,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1B 以上"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11784,6 +13363,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1B 以上"
+    },
+    "bos": {
+     "s": "no",
+     "src": "S_BOS_MODEL|S_BOS_EDGE",
+     "n": "BLUE Open Studio 用的是另一型號 STM6000 Edge Box HMI（PFXSTM6B00DIOT，需 BLUE Open Studio 2020 SP2 以上）"
+    }
    }
   },
   {
@@ -11879,6 +13471,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -11975,6 +13580,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -12070,6 +13688,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -12166,6 +13797,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -12261,6 +13905,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -12357,6 +14014,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -12453,6 +14123,19 @@ window.HMI_DATA = {
      "USB micro-B"
     ],
     "src": "S_CAB_FAQ"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -12538,7 +14221,20 @@ window.HMI_DATA = {
    },
    "replace": [],
    "switches": [],
-   "cable": null
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
   },
   {
    "key": "000B0FF0|ET-55** Series|ET-5500WA WSVGA (1024*600)",
@@ -12622,7 +14318,20 @@ window.HMI_DATA = {
    },
    "replace": [],
    "switches": [],
-   "cable": null
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
   },
   {
    "key": "00030900|LT-42** Series|LT-4201TM (Modular Type Analog)",
@@ -12720,6 +14429,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -12818,6 +14540,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -12916,6 +14651,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13014,6 +14762,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13109,6 +14870,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13204,6 +14978,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13298,6 +15085,19 @@ window.HMI_DATA = {
      "USB mini-B"
     ],
     "src": "S_USER_XLSX"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13392,6 +15192,19 @@ window.HMI_DATA = {
      "USB mini-B"
     ],
     "src": "S_USER_XLSX"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13486,6 +15299,19 @@ window.HMI_DATA = {
      "USB mini-B"
     ],
     "src": "S_USER_XLSX"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13579,6 +15405,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3200-A1-D24",
+     "eos": "2013/06/21",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3200_A1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13672,6 +15518,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3200-T1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3200_T1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13776,6 +15642,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13873,6 +15752,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300H-L1-D24-xxx-xxx",
+     "eos": "2017/09/29",
+     "eor": "2023/12/28",
+     "src": "S_DC_AGP3300H_L1_D24_xxx_xxx"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -13970,6 +15869,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300H-S1-D24-xxx-xxx",
+     "eos": "2017/09/29",
+     "eor": "2023/12/28",
+     "src": "S_DC_AGP3300H_S1_D24_xxx_xxx"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14080,6 +15999,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-L1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3300_L1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14190,6 +16129,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-L1-D24-CA1M",
+     "eos": "2014/09/30",
+     "eor": "2020/12/28",
+     "src": "S_DC_AGP3300_L1_D24_CA1M"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14305,6 +16264,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-L1-D24-D81C",
+     "eos": "2014/09/30",
+     "eor": "2020/12/28",
+     "src": "S_DC_AGP3300_L1_D24_D81C"
+    },
+    {
+     "code": "AGP3300-L1-D24-D81K",
+     "eos": "2014/09/30",
+     "eor": "2020/12/28",
+     "src": "S_DC_AGP3300_L1_D24_D81K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14415,6 +16400,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-L1-D24-FN1M",
+     "eos": "2014/09/30",
+     "eor": "2020/12/28",
+     "src": "S_DC_AGP3300_L1_D24_FN1M"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14525,6 +16530,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-S1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3300_S1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14635,6 +16660,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14750,6 +16788,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-S1-D24-D81C",
+     "eos": "2014/09/30",
+     "eor": "2020/12/28",
+     "src": "S_DC_AGP3300_S1_D24_D81C"
+    },
+    {
+     "code": "AGP3300-S1-D24-D81K",
+     "eos": "2014/09/30",
+     "eor": "2020/12/28",
+     "src": "S_DC_AGP3300_S1_D24_D81K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14855,6 +16919,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-T1-D24-CA1M",
+     "eos": "2025/12/31",
+     "eor": "2030/12/31",
+     "src": "S_DC_AGP3300_T1_D24_CA1M"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -14965,6 +17049,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-T1-D24-D81C",
+     "eos": "2025/12/31",
+     "eor": "2030/12/31",
+     "src": "S_DC_AGP3300_T1_D24_D81C"
+    },
+    {
+     "code": "AGP3300-T1-D24-D81K",
+     "eos": "2025/12/31",
+     "eor": "2030/12/31",
+     "src": "S_DC_AGP3300_T1_D24_D81K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15070,6 +17180,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15175,6 +17298,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3300-T1-D24",
+     "eos": "2015/05/29",
+     "eor": "2021/08/31",
+     "src": "S_DC_AGP3300_T1_D24"
+    },
+    {
+     "code": "AGP3300-U1-D24",
+     "eos": "2020/12/28",
+     "eor": "2026/04/30",
+     "src": "S_DC_AGP3300_U1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15274,6 +17423,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3301-L1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3301_L1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15373,6 +17542,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3301-S1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3301_S1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15470,6 +17659,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3302-B1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3302_B1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15567,6 +17776,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3310H-T1-D24-xxx-xxx",
+     "eos": "2017/09/29",
+     "eor": "2023/12/28",
+     "src": "S_DC_AGP3310H_T1_D24_xxx_xxx"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15670,6 +17899,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3310-T1-D24",
+     "eos": "2015/05/29",
+     "eor": "2021/08/31",
+     "src": "S_DC_AGP3310_T1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15773,6 +18022,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3360-T1-D24",
+     "eos": "2017/09/27",
+     "eor": "2024/05/31",
+     "src": "S_DC_AGP3360_T1_D24",
+     "n": "無版次最後受理維修 2022/04/28；Rev. A 以後 2024/04/27"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15878,6 +18148,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3400-S1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3400_S1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -15983,6 +18273,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16088,6 +18391,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3400-S1-D24-D81C",
+     "eos": "2014/09/30",
+     "eor": "2020/12/28",
+     "src": "S_DC_AGP3400_S1_D24_D81C"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16193,6 +18516,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16298,6 +18634,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3400-T1-D24-CA1M",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3400_T1_D24_CA1M",
+     "n": "維修期內如零件停產，仍可能無法維修"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16403,6 +18760,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3400-T1-D24-D81C",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3400_T1_D24_D81C"
+    },
+    {
+     "code": "AGP3400-T1-D24-D81K",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3400_T1_D24_D81K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16508,6 +18891,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3400-T1-D24-FN1M",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3400_T1_D24_FN1M"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16611,6 +19014,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3450-T1-D24",
+     "eos": "2017/09/27",
+     "eor": "2024/05/31",
+     "src": "S_DC_AGP3450_T1_D24",
+     "n": "Rev. 4 以前最後受理維修 2022/04/28；Rev. 5 以後 2024/04/27"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16710,6 +19134,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3500-L1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AGP3500_L1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16809,6 +19253,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3500-L1-D24-D81C",
+     "eos": "2014/09/30",
+     "eor": "2020/12/28",
+     "src": "S_DC_AGP3500_L1_D24_D81C"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -16908,6 +19372,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3500-S1-AF",
+     "eos": "2012/10/31",
+     "eor": "2019/01/31",
+     "src": "S_DC_AGP3500_S1_AF"
+    },
+    {
+     "code": "AGP3500-S1-D24",
+     "eos": "2012/10/31",
+     "eor": "2019/01/31",
+     "src": "S_DC_AGP3500_S1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17007,6 +19497,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17106,6 +19609,44 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3500-S1-AF-D81C",
+     "eos": "2012/10/31",
+     "eor": "2019/01/31",
+     "src": "S_DC_AGP3500_S1_AF_D81C"
+    },
+    {
+     "code": "AGP3500-S1-AF-D81K",
+     "eos": "2012/10/31",
+     "eor": "2019/01/31",
+     "src": "S_DC_AGP3500_S1_AF_D81K"
+    },
+    {
+     "code": "AGP3500-S1-D24-D81C",
+     "eos": "2012/10/31",
+     "eor": "2019/01/31",
+     "src": "S_DC_AGP3500_S1_D24_D81C"
+    },
+    {
+     "code": "AGP3500-S1-D24-D81K",
+     "eos": "2012/10/31",
+     "eor": "2019/01/31",
+     "src": "S_DC_AGP3500_S1_D24_D81K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17211,6 +19752,34 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3500-T1-AF",
+     "eos": "2015/05/29",
+     "eor": "2021/08/31",
+     "src": "S_DC_AGP3500_T1_AF",
+     "n": "Rev. 1 以前最後受理維修 2013/12/28；Rev. 2 至 4 為 2020/06/30；之後 2021/08/31"
+    },
+    {
+     "code": "AGP3500-T1-D24",
+     "eos": "2015/05/29",
+     "eor": "2021/08/31",
+     "src": "S_DC_AGP3500_T1_D24",
+     "n": "Rev. 1 以前最後受理維修 2013/12/28；Rev. 2 至 4 為 2020/06/30；之後 2021/08/31"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17316,6 +19885,34 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3500-T1-AF-CA1M",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3500_T1_AF_CA1M",
+     "n": "停修日依產品版次不同"
+    },
+    {
+     "code": "AGP3500-T1-D24-CA1M",
+     "eos": "2018/06/08",
+     "eor": "2025/01/31",
+     "src": "S_DC_AGP3500_T1_D24_CA1M",
+     "n": "停修日依產品版次不同"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17421,6 +20018,48 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3500-T1-AF-D81C",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3500_T1_AF_D81C",
+     "n": "停修日依產品版次不同"
+    },
+    {
+     "code": "AGP3500-T1-AF-D81K",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3500_T1_AF_D81K",
+     "n": "停修日依產品版次不同"
+    },
+    {
+     "code": "AGP3500-T1-D24-D81C",
+     "eos": "2018/06/08",
+     "eor": "2025/01/31",
+     "src": "S_DC_AGP3500_T1_D24_D81C",
+     "n": "停修日依產品版次不同"
+    },
+    {
+     "code": "AGP3500-T1-D24-D81K",
+     "eos": "2018/06/08",
+     "eor": "2025/01/31",
+     "src": "S_DC_AGP3500_T1_D24_D81K",
+     "n": "停修日依產品版次不同"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17526,6 +20165,34 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3500-T1-AF-FN1M",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3500_T1_AF_FN1M",
+     "n": "停修日依產品版次不同"
+    },
+    {
+     "code": "AGP3500-T1-D24-FN1M",
+     "eos": "2018/06/08",
+     "eor": "2025/01/31",
+     "src": "S_DC_AGP3500_T1_D24_FN1M",
+     "n": "停修日依產品版次不同"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17631,6 +20298,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3510-T1-AF",
+     "eos": "2015/05/29",
+     "eor": "2021/08/31",
+     "src": "S_DC_AGP3510_T1_AF"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17736,6 +20423,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3510-T1-AF-CA1M",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3510_T1_AF_CA1M"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17833,6 +20540,27 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3550-T1-AF",
+     "eos": "2017/09/27",
+     "eor": "2024/05/31",
+     "src": "S_DC_AGP3550_T1_AF",
+     "n": "Rev. 1 以前最後受理維修 2013/12/28；Rev. 2 至 4 為 2020/06/30；Rev. 5 以後 2024/04/27"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -17930,6 +20658,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3560-T1-AF",
+     "eos": "2017/09/27",
+     "eor": "2024/05/31",
+     "src": "S_DC_AGP3560_T1_AF"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18029,6 +20777,34 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3600-T1-AF",
+     "eos": "2015/05/29",
+     "eor": "2021/08/31",
+     "src": "S_DC_AGP3600_T1_AF",
+     "n": "Rev. 4 以前（含無版次）最後受理維修 2017/11/30"
+    },
+    {
+     "code": "AGP3600-T1-D24",
+     "eos": "2015/05/29",
+     "eor": "2021/08/31",
+     "src": "S_DC_AGP3600_T1_D24",
+     "n": "Rev. 4 以前（含無版次）最後受理維修 2017/11/30"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18128,6 +20904,44 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3600-T1-AF-D81C",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3600_T1_AF_D81C"
+    },
+    {
+     "code": "AGP3600-T1-AF-D81K",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3600_T1_AF_D81K"
+    },
+    {
+     "code": "AGP3600-T1-D24-D81C",
+     "eos": "2018/06/08",
+     "eor": "2025/01/31",
+     "src": "S_DC_AGP3600_T1_D24_D81C"
+    },
+    {
+     "code": "AGP3600-T1-D24-D81K",
+     "eos": "2018/06/08",
+     "eor": "2025/01/31",
+     "src": "S_DC_AGP3600_T1_D24_D81K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18227,6 +21041,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3600-T1-AF-FN1M",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3600_T1_AF_FN1M"
+    },
+    {
+     "code": "AGP3600-T1-D24-FN1M",
+     "eos": "2018/06/08",
+     "eor": "2025/01/31",
+     "src": "S_DC_AGP3600_T1_D24_FN1M"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18326,6 +21166,38 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3600-T1-AF-CA1M",
+     "eos": "2018/07/31",
+     "eor": "2025/02/28",
+     "src": "S_DC_AGP3600_T1_AF_CA1M"
+    },
+    {
+     "code": "AGP3600-T1-D24-CA1M",
+     "eos": "2018/06/08",
+     "eor": "2025/01/31",
+     "src": "S_DC_AGP3600_T1_D24_CA1M"
+    },
+    {
+     "code": "AGP3600-U1-D24-CA1M",
+     "eos": "2020/12/28",
+     "eor": "2026/04/30",
+     "src": "S_DC_AGP3600_U1_D24_CA1M"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18423,6 +21295,34 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3650-T1-AF",
+     "eos": "2017/09/27",
+     "eor": "2024/05/31",
+     "src": "S_DC_AGP3650_T1_AF",
+     "n": "Rev. 4 以前最後受理維修 2018/02/28；Rev. 5 以後 2024/04/27"
+    },
+    {
+     "code": "AGP3650-U1-D24",
+     "eos": "2017/09/27",
+     "eor": "2024/05/31",
+     "src": "S_DC_AGP3650_U1_D24",
+     "n": "Rev. D 以前最後受理維修 2021/06/30；Rev. E 以後 2024/05/31"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18526,6 +21426,34 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AGP3750-T1-AF",
+     "eos": "2017/09/27",
+     "eor": "2024/05/31",
+     "src": "S_DC_AGP3750_T1_AF",
+     "n": "Rev. 4 以前最後受理維修 2018/02/28；Rev. 5 以後 2024/04/27"
+    },
+    {
+     "code": "AGP3750-T1-D24",
+     "eos": "2017/09/27",
+     "eor": "2024/05/31",
+     "src": "S_DC_AGP3750_T1_D24",
+     "n": "Rev. 4 以前最後受理維修 2018/02/28；Rev. 5 以後 2024/04/27"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18620,6 +21548,34 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "LT3201-A1-D24-C",
+     "eos": "2017/01/31",
+     "eor": "2023/04/28",
+     "src": "S_DC_LT3201_A1_D24_C",
+     "n": "維修期內如零件停產，仍可能無法維修"
+    },
+    {
+     "code": "LT3201-A1-D24-K",
+     "eos": "2017/01/31",
+     "eor": "2023/04/28",
+     "src": "S_DC_LT3201_A1_D24_K",
+     "n": "維修期內如零件停產，仍可能無法維修"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18713,6 +21669,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "LT3300-L1-D24-C",
+     "eos": "2015/12/25",
+     "eor": "2022/03/31",
+     "src": "S_DC_LT3300_L1_D24_C"
+    },
+    {
+     "code": "LT3300-L1-D24-K",
+     "eos": "2015/12/25",
+     "eor": "2022/03/31",
+     "src": "S_DC_LT3300_L1_D24_K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18806,6 +21788,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "LT3300-S1-D24-C",
+     "eos": "2013/06/28",
+     "eor": "2019/09/30",
+     "src": "S_DC_LT3300_S1_D24_C"
+    },
+    {
+     "code": "LT3300-S1-D24-K",
+     "eos": "2013/06/28",
+     "eor": "2019/09/30",
+     "src": "S_DC_LT3300_S1_D24_K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18905,6 +21913,34 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "LT3300-T1-D24-C",
+     "eos": "2025/12/31",
+     "eor": "2030/12/31",
+     "src": "S_DC_LT3300_T1_D24_C",
+     "n": "原廠標示待確認"
+    },
+    {
+     "code": "LT3300-T1-D24-K",
+     "eos": "2025/12/31",
+     "eor": "2030/12/31",
+     "src": "S_DC_LT3300_T1_D24_K",
+     "n": "原廠標示待確認"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -18998,6 +22034,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "LT3301-L1-D24-C",
+     "eos": "2015/12/25",
+     "eor": "2022/03/31",
+     "src": "S_DC_LT3301_L1_D24_C"
+    },
+    {
+     "code": "LT3301-L1-D24-K",
+     "eos": "2015/12/25",
+     "eor": "2022/03/31",
+     "src": "S_DC_LT3301_L1_D24_K"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19093,6 +22155,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3201-A1-D24",
+     "eos": "2013/07/31",
+     "eor": "2019/12/27",
+     "src": "S_DC_AST3201_A1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19188,6 +22270,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3211-A1-D24",
+     "eos": "2013/07/31",
+     "eor": "2019/12/27",
+     "src": "S_DC_AST3211_A1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19283,6 +22385,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3301-B1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AST3301_B1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19378,6 +22500,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3301-S1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AST3301_S1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19473,6 +22615,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3301-T1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AST3301_T1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19568,6 +22730,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3302-B1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AST3302_B1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19663,6 +22845,26 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3401-T1-D24",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_AST3401_T1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19758,6 +22960,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3501-C1-AF",
+     "eos": "2012/12/28",
+     "eor": "2019/03/29",
+     "src": "S_DC_AST3501_C1_AF"
+    },
+    {
+     "code": "AST3501-C1-D24",
+     "eos": "2012/12/28",
+     "eor": "2019/03/29",
+     "src": "S_DC_AST3501_C1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19853,6 +23081,32 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [
+    {
+     "code": "AST3501-T1-AF",
+     "eos": "2012/12/28",
+     "eor": "2019/03/29",
+     "src": "S_DC_AST3501_T1_AF"
+    },
+    {
+     "code": "AST3501-T1-D24",
+     "eos": "2012/12/28",
+     "eor": "2019/03/29",
+     "src": "S_DC_AST3501_T1_D24"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -19948,6 +23202,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "屬 ST3000 系列；一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -20043,6 +23310,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "屬 ST3000 系列；一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -20138,6 +23418,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "屬 ST3000 系列；一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -20225,7 +23518,20 @@ window.HMI_DATA = {
    },
    "replace": [],
    "switches": [],
-   "cable": null
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
   },
   {
    "key": "F02F8400|OSP Series|OSP-P2W",
@@ -20349,6 +23655,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -20473,6 +23792,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -20599,6 +23931,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "n": "PC/AT"
+    },
+    "bos": {
+     "s": "yes",
+     "src": "S_BOS_MODEL",
+     "n": "第三方電腦"
+    }
    }
   },
   {
@@ -20725,6 +24070,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -20851,6 +24209,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -20977,6 +24348,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -21103,6 +24487,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -21229,6 +24626,20 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_MODEL",
+     "v": "PS6000 需 BLUE 3.2 SP2 以上",
+     "n": "PS5000、PS6000"
+    },
+    "bos": {
+     "s": "yes",
+     "src": "S_BOS_MODEL",
+     "n": "PS6000、PS5000"
+    }
    }
   },
   {
@@ -21355,6 +24766,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -21481,6 +24905,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -21607,6 +25044,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -21733,6 +25183,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -21859,6 +25322,19 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ",
     "n": "一般 USB 線不能使用"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -21974,6 +25450,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2300",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2300-LG41-24V",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_GP2300_LG41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22077,6 +25573,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2300",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2300-SC41-24V",
+     "eos": "2012/06/29",
+     "eor": "2019/01/31",
+     "src": "S_DC_GP2300_SC41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22180,6 +25696,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2300",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2300-TC41-24V",
+     "eos": "2012/06/29",
+     "eor": "2019/01/31",
+     "src": "S_DC_GP2300_TC41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22285,6 +25821,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2300",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2301-LG41-24V",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_GP2301_LG41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22390,6 +25946,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2300",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2301-SC41-24V",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_GP2301_SC41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22501,6 +26077,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2300",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2301-TC41-24V",
+     "eos": "2012/06/29",
+     "eor": "2019/01/31",
+     "src": "S_DC_GP2301_TC41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22604,6 +26200,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2000E",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2400-TC41-24V",
+     "eos": "2010/10/29",
+     "eor": "2017/10/27",
+     "src": "S_DC_GP2400_TC41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22726,6 +26342,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2000E",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2500-LG41-24V",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_DC_GP2500_LG41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22854,6 +26490,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2000E",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2500-SC41-24V",
+     "eos": "2010/02/26",
+     "eor": "2016/10/31",
+     "src": "S_DC_GP2500_SC41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -22982,6 +26638,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2000E",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2500-TC11",
+     "eos": "2012/12/28",
+     "eor": "2019/03/29",
+     "src": "S_DC_GP2500_TC11"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -23110,6 +26786,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2000E",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2500-TC41-24V",
+     "eos": "2012/12/28",
+     "eor": "2019/03/29",
+     "src": "S_DC_GP2500_TC41_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -23226,6 +26922,27 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2000E",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2600-TC11",
+     "eos": "2011/02/28",
+     "eor": "2017/11/30",
+     "src": "S_DC_GP2600_TC11",
+     "n": "Rev. 3 以前最後受理維修 2012/09/30"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -23342,6 +27059,27 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP2000E",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP2600-TC41-24V",
+     "eos": "2011/02/28",
+     "eor": "2017/11/30",
+     "src": "S_DC_GP2600_TC41_24V",
+     "n": "Rev. 3 以前最後受理維修 2012/09/30"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -23449,6 +27187,26 @@ window.HMI_DATA = {
     ],
     "src": "S_USER_XLSX",
     "n": "圓形 Tool 連接埠；依使用者資料，未找到原廠文件"
+   },
+   "discon": [
+    {
+     "code": "GP37W2-BG41-24V",
+     "eos": "2013/09/30",
+     "eor": "2019/12/27",
+     "src": "S_R_GP37W2"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -23561,6 +27319,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP470-EG11",
+     "eos": "2002/12/26",
+     "eor": "2008/03/26",
+     "src": "S_DC_GP470_EG11"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -23673,6 +27451,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP470-EG21-24VP",
+     "eos": "2002/12/26",
+     "eor": "2008/03/26",
+     "src": "S_DC_GP470_EG21_24VP"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -23785,6 +27583,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP470-EG31-24V",
+     "eos": "2002/12/26",
+     "eor": "2008/03/26",
+     "src": "S_DC_GP470_EG31_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -23898,6 +27716,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP570-SC11",
+     "eos": "2001/04/27",
+     "eor": "2006/09/28",
+     "src": "S_DC_GP570_SC11"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -24011,6 +27849,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP570-SC21-24VP",
+     "eos": "2001/04/27",
+     "eor": "2006/09/28",
+     "src": "S_DC_GP570_SC21_24VP"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -24124,6 +27982,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP570-SC31-24V",
+     "eos": "2001/04/27",
+     "eor": "2006/09/28",
+     "src": "S_DC_GP570_SC31_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -24237,6 +28115,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP570-TC11",
+     "eos": "2002/03/29",
+     "eor": "2007/06/28",
+     "src": "S_DC_GP570_TC11"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -24350,6 +28248,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP570-TC21-24VP",
+     "eos": "2002/03/29",
+     "eor": "2007/06/28",
+     "src": "S_DC_GP570_TC21_24VP"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -24463,6 +28381,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP570-TC31-24V",
+     "eos": "2002/03/29",
+     "eor": "2007/06/28",
+     "src": "S_DC_GP570_TC31_24V"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   },
   {
@@ -24576,6 +28514,26 @@ window.HMI_DATA = {
     ],
     "src": "S_C_GP470",
     "n": "接圓形 Tool 連接埠；市售相容線如 USB-MMI-GP"
+   },
+   "discon": [
+    {
+     "code": "GP571-TC11",
+     "eos": "2002/03/29",
+     "eor": "2007/06/28",
+     "src": "S_DC_GP571_TC11"
+    }
+   ],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
    }
   }
  ]
