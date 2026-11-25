@@ -75,3 +75,7 @@ S_C_GP2300,GP-2300／2301 硬體手冊（簡體中文，GP2300-MM21-CHS，2007�
 S_C_GP2000E,GP-2400／2500／2600 Series User Manual（Pro-Designer 版，2002）,
 S_USER_XLSX,使用者提供的 PROFACE 機種整理表（PROFACE.xlsx）,
 S_C_GP470,GP-470／570 Series User's Manual（GP470570-MM21-ENG）,
+S_IPSEC,GP-Pro EX 手冊：以 IPsec 加密通訊資料,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/convenient/convenient_ov_ipsec.htm
+S_IPSEC_FAQ,Pro-face FAQ：GP-Pro EX 如何設定 IPsec,https://www.proface.com/en/support/faq/FAQ000269741
+S_EMAIL,GP-Pro EX 手冊：以 E-mail 確認人機資訊,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/remote/remote_ov_email.htm
+S_EMAIL_INTRO,GP-Pro EX Ver.4.09.100 E-mail 傳送功能介紹（日文）,https://proface.com/media/49467
