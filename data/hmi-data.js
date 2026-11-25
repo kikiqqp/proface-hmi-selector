@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 13:21:59",
+ "updated": "2026-11-25 13:22:28",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -127,6 +127,13 @@ window.HMI_DATA = {
    "tier": "ipc",
    "desc": "工業電腦執行 WinGP。",
    "url": "https://www.proface.com/en/product/hmi/top"
+  },
+  "GP2000": {
+   "order": 19,
+   "label": "GP2000（舊）",
+   "tier": "legacy",
+   "desc": "GP-Pro EX 不支援，以 GP-PRO/PB III 開發；另含更早的 GP-37W2、GP-470、GP-570。",
+   "url": "https://www.proface.com/en/product/discon/top"
   }
  },
  "versions": [
