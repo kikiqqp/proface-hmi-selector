@@ -36,7 +36,9 @@ STATUS = {"支援": "yes", "不支援": "no", "有條件": "cond", "舊版": "en
           "✓": "yes", "✗": "no", "yes": "yes", "no": "no", "cond": "cond", "ended": "ended", "unknown": "unknown"}
 MOUNT = {"方形": "rect", "圓孔": "round", "盒型": "box", "手持": "handheld", "IPC": "ipc"}
 SAME_CUT = {"相同": True, "不同": False, "": None}
-MODEL_STATUS = {"可新建": "full", "免費版": "free", "僅開啟": "open-only", "": "full"}
+MODEL_STATUS = {"可新建": "full", "免費版": "free", "僅開啟": "open-only", "不支援": "absent", "": "full"}
+# 傳輸線接頭代碼：USB A 指 USB A 對 USB A 專用傳輸線（CA3-USBCB-01），Tool 指 GP2000 等舊機的圓形 Tool 連接埠
+CABLE_KINDS = {"USB A", "USB mini-B", "USB micro-B", "Tool"}
 FORM = {"面板": "panel", "盒型": "box", "手持": "handheld", "IPC": "ipc", "": "panel"}
 
 errors = []
@@ -94,7 +96,7 @@ def load_extra_models():
         w = r["_where"]
         st = r.get("最新版狀態", r.get("5x狀態", ""))
         if st not in MODEL_STATUS:
-            errors.append(f"{w}：最新版狀態只能是 可新建／免費版／僅開啟")
+            errors.append(f"{w}：最新版狀態只能是 可新建／免費版／僅開啟／不支援")
         out.append({
             "key": f"extra|{r.get('XML群組', '')}|{r.get('機種名稱', '')}",
             "seriesXml": "", "series": r.get("系列", ""), "group": r.get("XML群組", ""),
@@ -110,7 +112,7 @@ def load_extra_models():
             "remoteHmiMaxXml": num(r.get("RemoteHMI連線數", ""), w, "RemoteHMI連線數"),
             "appMemoryMB": num(r.get("畫面記憶體MB", ""), w, "畫面記憶體MB"), "appMemoryExpandedMB": None,
             "backupMemoryKB": None, "revisions": [], "firstSeen": r.get("首次版本", "") or "人工新增",
-            "inVersions": [], "versions": {}, "statusLatest": MODEL_STATUS.get(st, "full"), "manualNote": r.get("備註", ""),
+            "inVersions": [], "versions": {}, "statusLatest": MODEL_STATUS.get(st, "full"), "manualNote": r.get("備註", ""), "software": r.get("開發軟體", ""),
         })
     return out
 
@@ -179,6 +181,19 @@ def build(check_only=False):
             if sw["series"]:
                 srules.append({"m": make_matcher(r), "s": sw, "where": r["_where"]})
 
+    # 傳輸線（選用檔案）：規則由上往下套用，下面覆蓋上面
+    cbrules = []
+    if (CSV_DIR / "cables.csv").exists():
+        for r in read_csv("cables.csv"):
+            kinds = split_src(r.get("接頭", ""))
+            bad = [k for k in kinds if k not in CABLE_KINDS]
+            if bad:
+                errors.append(f"{r['_where']}：接頭只能是 {'、'.join(sorted(CABLE_KINDS))}（{'、'.join(bad)}）")
+            cb = {"t": r.get("傳輸線", ""), "kinds": kinds, "src": r.get("來源", "")}
+            if r.get("備註"):
+                cb["n"] = r["備註"]
+            cbrules.append({"m": make_matcher(r), "cb": cb, "where": r["_where"]})
+
     rrules = []
     for r in read_csv("replacements.csv"):
         if r.get("開口", "") not in SAME_CUT:
@@ -189,11 +204,12 @@ def build(check_only=False):
         rrules.append({"m": make_matcher(r), "r": rep, "where": r["_where"]})
 
     # 檢查來源代號與系列代號
-    for group, items in (("功能", frules), ("開口", crules), ("替換", rrules), ("特殊開關", srules)):
+    for group, items in (("功能", frules), ("開口", crules), ("替換", rrules), ("特殊開關", srules), ("傳輸線", cbrules)):
         for it in items:
             if it["m"]["series"] and it["m"]["series"] not in series:
                 errors.append(f"{it['where']}：系列代號 {it['m']['series']} 不在 series.csv")
             srcs = it.get("src") or [x for x in [it.get("c", {}).get("src"), it.get("r", {}).get("src")] if x]
+            srcs = [y for x in srcs for y in split_src(x)] + split_src(it.get("cb", {}).get("src", ""))
             for s in srcs:
                 if s not in sources:
                     errors.append(f"{it['where']}：來源代號 {s} 不在 sources.csv")
@@ -204,6 +220,7 @@ def build(check_only=False):
         vk = lambda v: tuple(int(x) for x in v.split(".") if x.isdigit())
         first = m["firstSeen"] if m["firstSeen"] in gen["versions"] else gen["sourceVersion"]
         m["versions"] = {v: (m["statusLatest"] if vk(v) >= vk(first) else "absent") for v in gen["versions"]}
+        # 不支援：GP-Pro EX 任何版本都不能開發（例如 GP2000 系列）
     extra_names = {(m["series"], m["name"]) for m in extra}
     base = [m for m in gen["models"] if (m["series"], m["name"]) not in extra_names]
 
@@ -236,15 +253,20 @@ def build(check_only=False):
                 feats[k]["conn"] = v
             if "S_XML" in sources and "S_XML" not in fsrc:
                 fsrc.append("S_XML")
+        cable = None
+        for i, it in enumerate(cbrules):
+            if matches(it["m"], m):
+                used.add(("cb", i))
+                cable = it["cb"]
         sws = []
         for i, it in enumerate(srules):
             if matches(it["m"], m):
                 used.add(("s", i))
                 sws.append(it["s"])
-        mm = dict(m, features=feats, featureSrc=fsrc, cutout=cut, replace=reps, switches=sws)
+        mm = dict(m, features=feats, featureSrc=fsrc, cutout=cut, replace=reps, switches=sws, cable=cable)
         models.append(mm)
 
-    for tag, items in (("f", frules), ("c", crules), ("r", rrules), ("s", srules)):
+    for tag, items in (("f", frules), ("c", crules), ("r", rrules), ("s", srules), ("cb", cbrules)):
         for i, it in enumerate(items):
             if (tag, i) not in used:
                 print(f"提醒：{it['where']} 沒有對應到任何機種")
