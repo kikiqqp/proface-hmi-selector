@@ -69,7 +69,15 @@ async def run(chrome):
             n = await pg.locator("#findRes .card:not(.near)").count()
             ok(n > 0, f"找機種：5.7 吋＋Remote HMI＋開口 156×123.5 有 {n} 款符合")
             await pg.screenshot(path=str(OUT / f"{tag}_找機種.png"))
-            await pg.click("#fReset")
+            if phone:
+                await pg.click("#fJump")
+                ok(await pg.locator("#fResetBar").is_visible(), "手機版：有條件時上方顯示重新選擇")
+                await pg.click("#fResetBar")
+            else:
+                await pg.click("#fResetTop")
+            ok(await pg.locator("#findRes .active").count() == 0 and await pg.locator("#fResetTop").is_hidden(), "找機種：重新選擇會清除所有條件")
+            if phone:
+                await pg.click("#fOpen")
 
             await pg.click('[data-f="size"][data-v="s7"]')
             await pg.click('[data-f="cut"][data-v="190×135"]')
