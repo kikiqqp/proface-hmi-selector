@@ -95,6 +95,7 @@ main{padding:1.25rem max(4vw,1rem) 3rem;max-width:1480px;margin:0 auto}
 .meta{font-size:.88rem;color:var(--muted)}
 .spec{display:flex;flex-wrap:wrap;gap:.25rem 1rem;font-size:.92rem}
 .spec b{font-weight:600}
+.near-note{margin:0 0 1rem;padding:.75rem 1rem;border-radius:var(--r);background:var(--cond-bg);color:var(--cond);font-weight:600;line-height:1.5}.near-note small{display:block;font-weight:400;margin-top:.2rem}
 .miss{font-size:.88rem;color:var(--cond);background:var(--cond-bg);border-radius:.45rem;padding:.35rem .6rem}
 .pills{display:flex;flex-wrap:wrap;gap:.3rem}
 .pill{font-size:.82rem;border-radius:.4rem;padding:.12rem .5rem;white-space:nowrap;font-weight:500}
@@ -544,6 +545,34 @@ function sameCut(m) {
   const k = cutKey(m.cutout); if (!k) return [];
   return M.filter(x => x !== m && cutKey(x.cutout) === k && current(x) && !(isSP(x) && x.group !== 'SP-5B10'));
 }
+const NEAR_MAX = 30, NEAR_N = 3;
+const NO_CUT = {handheld:'手持型不是面板開孔安裝，不比對開口，請參考上方原廠建議替換。', ipc:'工業電腦依實際機型與安裝方式選型，不比對開口。', box:'盒型主機、後模組或 Box 單獨使用，不比對開口。'};
+const sgn = v => (v > 0 ? '+' : v < 0 ? '−' : '±') + Math.round(Math.abs(v) * 10) / 10;
+function nearCut(m) {
+  const o = m.cutout || {}; if (!cutKey(o)) return null;
+  const all = [];
+  for (const x of M) {
+    if (x === m || !current(x) || (isSP(x) && x.group !== 'SP-5B10')) continue;
+    const c = x.cutout || {}; let dw, dh;
+    if (o.w && c.w) { dw = c.w - o.w; dh = c.h - o.h; }
+    else if (o.d && c.d) { dw = dh = c.d - o.d; }
+    else continue;
+    if (dw === 0 && dh === 0) continue;
+    const dist = Math.max(Math.abs(dw), Math.abs(dh));
+    if (dist > NEAR_MAX) continue;
+    all.push({x, dw, dh, dist, round: !!o.d, big: dw >= 0 && dh >= 0});
+  }
+  all.sort((a,b) => a.dist - b.dist || (Math.abs(a.dw) + Math.abs(a.dh)) - (Math.abs(b.dw) + Math.abs(b.dh)));
+  const pick = list => { const seen = new Set(), out = []; for (const r of list) { if (seen.has(r.x.series)) continue; seen.add(r.x.series); out.push(r); if (out.length >= NEAR_N) break; } return out; };
+  return {big: pick(all.filter(r => r.big)), small: pick(all.filter(r => !r.big))};
+}
+const diffTxt = r => r.round ? `孔徑 ${sgn(r.dw)} mm` : `寬 ${sgn(r.dw)}、高 ${sgn(r.dh)} mm`;
+function noSameTxt(m) {
+  const c = m.cutout || {};
+  if (NO_CUT[c.mount]) return NO_CUT[c.mount];
+  if (!cutKey(c)) return '舊機開口尚未建檔，無法比對。';
+  return '';
+}
 const swText = x => `特殊開關切換 ${x.sw}：${x.use || x.zh || x.en}`;
 const SW_HINT = '預設全部 OFF，按 Shift 鍵與 X 鍵開啟設定。';
 function swBox(m) {
@@ -600,7 +629,7 @@ function renderDetail(m, target) {
      ${(D.switches || []).length ? swBox(m) : ''}
     </div>
     <div class="box"><h3>規格</h3><table class="stack"><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody>${specRows(m).map(([a,b]) => `<tr><td>${esc(a)}</td><td>${esc(b)}</td></tr>`).join('')}</tbody></table></div>
-    <div class="box"><h3>開口相同的現行機種</h3>${sc.length ? `<div class="chips">${sc.map(x => `<button class="chip" data-open="${esc(x.key)}">${esc(isSP(x) ? spDisp(x) : clean(x.name))}<small>${esc(ser(x.series).label)}</small></button>`).join('')}</div><p class="hint">SP5000 以 Power Box 代表，其他 Box 開口相同</p>` : '<span class="meta">沒有開口相同的現行機種，或開口尚未建檔</span>'}
+    <div class="box"><h3>開口相同的現行機種</h3>${sc.length ? `<div class="chips">${sc.map(x => `<button class="chip" data-open="${esc(x.key)}">${esc(isSP(x) ? spDisp(x) : clean(x.name))}<small>${esc(ser(x.series).label)}</small></button>`).join('')}</div><p class="hint">SP5000 以 Power Box 代表，其他 Box 開口相同</p>` : `<span class="meta">${esc(noSameTxt(m) || '無開口相同的現行機種。開口相近的機種可到「舊機替換」查看。')}</span>`}
      <h3 style="margin-top:1.12rem">資料來源</h3><ul class="src">${srcs.map(s => `<li>${srcLink(s)}</li>`).join('') || '<li>XML</li>'}</ul></div>
    </div>`;
 }
@@ -631,15 +660,36 @@ function renderReplace(m) {
   $('#rDetail').innerHTML = `
    <h2 class="title">${esc(name(m))}</h2>
    <div class="row" style="margin-bottom:1rem">${badge(m)}<span class="meta">開口 ${esc(cutTxt(m.cutout))}${m.inch ? '　' + esc(m.inch) + ' 吋' : ''}　${esc(resTxt(m))}</span><button class="btn" data-open="${esc(m.key)}">舊機詳細</button></div>
-   <div class="box" style="margin-bottom:1.25rem"><h3>原廠建議替換</h3>${m.replace.length ? `<ul class="src">${m.replace.map(r => `<li><b>${esc(r.to)}</b>${r.sameCutout === true ? '（開口相同）' : r.sameCutout === false ? '（開口不同，需改孔或轉接）' : ''}${r.n ? '，' + esc(r.n) : ''}<br>${srcLink(r.src)}</li>`).join('')}</ul>` : '<span class="meta">原廠替換手冊未列此機種，請參考下方開口相同的機種，或使用</span> ' + srcLink('S_R_DISCON')}</div>
-   <h3 class="sub">開口相同、可直接換裝的現行機種</h3>
+   <div class="box" style="margin-bottom:1.25rem"><h3>原廠建議替換</h3>${m.replace.length ? `<ul class="src">${m.replace.map(r => `<li><b>${esc(r.to)}</b>${r.sameCutout === true ? '（開口相同）' : r.sameCutout === false ? '（開口不同，需改孔或轉接）' : ''}${r.n ? '，' + esc(r.n) : ''}<br>${srcLink(r.src)}</li>`).join('')}</ul>` : `<span class="meta">原廠替換手冊未列此機種，請參考下方${sc.length ? '開口相同' : '開口相近'}的機種，或使用</span> ` + srcLink('S_R_DISCON')}</div>
+   <h3 class="sub">${sc.length ? '開口相同、可直接換裝的現行機種' : '開口相同的現行機種：無'}</h3>
    ${sc.length ? `<div class="cards">${sc.map(x => { const d = diffList(m, x); return `<article class="card">
      <div class="row" style="justify-content:space-between"><span class="meta">${esc(ser(x.series).label)}</span>${badge(x)}</div>
      <h3>${esc(isSP(x) ? spDisp(x) + ' + Box' : clean(x.name))}</h3><div class="meta">${x.inch ? esc(x.inch) + ' 吋　' : ''}${esc(resTxt(x))}</div>
      <div class="pills">${pills(x, ['remoteHmi','gpViewer','proFaceConnect','ftp','email'])}</div>
      ${d.length ? `<div class="miss">比舊機少：${esc(d.join('、'))}</div>` : '<div class="pill s-yes" style="align-self:flex-start">功能不少於舊機</div>'}
      <div class="act"><button class="btn solid" data-open="${esc(x.key)}">詳細</button><button class="btn" data-pair="${esc(m.key)}::${esc(x.key)}">與舊機比較</button></div></article>`; }).join('')}</div>`
-    : '<div class="empty">沒有開口相同的現行機種，或舊機開口尚未建檔</div>'}`;
+    : nearHtml(m)}`;
+}
+function nearCard(m, r) {
+  const x = r.x, d = diffList(m, x), c = x.cutout || {};
+  return `<article class="card">
+     <div class="row" style="justify-content:space-between"><span class="meta">${esc(ser(x.series).label)}</span>${badge(x)}</div>
+     <h3>${esc(isSP(x) ? spDisp(x) + ' + Box' : clean(x.name))}</h3><div class="meta">${x.inch ? esc(x.inch) + ' 吋　' : ''}${esc(resTxt(x))}</div>
+     <div class="meta">開口 <b>${esc(cutTxt(c))}</b>，與舊機差 <b>${esc(diffTxt(r))}</b>${c.n ? '<br>' + esc(c.n) : ''}</div>
+     <div class="pills">${pills(x, ['remoteHmi','gpViewer','proFaceConnect','ftp','email'])}</div>
+     ${d.length ? `<div class="miss">比舊機少：${esc(d.join('、'))}</div>` : '<div class="pill s-yes" style="align-self:flex-start">功能不少於舊機</div>'}
+     <div class="act"><button class="btn solid" data-open="${esc(x.key)}">詳細</button><button class="btn" data-pair="${esc(m.key)}::${esc(x.key)}">與舊機比較</button></div></article>`;
+}
+function nearHtml(m) {
+  const why = noSameTxt(m);
+  if (why) return `<div class="empty">${esc(why)}</div>`;
+  const n = nearCut(m);
+  const head = `<div class="near-note">沒有開口相同規格的現行機種，以下只是開口尺寸相近的機種，不是同規格。<small>依開口尺寸推算，不是原廠建議。換裝需擴孔或加轉接板，施工前請確認新機外框、盤內深度與原廠外形圖。同一系列只列最接近的一款，差距超過 ${NEAR_MAX} mm 不列。</small></div>`;
+  const sec = (t, list, none) => `<h3 class="sub">${t}</h3>${list.length ? `<div class="cards">${list.map(r => nearCard(m, r)).join('')}</div>` : `<div class="empty">${none}</div>`}`;
+  if (!n.big.length && !n.small.length) return head + `<div class="empty">${NEAR_MAX} mm 內沒有開口相近的現行機種</div>`;
+  return head
+    + sec('相近開口：擴孔即可（新機開口較大）', n.big, '沒有開口較大的相近機種')
+    + sec('相近開口：需轉接板或補板（新機開口較小）', n.small, '沒有開口較小的相近機種');
 }
 $('#v-replace').addEventListener('click', e => {
   if (e.target.closest('#rReset')) { rSel = {series:'', group:'', model:''}; renderReplacePick(); $('#rDetail').innerHTML = R_EMPTY; window.scrollTo({top:0, behavior:'smooth'}); return; }
