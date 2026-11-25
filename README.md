@@ -18,8 +18,6 @@
 ## 快速開始
 
 1. **只是要用**：雙擊 `index.html`，或開啟 GitHub Pages 網址。
-2. **要上架到 GitHub**：照 [GitHub 使用說明](docs/GitHub使用說明.md) 第一章操作，約 10 分鐘。
-3. **要修改資料**：改 `data/csv/` 底下的 CSV，提交後自動檢查、重建與部署。
 
 ## 網站功能
 
