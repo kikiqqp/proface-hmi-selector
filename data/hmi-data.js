@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 10:12:31",
+ "updated": "2026-11-26 10:50:49",
  "sourceVersion": "5.02",
  "series": {
   "GP6000A": {
@@ -13999,7 +13999,7 @@ window.HMI_DATA = {
     "code": "PFXST6200WADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXST6200WADE"
    },
    "features": {
     "remoteHmi": {
@@ -14128,7 +14128,7 @@ window.HMI_DATA = {
     "code": "PFXST6300TADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXST6300TADE"
    },
    "features": {
     "remoteHmi": {
@@ -14246,7 +14246,7 @@ window.HMI_DATA = {
     "code": "PFXST6400WADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXST6400WADE"
    },
    "features": {
     "remoteHmi": {
@@ -14372,7 +14372,7 @@ window.HMI_DATA = {
     "code": "PFXST6500WADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXST6500WADE"
    },
    "features": {
     "remoteHmi": {
@@ -14501,7 +14501,7 @@ window.HMI_DATA = {
     "code": "PFXST6500TADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXST6500TADE"
    },
    "features": {
     "remoteHmi": {
@@ -14620,7 +14620,7 @@ window.HMI_DATA = {
     "code": "PFXST6600WADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXST6600WADE"
    },
    "features": {
     "remoteHmi": {
@@ -14867,7 +14867,7 @@ window.HMI_DATA = {
     "code": "PFXST6700WADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXST6700WADE"
    },
    "features": {
     "remoteHmi": {
@@ -15440,7 +15440,7 @@ window.HMI_DATA = {
     "code": "PFXSTM6200WADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXSTM6200WADE"
    },
    "features": {
     "remoteHmi": {
@@ -15553,7 +15553,7 @@ window.HMI_DATA = {
     "code": "PFXSTM6400WADE",
     "u": 64,
     "b": 320,
-    "n": "GP-Pro EX 型號的規格頁"
+    "n": "依 GP-Pro EX 型號 PFXSTM6400WADE"
    },
    "features": {
     "remoteHmi": {
