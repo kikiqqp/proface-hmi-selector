@@ -1,6 +1,6 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 09:11:20",
- "sourceVersion": "5.01",
+ "updated": "2026-11-26 09:18:48",
+ "sourceVersion": "5.02",
  "series": {
   "GP6000A": {
    "order": 1,
@@ -146,7 +146,8 @@ window.HMI_DATA = {
  "versions": [
   "4.08",
   "4.09",
-  "5.01"
+  "5.01",
+  "5.02"
  ],
  "status": {
   "full": "可新建專案",
@@ -1152,21 +1153,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1261,21 +1277,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1373,21 +1404,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1485,21 +1531,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1597,21 +1658,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1709,21 +1785,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1821,21 +1912,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1933,21 +2039,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2045,21 +2166,36 @@ window.HMI_DATA = {
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2164,12 +2300,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -2274,12 +2412,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -2384,12 +2524,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -2494,12 +2636,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -2604,12 +2748,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -2714,12 +2860,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -2820,12 +2968,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -2915,12 +3065,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3015,12 +3167,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3126,12 +3280,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3240,12 +3396,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3354,12 +3512,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3468,12 +3628,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3582,12 +3744,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3696,12 +3860,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3810,12 +3976,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -3938,12 +4106,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4052,12 +4222,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4166,12 +4338,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4281,12 +4455,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4393,12 +4569,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4508,12 +4686,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4623,12 +4803,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4737,12 +4919,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4852,12 +5036,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -4967,12 +5153,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -5082,12 +5270,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -5211,12 +5401,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -5326,12 +5518,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -5441,12 +5635,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -5556,14 +5752,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5681,14 +5912,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5809,14 +6075,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5937,14 +6238,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6065,14 +6401,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6193,14 +6564,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6321,14 +6727,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6461,14 +6902,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6589,14 +7065,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6708,14 +7219,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6830,14 +7376,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6952,14 +7533,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7073,14 +7689,49 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7195,14 +7846,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7317,14 +8003,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7439,14 +8160,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7574,14 +8330,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7696,14 +8487,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7818,14 +8644,49 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7939,12 +8800,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -8056,12 +8919,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -8173,12 +9038,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -8282,12 +9149,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -8412,12 +9281,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -8542,12 +9413,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -8672,12 +9545,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -8786,7 +9661,7 @@ window.HMI_DATA = {
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 8.0,
@@ -8797,12 +9672,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -8912,12 +9789,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -9023,12 +9902,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -9134,12 +10015,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -9245,12 +10128,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -9372,12 +10257,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -9495,12 +10382,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -9620,12 +10509,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -9751,12 +10642,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -9864,14 +10757,19 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "unknown"
    },
-   "statusLatest": "open-only",
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F5.7A"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -9947,6 +10845,122 @@ window.HMI_DATA = {
    }
   },
   {
+   "key": "6C000600|GP-43** Series|GP-4301TTM (Matrix Touch Panel)",
+   "seriesXml": "GP4000 Series",
+   "series": "GP4000",
+   "group": "GP-43** Series",
+   "name": "GP-4301TTM (Matrix Touch Panel)",
+   "offlineName": "GP4301TTM",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "matrix",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 16.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full",
+   "features": {
+    "remoteHmi": {
+     "s": "yes",
+     "conn": 3
+    },
+    "gpViewer": {
+     "s": "yes"
+    },
+    "proFaceConnect": {
+     "s": "yes"
+    },
+    "ftp": {
+     "s": "yes",
+     "n": "支援 FTPS"
+    },
+    "web": {
+     "s": "ended",
+     "n": "4.09.450 以前版本才支援"
+    },
+    "email": {
+     "s": "yes"
+    },
+    "ipsec": {
+     "s": "yes"
+    },
+    "ezLan": {
+     "s": "yes"
+    }
+   },
+   "featureSrc": [
+    "S_RHMI_WIN",
+    "S_GPV_LIC",
+    "S_PFC"
+   ],
+   "cutout": {
+    "mount": "rect",
+    "w": 156,
+    "h": 123.5,
+    "t": "1.6～5",
+    "n": "GP-4301T 的矩陣式觸控版本（型錄列為同一機種），GP-Pro EX 5.02 XML 起收錄",
+    "src": "S_C_GP4000|S_GP4000_LEAF"
+   },
+   "replace": [],
+   "switches": [],
+   "cable": {
+    "t": "USB A 對 mini-B",
+    "kinds": [
+     "USB mini-B",
+     "USB A"
+    ],
+    "src": "S_CAB_FAQ",
+    "n": "也可用 USB A 對 USB A 專用傳輸線 CA3-USBCB-01"
+   },
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "ended",
+     "src": "S_BLUE_MODEL",
+     "v": "BLUE 3.1 SP1 起不支援",
+     "n": "GP4000／GP4000M 只能用 BLUE 3.1 SP1 以前的版本"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
+  },
+  {
    "key": "14000600|GP-43** Series|GP-4301TW",
    "seriesXml": "GP4000 Series",
    "series": "GP4000",
@@ -9987,14 +11001,19 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "unknown"
    },
-   "statusLatest": "full",
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F5.7B"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10130,12 +11149,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -10243,12 +11264,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -10361,12 +11384,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -10492,12 +11517,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -10621,12 +11648,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -10738,12 +11767,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -10867,12 +11898,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -10990,12 +12023,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -11105,12 +12140,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -11222,14 +12259,19 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "unknown"
    },
-   "statusLatest": "full",
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F10.4A"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11366,12 +12408,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -11483,12 +12527,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -11600,12 +12646,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -11717,12 +12765,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -11832,12 +12882,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -11949,12 +13001,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -12066,12 +13120,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -12179,12 +13235,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -12301,12 +13359,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -12405,18 +13465,20 @@ window.HMI_DATA = {
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -12529,14 +13591,19 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "unknown"
    },
-   "statusLatest": "full",
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F5.7C"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12633,18 +13700,20 @@ window.HMI_DATA = {
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -12751,18 +13820,20 @@ window.HMI_DATA = {
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -12875,14 +13946,19 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "unknown"
    },
-   "statusLatest": "full",
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F10.4B"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12980,18 +14056,20 @@ window.HMI_DATA = {
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -13104,12 +14182,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -13216,18 +14296,20 @@ window.HMI_DATA = {
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -13301,6 +14383,452 @@ window.HMI_DATA = {
    }
   },
   {
+   "key": "00511700||PFXST6200AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6200AWA*",
+   "offlineName": "ST6200AWA",
+   "form": "panel",
+   "inch": 4.3,
+   "resolution": "WQVGA",
+   "resolutionPx": "480×272",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full",
+   "features": {
+    "remoteHmi": {
+     "s": "yes",
+     "conn": 3,
+     "ver": "5.02.000"
+    },
+    "ftp": {
+     "s": "yes"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_RHMI_WIN",
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_WN",
+     "v": "BLUE 4.4 以上",
+     "n": "BLUE 支援機種頁尚未列出，依 BLUE 手冊 What's New 4.4"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
+  },
+  {
+   "key": "00521700||PFXST6400AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6400AWA*",
+   "offlineName": "ST6400AWA",
+   "form": "panel",
+   "inch": 7.0,
+   "resolution": "WVGA",
+   "resolutionPx": "800×480",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full",
+   "features": {
+    "remoteHmi": {
+     "s": "yes",
+     "conn": 3,
+     "ver": "5.02.000"
+    },
+    "ftp": {
+     "s": "yes"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_RHMI_WIN",
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_WN",
+     "v": "BLUE 4.4 以上",
+     "n": "BLUE 支援機種頁尚未列出，依 BLUE 手冊 What's New 4.4"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
+  },
+  {
+   "key": "00531700||PFXST6500AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6500AWA*",
+   "offlineName": "ST6500AWA",
+   "form": "panel",
+   "inch": 10.1,
+   "resolution": "WSVGA",
+   "resolutionPx": "1024×600",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full",
+   "features": {
+    "remoteHmi": {
+     "s": "yes",
+     "conn": 3,
+     "ver": "5.02.000"
+    },
+    "ftp": {
+     "s": "yes"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_RHMI_WIN",
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_WN",
+     "v": "BLUE 4.4 以上",
+     "n": "BLUE 支援機種頁尚未列出，依 BLUE 手冊 What's New 4.4"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
+  },
+  {
+   "key": "00541700||PFXST6600AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6600AWA*",
+   "offlineName": "ST6600AWA",
+   "form": "panel",
+   "inch": 12.1,
+   "resolution": "WXGA",
+   "resolutionPx": "1280×800",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full",
+   "features": {
+    "remoteHmi": {
+     "s": "yes",
+     "conn": 3,
+     "ver": "5.02.000"
+    },
+    "ftp": {
+     "s": "yes"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_RHMI_WIN",
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_WN",
+     "v": "BLUE 4.4 以上",
+     "n": "BLUE 支援機種頁尚未列出，依 BLUE 手冊 What's New 4.4"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
+  },
+  {
+   "key": "00551700||PFXST6700AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6700AWA*",
+   "offlineName": "ST6700AWA",
+   "form": "panel",
+   "inch": 15.6,
+   "resolution": "FWXGA",
+   "resolutionPx": "1366×768",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full",
+   "features": {
+    "remoteHmi": {
+     "s": "yes",
+     "conn": 3,
+     "ver": "5.02.000"
+    },
+    "ftp": {
+     "s": "yes"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [
+    "S_RHMI_WIN",
+    "S_XML"
+   ],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "yes",
+     "src": "S_BLUE_WN",
+     "v": "BLUE 4.4 以上",
+     "n": "BLUE 支援機種頁尚未列出，依 BLUE 手冊 What's New 4.4"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
+  },
+  {
    "key": "010B0F60|STM-62** Series|STM-6200WA WQVGA (480*272)",
    "seriesXml": "STM6000 Series",
    "series": "STM6000",
@@ -13336,12 +14864,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -13441,12 +14971,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -13546,12 +15078,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -13649,12 +15183,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -13761,12 +15297,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -13869,12 +15407,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -13978,12 +15518,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -14086,12 +15628,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -14195,12 +15739,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -14304,12 +15850,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -14408,12 +15956,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -14506,12 +16056,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free",
    "features": {
@@ -14594,7 +16146,7 @@ window.HMI_DATA = {
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -14605,12 +16157,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -14706,7 +16260,7 @@ window.HMI_DATA = {
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -14717,12 +16271,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -14818,7 +16374,7 @@ window.HMI_DATA = {
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -14829,12 +16385,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -14930,7 +16488,7 @@ window.HMI_DATA = {
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -14941,12 +16499,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -15042,7 +16602,7 @@ window.HMI_DATA = {
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -15053,12 +16613,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -15151,7 +16713,7 @@ window.HMI_DATA = {
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -15162,12 +16724,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -15274,12 +16838,14 @@ window.HMI_DATA = {
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -15381,12 +16947,14 @@ window.HMI_DATA = {
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -15488,12 +17056,14 @@ window.HMI_DATA = {
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -15592,12 +17162,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -15712,12 +17284,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -15837,12 +17411,14 @@ window.HMI_DATA = {
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -15949,12 +17525,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -16066,12 +17644,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -16189,12 +17769,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -16337,12 +17919,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -16473,12 +18057,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -16620,12 +18206,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -16762,12 +18350,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -16910,12 +18500,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -17033,12 +18625,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -17180,12 +18774,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -17323,12 +18919,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -17465,12 +19063,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -17583,12 +19183,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -17732,12 +19334,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -17864,12 +19468,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -18000,12 +19606,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -18132,12 +19740,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -18253,12 +19863,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -18387,12 +19999,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -18525,12 +20139,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -18668,12 +20284,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -18786,12 +20404,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -18917,12 +20537,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -19035,12 +20657,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -19167,12 +20791,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -19304,12 +20930,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -19433,12 +21061,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -19571,12 +21201,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -19709,12 +21341,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -19835,12 +21469,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -19991,12 +21627,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -20103,12 +21741,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -20247,12 +21887,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -20404,12 +22046,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -20543,12 +22187,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -20696,12 +22342,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -20835,12 +22483,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -20972,12 +22622,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -21101,12 +22753,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -21232,12 +22886,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -21364,12 +23020,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -21534,12 +23192,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -21684,12 +23344,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -21816,12 +23478,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -21958,12 +23622,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -22102,12 +23768,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -22230,12 +23898,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -22357,12 +24027,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -22489,12 +24161,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -22621,12 +24295,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -22748,12 +24424,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -22884,12 +24562,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -23006,12 +24686,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -23128,12 +24810,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -23256,12 +24940,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -23384,12 +25070,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -23518,12 +25206,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -23652,12 +25342,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -23780,12 +25472,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -23926,12 +25620,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -24071,12 +25767,14 @@ window.HMI_DATA = {
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -24179,12 +25877,14 @@ window.HMI_DATA = {
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -24287,12 +25987,14 @@ window.HMI_DATA = {
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -24356,6 +26058,100 @@ window.HMI_DATA = {
    }
   },
   {
+   "key": "4800060A|HTK-43** Series|HTK4300V",
+   "seriesXml": "HTK Series",
+   "series": "HTK",
+   "group": "HTK-43** Series",
+   "name": "HTK4300V",
+   "offlineName": "HTK4300V",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 0,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": false,
+   "webXml": false,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 128.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full",
+   "features": {
+    "remoteHmi": {
+     "s": "no",
+     "n": "無 LAN 埠"
+    },
+    "gpViewer": {
+     "s": "no"
+    },
+    "proFaceConnect": {
+     "s": "no"
+    },
+    "ftp": {
+     "s": "no"
+    },
+    "web": {
+     "s": "no"
+    },
+    "email": {
+     "s": "no"
+    },
+    "ipsec": {
+     "s": "no"
+    },
+    "ezLan": {
+     "s": "no"
+    }
+   },
+   "featureSrc": [],
+   "cutout": null,
+   "replace": [],
+   "switches": [],
+   "cable": null,
+   "discon": [],
+   "soft": {
+    "blue": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BLUE_MODEL"
+    },
+    "bos": {
+     "s": "no",
+     "n": "原廠支援清單未列",
+     "src": "S_BOS_MODEL"
+    }
+   }
+  },
+  {
    "key": "1306020A|ST-33** Series|HTK3300V",
    "seriesXml": "HTK Series",
    "series": "HTK",
@@ -24394,12 +26190,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -24522,12 +26320,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -24659,12 +26459,14 @@ window.HMI_DATA = {
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -24798,12 +26600,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -24937,12 +26741,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -25076,12 +26882,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -25215,12 +27023,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -25354,12 +27164,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -25493,12 +27305,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full",
    "features": {
@@ -25633,12 +27447,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -25772,12 +27588,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -25911,12 +27729,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -26050,12 +27870,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -26189,12 +28011,14 @@ window.HMI_DATA = {
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only",
    "features": {
@@ -26301,7 +28125,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 256KB；LAN 為 10BASE-T",
@@ -26436,7 +28261,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 256KB；LAN 為 10BASE-T",
@@ -26559,7 +28385,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 256KB；LAN 為 10BASE-T",
@@ -26678,7 +28505,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
@@ -26803,7 +28631,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
@@ -26928,7 +28757,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 128KB；無 LAN（GP-2300 才有 10BASE-T）",
@@ -27063,7 +28893,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
@@ -27186,7 +29017,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 單色；備份記憶體 512KB",
@@ -27328,7 +29160,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 64色；備份記憶體 512KB",
@@ -27476,7 +29309,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB",
@@ -27624,7 +29458,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
@@ -27772,7 +29607,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 AC 110～240V；顏色 256色；備份記憶體 512KB",
@@ -27909,7 +29745,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；顏色 256色；備份記憶體 512KB",
@@ -28042,7 +29879,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；藍白單色；備份記憶體 96KB；只有序列埠，無 LAN",
@@ -28169,7 +30007,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 AC 110V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -28301,7 +30140,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -28433,7 +30273,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -28565,7 +30406,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 AC 110V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -28698,7 +30540,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -28831,7 +30674,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；STN 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -28964,7 +30808,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 AC 110V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -29097,7 +30942,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -29230,7 +31076,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 DC 24V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",
@@ -29363,7 +31210,8 @@ window.HMI_DATA = {
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "absent"
+    "5.01": "absent",
+    "5.02": "absent"
    },
    "statusLatest": "absent",
    "manualNote": "電源 AC 110V；TFT 彩色 64 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）",

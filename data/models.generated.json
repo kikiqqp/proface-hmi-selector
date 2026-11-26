@@ -1,9 +1,10 @@
 {
- "sourceVersion": "5.01",
+ "sourceVersion": "5.02",
  "versions": [
   "4.08",
   "4.09",
-  "5.01"
+  "5.01",
+  "5.02"
  ],
  "models": [
   {
@@ -47,12 +48,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -93,12 +96,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -139,12 +144,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -185,12 +192,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -237,12 +246,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -289,12 +300,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -335,12 +348,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -381,12 +396,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -433,12 +450,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -485,12 +504,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -537,12 +558,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -589,12 +612,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -641,12 +666,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -693,12 +720,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -745,12 +774,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -797,12 +828,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -849,12 +882,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -901,12 +936,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -953,12 +990,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1003,12 +1042,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1055,12 +1096,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1107,12 +1150,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1159,12 +1204,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1211,12 +1258,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1263,12 +1312,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1315,12 +1366,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1367,12 +1420,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1419,12 +1474,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1471,12 +1528,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1523,12 +1582,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1575,12 +1636,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1627,12 +1690,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1679,12 +1744,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1731,12 +1798,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1783,12 +1852,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1835,12 +1906,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1885,12 +1958,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1935,12 +2010,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -1985,12 +2062,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2037,12 +2116,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2089,12 +2170,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2141,12 +2224,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2193,12 +2278,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2243,12 +2330,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2295,12 +2384,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2347,12 +2438,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2397,12 +2490,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2447,12 +2542,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2498,12 +2595,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2544,55 +2643,16 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
-  },
-  {
-   "key": "00000B00|GP-41** Series|GP-4114T",
-   "seriesXml": "GP4000 Series",
-   "series": "GP4000",
-   "group": "GP-41** Series",
-   "name": "GP-4114T",
-   "offlineName": "",
-   "form": "panel",
-   "inch": 4.3,
-   "resolution": "NCPQVGA",
-   "resolutionPx": "480×272",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 1,
-   "com": [],
-   "usbA": 1,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": false,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": null,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 3,
-   "appMemoryMB": 8.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 128.0,
-   "revisions": [],
-   "firstSeen": "4.08",
-   "inVersions": [
-    "4.08",
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "full",
-    "4.09": "full",
-    "5.01": "free"
-   },
-   "statusLatest": "free"
   },
   {
    "key": "00010400|GP-41** Series|GP-4105",
@@ -2631,12 +2691,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -2677,12 +2739,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -2723,12 +2787,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -2769,12 +2835,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -2819,12 +2887,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -2865,12 +2935,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -2915,12 +2987,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -2965,12 +3039,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3011,64 +3087,16 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
-  },
-  {
-   "key": "14000600|GP-43** Series|GP-4301TW",
-   "seriesXml": "GP4000 Series",
-   "series": "GP4000",
-   "group": "GP-43** Series",
-   "name": "GP-4301TW",
-   "offlineName": "GP4301TAW",
-   "form": "panel",
-   "inch": 5.7,
-   "resolution": "QVGA",
-   "resolutionPx": "320×240",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 1,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 1,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": false,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 3,
-   "appMemoryMB": 8.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 128.0,
-   "revisions": [],
-   "firstSeen": "4.08",
-   "inVersions": [
-    "4.08",
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "full",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
   },
   {
    "key": "18000600|GP-44** Series|GP-4401T",
@@ -3111,12 +3139,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3161,12 +3191,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3211,12 +3243,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -3261,12 +3295,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3307,12 +3343,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -3357,12 +3395,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3407,62 +3447,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "2C000600|GP-45** Series|GP-4501TW",
-   "seriesXml": "GP4000 Series",
-   "series": "GP4000",
-   "group": "GP-45** Series",
-   "name": "GP-4501TW",
-   "offlineName": "GP4501TAW",
-   "form": "panel",
-   "inch": 10.4,
-   "resolution": "VGA",
-   "resolutionPx": "640×480",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 1,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 1,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 3,
-   "appMemoryMB": 16.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 128.0,
-   "revisions": [],
-   "firstSeen": "4.08",
-   "inVersions": [
-    "4.08",
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "full",
-    "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3507,12 +3499,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -3557,12 +3551,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3603,58 +3599,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
-   },
-   "statusLatest": "open-only"
-  },
-  {
-   "key": "308D0800|GP-43** Series|GP-4301TM (Modular Type)",
-   "seriesXml": "GP4000 Series",
-   "series": "GP4000",
-   "group": "GP-43** Series",
-   "name": "GP-4301TM (Modular Type)",
-   "offlineName": "GM4*01TA",
-   "form": "panel",
-   "inch": 5.7,
-   "resolution": "QVGA",
-   "resolutionPx": "320×240",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 1,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C/RS422/485"
-    }
-   ],
-   "usbA": 1,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": false,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": null,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 2,
-   "appMemoryMB": 8.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 128.0,
-   "revisions": [],
-   "firstSeen": "4.08",
-   "inVersions": [
-    "4.08",
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "full",
-    "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -3695,12 +3647,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -3745,12 +3699,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3795,12 +3751,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3836,12 +3794,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -3882,12 +3842,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -3928,12 +3890,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -3978,12 +3942,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4028,12 +3994,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4076,12 +4044,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4124,14 +4094,269 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
+  },
+  {
+   "key": "6C000600|GP-43** Series|GP-4301TTM (Matrix Touch Panel)",
+   "seriesXml": "GP4000 Series",
+   "series": "GP4000",
+   "group": "GP-43** Series",
+   "name": "GP-4301TTM (Matrix Touch Panel)",
+   "offlineName": "GP4301TTM",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "matrix",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 16.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "14000600|GP-43** Series|GP-4301TW",
+   "seriesXml": "GP4000 Series",
+   "series": "GP4000",
+   "group": "GP-43** Series",
+   "name": "GP-4301TW",
+   "offlineName": "GP4301TAW",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 8.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 128.0,
+   "revisions": [],
+   "firstSeen": "4.08",
+   "inVersions": [
+    "4.08",
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "full",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "unknown"
+   },
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F5.7B"
+   }
+  },
+  {
+   "key": "2C000600|GP-45** Series|GP-4501TW",
+   "seriesXml": "GP4000 Series",
+   "series": "GP4000",
+   "group": "GP-45** Series",
+   "name": "GP-4501TW",
+   "offlineName": "GP4501TAW",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 16.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 128.0,
+   "revisions": [],
+   "firstSeen": "4.08",
+   "inVersions": [
+    "4.08",
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "full",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "unknown"
+   },
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F10.4A"
+   }
+  },
+  {
+   "key": "308D0800|GP-43** Series|GP-4301TM (Modular Type)",
+   "seriesXml": "GP4000 Series",
+   "series": "GP4000",
+   "group": "GP-43** Series",
+   "name": "GP-4301TM (Modular Type)",
+   "offlineName": "GM4*01TA",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 2,
+   "appMemoryMB": 8.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 128.0,
+   "revisions": [],
+   "firstSeen": "4.08",
+   "inVersions": [
+    "4.08",
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "full",
+    "4.09": "full",
+    "5.01": "open-only",
+    "5.02": "unknown"
+   },
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F5.7A"
+   }
+  },
+  {
+   "key": "00000B00|GP-41** Series|GP-4114T",
+   "seriesXml": "GP4000 Series",
+   "series": "GP4000",
+   "group": "GP-41** Series",
+   "name": "GP-4114T",
+   "offlineName": "",
+   "form": "panel",
+   "inch": 4.3,
+   "resolution": "NCPQVGA",
+   "resolutionPx": "480×272",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 1,
+   "com": [],
+   "usbA": 1,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 8.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 128.0,
+   "revisions": [],
+   "firstSeen": "4.08",
+   "inVersions": [
+    "4.08",
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "full",
+    "4.09": "full",
+    "5.01": "free",
+    "5.02": "free"
+   },
+   "statusLatest": "free"
   },
   {
    "key": "00000A00|SP-5B10|SP5500TPD",
@@ -4174,12 +4399,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4224,12 +4451,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4274,12 +4503,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4324,12 +4555,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4373,12 +4606,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4423,12 +4658,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4473,12 +4710,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4523,12 +4762,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4573,12 +4814,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4623,12 +4866,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4672,12 +4917,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4721,12 +4968,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4770,12 +5019,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4820,12 +5071,575 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "20000A00|SP-5B00|SP5500TPD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5500TPD",
+   "offlineName": "SP5500TP+SP5B00",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "SVGA",
+   "resolutionPx": "800×600",
+   "color": "Color",
+   "touch": "analog(multi-touch)",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 3,
+   "usbMiniB": 2,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "20040A00|SP-5B00|SP5600TPD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5600TPD",
+   "offlineName": "SP5600TP+SP5B00",
+   "form": "panel",
+   "inch": 12.1,
+   "resolution": "XGA",
+   "resolutionPx": "1024×768",
+   "color": "Color",
+   "touch": "analog(multi-touch)",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 3,
+   "usbMiniB": 2,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "20080A00|SP-5B00|SP5660TPD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5660TPD",
+   "offlineName": "SP5660TP+SP5B00",
+   "form": "panel",
+   "inch": 12.1,
+   "resolution": "XGA",
+   "resolutionPx": "1024×768",
+   "color": "Color",
+   "touch": "analog(multi-touch)",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 3,
+   "usbMiniB": 2,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "200C0A00|SP-5B00|SP5700TPD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5700TPD",
+   "offlineName": "SP5700TP+SP5B00",
+   "form": "panel",
+   "inch": 15.0,
+   "resolution": "XGA",
+   "resolutionPx": "1024×768",
+   "color": "Color",
+   "touch": "analog(multi-touch)",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 3,
+   "usbMiniB": 2,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "20140A00|SP-5B00|SP5600TAD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5600TAD",
+   "offlineName": "SP5600TA+SP5B00",
+   "form": "panel",
+   "inch": 12.1,
+   "resolution": "XGA",
+   "resolutionPx": "1024×768",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 2,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 128.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "20180A00|SP-5B00|SP5600WAD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5600WAD",
+   "offlineName": "SP5600WA+SP5B00",
+   "form": "panel",
+   "inch": 12.1,
+   "resolution": "WXGA",
+   "resolutionPx": "1280×800",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 2,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "201C0A00|SP-5B00|SP5500WAD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5500WAD",
+   "offlineName": "SP5500WA+SP5B00",
+   "form": "panel",
+   "inch": 10.1,
+   "resolution": "WXGA",
+   "resolutionPx": "1280×800",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 2,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "20200A00|SP-5B00|SP5400WAD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5400WAD",
+   "offlineName": "SP5400WA+SP5B00",
+   "form": "panel",
+   "inch": 7.0,
+   "resolution": "WVGA",
+   "resolutionPx": "800×480",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 2,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "202C0A00|SP-5B00|SP5700WCD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5700WCD",
+   "offlineName": "SP5700WC+SP5B00",
+   "form": "panel",
+   "inch": 15.0,
+   "resolution": "FWXGA",
+   "resolutionPx": "1366×768",
+   "color": "Color",
+   "touch": "p-cap(multi-touch)",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 3,
+   "usbMiniB": 2,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "20300A00|SP-5B00|SP5800WCD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "SP5800WCD",
+   "offlineName": "SP5800WC+SP5B00",
+   "form": "panel",
+   "inch": 19.0,
+   "resolution": "FWXGA",
+   "resolutionPx": "1366×768",
+   "color": "Color",
+   "touch": "p-cap(multi-touch)",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 3,
+   "usbMiniB": 2,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "20400A00|SP-5B00|DC Power Supply Adapter",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B00",
+   "name": "DC Power Supply Adapter",
+   "offlineName": "DC Power+SP5B00",
+   "form": "box",
+   "inch": null,
+   "resolution": "XGA",
+   "resolutionPx": "1024×768",
+   "color": "Color",
+   "touch": "none",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 2,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": true,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -4870,14 +5684,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "04040A00|SP-5B40|SP5600TPD",
@@ -4920,14 +5769,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "04080A00|SP-5B40|SP5660TPD",
@@ -4970,14 +5854,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "040C0A00|SP-5B40|SP5700TPD",
@@ -5020,14 +5939,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "04180A00|SP-5B40|SP5600WAD",
@@ -5070,14 +6024,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "041C0A00|SP-5B40|SP5500WAD",
@@ -5120,14 +6109,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "04200A00|SP-5B40|SP5400WAD",
@@ -5170,14 +6194,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "04400A00|SP-5B40|DC Power Supply Adapter",
@@ -5220,14 +6279,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "14000A00|SP-5B41/5B41*|SP5500TPD",
@@ -5270,14 +6364,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "14040A00|SP-5B41/5B41*|SP5600TPD",
@@ -5320,14 +6449,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "14080A00|SP-5B41/5B41*|SP5660TPD",
@@ -5370,14 +6534,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "140C0A00|SP-5B41/5B41*|SP5700TPD",
@@ -5420,14 +6619,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "14140A00|SP-5B41/5B41*|SP5600TAD",
@@ -5469,14 +6703,49 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "14180A00|SP-5B41/5B41*|SP5600WAD",
@@ -5519,14 +6788,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "141C0A00|SP-5B41/5B41*|SP5500WAD",
@@ -5569,14 +6873,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "14200A00|SP-5B41/5B41*|SP5400WAD",
@@ -5619,64 +6958,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
-  },
-  {
-   "key": "142C0A00|SP-5B41/5B41*|SP5700WCD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B41/5B41*",
-   "name": "SP5700WCD",
-   "offlineName": "SP5700WC+5B41x",
-   "form": "panel",
-   "inch": 15.0,
-   "resolution": "FWXGA",
-   "resolutionPx": "1366×768",
-   "color": "Color",
-   "touch": "p-cap(multi-touch)",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C/RS422/485"
-    },
-    {
-     "port": "COM2",
-     "type": "RS232C/RS422/485"
-    }
-   ],
-   "usbA": 4,
-   "usbMiniB": 2,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": false,
-   "webXml": false,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.08",
-   "inVersions": [
-    "4.08",
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "full",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "14300A00|SP-5B41/5B41*|SP5800WCD",
@@ -5719,14 +7043,134 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
+  },
+  {
+   "key": "142C0A00|SP-5B41/5B41*|SP5700WCD",
+   "seriesXml": "SP5000 Series",
+   "series": "SP5000",
+   "group": "SP-5B41/5B41*",
+   "name": "SP5700WCD",
+   "offlineName": "SP5700WC+5B41x",
+   "form": "panel",
+   "inch": 15.0,
+   "resolution": "FWXGA",
+   "resolutionPx": "1366×768",
+   "color": "Color",
+   "touch": "p-cap(multi-touch)",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422/485"
+    },
+    {
+     "port": "COM2",
+     "type": "RS232C/RS422/485"
+    }
+   ],
+   "usbA": 4,
+   "usbMiniB": 2,
+   "usbMicroB": null,
+   "cardSlot": true,
+   "ftpXml": false,
+   "webXml": false,
+   "emailXml": true,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": 5,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.08",
+   "inVersions": [
+    "4.08",
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "full",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "14400A00|SP-5B41/5B41*|DC Power Supply Adapter",
@@ -5769,553 +7213,49 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
-  },
-  {
-   "key": "20000A00|SP-5B00|SP5500TPD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5500TPD",
-   "offlineName": "SP5500TP+SP5B00",
-   "form": "panel",
-   "inch": 10.4,
-   "resolution": "SVGA",
-   "resolutionPx": "800×600",
-   "color": "Color",
-   "touch": "analog(multi-touch)",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 3,
-   "usbMiniB": 2,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "20040A00|SP-5B00|SP5600TPD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5600TPD",
-   "offlineName": "SP5600TP+SP5B00",
-   "form": "panel",
-   "inch": 12.1,
-   "resolution": "XGA",
-   "resolutionPx": "1024×768",
-   "color": "Color",
-   "touch": "analog(multi-touch)",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 3,
-   "usbMiniB": 2,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "20080A00|SP-5B00|SP5660TPD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5660TPD",
-   "offlineName": "SP5660TP+SP5B00",
-   "form": "panel",
-   "inch": 12.1,
-   "resolution": "XGA",
-   "resolutionPx": "1024×768",
-   "color": "Color",
-   "touch": "analog(multi-touch)",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 3,
-   "usbMiniB": 2,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "200C0A00|SP-5B00|SP5700TPD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5700TPD",
-   "offlineName": "SP5700TP+SP5B00",
-   "form": "panel",
-   "inch": 15.0,
-   "resolution": "XGA",
-   "resolutionPx": "1024×768",
-   "color": "Color",
-   "touch": "analog(multi-touch)",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 3,
-   "usbMiniB": 2,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "20140A00|SP-5B00|SP5600TAD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5600TAD",
-   "offlineName": "SP5600TA+SP5B00",
-   "form": "panel",
-   "inch": 12.1,
-   "resolution": "XGA",
-   "resolutionPx": "1024×768",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 2,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "20180A00|SP-5B00|SP5600WAD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5600WAD",
-   "offlineName": "SP5600WA+SP5B00",
-   "form": "panel",
-   "inch": 12.1,
-   "resolution": "WXGA",
-   "resolutionPx": "1280×800",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 2,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "201C0A00|SP-5B00|SP5500WAD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5500WAD",
-   "offlineName": "SP5500WA+SP5B00",
-   "form": "panel",
-   "inch": 10.1,
-   "resolution": "WXGA",
-   "resolutionPx": "1280×800",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 2,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "20200A00|SP-5B00|SP5400WAD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5400WAD",
-   "offlineName": "SP5400WA+SP5B00",
-   "form": "panel",
-   "inch": 7.0,
-   "resolution": "WVGA",
-   "resolutionPx": "800×480",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 2,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "202C0A00|SP-5B00|SP5700WCD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5700WCD",
-   "offlineName": "SP5700WC+SP5B00",
-   "form": "panel",
-   "inch": 15.0,
-   "resolution": "FWXGA",
-   "resolutionPx": "1366×768",
-   "color": "Color",
-   "touch": "p-cap(multi-touch)",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 3,
-   "usbMiniB": 2,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "20300A00|SP-5B00|SP5800WCD",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "SP5800WCD",
-   "offlineName": "SP5800WC+SP5B00",
-   "form": "panel",
-   "inch": 19.0,
-   "resolution": "FWXGA",
-   "resolutionPx": "1366×768",
-   "color": "Color",
-   "touch": "p-cap(multi-touch)",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 3,
-   "usbMiniB": 2,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "20400A00|SP-5B00|DC Power Supply Adapter",
-   "seriesXml": "SP5000 Series",
-   "series": "SP5000",
-   "group": "SP-5B00",
-   "name": "DC Power Supply Adapter",
-   "offlineName": "DC Power+SP5B00",
-   "form": "box",
-   "inch": null,
-   "resolution": "XGA",
-   "resolutionPx": "1024×768",
-   "color": "Color",
-   "touch": "none",
-   "ethernet": 2,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 2,
-   "usbMiniB": 1,
-   "usbMicroB": null,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": true,
-   "emailXml": true,
-   "ezLanXml": null,
-   "remoteHmiMaxXml": 5,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": null,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM5",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM6",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM7",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM8",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM9",
+      "type": "RS232C/RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "43010100|LT-32** Series|LT-3201A",
@@ -6349,12 +7289,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -6395,12 +7337,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -6441,12 +7385,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -6487,12 +7433,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -6533,12 +7481,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -6568,7 +7518,7 @@
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -6579,12 +7529,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -6614,7 +7566,7 @@
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -6625,12 +7577,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -6660,7 +7614,7 @@
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -6671,12 +7625,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -6706,7 +7662,7 @@
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -6717,12 +7673,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -6752,7 +7710,7 @@
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -6763,12 +7721,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -6798,7 +7758,7 @@
    "cardSlot": false,
    "ftpXml": true,
    "webXml": true,
-   "emailXml": null,
+   "emailXml": true,
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 16.0,
@@ -6809,12 +7769,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -6859,12 +7821,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -6909,12 +7873,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -6959,12 +7925,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7009,12 +7977,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7059,12 +8029,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7109,12 +8081,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7159,12 +8133,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7209,12 +8185,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7259,12 +8237,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7308,12 +8288,14 @@
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7357,12 +8339,14 @@
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7406,12 +8390,14 @@
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7455,12 +8441,14 @@
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7504,12 +8492,14 @@
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7553,12 +8543,14 @@
    "firstSeen": "4.08",
    "inVersions": [
     "4.08",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7631,12 +8623,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7709,12 +8703,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7787,12 +8783,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -7865,12 +8863,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -7943,12 +8943,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -8021,12 +9023,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -8099,12 +9103,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -8177,12 +9183,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -8255,12 +9263,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -8333,12 +9343,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -8411,12 +9423,14 @@
    "inVersions": [
     "4.08",
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "full",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -8487,12 +9501,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -8563,12 +9579,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
   },
@@ -8602,67 +9620,20 @@
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "010B0F80|ST-63** Series|ST-6300TA VGA (640*480)",
-   "seriesXml": "ST6000 Series",
-   "series": "ST6000",
-   "group": "ST-63** Series",
-   "name": "ST-6300TA VGA (640*480)",
-   "offlineName": "ST6300TA",
-   "form": "panel",
-   "inch": 5.7,
-   "resolution": "VGA",
-   "resolutionPx": "640×480",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 1,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 1,
-   "usbMiniB": null,
-   "usbMicroB": 1,
-   "cardSlot": false,
-   "ftpXml": true,
-   "webXml": false,
-   "emailXml": true,
-   "ezLanXml": true,
-   "remoteHmiMaxXml": 3,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -8700,18 +9671,20 @@
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -8749,67 +9722,20 @@
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
-   },
-   "statusLatest": "full"
-  },
-  {
-   "key": "010B0F90|ST-65** Series|ST-6500TA SVGA (800*600)",
-   "seriesXml": "ST6000 Series",
-   "series": "ST6000",
-   "group": "ST-65** Series",
-   "name": "ST-6500TA SVGA (800*600)",
-   "offlineName": "ST6500TA",
-   "form": "panel",
-   "inch": 10.4,
-   "resolution": "SVGA",
-   "resolutionPx": "800×600",
-   "color": "Color",
-   "touch": "analog",
-   "ethernet": 1,
-   "com": [
-    {
-     "port": "COM1",
-     "type": "RS232C"
-    },
-    {
-     "port": "COM2",
-     "type": "RS422/485"
-    }
-   ],
-   "usbA": 1,
-   "usbMiniB": null,
-   "usbMicroB": 1,
-   "cardSlot": true,
-   "ftpXml": true,
-   "webXml": false,
-   "emailXml": true,
-   "ezLanXml": true,
-   "remoteHmiMaxXml": 3,
-   "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
-   "backupMemoryKB": 320.0,
-   "revisions": [],
-   "firstSeen": "4.09",
-   "inVersions": [
-    "4.09",
-    "5.01"
-   ],
-   "versions": {
-    "4.08": "absent",
-    "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -8847,18 +9773,20 @@
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -8896,18 +9824,20 @@
    "ezLanXml": null,
    "remoteHmiMaxXml": 3,
    "appMemoryMB": 64.0,
-   "appMemoryExpandedMB": 128.0,
+   "appMemoryExpandedMB": 220.0,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -8951,12 +9881,363 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "010B0F80|ST-63** Series|ST-6300TA VGA (640*480)",
+   "seriesXml": "ST6000 Series",
+   "series": "ST6000",
+   "group": "ST-63** Series",
+   "name": "ST-6300TA VGA (640*480)",
+   "offlineName": "ST6300TA",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "VGA",
+   "resolutionPx": "640×480",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": true,
+   "ezLanXml": true,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 128.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "unknown"
+   },
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F5.7C"
+   }
+  },
+  {
+   "key": "010B0F90|ST-65** Series|ST-6500TA SVGA (800*600)",
+   "seriesXml": "ST6000 Series",
+   "series": "ST6000",
+   "group": "ST-65** Series",
+   "name": "ST-6500TA SVGA (800*600)",
+   "offlineName": "ST6500TA",
+   "form": "panel",
+   "inch": 10.4,
+   "resolution": "SVGA",
+   "resolutionPx": "800×600",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": true,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": true,
+   "ezLanXml": true,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 128.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "4.09",
+   "inVersions": [
+    "4.09",
+    "5.01",
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "full",
+    "5.01": "full",
+    "5.02": "unknown"
+   },
+   "statusLatest": "unknown",
+   "xmlAlias": {
+    "5.02": "F10.4B"
+   }
+  },
+  {
+   "key": "00511700||PFXST6200AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6200AWA*",
+   "offlineName": "ST6200AWA",
+   "form": "panel",
+   "inch": 4.3,
+   "resolution": "WQVGA",
+   "resolutionPx": "480×272",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 1,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C/RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "00521700||PFXST6400AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6400AWA*",
+   "offlineName": "ST6400AWA",
+   "form": "panel",
+   "inch": 7.0,
+   "resolution": "WVGA",
+   "resolutionPx": "800×480",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "00531700||PFXST6500AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6500AWA*",
+   "offlineName": "ST6500AWA",
+   "form": "panel",
+   "inch": 10.1,
+   "resolution": "WSVGA",
+   "resolutionPx": "1024×600",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "00541700||PFXST6600AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6600AWA*",
+   "offlineName": "ST6600AWA",
+   "form": "panel",
+   "inch": 12.1,
+   "resolution": "WXGA",
+   "resolutionPx": "1280×800",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
+  },
+  {
+   "key": "00551700||PFXST6700AWA*",
+   "seriesXml": "ST6000 2nd Gen Series",
+   "series": "ST6000G2",
+   "group": "",
+   "name": "PFXST6700AWA*",
+   "offlineName": "ST6700AWA",
+   "form": "panel",
+   "inch": 15.6,
+   "resolution": "FWXGA",
+   "resolutionPx": "1366×768",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 2,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": null,
+   "usbMicroB": 1,
+   "cardSlot": false,
+   "ftpXml": true,
+   "webXml": false,
+   "emailXml": false,
+   "ezLanXml": false,
+   "remoteHmiMaxXml": 3,
+   "appMemoryMB": 64.0,
+   "appMemoryExpandedMB": 220.0,
+   "backupMemoryKB": 320.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -8996,12 +10277,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9041,12 +10324,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9086,12 +10371,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9131,12 +10418,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9180,12 +10469,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -9229,12 +10520,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -9278,12 +10571,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -9327,12 +10622,14 @@
    "firstSeen": "4.09",
    "inVersions": [
     "4.09",
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "full",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -9375,12 +10672,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -9423,12 +10722,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -9471,12 +10772,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9519,12 +10822,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9567,12 +10872,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9615,12 +10922,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9663,12 +10972,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9711,12 +11022,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -9752,21 +11065,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "00261500||PFXGP6640WC*",
@@ -9800,21 +11128,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "005B1500||PFXGP6740WC*",
@@ -9848,21 +11191,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "00281500||PFXGP6840WC*",
@@ -9896,21 +11254,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "00291500||PFXGP6940WC*",
@@ -9944,21 +11317,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "00221500||PFXGP6540TM*",
@@ -9992,21 +11380,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "00231500||PFXGP6640TM*",
@@ -10040,21 +11443,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "00241500||PFXGP6740TM*",
@@ -10088,21 +11506,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "01001500||PFXGP6B40*",
@@ -10136,21 +11569,36 @@
    "webXml": false,
    "emailXml": false,
    "ezLanXml": false,
-   "remoteHmiMaxXml": 3,
+   "remoteHmiMaxXml": 5,
    "appMemoryMB": 128.0,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": 320.0,
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
-   "statusLatest": "full"
+   "statusLatest": "full",
+   "comAdded": {
+    "since": "5.02",
+    "ports": [
+     {
+      "port": "COM3",
+      "type": "RS232C/RS422/485"
+     },
+     {
+      "port": "COM4",
+      "type": "RS422/485"
+     }
+    ]
+   }
   },
   {
    "key": "00021600||PFXGPH6400WA*",
@@ -10187,12 +11635,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -10231,12 +11681,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "full"
+    "5.01": "full",
+    "5.02": "full"
    },
    "statusLatest": "full"
   },
@@ -10279,14 +11731,65 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "open-only"
+    "5.01": "open-only",
+    "5.02": "open-only"
    },
    "statusLatest": "open-only"
+  },
+  {
+   "key": "4800060A|HTK-43** Series|HTK4300V",
+   "seriesXml": "HTK Series",
+   "series": "HTK",
+   "group": "HTK-43** Series",
+   "name": "HTK4300V",
+   "offlineName": "HTK4300V",
+   "form": "panel",
+   "inch": 5.7,
+   "resolution": "QVGA",
+   "resolutionPx": "320×240",
+   "color": "Color",
+   "touch": "analog",
+   "ethernet": 0,
+   "com": [
+    {
+     "port": "COM1",
+     "type": "RS232C"
+    },
+    {
+     "port": "COM2",
+     "type": "RS422/485"
+    }
+   ],
+   "usbA": 1,
+   "usbMiniB": 1,
+   "usbMicroB": null,
+   "cardSlot": false,
+   "ftpXml": false,
+   "webXml": false,
+   "emailXml": null,
+   "ezLanXml": null,
+   "remoteHmiMaxXml": null,
+   "appMemoryMB": 8.0,
+   "appMemoryExpandedMB": null,
+   "backupMemoryKB": 128.0,
+   "revisions": [],
+   "firstSeen": "5.02",
+   "inVersions": [
+    "5.02"
+   ],
+   "versions": {
+    "4.08": "absent",
+    "4.09": "absent",
+    "5.01": "absent",
+    "5.02": "full"
+   },
+   "statusLatest": "full"
   },
   {
    "key": "000B0FE0|ET-54** Series|ET-5400WA WVGA (800*480)",
@@ -10323,12 +11826,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   },
@@ -10367,12 +11872,14 @@
    "revisions": [],
    "firstSeen": "5.01",
    "inVersions": [
-    "5.01"
+    "5.01",
+    "5.02"
    ],
    "versions": {
     "4.08": "absent",
     "4.09": "absent",
-    "5.01": "free"
+    "5.01": "free",
+    "5.02": "free"
    },
    "statusLatest": "free"
   }
