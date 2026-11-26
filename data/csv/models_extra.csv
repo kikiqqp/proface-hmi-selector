@@ -1,4 +1,4 @@
-﻿系列,XML群組,機種名稱,尺寸吋,解析度代碼,解析度像素,色彩,觸控,LAN埠數,COM埠,USB_A,USB_miniB,USB_microB,記憶卡槽,RemoteHMI連線數,畫面記憶體MB,最新版狀態,首次版本,型態,備註,開發軟體,GP-Pro EX轉換,轉換來源
+﻿系列,XML群組,機種名稱,尺寸吋,解析度代碼,解析度像素,色彩,觸控,LAN埠數,COM埠,USB_A,USB_miniB,USB_microB,記憶卡槽,RemoteHMI連線數,使用者資料記憶體MB,最新版狀態,首次版本,型態,備註,開發軟體,GP-Pro EX轉換,轉換來源
 GP2000,GP-37W2,GP37W2-BG41-24V,5.7,QVGA,320×240,Mono,,0,COM1 RS232C/RS422,0,,,無,,1,不支援,,面板,電源 DC 24V；藍白單色；備份記憶體 96KB；只有序列埠，無 LAN,GP-PRO/PB III C-Package03,AST-3302B、GP-4301TW、GP-4301TM、GP-4301T,S_CONV_GP70
 GP2000,GP-47** Series,GP470-EG11,8.9,,640×400,Mono,,0,COM1 RS232C/RS422,0,,,無,,1,不支援,,面板,電源 AC 110V；琥珀色 EL 單色顯示；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）,GP-PRO/PB III（Windows 95 版或 DOS 版）,AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）,S_CONV_GP70
 GP2000,GP-57** Series,GP570-TC11,10.4,VGA,640×480,Color,,0,COM1 RS232C/RS422,0,,,無,,1,不支援,,面板,電源 AC 110V；TFT 彩色 8 色；備份記憶體 32KB；本體無 LAN，可加裝乙太網路介面單元 GP070-ET41（10BASE-T）,GP-PRO/PB III（Windows 95 版或 DOS 版）,AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）,S_CONV_GP70
