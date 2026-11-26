@@ -1,4 +1,4 @@
-軟體,系列,比對方式,比對值,支援,版本,備註,來源
+﻿軟體,系列,比對方式,比對值,支援,版本,備註,來源
 BLUE,SP5000,全部,,支援,,,S_BLUE_MODEL
 BLUE,SP5000,XML群組,SP-5B41/5B41*,舊版,BLUE 3.1 SP1 起不支援,SP-5B41 只能用 BLUE 3.1 SP1 以前的版本,S_BLUE_MODEL
 BLUE,SP5000,XML群組,SP-5B90,支援,BLUE 3.4 以上,SP5000X 系列,S_BLUE_MODEL
@@ -13,3 +13,4 @@ BLUE,IPC,XML群組,PC/AT,支援,,PC/AT,S_BLUE_MODEL
 BLUE Open Studio,IPC,完全相同,"PS-5000,PS(A)-6000",支援,,PS6000、PS5000,S_BOS_MODEL
 BLUE Open Studio,IPC,XML群組,PC/AT,支援,,第三方電腦,S_BOS_MODEL
 BLUE Open Studio,STM6000,完全相同,STM-6B00,不支援,,BLUE Open Studio 用的是另一型號 STM6000 Edge Box HMI（PFXSTM6B00DIOT，需 BLUE Open Studio 2020 SP2 以上）,S_BOS_MODEL|S_BOS_EDGE
+BLUE,ST6000G2,全部,,支援,BLUE 4.4 以上,BLUE 支援機種頁尚未列出，依 BLUE 手冊 What's New 4.4,S_BLUE_WN
