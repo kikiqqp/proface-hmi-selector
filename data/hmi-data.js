@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 11:49:50",
+ "updated": "2026-11-26 17:08:10",
  "sourceVersion": "5.02",
  "series": {
   "GP6000A": {
@@ -18456,10 +18456,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "open-only",
    "rtc": {
-    "s": "yes",
+    "s": "cond",
     "src": "S_USER_RTC",
     "how": "未提供電池備份",
-    "n": "使用者確認"
+    "n": "使用者確認有 RTC；沒有電池備份，篩選列為注意"
    },
    "memWeb": null,
    "features": {
