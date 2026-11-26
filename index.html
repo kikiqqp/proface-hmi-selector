@@ -254,7 +254,7 @@ const portN = v => v == null ? '未標示' : v ? v + ' 埠' : '無';
 const comHas = (m,t) => m.com.some(c => c.type.includes(t));
 const MEMW_URL = c => 'https://www.proface.com/en/product/spec/' + encodeURIComponent(c);
 const webNum = (m, k, xml, fmt) => { if (m.key.startsWith('extra|')) return ''; const w = m.memWeb; if (!w) return '原廠規格頁未查到'; if (w[k] == null) return '原廠規格頁未列'; return `原廠規格頁 ${fmt(w[k])}` + (xml != null && w[k] !== xml ? '，與 XML 不同' : ''); };
-const memU = m => { const x = m.appMemoryMB ? m.appMemoryMB + ' MB' + (m.appMemoryExpandedMB ? `（可擴充至 ${m.appMemoryExpandedMB} MB，條件原廠未說明）` : '') : '未標示'; const w = webNum(m, 'u', m.appMemoryMB, v => v + ' MB'); return w ? `${x}（${w}）` : x; };
+const memU = m => { const x = m.appMemoryMB ? m.appMemoryMB + ' MB' : '未標示'; const w = webNum(m, 'u', m.appMemoryMB, v => v + ' MB'); return w ? `${x}（${w}）` : x; };
 const memB = m => { const x = m.backupMemoryKB != null ? kbTxt(m.backupMemoryKB) : '未標示'; const w = webNum(m, 'b', m.backupMemoryKB, kbTxt); const v = m.memWeb && m.memWeb.v ? `，另有變數區 ${kbTxt(m.memWeb.v)}` : ''; return w ? `${x}（${w}${v}）` : x; };
 const memNote = m => m.memWeb ? [m.memWeb.o, m.memWeb.n].filter(Boolean).join('；') : '';
 const comTxt = m => m.com.map(c => c.port + ' ' + c.type).join('、') || '無';
@@ -647,7 +647,7 @@ function specRows(m) {
     ['傳輸線', cableTxt(m)], ['開發軟體', m.software || 'GP-Pro EX'], ...(m.convert ? [['GP-Pro EX 專案轉換', m.convert.to]] : []),
     ['BLUE', softTxt(m, 'blue')], ['BLUE Open Studio', softTxt(m, 'bos')],
     ...((m.discon || []).length ? [['停售／停修', eosTxt(m)]] : []),
-    ['使用者資料記憶體', memU(m)], ['備份記憶體', memB(m)], ...(memNote(m) ? [['原廠規格頁記憶體說明', memNote(m)]] : []),
+    ['使用者資料記憶體', memU(m)], ...(m.appMemoryExpandedMB ? [['可擴充容量', m.appMemoryExpandedMB + ' MB（擴充條件原廠未說明）']] : []), ['備份記憶體', memB(m)], ...(memNote(m) ? [['原廠規格頁記憶體說明', memNote(m)]] : []),
     ...VERS.map(v => ['GP-Pro EX ' + v, VLONG[vst(m,v)]]),
     [m.key.startsWith('extra|') ? '分組／型號' : 'XML 名稱', m.group ? m.group + '／' + m.name : m.name],
     ...(m.xmlAlias ? [['XML 名稱變更', aliasTxt(m)]] : [])
@@ -762,7 +762,7 @@ function renderCompare() {
     ['解析度', resTxt], ['開口', m => cutTxt(m.cutout)],
     ...FK.map(k => [D.featureDefs[k].label, m => { const v = f(m,k); return (SLAB[v.s] || '待確認') + (v.conn ? `（${v.conn} 台）` : ''); }]),
     ['LAN 埠', m => portN(m.ethernet)], ['COM 埠', m => comTxt(m) + (m.comAdded ? `（另 ${m.comAdded.ports.map(c => c.port).join('、')} 需擴充或待確認）` : '')], ['USB A', m => portN(m.usbA)],
-    ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['使用者資料記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : '未標示'], ['備份記憶體', m => m.backupMemoryKB != null ? kbTxt(m.backupMemoryKB) : '未標示'],
+    ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['使用者資料記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : '未標示'], ['可擴充容量', m => m.appMemoryExpandedMB ? m.appMemoryExpandedMB + ' MB' : '無'], ['備份記憶體', m => m.backupMemoryKB != null ? kbTxt(m.backupMemoryKB) : '未標示'],
     ['傳輸線', m => m.cable ? m.cable.t : '待確認'], ['開發軟體', m => m.software || 'GP-Pro EX'],
     ['BLUE', m => softTxt(m, 'blue')], ['BLUE Open Studio', m => softTxt(m, 'bos')], ['停售／停修', m => eosTxt(m) || '未列於原廠停售清單']];
   const today = new Date().toLocaleDateString('sv-SE');
