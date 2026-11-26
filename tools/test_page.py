@@ -157,6 +157,7 @@ async def run(chrome):
             await pg.click("#mModels .chip >> nth=0")
             txt = await pg.inner_text("#mDetail")
             ok("BLUE 4.4" in txt and "5.02" in txt, "查機種：ST6000 2nd Gen 顯示 BLUE 4.4 與 GP-Pro EX 5.02")
+            ok("220 MB（擴充條件原廠未說明）" in txt and "64 MB（原廠規格頁未查到）" in txt and "可擴充至" not in txt, "查機種：可擴充容量另列一列")
             await pg.click('[data-ms="GP4000"]')
             await pg.click('#mGroups [data-mg="GP-43** Series"]')
             await pg.click("#mModels .chip >> text=GP-4301TW")
