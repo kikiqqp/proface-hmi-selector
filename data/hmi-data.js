@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 11:36:35",
+ "updated": "2026-11-26 11:49:50",
  "sourceVersion": "5.02",
  "series": {
   "GP6000A": {
@@ -15677,9 +15677,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "full",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "備援元件及斷電維持時間待確認"
+    "how": "斷電可保持時鐘",
+    "n": "使用者確認；備援元件型號原廠尚未公布"
    },
    "memWeb": null,
    "features": {
@@ -15773,9 +15774,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "full",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "備援元件及斷電維持時間待確認"
+    "how": "斷電可保持時鐘",
+    "n": "使用者確認；備援元件型號原廠尚未公布"
    },
    "memWeb": null,
    "features": {
@@ -15869,9 +15871,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "full",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "備援元件及斷電維持時間待確認"
+    "how": "斷電可保持時鐘",
+    "n": "使用者確認；備援元件型號原廠尚未公布"
    },
    "memWeb": null,
    "features": {
@@ -15965,9 +15968,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "full",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "備援元件及斷電維持時間待確認"
+    "how": "斷電可保持時鐘",
+    "n": "使用者確認；備援元件型號原廠尚未公布"
    },
    "memWeb": null,
    "features": {
@@ -16061,9 +16065,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "full",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "備援元件及斷電維持時間待確認"
+    "how": "斷電可保持時鐘",
+    "n": "使用者確認；備援元件型號原廠尚未公布"
    },
    "memWeb": null,
    "features": {
@@ -18451,9 +18456,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "open-only",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "需確認完整機型"
+    "how": "未提供電池備份",
+    "n": "使用者確認"
    },
    "memWeb": null,
    "features": {
@@ -27725,9 +27731,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "open-only",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "需依完整型號確認"
+    "how": "斷電可保持時鐘",
+    "n": "使用者確認"
    },
    "memWeb": null,
    "features": {
@@ -27841,9 +27848,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "open-only",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "需依完整型號確認"
+    "how": "斷電可保持時鐘",
+    "n": "使用者確認"
    },
    "memWeb": null,
    "features": {
@@ -27957,9 +27965,10 @@ window.HMI_DATA = {
    },
    "statusLatest": "open-only",
    "rtc": {
-    "s": "unknown",
+    "s": "yes",
     "src": "S_USER_RTC",
-    "n": "需依完整型號確認"
+    "how": "斷電可保持時鐘",
+    "n": "使用者確認"
    },
    "memWeb": null,
    "features": {
@@ -28073,7 +28082,7 @@ window.HMI_DATA = {
    "rtc": {
     "s": "unknown",
     "src": "S_USER_RTC",
-    "n": "需依實機或 OEM 資料確認"
+    "n": "使用者確認：RTC 與斷電保持時鐘皆未確認（HTK4300V、HTK3300V）"
    },
    "memWeb": null,
    "features": {
@@ -28174,7 +28183,7 @@ window.HMI_DATA = {
    "rtc": {
     "s": "unknown",
     "src": "S_USER_RTC",
-    "n": "需依實機或 OEM 資料確認"
+    "n": "使用者確認：RTC 與斷電保持時鐘皆未確認（HTK4300V、HTK3300V）"
    },
    "memWeb": null,
    "features": {
