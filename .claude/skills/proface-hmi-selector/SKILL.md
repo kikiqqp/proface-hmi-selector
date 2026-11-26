@@ -66,6 +66,8 @@ index.html
 4. `models_extra.csv` 中已被新版 XML 收錄的機種，提醒使用者刪除那一列（同系列同名時 `models_extra.csv` 會取代 XML 資料）。
 5. 新的解析度代碼要加進 `tools/xml2models.py` 的 `RES`，並註明原廠來源網址。
 6. 新系列要加進 `tools/xml2models.py` 的 `SERIES_KEY` 與 `data/csv/series.csv`（等級欄決定在進階、標準、基本、入門、舊機種、工業電腦哪一組）。
+7. 新版 XML 若把機種名稱改成 `F5.7A` 這類代稱（5.02 起出現），`xml2models.py` 的 `PLACEHOLDER` 會沿用舊名並把該版狀態標 `unknown`；出現新的代稱格式時要更新這個規則。
+8. 新版 XML 多出的 COM 埠會進 `comAdded`，要查原廠文件確認是本體還是擴充單元，並在 `index.html` 的 `comMore()` 補說明。
 
 ### XML 還沒收錄的機種
 
@@ -91,7 +93,7 @@ index.html
 6. 「找機種」所有條件都是陣列、都可複選：同一區塊內符合任一項即可（OR），不同區塊要同時符合（AND）。不要再新增單選條件，否則使用者會困惑。舊版瀏覽器存的字串條件在 `F` 初始化時轉成陣列。條件面板內一律用 `chip()` 按鈕（會自然換行）；`seg()` 分段按鈕不會換行，只用在空間足夠、選項短的地方（目前只有結果排序）。
 7. 「查機種」「舊機替換」的步驟是 系列 → 子系列 → 機種（SP5000 為 系列 → 顯示器 → Box）。右上角有「重新選擇」（`#mReset`、`#rReset`）。「找機種」的重新選擇在結果標題右側（`#fResetTop`，有條件或排序時才出現）、條件欄最上方（`#fReset`）與手機上方列（`#fResetBar`），會清除所有條件與排序。型號按鈕只顯示型號與尺寸，**不加註版本狀態**（例如「5.01 不可新建」），版本狀態只在詳細頁與找機種卡片顯示。
 8. 比較頁的「列印／存成 PDF」呼叫 `window.print()`，`@media print` 只留比較表（A4 橫式），`.print-only` 區塊放列印日期與資料庫日期。新增比較欄位時確認列印版面不會超出頁寬。
-9. 功能狀態代碼：`yes`、`no`、`cond`、`ended`、`unknown`。版本狀態代碼（每台機種的 `versions[版本]`）：`full` 可新建、`free` 免費版可用、`open-only` 僅可開啟、`absent` 該版未收錄。`statusLatest` 等於最新版的狀態。開發軟體（`software`）含「PB III」的機種，`badge()` 只顯示一個「PB III 舊硬體」標籤（`b-pb3`），不顯示各版本標籤；找機種版本條件的 `PB III` 選項以 `isPB()` 篩選。models_extra.csv 的「GP-Pro EX轉換」「轉換來源」欄成為 `m.convert`（PB III 專案可轉換到的 GP-Pro EX 機種，依 GP-Pro EX 手冊 4.1.1），顯示在規格表與舊機替換頁。規格與比較表的 LAN 埠、USB A 用 `portN()` 顯示：0 為「無」，空白為「未標示」。
+9. 功能狀態代碼：`yes`、`no`、`cond`、`ended`、`unknown`。版本狀態代碼（每台機種的 `versions[版本]`）：`full` 可新建、`free` 免費版可用、`open-only` 僅可開啟、`unknown` 待確認（該版 XML 名稱寫成代稱，見 `xmlAlias`）、`absent` 該版未收錄。新版 XML 才多出的 COM 埠放在 `comAdded`（`com` 只留本體內建埠），規格表以「其他 COM 埠」列出。`statusLatest` 等於最新版的狀態。開發軟體（`software`）含「PB III」的機種，`badge()` 只顯示一個「PB III 舊硬體」標籤（`b-pb3`），不顯示各版本標籤；找機種版本條件的 `PB III` 選項以 `isPB()` 篩選。models_extra.csv 的「GP-Pro EX轉換」「轉換來源」欄成為 `m.convert`（PB III 專案可轉換到的 GP-Pro EX 機種，依 GP-Pro EX 手冊 4.1.1），顯示在規格表與舊機替換頁。規格與比較表的 LAN 埠、USB A 用 `portN()` 顯示：0 為「無」，空白為「未標示」。
 10. 改完執行測試：
    ```
    pip install playwright
