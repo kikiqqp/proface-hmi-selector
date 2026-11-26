@@ -150,4 +150,4 @@ index.html
 | `.github/workflows/build-data.yml` | 自動檢查、建置與部署 |
 | `docs/資料整理紀錄.md` | 資料來源、判斷與待確認事項 |
 
-頁面底圖：`body::before` 以 CSS 內嵌 SVG 畫公司 LOGO（放大 200%、旋轉 15 度、240px 一格、`opacity:.35`），`.card` 與 `.side` 用 `light-dark()` 半透明底色（淺色 45%、深色 30%）加 `backdrop-filter:blur(16px) saturate(160%)`、亮邊與陰影做毛玻璃；`@media print` 關閉底圖並恢復白底。改顏色或大小時改這三處即可。
+頁面底圖：`body::before` 以 CSS 內嵌 SVG 畫公司 LOGO（放大 200%、旋轉 15 度、240px 一格、`opacity:.35`），`.card`、`.side`、`.box`、`.cmp-wrap` 用 `light-dark()` 半透明底色（淺色 45%、深色 30%）加 `backdrop-filter:blur(16px) saturate(160%)`、亮邊與陰影做毛玻璃；`@media print` 關閉底圖並恢復白底。改顏色或大小時改這三處即可。
