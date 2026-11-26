@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 11:26:40",
+ "updated": "2026-11-26 11:27:32",
  "sourceVersion": "5.02",
  "series": {
   "GP6000A": {
@@ -1117,6 +1117,26 @@ window.HMI_DATA = {
   "S_GP6000_LINEUP": {
    "title": "GP6000 系列產品一覽（Advanced 本體 COM ×2 可擴充；序列介面擴充單元 PFXZHMUSIO1）",
    "url": "https://www.proface.com/en/product/hmi/gp6000/lineup"
+  },
+  "S_RTC_SPEC": {
+   "title": "Pro-face 單一型號規格頁：時鐘精度與電池欄位（各型號連結見「原廠規格頁（記憶體）」）",
+   "url": ""
+  },
+  "S_USER_RTC": {
+   "title": "使用者提供的 RTC 整理（2026-11）",
+   "url": ""
+  },
+  "S_GP4100_RTC": {
+   "title": "GP-4100 彩色機安裝指南（時鐘備份電池不隨附，需另裝 RTC 電池組）",
+   "url": "https://www.proface.com/media/60868"
+  },
+  "S_GPEX_CLOCK": {
+   "title": "GP-Pro EX 手冊：時鐘更新（斷電後時鐘會初始化的機種）",
+   "url": "https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/system/system_pr_synchronize_clock_gp4000.htm"
+  },
+  "S_GP4G01_HW": {
+   "title": "GP-4G01 硬體手冊（時鐘精度、備份電池 PFXZCBBT1）",
+   "url": "https://proface.com/media/48482"
   }
  },
  "switches": [],
@@ -1183,7 +1203,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6B40DI",
     "o": "內建快閃記憶體 4 GB",
@@ -1313,7 +1338,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6540WCDI",
     "o": "內建快閃記憶體 4 GB",
@@ -1446,7 +1476,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6540TMDI",
     "o": "內建快閃記憶體 4 GB",
@@ -1579,7 +1614,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6640TMDI",
     "o": "內建快閃記憶體 4 GB",
@@ -1712,7 +1752,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6640WCDI",
     "o": "內建快閃記憶體 4 GB",
@@ -1845,7 +1890,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6740TMDI",
     "o": "內建快閃記憶體 4 GB",
@@ -1978,7 +2028,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "斷電可維持時鐘資料"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -2107,7 +2162,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6840WCDI",
     "o": "內建快閃記憶體 4 GB",
@@ -2240,7 +2300,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6940WCDI",
     "o": "內建快閃記憶體 4 GB",
@@ -2360,7 +2425,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6300TAD",
     "b": 512,
@@ -2479,7 +2549,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6400TAD",
     "b": 512,
@@ -2598,7 +2673,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6500TAD",
     "b": 512,
@@ -2717,7 +2797,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6500TMD",
     "b": 512,
@@ -2836,7 +2921,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6600TAD",
     "b": 512,
@@ -2955,7 +3045,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP6600TMD",
     "b": 512,
@@ -3070,7 +3165,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGPH6400WAD",
     "b": 512,
@@ -3174,7 +3274,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "對應料號 PFXGPH6500WCD"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -3278,7 +3383,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -3397,7 +3507,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -3519,7 +3634,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -3641,7 +3761,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -3763,7 +3888,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -3885,7 +4015,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -4007,7 +4142,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -4129,7 +4269,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -4265,7 +4410,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -4387,7 +4537,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -4509,7 +4664,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B00",
     "o": "裝置記憶體 1 GB",
@@ -4632,7 +4792,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -4754,7 +4919,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -4879,7 +5049,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -5004,7 +5179,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -5128,7 +5308,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -5253,7 +5438,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -5378,7 +5568,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -5503,7 +5698,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -5642,7 +5842,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -5767,7 +5972,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -5892,7 +6102,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B10",
     "u": 64,
@@ -6050,7 +6265,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B40",
     "u": 64,
@@ -6217,7 +6437,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B40",
     "u": 64,
@@ -6387,7 +6612,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B40",
     "u": 64,
@@ -6557,7 +6787,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B40",
     "u": 64,
@@ -6727,7 +6962,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B40",
     "u": 64,
@@ -6897,7 +7137,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B40",
     "u": 64,
@@ -7067,7 +7312,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B40",
     "u": 64,
@@ -7249,7 +7499,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B40",
     "u": 64,
@@ -7419,7 +7674,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -7581,7 +7841,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -7746,7 +8011,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -7911,7 +8181,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -8075,7 +8350,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -8240,7 +8520,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -8405,7 +8690,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -8570,7 +8860,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -8748,7 +9043,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -8913,7 +9213,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -9078,7 +9383,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "不需電池即可保存時鐘，另有選購電池",
+    "n": "原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘"
+   },
    "memWeb": {
     "code": "PFXSP5B41",
     "u": 64,
@@ -9209,7 +9519,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "超級電容＋選購備援電池",
+    "n": "RTC 與備援元件位於主機盒 SP-5B90"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -9330,7 +9645,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "超級電容＋選購備援電池",
+    "n": "RTC 與備援元件位於主機盒 SP-5B90"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -9451,7 +9771,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "超級電容＋選購備援電池",
+    "n": "RTC 與備援元件位於主機盒 SP-5B90"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -9564,7 +9889,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "no",
+    "src": "S_RTC_SPEC",
+    "n": "原廠規格頁寫使用外部裝置的時鐘"
+   },
    "memWeb": {
     "code": "GP4104G1D",
     "u": 2.2,
@@ -9703,7 +10032,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "no",
+    "src": "S_RTC_SPEC",
+    "n": "原廠規格頁寫使用外部裝置的時鐘"
+   },
    "memWeb": {
     "code": "GP4105G1D",
     "u": 2.2,
@@ -9842,7 +10175,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "no",
+    "src": "S_RTC_SPEC",
+    "n": "原廠規格頁寫使用外部裝置的時鐘"
+   },
    "memWeb": {
     "code": "GP4106G1D",
     "u": 2.2,
@@ -9981,7 +10318,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "no",
+    "src": "S_RTC_SPEC",
+    "n": "原廠規格頁寫使用外部裝置的時鐘"
+   },
    "memWeb": {
     "code": "GP4107G1D",
     "u": 2.2,
@@ -10115,7 +10456,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "cond",
+    "src": "S_GP4100_RTC|S_GPEX_CLOCK",
+    "how": "選購 RTC 電池組",
+    "n": "時鐘備份電池不隨附；未裝電池組時斷電或重置後時鐘初始化，可用時鐘更新設定由外部裝置更新"
+   },
    "memWeb": {
     "code": "PFXGP4114T2D",
     "u": 8,
@@ -10239,7 +10585,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "cond",
+    "src": "S_GP4100_RTC|S_GPEX_CLOCK",
+    "how": "選購 RTC 電池組",
+    "n": "時鐘備份電池不隨附；未裝電池組時斷電或重置後時鐘初始化，可用時鐘更新設定由外部裝置更新"
+   },
    "memWeb": {
     "code": "PFXGP4115T2D",
     "u": 8,
@@ -10359,7 +10710,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "cond",
+    "src": "S_GP4100_RTC|S_GPEX_CLOCK",
+    "how": "選購 RTC 電池組",
+    "n": "時鐘備份電池不隨附；未裝電池組時斷電或重置後時鐘初始化，可用時鐘更新設定由外部裝置更新"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -10474,7 +10830,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "cond",
+    "src": "S_GP4100_RTC|S_GPEX_CLOCK",
+    "how": "選購 RTC 電池組",
+    "n": "時鐘備份電池不隨附；未裝電池組時斷電或重置後時鐘初始化，可用時鐘更新設定由外部裝置更新"
+   },
    "memWeb": {
     "code": "PFXGP4116T2D",
     "u": 8,
@@ -10594,7 +10955,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "充電式二次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4201TAD",
     "u": 16,
@@ -10731,7 +11097,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "no",
+    "src": "S_RTC_SPEC|S_GPEX_CLOCK",
+    "n": "原廠規格頁寫使用外部裝置的時鐘；斷電或重置後時鐘初始化，需用時鐘更新設定由外部裝置更新"
+   },
    "memWeb": {
     "code": "PFXGM4201TAD",
     "u": 8,
@@ -10863,7 +11233,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "充電式二次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4201TADW",
     "u": 8,
@@ -10997,7 +11372,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "充電式二次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4203TAD",
     "u": 16,
@@ -11138,7 +11518,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4301TAD",
     "u": 16,
@@ -11264,7 +11649,11 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7A"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "no",
+    "src": "S_RTC_SPEC|S_GPEX_CLOCK",
+    "n": "原廠規格頁寫使用外部裝置的時鐘；斷電或重置後時鐘初始化，需用時鐘更新設定由外部裝置更新"
+   },
    "memWeb": {
     "code": "PFXGM4301TAD",
     "u": 8,
@@ -11393,7 +11782,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "依完整訂購型號確認電池規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -11517,7 +11911,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7B"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "充電式二次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4301TADW",
     "u": 8,
@@ -11669,7 +12068,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4303TAD",
     "u": 16,
@@ -11792,7 +12196,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXGP4311HTADER",
     "u": 32,
@@ -11918,7 +12327,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4401WADW",
     "u": 16,
@@ -12058,7 +12472,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "電池型號 PFXZGEBT1"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -12191,7 +12610,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4401TAD",
     "u": 32,
@@ -12318,7 +12742,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "電池型號 PFXZGEBT1"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -12451,7 +12880,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4501TAD",
     "u": 32,
@@ -12584,7 +13018,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4501TMD",
     "u": 32,
@@ -12709,7 +13148,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "依完整訂購型號確認電池規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -12833,7 +13277,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F10.4A"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4501TADW",
     "u": 16,
@@ -12986,7 +13435,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4503TAD",
     "u": 32,
@@ -13113,7 +13567,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "依完整訂購型號確認電池規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -13234,7 +13693,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4601TAD",
     "u": 32,
@@ -13361,7 +13825,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4601TMD",
     "u": 32,
@@ -13486,7 +13955,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "依完整訂購型號確認電池規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -13607,7 +14081,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": {
     "code": "PFXGP4603TAD",
     "u": 32,
@@ -13734,7 +14213,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "依完整訂購型號確認電池規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -13851,7 +14335,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP4G01_HW",
+    "how": "可替換式一次電池",
+    "n": "備份電池 PFXZCBBT1；時鐘精度每月 ±65 秒（室溫、斷電時）"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -13977,7 +14466,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "需確認完整機型"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -14091,7 +14584,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXST6200WADE",
     "u": 64,
@@ -14221,7 +14719,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7C"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXST6300TADE",
     "u": 64,
@@ -14340,7 +14843,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXST6400WADE",
     "u": 64,
@@ -14467,7 +14975,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXST6500WADE",
     "u": 64,
@@ -14597,7 +15110,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F10.4B"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXST6500TADE",
     "u": 64,
@@ -14717,7 +15235,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXST6600WADE",
     "u": 64,
@@ -14844,7 +15367,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "需依認證機型完整型號確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -14966,7 +15494,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫電池可由使用者更換"
+   },
    "memWeb": {
     "code": "PFXST6700WADE",
     "u": 64,
@@ -15087,7 +15620,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "備援元件及斷電維持時間待確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -15179,7 +15716,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "備援元件及斷電維持時間待確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -15271,7 +15812,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "備援元件及斷電維持時間待確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -15363,7 +15908,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "備援元件及斷電維持時間待確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -15455,7 +16004,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "備援元件及斷電維持時間待確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -15545,7 +16098,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXSTM6200WADE",
     "u": 64,
@@ -15659,7 +16217,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式電池",
+    "n": "原廠規格頁寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXSTM6400WADE",
     "u": 64,
@@ -15773,7 +16336,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "一次電池（使用者不可更換）",
+    "n": "原廠規格頁寫電池用於時鐘資料備份"
+   },
    "memWeb": {
     "code": "PFXSTM6B00D",
     "o": "BLUE 使用時：應用記憶體 FLASH EPROM 128 MB、備份記憶體 NVRAM 500 KB、本機儲存 467 MB",
@@ -15884,7 +16452,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "BR2032／CR2032"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -16000,7 +16573,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "原廠規格頁寫電池用於時鐘資料備份；01 型寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXET6400WAD",
     "u": 32,
@@ -16117,7 +16695,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "原廠規格頁寫電池用於時鐘資料備份；01 型寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXET6400WAD01",
     "u": 32,
@@ -16235,7 +16818,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "原廠規格頁寫電池用於時鐘資料備份；01 型寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXET6500WAD",
     "u": 64,
@@ -16352,7 +16940,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "原廠規格頁寫電池用於時鐘資料備份；01 型寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXET6500WAD01",
     "u": 64,
@@ -16470,7 +17063,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "原廠規格頁寫電池用於時鐘資料備份；01 型寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXET6600WAD",
     "u": 64,
@@ -16588,7 +17186,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "可替換式一次電池",
+    "n": "原廠規格頁寫電池用於時鐘資料備份；01 型寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXET6700WAD",
     "u": 64,
@@ -16701,7 +17304,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "內建，電池不可拆",
+    "n": "原廠規格頁寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXET5400WAD",
     "o": "裝置記憶體 256 MB",
@@ -16807,7 +17415,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "內建，電池不可拆",
+    "n": "原廠規格頁寫內建即時時鐘"
+   },
    "memWeb": {
     "code": "PFXET5500WAD",
     "o": "裝置記憶體 256 MB",
@@ -16914,7 +17527,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "充電式鋰電池",
+    "n": "原廠規格頁寫的電池用途為資料備份"
+   },
    "memWeb": {
     "code": "PFXLM4201TADAC",
     "u": 16,
@@ -17036,7 +17654,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "充電式鋰電池",
+    "n": "原廠規格頁寫的電池用途為資料備份"
+   },
    "memWeb": {
     "code": "PFXLM4201TADDK",
     "u": 16,
@@ -17158,7 +17781,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "充電式鋰電池",
+    "n": "原廠規格頁寫的電池用途為資料備份"
+   },
    "memWeb": {
     "code": "PFXLM4301TADAC",
     "u": 16,
@@ -17280,7 +17908,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "how": "充電式鋰電池",
+    "n": "原廠規格頁寫的電池用途為資料備份"
+   },
    "memWeb": {
     "code": "PFXLM4301TADDK",
     "u": 16,
@@ -17402,7 +18035,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池",
+    "n": "RTC 位於前方顯示器本體"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -17515,7 +18153,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池",
+    "n": "RTC 位於前方顯示器本體"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -17631,7 +18274,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_RTC_SPEC",
+    "n": "原廠規格頁寫時鐘精度每月 −380～+90 秒"
+   },
    "memWeb": {
     "code": "PFXGE4401WAD",
     "u": 8,
@@ -17747,7 +18394,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "需確認完整機型"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -17858,7 +18509,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "可替換式一次電池",
+    "n": "電池型號 PFXZGEBT1"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -17966,7 +18622,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -18090,7 +18750,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -18219,7 +18883,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -18335,7 +19003,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -18456,7 +19128,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -18583,7 +19259,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -18735,7 +19415,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -18875,7 +19559,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -19026,7 +19714,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -19172,7 +19864,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -19324,7 +20020,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -19451,7 +20151,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -19602,7 +20306,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -19749,7 +20457,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -19895,7 +20607,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -20017,7 +20733,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -20170,7 +20890,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -20306,7 +21030,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -20446,7 +21174,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -20582,7 +21314,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -20707,7 +21443,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -20845,7 +21585,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -20987,7 +21731,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -21134,7 +21882,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -21256,7 +22008,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -21391,7 +22147,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -21513,7 +22273,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -21649,7 +22413,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -21790,7 +22558,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -21923,7 +22695,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -22065,7 +22841,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -22207,7 +22987,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -22337,7 +23121,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -22497,7 +23285,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -22613,7 +23405,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -22761,7 +23557,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -22922,7 +23722,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -23065,7 +23869,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -23222,7 +24030,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -23365,7 +24177,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -23506,7 +24322,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -23639,7 +24459,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -23774,7 +24598,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -23910,7 +24738,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -24084,7 +24916,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -24238,7 +25074,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -24374,7 +25214,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -24520,7 +25364,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -24668,7 +25516,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -24800,7 +25652,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -24931,7 +25787,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -25067,7 +25927,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -25203,7 +26067,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -25334,7 +26202,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "充電式二次電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -25474,7 +26346,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -25600,7 +26477,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -25726,7 +26608,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -25858,7 +26745,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -25990,7 +26882,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -26128,7 +27025,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -26266,7 +27168,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -26398,7 +27305,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -26548,7 +27460,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "內建鋰電池",
+    "n": "各型號備援規格需個別確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -26697,7 +27614,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "需依完整型號確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -26809,7 +27730,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "需依完整型號確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -26921,7 +27846,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "需依完整型號確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -27031,7 +27960,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "需依實機或 OEM 資料確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -27128,7 +28061,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "unknown",
+    "src": "S_USER_RTC",
+    "n": "需依實機或 OEM 資料確認"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -27260,7 +28197,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -27401,7 +28342,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -27544,7 +28489,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -27687,7 +28636,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -27830,7 +28783,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -27973,7 +28930,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -28116,7 +29077,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -28259,7 +29224,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -28403,7 +29372,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -28546,7 +29519,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -28689,7 +29666,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -28832,7 +29813,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -28975,7 +29960,11 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_USER_RTC",
+    "how": "工業電腦內建"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
