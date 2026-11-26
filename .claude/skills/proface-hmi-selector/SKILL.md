@@ -75,7 +75,7 @@ index.html
 
 ### 傳輸線
 
-`data/csv/discon.csv` 由 `build.py` 讀成每台機種的 `discon = [{code, eos, eor, n, src}]`，網頁以 `isEOS()`（全部停售日已過）標示「已停售」，舊機替換時排在後面，`nearCut()` 不列已停售機種。`data/csv/software.csv` 讀成 `soft = {blue, bos}`（狀態代碼同功能），沒有符合的列預設為 `no` 並註明原廠清單未列。舊機替換的開口相同清單以 `isRec()` 比對原廠建議替換文字中的型號（`tok()`、`mkey()`，GP6000 以 PFX 型號前綴比對），原廠建議排最前並標 `b-rec`。
+`data/csv/discon.csv` 由 `build.py` 讀成每台機種的 `discon = [{code, eos, eor, n, src}]`，網頁以 `isEOS()`（全部停售日已過）標示「已停售」，舊機替換時排在後面，`nearCut()` 不列已停售機種。`data/csv/memory.csv` 讀成 `memWeb = {code, u, b, v, o, n}`（原廠規格頁的使用者資料記憶體 MB、備份記憶體 KB、變數區 KB、其他記憶體、備註），規格表以 XML 為主並用 `memU()`、`memB()` 註明原廠容量，不同時標「與 XML 不同」。「畫面記憶體」一律改稱「使用者資料記憶體」（原廠 User data memory）。`data/csv/software.csv` 讀成 `soft = {blue, bos}`（狀態代碼同功能），沒有符合的列預設為 `no` 並註明原廠清單未列。舊機替換的開口相同清單以 `isRec()` 比對原廠建議替換文字中的型號（`tok()`、`mkey()`，GP6000 以 PFX 型號前綴比對），原廠建議排最前並標 `b-rec`。
 
 `data/csv/cables.csv` 由 `build.py` 讀成每台機種的 `cable = {t, kinds, n, src}`。`kinds` 只能是 `CABLE_KINDS`（`USB A`、`USB mini-B`、`USB micro-B`、`Tool`），網頁「找機種」的傳輸線篩選用它比對，說明頁的傳輸線表也由它自動產生。使用者要求：一般 USB 線只寫型式，不寫原廠型號；只有原廠專用線（USB A 對 USB A 的 CA3-USBCB-01、GP2000 的 GPW-CB02、GPW-CB03、GPW-CB-SET）寫型號，並註明支援機種。目前未建檔：GPH6000、ET5000、HTK。
 
@@ -89,7 +89,7 @@ index.html
 2. 所有從資料來的文字都要經過 `esc()` 再放進 HTML。
 3. **尺寸一律用 rem**，不要寫 px（SVG 內部座標除外）。字級切換是改 `html` 的 `font-size`（`data-fs` 屬性），用 px 會讓該元素不跟著縮放。
 4. 版面斷點：900px 以下條件改為全螢幕面板（`.filters.open`），600px 以下表格改為堆疊顯示（`.stack`）。新增的條件區塊用 `grp()` 產生，才會有收合與已選數量。
-5. 「找機種」條件區塊順序固定為：系列、開發軟體（GP-Pro EX 版本 `F.ver`、BLUE／BOS `F.sw`、PB III，同區塊任一符合即可）、螢幕尺寸（含畫面比例）、開口尺寸、遠端與網路功能、介面、觸控、傳輸線、停售狀態。卡片的 `badge()` 會附 `swBadges()`（BLUE ✓、BLUE 舊版、BOS ✓）。預設展開狀態在 `GOPEN`，使用者的展開狀態存在瀏覽器（`gopen`）。
+5. 「找機種」條件區塊順序固定為：系列、開發軟體（GP-Pro EX 版本 `F.ver`、BLUE／BOS `F.sw`、PB III，同區塊任一符合即可）、螢幕尺寸（含畫面比例）、開口尺寸、遠端與網路功能、介面、記憶體（`F.umem`、`F.bmem`，「至少」，每組只能選一項，以 XML 的 `appMemoryMB`、`backupMemoryKB` 比對）、觸控、傳輸線、停售狀態。卡片的 `badge()` 會附 `swBadges()`（BLUE ✓、BLUE 舊版、BOS ✓）。預設展開狀態在 `GOPEN`，使用者的展開狀態存在瀏覽器（`gopen`）。
 6. 「找機種」所有條件都是陣列、都可複選：同一區塊內符合任一項即可（OR），不同區塊要同時符合（AND）。不要再新增單選條件，否則使用者會困惑。舊版瀏覽器存的字串條件在 `F` 初始化時轉成陣列。條件面板內一律用 `chip()` 按鈕（會自然換行）；`seg()` 分段按鈕不會換行，只用在空間足夠、選項短的地方（目前只有結果排序）。
 7. 「查機種」「舊機替換」的步驟是 系列 → 子系列 → 機種（SP5000 為 系列 → 顯示器 → Box）。右上角有「重新選擇」（`#mReset`、`#rReset`）。「找機種」的重新選擇在結果標題右側（`#fResetTop`，有條件或排序時才出現）、條件欄最上方（`#fReset`）與手機上方列（`#fResetBar`），會清除所有條件與排序。型號按鈕只顯示型號與尺寸，**不加註版本狀態**（例如「5.01 不可新建」），版本狀態只在詳細頁與找機種卡片顯示。
 8. 比較頁的「列印／存成 PDF」呼叫 `window.print()`，`@media print` 只留比較表（A4 橫式），`.print-only` 區塊放列印日期與資料庫日期。新增比較欄位時確認列印版面不會超出頁寬。
