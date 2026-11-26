@@ -149,3 +149,5 @@ index.html
 | `docs/GitHub使用說明.md` | 給維護資料的人：上架、修改 CSV、新增機種、排除錯誤 |
 | `.github/workflows/build-data.yml` | 自動檢查、建置與部署 |
 | `docs/資料整理紀錄.md` | 資料來源、判斷與待確認事項 |
+
+頁面底圖：`body::before` 以 CSS 內嵌 SVG 畫公司 LOGO（旋轉 45 度、120px 一格、`opacity:.35`），`.card` 與 `.side` 用 `color-mix` 70% 底色加 `backdrop-filter:blur(6px)` 做毛玻璃；`@media print` 關閉底圖並恢復白底。改顏色或大小時改這三處即可。
