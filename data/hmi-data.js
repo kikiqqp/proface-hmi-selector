@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-25 17:54:37",
+ "updated": "2026-11-26 09:10:13",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -145,7 +145,8 @@ window.HMI_DATA = {
   "full": "可新建專案",
   "free": "可新建專案（免費版可用）",
   "open-only": "僅可開啟舊專案，不可新建",
-  "absent": "該版本未收錄"
+  "absent": "該版本未收錄",
+  "unknown": "該版 XML 名稱寫成代稱，狀態待確認"
  },
  "featureDefs": {
   "remoteHmi": {
