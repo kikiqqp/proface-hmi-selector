@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 10:11:52",
+ "updated": "2026-11-26 10:12:31",
  "sourceVersion": "5.02",
  "series": {
   "GP6000A": {
@@ -1183,7 +1183,11 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6B40DI",
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1308,7 +1312,11 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6540WCDI",
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1436,7 +1444,11 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6540TMDI",
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1564,7 +1576,11 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6640TMDI",
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1692,7 +1708,11 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6640WCDI",
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1820,7 +1840,11 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6740TMDI",
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2076,7 +2100,11 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6840WCDI",
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2204,7 +2232,11 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6940WCDI",
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2319,7 +2351,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6300TAD",
+    "b": 512,
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁寫備份記憶體 NVRAM 512 KB；未列使用者資料記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2432,7 +2469,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6400TAD",
+    "b": 512,
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁寫備份記憶體 NVRAM 512 KB；未列使用者資料記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2545,7 +2587,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6500TAD",
+    "b": 512,
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁寫備份記憶體 NVRAM 512 KB；未列使用者資料記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2658,7 +2705,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6500TMD",
+    "b": 512,
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁寫備份記憶體 NVRAM 512 KB；未列使用者資料記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2771,7 +2823,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6600TAD",
+    "b": 512,
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁寫備份記憶體 NVRAM 512 KB；未列使用者資料記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2884,7 +2941,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP6600TMD",
+    "b": 512,
+    "o": "內建快閃記憶體 4 GB",
+    "n": "原廠規格頁寫備份記憶體 NVRAM 512 KB；未列使用者資料記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2993,7 +3055,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGPH6400WAD",
+    "b": 512,
+    "o": "裝置記憶體 4 GB",
+    "n": "原廠規格頁寫備份記憶體 512 KB；未列使用者資料記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -3194,7 +3261,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3308,7 +3379,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3425,7 +3500,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3542,7 +3621,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3659,7 +3742,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3776,7 +3863,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3893,7 +3984,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4010,7 +4105,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4141,7 +4240,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4258,7 +4361,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4375,7 +4482,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B00",
+    "o": "裝置記憶體 1 GB",
+    "n": "Box 的規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4493,7 +4604,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4608,7 +4725,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4726,7 +4849,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4844,7 +4973,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4961,7 +5096,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5079,7 +5220,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5197,7 +5344,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5315,7 +5468,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5447,7 +5606,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5565,7 +5730,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5683,7 +5854,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B10",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5834,7 +6011,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B40",
+    "u": 64,
+    "b": 320,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5995,7 +6177,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B40",
+    "u": 64,
+    "b": 320,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6159,7 +6346,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B40",
+    "u": 64,
+    "b": 320,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6323,7 +6515,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B40",
+    "u": 64,
+    "b": 320,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6487,7 +6684,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B40",
+    "u": 64,
+    "b": 320,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6651,7 +6853,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B40",
+    "u": 64,
+    "b": 320,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6815,7 +7022,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B40",
+    "u": 64,
+    "b": 320,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6991,7 +7203,12 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B40",
+    "u": 64,
+    "b": 320,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7155,7 +7372,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7310,7 +7533,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7468,7 +7697,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7626,7 +7861,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7783,7 +8024,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7941,7 +8188,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8099,7 +8352,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8257,7 +8516,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8428,7 +8693,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8586,7 +8857,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8744,7 +9021,13 @@ window.HMI_DATA = {
      }
     ]
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSP5B41",
+    "u": 64,
+    "b": 320,
+    "v": 64,
+    "n": "Box 的規格頁；備份記憶體為 NVRAM 320 KB，或使用 CFast／SD 卡 5 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -9220,7 +9503,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "memWeb": null,
+   "memWeb": {
+    "code": "GP4104G1D",
+    "u": 2.2,
+    "b": 128,
+    "n": "原廠規格頁寫 FLASH EPROM 2.2 MB，含作畫程式與擴充邏輯程式"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9353,7 +9641,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "memWeb": null,
+   "memWeb": {
+    "code": "GP4105G1D",
+    "u": 2.2,
+    "b": 128,
+    "n": "原廠規格頁寫 FLASH EPROM 2.2 MB，含作畫程式與擴充邏輯程式"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9486,7 +9779,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "memWeb": null,
+   "memWeb": {
+    "code": "GP4106G1D",
+    "u": 2.2,
+    "b": 128,
+    "n": "原廠規格頁寫 FLASH EPROM 2.2 MB，含作畫程式與擴充邏輯程式"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9619,7 +9917,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "memWeb": null,
+   "memWeb": {
+    "code": "GP4107G1D",
+    "u": 2.2,
+    "b": 128,
+    "n": "原廠規格頁寫 FLASH EPROM 2.2 MB，含作畫程式與擴充邏輯程式"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9747,7 +10050,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4114T2D",
+    "u": 8,
+    "b": 128,
+    "n": "備份記憶體為 FLASH EPROM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -9865,7 +10173,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4115T2D",
+    "u": 8,
+    "b": 128,
+    "n": "備份記憶體為 FLASH EPROM"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -10093,7 +10406,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4116T2D",
+    "u": 8,
+    "b": 128,
+    "n": "備份記憶體為 FLASH EPROM"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -10207,7 +10525,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4201TAD",
+    "u": 16,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10337,7 +10661,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGM4201TAD",
+    "u": 8,
+    "b": 128,
+    "n": "備份記憶體為 nvSRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10463,7 +10792,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4201TADW",
+    "u": 8,
+    "b": 128,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -10591,7 +10925,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4203TAD",
+    "u": 16,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10725,7 +11065,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4301TAD",
+    "u": 16,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10844,7 +11190,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7A"
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGM4301TAD",
+    "u": 8,
+    "b": 128,
+    "n": "備份記憶體為 nvSRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11090,7 +11441,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7B"
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4301TADW",
+    "u": 8,
+    "b": 128,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11236,7 +11592,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4303TAD",
+    "u": 16,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11352,7 +11714,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4311HTADER",
+    "u": 32,
+    "b": 320
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11473,7 +11839,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4401WADW",
+    "u": 16,
+    "b": 128,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11739,7 +12110,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4401TAD",
+    "u": 32,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11991,7 +12368,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4501TAD",
+    "u": 32,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12117,7 +12500,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4501TMD",
+    "u": 32,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12358,7 +12747,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F10.4A"
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4501TADW",
+    "u": 16,
+    "b": 128,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12505,7 +12899,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4503TAD",
+    "u": 32,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12745,7 +13145,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4601TAD",
+    "u": 32,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12865,7 +13271,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4601TMD",
+    "u": 32,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13103,7 +13515,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGP4603TAD",
+    "u": 32,
+    "b": 320,
+    "v": 64,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13577,7 +13995,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXST6200WADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13701,7 +14124,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7C"
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXST6300TADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13814,7 +14242,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXST6400WADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13935,7 +14368,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXST6500WADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14059,7 +14497,12 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F10.4B"
    },
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXST6500TADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14173,7 +14616,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXST6600WADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14415,7 +14863,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXST6700WADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14983,7 +15436,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSTM6200WADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15091,7 +15549,12 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSTM6400WADE",
+    "u": 64,
+    "b": 320,
+    "n": "GP-Pro EX 型號的規格頁"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15199,7 +15662,11 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXSTM6B00D",
+    "o": "BLUE 使用時：應用記憶體 FLASH EPROM 128 MB、備份記憶體 NVRAM 500 KB、本機儲存 467 MB",
+    "n": "原廠規格頁只列 BLUE 使用時的數值，未列 GP-Pro EX"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15420,7 +15887,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXET6400WAD",
+    "u": 32,
+    "b": 128,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15531,7 +16003,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXET6400WAD01",
+    "u": 32,
+    "b": 128,
+    "o": "裝置記憶體 256 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15643,7 +16120,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXET6500WAD",
+    "u": 64,
+    "b": 128,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15754,7 +16236,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXET6500WAD01",
+    "u": 64,
+    "b": 128,
+    "o": "裝置記憶體 256 MB"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15866,7 +16353,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXET6600WAD",
+    "u": 64,
+    "b": 128,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15978,7 +16470,12 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXET6700WAD",
+    "u": 64,
+    "b": 128,
+    "n": "備份記憶體為 SRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16085,7 +16582,11 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXET5400WAD",
+    "o": "裝置記憶體 256 MB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16186,7 +16687,11 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXET5500WAD",
+    "o": "裝置記憶體 256 MB",
+    "n": "原廠規格頁未列使用者資料記憶體與備份記憶體"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16288,7 +16793,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXLM4201TADAC",
+    "u": 16,
+    "b": 128,
+    "v": 64,
+    "n": "原廠規格頁寫 FLASH EPROM 16 MB，含作畫程式與擴充邏輯程式；備份記憶體為 nvSRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16403,7 +16914,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXLM4201TADDK",
+    "u": 16,
+    "b": 128,
+    "v": 64,
+    "n": "原廠規格頁寫 FLASH EPROM 16 MB，含作畫程式與擴充邏輯程式；備份記憶體為 nvSRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16518,7 +17035,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXLM4301TADAC",
+    "u": 16,
+    "b": 128,
+    "v": 64,
+    "n": "原廠規格頁寫 FLASH EPROM 16 MB，含作畫程式與擴充邏輯程式；備份記憶體為 nvSRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16633,7 +17156,13 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXLM4301TADDK",
+    "u": 16,
+    "b": 128,
+    "v": 64,
+    "n": "原廠規格頁寫 FLASH EPROM 16 MB，含作畫程式與擴充邏輯程式；備份記憶體為 nvSRAM"
+   },
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16975,7 +17504,12 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
-   "memWeb": null,
+   "memWeb": {
+    "code": "PFXGE4401WAD",
+    "u": 8,
+    "b": 128,
+    "n": "備份記憶體為 FLASH EPROM"
+   },
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -28327,7 +28861,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 2,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28464,7 +28998,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 2,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28589,7 +29123,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 2,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28710,7 +29244,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28837,7 +29371,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28964,7 +29498,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29101,7 +29635,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 8,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29226,7 +29760,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 8,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29370,7 +29904,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 8,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29520,7 +30054,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 8,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29670,7 +30204,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 8,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29820,7 +30354,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 8,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29959,7 +30493,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 8,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30094,7 +30628,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30223,7 +30757,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30357,7 +30891,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30491,7 +31025,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30625,7 +31159,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30760,7 +31294,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30895,7 +31429,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -31030,7 +31564,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -31165,7 +31699,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -31300,7 +31834,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -31435,7 +31969,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": null,
+   "appMemoryMB": 1,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
