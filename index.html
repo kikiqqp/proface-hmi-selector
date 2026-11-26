@@ -252,6 +252,11 @@ const cutTxt = c => {
 };
 const portN = v => v == null ? '未標示' : v ? v + ' 埠' : '無';
 const comHas = (m,t) => m.com.some(c => c.type.includes(t));
+const MEMW_URL = c => 'https://www.proface.com/en/product/spec/' + encodeURIComponent(c);
+const webNum = (m, k, xml, fmt) => { if (m.key.startsWith('extra|')) return ''; const w = m.memWeb; if (!w) return '原廠規格頁未查到'; if (w[k] == null) return '原廠規格頁未列'; return `原廠規格頁 ${fmt(w[k])}` + (xml != null && w[k] !== xml ? '，與 XML 不同' : ''); };
+const memU = m => { const x = m.appMemoryMB ? m.appMemoryMB + ' MB' + (m.appMemoryExpandedMB ? `（可擴充至 ${m.appMemoryExpandedMB} MB，條件原廠未說明）` : '') : '未標示'; const w = webNum(m, 'u', m.appMemoryMB, v => v + ' MB'); return w ? `${x}；${w}` : x; };
+const memB = m => { const x = m.backupMemoryKB != null ? kbTxt(m.backupMemoryKB) : '未標示'; const w = webNum(m, 'b', m.backupMemoryKB, kbTxt); const v = m.memWeb && m.memWeb.v ? `，另有變數區 ${kbTxt(m.memWeb.v)}` : ''; return w ? `${x}；${w}${v}` : x; };
+const memNote = m => m.memWeb ? [m.memWeb.o, m.memWeb.n].filter(Boolean).join('；') : '';
 const comTxt = m => m.com.map(c => c.port + ' ' + c.type).join('、') || '無';
 const comMore = m => m.comAdded ? `GP-Pro EX ${m.comAdded.since} XML 另列 ${m.comAdded.ports.map(c => c.port).join('、')}（${m.comAdded.ports[0].type} 等）${m.series === 'GP6000A' ? '；這兩埠來自 5.02 起支援的序列介面擴充單元 PFXZHMUSIO1（原廠 GP6000 產品頁：本體 COM ×2，可擴充），本體內建只有上列 COM 埠' : '；原廠文件未說明來源，本體內建以上列為準'}` : '';
 const aliasTxt = m => m.xmlAlias ? Object.entries(m.xmlAlias).map(([v,n]) => `GP-Pro EX ${v} 的 XML 名稱寫成「${n}」（同 id、同離線名稱、規格相同），該版支援狀態待確認`).join('；') : '';
@@ -318,11 +323,15 @@ function renderTray() {
 const cmpBtn = k => `<button class="btn" data-cmp="${esc(k)}">${cmp.includes(k) ? '移出比較' : '加入比較'}</button>`;
 
 /* ---------- 找機種 ---------- */
-const F = Object.assign({series:[], ver:[], size:[], aspect:[], cut:[], feats:[], iface:[], touch:[], cable:[], sw:[], eos:[]}, store.get('find', {}));
+const F = Object.assign({series:[], ver:[], size:[], aspect:[], cut:[], feats:[], iface:[], touch:[], cable:[], sw:[], eos:[], umem:[], bmem:[]}, store.get('find', {}));
 /* 每個條件都是陣列：同一區塊內符合任一項即可，不同區塊需同時符合。舊版存成字串的條件在這裡轉成陣列 */
-for (const k of ['series','ver','size','aspect','cut','feats','iface','touch','cable','sw','eos']) F[k] = Array.isArray(F[k]) ? F[k] : (F[k] ? [F[k]] : []);
+for (const k of ['series','ver','size','aspect','cut','feats','iface','touch','cable','sw','eos','umem','bmem']) F[k] = Array.isArray(F[k]) ? F[k] : (F[k] ? [F[k]] : []);
 delete F.legacy; F.ver = F.ver.filter(v => VERS.includes(v) || v === PB3);
 const FEAT_OPTS = [['remoteHmi','Remote HMI（手機／平板）'],['gpViewer','GP-Viewer EX（電腦）'],['proFaceConnect','Pro-face Connect'],['ftp','FTP Server'],['email','E-mail 通知'],['ipsec','IPsec 加密']];
+// 記憶體條件為「至少」：同一組只能選一項，以 XML 的數值比對（不含可擴充容量）
+const UMEM_OPTS = [8, 16, 32, 64, 128];
+const BMEM_OPTS = [128, 320, 5120];
+const kbTxt = v => v >= 1024 ? (v / 1024) + ' MB' : v + ' KB';
 const IFACE_OPTS = [['lan1','有 LAN 埠'],['lan2','LAN 2 埠以上'],['rs232','RS-232C'],['rs485','RS-422/485'],['usb','USB A'],['card','SD／CF 卡槽']];
 const TOUCH_OPTS = [['analog','類比電阻'],['multi','多點觸控'],['pcap','投射電容'],['matrix','矩陣']];
 /* 傳輸線接頭：USB A 指 USB A 對 USB A 專用傳輸線 CA3-USBCB-01；Tool 指 GP2000 等舊機的圓形 Tool 連接埠 */
@@ -363,12 +372,12 @@ function seriesChips(isOn, attr) {
 function seg(items, cur, attr) {
   return `<div class="seg" role="group">${items.map(([v,l]) => `<button aria-pressed="${cur === v}" ${attr} data-v="${esc(v)}">${esc(l)}</button>`).join('')}</div>`;
 }
-const GOPEN = Object.assign({series:true, ver:true, size:true, cut:true, feat:true, iface:false, touch:false, cable:false}, store.get('gopen', {}));
+const GOPEN = Object.assign({series:true, ver:true, size:true, cut:true, feat:true, iface:false, mem:false, touch:false, cable:false}, store.get('gopen', {}));
 function grp(id, title, n, body) {
   return `<details class="grp" data-g="${id}"${GOPEN[id] ? ' open' : ''}><summary>${title}${n ? `<span class="cnt">${n}</span>` : ''}</summary><div class="body">${body}</div></details>`;
 }
 function critCount() {
-  return F.series.length + F.ver.length + F.size.length + F.aspect.length + F.cut.length + F.feats.length + F.iface.length + F.touch.length + F.cable.length + F.sw.length + F.eos.length;
+  return F.series.length + F.ver.length + F.size.length + F.aspect.length + F.cut.length + F.feats.length + F.iface.length + F.touch.length + F.cable.length + F.sw.length + F.eos.length + F.umem.length + F.bmem.length;
 }
 function renderFilters() {
   const el = $('#filters');
@@ -387,6 +396,7 @@ function renderFilters() {
       <div class="chips" style="margin-top:.5rem">${cutouts.map(c => chip(esc(c.k), F.cut.includes(c.k), `data-f="cut" data-v="${esc(c.k)}"`, `<small>${[...c.inch].sort((a,b)=>a-b).map(i=>i+'吋').join('／')}</small>`)).join('')}</div>`)}
    ${grp('feat', '需要的遠端與網路功能', F.feats.length, `<div class="chips">${FEAT_OPTS.map(([k,l]) => chip(esc(l), F.feats.includes(k), `data-f="feats" data-v="${k}"`)).join('')}</div>`)}
    ${grp('iface', '介面', F.iface.length, `<div class="chips">${IFACE_OPTS.map(([k,l]) => chip(esc(l), F.iface.includes(k), `data-f="iface" data-v="${k}"`)).join('')}</div>`)}
+   ${grp('mem', '記憶體', F.umem.length + F.bmem.length, `<p class="meta">使用者資料記憶體（至少）</p><div class="chips">${UMEM_OPTS.map(v => chip(v + ' MB 以上', F.umem.includes(String(v)), `data-f="umem" data-v="${v}"`)).join('')}</div><p class="meta">備份記憶體（至少）</p><div class="chips">${BMEM_OPTS.map(v => chip(kbTxt(v) + ' 以上', F.bmem.includes(String(v)), `data-f="bmem" data-v="${v}"`)).join('')}</div><p class="hint">每組選一項，列出容量不小於該值的機種。以 GP-Pro EX 的 XML 數值為準，不含可擴充的容量；原廠規格頁的容量寫在詳細頁。</p>`)}
    ${grp('touch', '觸控', F.touch.length, `<div class="chips">${TOUCH_OPTS.map(([k,l]) => chip(esc(l), F.touch.includes(k), `data-f="touch" data-v="${k}"`)).join('')}</div>`)}
    ${grp('cable', '傳輸線', F.cable.length, `<div class="chips">${CABLE_OPTS.map(([k,l]) => chip(esc(l), F.cable.includes(k), `data-f="cable" data-v="${esc(k)}"`)).join('')}</div><p class="hint">選手上有的傳輸線，列出可以用這條線傳畫面的機種。</p>`)}
    ${grp('eos', '停售狀態', F.eos.length, `<div class="chips">${chip('排除已停售', F.eos.includes('hide'), 'data-f="eos" data-v="hide"')}</div><p class="hint">依原廠停售與推薦替換產品頁，排除停售日已過的機種。</p>`)}
@@ -411,6 +421,8 @@ function check(m) {
   }
   if (F.cable.length && !F.cable.some(k => (m.cable?.kinds || []).includes(k))) miss.push('傳輸線 ' + (m.cable ? m.cable.t : '待確認'));
   if (F.eos.includes('hide') && isEOS(m)) miss.push('已停售');
+  if (F.umem.length) { const need = +F.umem[0], have = m.appMemoryMB; if (have == null) miss.push('使用者資料記憶體未標示'); else if (have < need) miss.push(`使用者資料記憶體少 ${+(need - have).toFixed(1)} MB`); }
+  if (F.bmem.length) { const need = +F.bmem[0], have = m.backupMemoryKB; if (have == null) miss.push('備份記憶體未標示'); else if (have < need) miss.push(`備份記憶體少 ${kbTxt(need - have)}`); }
   return {miss, cond};
 }
 
@@ -428,7 +440,7 @@ function renderFind() {
     const best = g.list[0];
     return {g, best, score: best.miss.length * 10 + best.cond.length};
   });
-  const nCrit = F.size.length + (F.aspect.length?1:0) + (F.cut.length?1:0) + F.feats.length + F.iface.length + (F.touch.length?1:0);
+  const nCrit = F.size.length + (F.aspect.length?1:0) + (F.cut.length?1:0) + F.feats.length + F.iface.length + (F.touch.length?1:0) + F.umem.length + F.bmem.length;
   const full = items.filter(i => i.best.miss.length === 0).sort(sortItems);
   const near = nCrit ? items.filter(i => i.best.miss.length > 0 && i.best.miss.length <= 2 && !((F.size.length || F.cut.length) && !i.best.m.inch))
     .sort((a,b) => a.score - b.score || closeness(a.best.m) - closeness(b.best.m) || sortItems(a,b)) : [];
@@ -440,7 +452,7 @@ function renderFind() {
       <span class="meta">${esc(ser(m.series).label)}</span>
       <h3>${esc(title)}</h3>
       ${badge(m)}${eosBadge(m)}
-      <div class="spec">${m.inch ? `<span><b>${esc(m.inch)}</b> 吋</span>` : ''}<span>${esc(m.resolutionPx || m.resolution || '')}</span><span>開口 <b>${esc(cutKey(m.cutout) || cutTxt(m.cutout))}</b></span></div>
+      <div class="spec">${m.inch ? `<span><b>${esc(m.inch)}</b> 吋</span>` : ''}<span>${esc(m.resolutionPx || m.resolution || '')}</span><span>開口 <b>${esc(cutKey(m.cutout) || cutTxt(m.cutout))}</b></span>${m.appMemoryMB ? `<span>使用者資料記憶體 <b>${esc(m.appMemoryMB)}</b> MB</span>` : ''}</div>
       ${boxes.length ? `<div class="meta">可搭配 Box：${esc(boxes.join('、'))}</div>` : ''}
       ${!current(m) && CARD_FK.every(k => f(m,k).s === 'no') ? '' : `<div class="pills">${pills(m, CARD_FK)}</div>`}
       ${i.best.miss.length ? `<div class="miss">差異：${esc(i.best.miss.join('、'))}</div>` : ''}
@@ -474,6 +486,8 @@ function activeList() {
   F.cable.forEach(k => out.push(['cable', k, CABLE_OPTS.find(o => o[0]===k)?.[1] || k]));
   F.sw.forEach(k => out.push(['sw', k, SW_OPTS.find(o => o[0]===k)?.[1] || k]));
   F.eos.forEach(k => out.push(['eos', k, '排除已停售']));
+  F.umem.forEach(k => out.push(['umem', k, '使用者資料記憶體 ' + k + ' MB 以上']));
+  F.bmem.forEach(k => out.push(['bmem', k, '備份記憶體 ' + kbTxt(+k) + ' 以上']));
   return out;
 }
 function closeness(m) {
@@ -489,7 +503,7 @@ function sortItems(a,b) {
   return ser(ma.series).order - ser(mb.series).order || (ma.inch||0) - (mb.inch||0) || name(ma).localeCompare(name(mb));
 }
 
-const RESET = () => Object.assign(F, {series:[], ver:[], size:[], aspect:[], cut:[], feats:[], iface:[], touch:[], cable:[], sw:[], eos:[]});
+const RESET = () => Object.assign(F, {series:[], ver:[], size:[], aspect:[], cut:[], feats:[], iface:[], touch:[], cable:[], sw:[], eos:[], umem:[], bmem:[]});
 function sheet(open) {
   $('#filters').classList.toggle('open', open);
   document.body.classList.toggle('lock', open);
@@ -518,7 +532,9 @@ $('#filters').addEventListener('click', e => {
   if (r) { RESET(); F.sort = ''; }
   else if (b) {
     const k = b.dataset.f, v = b.dataset.v;
-    const a = F[k]; const i = a.indexOf(v); i >= 0 ? a.splice(i,1) : a.push(v);
+    const a = F[k]; const i = a.indexOf(v);
+    if (k === 'umem' || k === 'bmem') F[k] = i >= 0 ? [] : [v];
+    else i >= 0 ? a.splice(i,1) : a.push(v);
   } else {
     const rc = e.target.closest('rect[data-cut]'); if (!rc) return;
     const i = F.cut.indexOf(rc.dataset.cut); i >= 0 ? F.cut.splice(i,1) : F.cut.push(rc.dataset.cut);
@@ -631,7 +647,7 @@ function specRows(m) {
     ['傳輸線', cableTxt(m)], ['開發軟體', m.software || 'GP-Pro EX'], ...(m.convert ? [['GP-Pro EX 專案轉換', m.convert.to]] : []),
     ['BLUE', softTxt(m, 'blue')], ['BLUE Open Studio', softTxt(m, 'bos')],
     ...((m.discon || []).length ? [['停售／停修', eosTxt(m)]] : []),
-    ['畫面記憶體', m.appMemoryMB ? m.appMemoryMB + ' MB' + (m.appMemoryExpandedMB ? `（可擴充至 ${m.appMemoryExpandedMB} MB）` : '') : '未標示'],
+    ['使用者資料記憶體', memU(m)], ['備份記憶體', memB(m)], ...(memNote(m) ? [['原廠規格頁記憶體說明', memNote(m)]] : []),
     ...VERS.map(v => ['GP-Pro EX ' + v, VLONG[vst(m,v)]]),
     [m.key.startsWith('extra|') ? '分組／型號' : 'XML 名稱', m.group ? m.group + '／' + m.name : m.name],
     ...(m.xmlAlias ? [['XML 名稱變更', aliasTxt(m)]] : [])
@@ -665,7 +681,7 @@ function renderDetail(m, target) {
     </div>
     <div class="box"><h3>規格</h3><table class="stack"><thead><tr><th>項目</th><th>內容</th></tr></thead><tbody>${specRows(m).map(([a,b]) => `<tr><td>${esc(a)}</td><td>${esc(b)}</td></tr>`).join('')}</tbody></table></div>
     <div class="box"><h3>開口相同的現行機種</h3>${sc.length ? `<div class="chips">${sc.map(x => `<button class="chip" data-open="${esc(x.key)}">${isRec(m, x) ? '★ ' : ''}${esc(isSP(x) ? spDisp(x) : clean(x.name))}<small>${esc(ser(x.series).label)}${isRec(m, x) ? '・原廠建議' : ''}${isEOS(x) ? '・已停售' : ''}</small></button>`).join('')}</div><p class="hint">SP5000 以 Power Box 代表，其他 Box 開口相同</p>` : `<span class="meta">${esc(noSameTxt(m) || '無開口相同的現行機種。開口相近的機種可到「舊機替換」查看。')}</span>`}
-     <h3 style="margin-top:1.12rem">資料來源</h3><ul class="src">${srcs.map(s => `<li>${srcLink(s)}</li>`).join('') || '<li>XML</li>'}</ul></div>
+     <h3 style="margin-top:1.12rem">資料來源</h3><ul class="src">${srcs.map(s => `<li>${srcLink(s)}</li>`).join('') || '<li>XML</li>'}${m.memWeb ? `<li><a href="${esc(MEMW_URL(m.memWeb.code))}" target="_blank" rel="noopener">原廠規格頁 ${esc(m.memWeb.code)}（記憶體）</a></li>` : ''}</ul></div>
    </div>`;
 }
 
@@ -746,7 +762,7 @@ function renderCompare() {
     ['解析度', resTxt], ['開口', m => cutTxt(m.cutout)],
     ...FK.map(k => [D.featureDefs[k].label, m => { const v = f(m,k); return (SLAB[v.s] || '待確認') + (v.conn ? `（${v.conn} 台）` : ''); }]),
     ['LAN 埠', m => portN(m.ethernet)], ['COM 埠', m => comTxt(m) + (m.comAdded ? `（另 ${m.comAdded.ports.map(c => c.port).join('、')} 需擴充或待確認）` : '')], ['USB A', m => portN(m.usbA)],
-    ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['畫面記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : ''],
+    ['記憶卡槽', m => m.cardSlot ? '有' : '無'], ['觸控', m => TOUCH[m.touch] || ''], ['使用者資料記憶體', m => m.appMemoryMB ? m.appMemoryMB + ' MB' : '未標示'], ['備份記憶體', m => m.backupMemoryKB != null ? kbTxt(m.backupMemoryKB) : '未標示'],
     ['傳輸線', m => m.cable ? m.cable.t : '待確認'], ['開發軟體', m => m.software || 'GP-Pro EX'],
     ['BLUE', m => softTxt(m, 'blue')], ['BLUE Open Studio', m => softTxt(m, 'bos')], ['停售／停修', m => eosTxt(m) || '未列於原廠停售清單']];
   const today = new Date().toLocaleDateString('sv-SE');
