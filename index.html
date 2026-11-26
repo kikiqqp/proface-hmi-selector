@@ -396,7 +396,7 @@ function renderFilters() {
    ${grp('cut', '開口尺寸 (mm)', F.cut.length, `<div class="plate">${plateSvg(F.cut)}</div>
       <p class="hint">點圖上的框，或點下方尺寸。圖依實際比例繪製。</p>
       <div class="chips" style="margin-top:.5rem">${cutouts.map(c => chip(esc(c.k), F.cut.includes(c.k), `data-f="cut" data-v="${esc(c.k)}"`, `<small>${[...c.inch].sort((a,b)=>a-b).map(i=>i+'吋').join('／')}</small>`)).join('')}</div>`)}
-   ${grp('feat', '遠端連線功能及RTC', F.feats.length, `<div class="chips">${FEAT_OPTS.map(([k,l]) => chip(esc(l), F.feats.includes(k), `data-f="feats" data-v="${k}"`)).join('')}</div><p class="hint">RTC 只列出有內建時鐘的機種；需加裝選購電池才能保住時鐘的機種（例如 GP4100 彩色機）列為注意。</p>`)}
+   ${grp('feat', '遠端連線功能及RTC', F.feats.length, `<div class="chips">${FEAT_OPTS.map(([k,l]) => chip(esc(l), F.feats.includes(k), `data-f="feats" data-v="${k}"`)).join('')}</div><p class="hint">RTC 只列出有內建時鐘的機種；需加裝選購電池才能保住時鐘（例如 GP4100 彩色機），或沒有電池備份（例如 GC-4408W）的機種列為注意。</p>`)}
    ${grp('iface', '介面', F.iface.length, `<div class="chips">${IFACE_OPTS.map(([k,l]) => chip(esc(l), F.iface.includes(k), `data-f="iface" data-v="${k}"`)).join('')}</div>`)}
    ${grp('mem', '記憶體', F.umem.length + F.bmem.length, `<p class="meta">使用者資料記憶體（至少）</p><div class="chips">${UMEM_OPTS.map(v => chip(v + ' MB 以上', F.umem.includes(String(v)), `data-f="umem" data-v="${v}"`)).join('')}</div><p class="meta">備份記憶體（至少）</p><div class="chips">${BMEM_OPTS.map(v => chip(kbTxt(v) + ' 以上', F.bmem.includes(String(v)), `data-f="bmem" data-v="${v}"`)).join('')}</div><p class="hint">每組選一項，列出容量不小於該值的機種。以 GP-Pro EX 的 XML 數值為準，不含可擴充的容量；原廠規格頁的容量寫在詳細頁。</p>`)}
    ${grp('touch', '觸控', F.touch.length, `<div class="chips">${TOUCH_OPTS.map(([k,l]) => chip(esc(l), F.touch.includes(k), `data-f="touch" data-v="${k}"`)).join('')}</div>`)}
