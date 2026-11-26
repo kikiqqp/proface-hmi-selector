@@ -92,11 +92,11 @@ main{padding:1.25rem max(4vw,1rem) 3rem;max-width:1480px;margin:0 auto}
 .card{border:1px solid var(--line);border-radius:var(--r);padding:1rem;background:var(--bg);display:flex;flex-direction:column;gap:.55rem}
 /* 底圖：公司 LOGO 放大 200%、旋轉 15 度，每格 240px 鋪滿整頁，可見度 35%（透明 65%） */
 body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.35;background:url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'><g transform='translate(120 120) rotate(15) scale(.6) translate(-159.5 -76)'><path fill='%23ED1C24' d='M0 0L81 97L118 51L77 0ZM319 0L250 0L133 152L201 152Z'/><path fill='%2300A650' d='M227 0L159 0L41 152L109 152Z'/></g></svg>") 0 0/240px 240px repeat}
-/* 卡片與篩選面板：毛玻璃（淺色底色 45%、深色底色 30%，模糊 16px、提高飽和度，加亮邊與陰影） */
-.card,.side{-webkit-backdrop-filter:blur(16px) saturate(160%);backdrop-filter:blur(16px) saturate(160%);border-color:light-dark(rgb(255 255 255 / .75),rgb(255 255 255 / .14));box-shadow:inset 0 1px 0 light-dark(rgb(255 255 255 / .9),rgb(255 255 255 / .08)),0 .35rem 1.2rem light-dark(rgb(15 40 45 / .10),rgb(0 0 0 / .35))}
-.card{background:light-dark(rgb(255 255 255 / .45),rgb(15 23 25 / .3))}
+/* 卡片、篩選面板、區塊框（說明、規格、替換）與比較表：毛玻璃（淺色底色 45%、深色底色 30%，模糊 16px、提高飽和度，加亮邊與陰影） */
+.card,.side,.box,.cmp-wrap{-webkit-backdrop-filter:blur(16px) saturate(160%);backdrop-filter:blur(16px) saturate(160%);border-color:light-dark(rgb(255 255 255 / .75),rgb(255 255 255 / .14));box-shadow:inset 0 1px 0 light-dark(rgb(255 255 255 / .9),rgb(255 255 255 / .08)),0 .35rem 1.2rem light-dark(rgb(15 40 45 / .10),rgb(0 0 0 / .35))}
+.card,.box,.cmp-wrap{background:light-dark(rgb(255 255 255 / .45),rgb(15 23 25 / .3))}
 .side{background:light-dark(rgb(244 247 247 / .45),rgb(22 33 37 / .3))}
-@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.card{background:color-mix(in srgb,var(--bg) 90%,transparent)}.side{background:color-mix(in srgb,var(--panel) 90%,transparent)}}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.card,.box,.cmp-wrap{background:color-mix(in srgb,var(--bg) 90%,transparent)}.side{background:color-mix(in srgb,var(--panel) 90%,transparent)}}
 .card.near{border-style:dashed}
 .card h3{margin:0;font-size:1.2rem;line-height:1.25}
 .meta{font-size:.88rem;color:var(--muted)}
@@ -125,8 +125,8 @@ th{color:var(--muted);font-weight:600}
 .src{font-size:.88rem;padding-left:1.2rem}
 .src li{margin:.2rem 0}
 .empty{padding:1.5rem;border:1px dashed var(--line);border-radius:var(--r);color:var(--muted);text-align:center}
-.cmp-wrap{overflow-x:auto}
-.cmp td,.cmp th{min-width:10rem}.cmp th:first-child{min-width:8rem;position:sticky;left:0;background:var(--bg);z-index:1}
+.cmp-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r)}
+.cmp td,.cmp th{min-width:10rem}.cmp th:first-child{min-width:8rem;position:sticky;left:0;background:light-dark(rgb(255 255 255 / .7),rgb(15 23 25 / .7));-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);z-index:1}
 .cmp tr.diff td{background:var(--acc-soft)}
 .print-only{display:none}
 @media print{
@@ -135,7 +135,7 @@ th{color:var(--muted);font-weight:600}
  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
  body{background:#fff;color:#000}
  body::before{display:none}
- .card,.side{background:#fff;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none;border-color:#ccc}
+ .card,.side,.box,.cmp-wrap,.cmp th:first-child{background:#fff;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none;border-color:#ccc}
  header,footer,.tray,.res-head .row,.cmp .btn{display:none!important}
  main{padding:0;max-width:none}
  .print-only{display:block;margin:0 0 .6rem;font-size:11pt}
