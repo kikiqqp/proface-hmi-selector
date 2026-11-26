@@ -329,7 +329,7 @@ const F = Object.assign({series:[], ver:[], size:[], aspect:[], cut:[], feats:[]
 /* 每個條件都是陣列：同一區塊內符合任一項即可，不同區塊需同時符合。舊版存成字串的條件在這裡轉成陣列 */
 for (const k of ['series','ver','size','aspect','cut','feats','iface','touch','cable','sw','eos','umem','bmem']) F[k] = Array.isArray(F[k]) ? F[k] : (F[k] ? [F[k]] : []);
 delete F.legacy; F.ver = F.ver.filter(v => VERS.includes(v) || v === PB3);
-const FEAT_OPTS = [['remoteHmi','Remote HMI（手機／平板）'],['gpViewer','GP-Viewer EX（電腦）'],['proFaceConnect','Pro-face Connect'],['ftp','FTP Server'],['email','E-mail 通知'],['ipsec','IPsec 加密']];
+const FEAT_OPTS = [['remoteHmi','Remote HMI（手機／平板）'],['gpViewer','GP-Viewer EX（電腦）'],['proFaceConnect','Pro-face Connect'],['ftp','FTP Server'],['email','E-mail 通知'],['ipsec','IPsec 加密'],['rtc','RTC（時鐘）']];
 // 記憶體條件為「至少」：同一組只能選一項，以 XML 的數值比對（不含可擴充容量）
 const UMEM_OPTS = [8, 16, 32, 64, 128];
 const BMEM_OPTS = [128, 320, 5120];
@@ -396,7 +396,7 @@ function renderFilters() {
    ${grp('cut', '開口尺寸 (mm)', F.cut.length, `<div class="plate">${plateSvg(F.cut)}</div>
       <p class="hint">點圖上的框，或點下方尺寸。圖依實際比例繪製。</p>
       <div class="chips" style="margin-top:.5rem">${cutouts.map(c => chip(esc(c.k), F.cut.includes(c.k), `data-f="cut" data-v="${esc(c.k)}"`, `<small>${[...c.inch].sort((a,b)=>a-b).map(i=>i+'吋').join('／')}</small>`)).join('')}</div>`)}
-   ${grp('feat', '需要的遠端與網路功能', F.feats.length, `<div class="chips">${FEAT_OPTS.map(([k,l]) => chip(esc(l), F.feats.includes(k), `data-f="feats" data-v="${k}"`)).join('')}</div>`)}
+   ${grp('feat', '遠端連線功能及RTC', F.feats.length, `<div class="chips">${FEAT_OPTS.map(([k,l]) => chip(esc(l), F.feats.includes(k), `data-f="feats" data-v="${k}"`)).join('')}</div><p class="hint">RTC 只列出有內建時鐘的機種；需加裝選購電池才能保住時鐘的機種（例如 GP4100 彩色機）列為注意。</p>`)}
    ${grp('iface', '介面', F.iface.length, `<div class="chips">${IFACE_OPTS.map(([k,l]) => chip(esc(l), F.iface.includes(k), `data-f="iface" data-v="${k}"`)).join('')}</div>`)}
    ${grp('mem', '記憶體', F.umem.length + F.bmem.length, `<p class="meta">使用者資料記憶體（至少）</p><div class="chips">${UMEM_OPTS.map(v => chip(v + ' MB 以上', F.umem.includes(String(v)), `data-f="umem" data-v="${v}"`)).join('')}</div><p class="meta">備份記憶體（至少）</p><div class="chips">${BMEM_OPTS.map(v => chip(kbTxt(v) + ' 以上', F.bmem.includes(String(v)), `data-f="bmem" data-v="${v}"`)).join('')}</div><p class="hint">每組選一項，列出容量不小於該值的機種。以 GP-Pro EX 的 XML 數值為準，不含可擴充的容量；原廠規格頁的容量寫在詳細頁。</p>`)}
    ${grp('touch', '觸控', F.touch.length, `<div class="chips">${TOUCH_OPTS.map(([k,l]) => chip(esc(l), F.touch.includes(k), `data-f="touch" data-v="${k}"`)).join('')}</div>`)}
@@ -413,7 +413,7 @@ function check(m) {
   if (F.size.length && !(m.inch && sizeBuckets.some(b => F.size.includes(b.id) && b.t(m.inch)))) miss.push('尺寸 ' + (m.inch ? m.inch + ' 吋' : '不適用'));
   if (F.aspect.length) { const w = WIDE.has(m.resolution); if (!F.aspect.includes(w ? 'w' : 'n')) miss.push(w ? '寬螢幕' : '非寬螢幕'); }
   if (F.cut.length && !F.cut.includes(cutKey(m.cutout))) miss.push('開口 ' + (cutKey(m.cutout) || '未建檔'));
-  for (const k of F.feats) { const s = f(m,k).s; if (s === 'cond') cond.push(D.featureDefs[k].label + ' 有條件'); else if (s !== 'yes') miss.push(D.featureDefs[k].label + ' ' + (SLAB[s] || '待確認')); }
+  for (const k of F.feats) { if (k === 'rtc') { const s = m.rtc?.s; if (s === 'cond') cond.push('RTC 需選購電池'); else if (s !== 'yes') miss.push('RTC ' + (s ? RTCS[s] : '未建檔')); continue; } const s = f(m,k).s; if (s === 'cond') cond.push(D.featureDefs[k].label + ' 有條件'); else if (s !== 'yes') miss.push(D.featureDefs[k].label + ' ' + (SLAB[s] || '待確認')); }
   const IF = {lan1:m.ethernet >= 1, lan2:m.ethernet >= 2, rs232:comHas(m,'RS232C'), rs485:comHas(m,'RS422/485'), usb:m.usbA >= 1, card:m.cardSlot === true};
   for (const k of F.iface) if (!IF[k]) miss.push(IFACE_OPTS.find(o => o[0]===k)[1] + ' 不符');
   if (F.touch.length) {
