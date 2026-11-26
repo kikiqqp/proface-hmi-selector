@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 09:10:13",
+ "updated": "2026-11-26 09:11:20",
  "sourceVersion": "5.01",
  "series": {
   "GP6000A": {
@@ -43,6 +43,13 @@ window.HMI_DATA = {
    "tier": "basic",
    "desc": "寬螢幕基本型人機，鋁合金面板。",
    "url": "https://www.proface.com/en/product/hmi/top"
+  },
+  "ST6000G2": {
+   "order": 6.5,
+   "label": "ST6000 2nd Gen",
+   "tier": "basic",
+   "desc": "ST6000 第二代寬螢幕基本型，GP-Pro EX 5.02.000 起支援；原廠產品頁標示即將推出。",
+   "url": "https://www.proface.com/en/product/hmi/st6000/lineup"
   },
   "STM6000": {
    "order": 7,
@@ -1089,6 +1096,26 @@ window.HMI_DATA = {
   "S_DC_PFXSP5660TPD": {
    "title": "PFXSP5660TPD 原廠產品頁（停售、停修日期與替換選項）",
    "url": "https://www.proface.com/en/product/spec/PFXSP5660TPD"
+  },
+  "S_GPEX_502": {
+   "title": "GP-Pro EX 5.02.100 版本說明（Readme）",
+   "url": "https://www.proface.com/media/61236"
+  },
+  "S_ST6000_LINEUP": {
+   "title": "ST6000 系列產品一覽（含 2nd Gen 與第一代寬螢幕停售日期）",
+   "url": "https://www.proface.com/en/product/hmi/st6000/lineup"
+  },
+  "S_BLUE_WN": {
+   "title": "BLUE 手冊 What's New（4.4 起支援 ST6000 2nd Gen）",
+   "url": "https://www.proface.com/data/manual/blue/new/en/featureguide/before_use/What_s_New.htm"
+  },
+  "S_GP4000_LEAF": {
+   "title": "GP4000 系列型錄（GP-4301T 觸控可選類比或矩陣式）",
+   "url": "https://proface.com/media/47454"
+  },
+  "S_GP6000_LINEUP": {
+   "title": "GP6000 系列產品一覽（Advanced 本體 COM ×2 可擴充；序列介面擴充單元 PFXZHMUSIO1）",
+   "url": "https://www.proface.com/en/product/hmi/gp6000/lineup"
   }
  },
  "switches": [],
@@ -1143,7 +1170,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -1171,6 +1198,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -1251,7 +1279,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -1279,6 +1307,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -1362,7 +1391,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -1390,6 +1419,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -1473,7 +1503,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -1501,6 +1531,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -1584,7 +1615,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -1612,6 +1643,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -1695,7 +1727,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -1723,6 +1755,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -1806,7 +1839,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -1834,6 +1867,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -1917,7 +1951,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -1945,6 +1979,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -2028,7 +2063,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
-     "n": "原廠 Client for Win 頁寫 5 台，XML 寫 3 台，待確認",
+     "n": "GP-Pro EX 5.02 起 5 台；5.01 為 3 台（5.02 版本說明 規格變更）",
      "conn": 5,
      "ver": "5.01"
     },
@@ -2056,6 +2091,7 @@ window.HMI_DATA = {
    },
    "featureSrc": [
     "S_RHMI_WIN",
+    "S_GPEX_502",
     "S_FIELD",
     "S_XML"
    ],
@@ -2990,6 +3026,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3018,7 +3055,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "box",
@@ -3099,6 +3137,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3127,7 +3166,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -3211,6 +3251,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3239,7 +3280,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -3323,6 +3365,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3351,7 +3394,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -3435,6 +3479,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3463,7 +3508,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -3547,6 +3593,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3575,7 +3622,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -3659,6 +3707,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3687,7 +3736,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -3771,6 +3821,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3799,7 +3850,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -3897,6 +3949,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -3925,7 +3978,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -4009,6 +4063,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -4037,7 +4092,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -4121,6 +4177,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -4149,7 +4206,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -4234,6 +4292,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -4262,7 +4321,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "box",
@@ -4344,6 +4404,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -4372,7 +4433,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -4457,6 +4519,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -4485,7 +4548,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -4570,6 +4634,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -4598,7 +4663,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -4682,6 +4748,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -4710,7 +4777,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -4795,6 +4863,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -4823,7 +4892,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -4908,6 +4978,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -4936,7 +5007,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -5021,6 +5093,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -5049,7 +5122,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -5148,6 +5222,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -5176,7 +5251,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -5261,6 +5337,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -5289,7 +5366,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -5374,6 +5452,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.0"
     },
@@ -5402,7 +5481,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -7870,6 +7950,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -7898,7 +7979,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -7985,6 +8067,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -8013,7 +8096,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -8100,6 +8184,7 @@ window.HMI_DATA = {
    "features": {
     "remoteHmi": {
      "s": "yes",
+     "n": "GP-Pro EX 5.01 不支援 SP-5B00、SP-5B10、SP-5B90 的 Remote HMI，5.02.000 起恢復",
      "conn": 5,
      "ver": "4.08.200"
     },
@@ -8128,7 +8213,8 @@ window.HMI_DATA = {
     }
    },
    "featureSrc": [
-    "S_F_SP5000"
+    "S_F_SP5000",
+    "S_GPEX_502"
    ],
    "cutout": {
     "mount": "rect",
@@ -8740,7 +8826,8 @@ window.HMI_DATA = {
      "n": "4.09.450 以前版本才支援"
     },
     "email": {
-     "s": "no"
+     "s": "no",
+     "n": "5.02 XML 標有 E-mail，原廠手冊支援功能表仍為不支援，以手冊為準"
     },
     "ipsec": {
      "s": "no"
@@ -12380,7 +12467,15 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ"
    },
-   "discon": [],
+   "discon": [
+    {
+     "code": "PFXST6200WAD*／PFXST6200WADE*",
+     "eos": "2028/12/15",
+     "eor": "",
+     "src": "S_ST6000_LINEUP",
+     "n": "歐洲 2027/10/01 停售；台灣適用其他地區日期 2028/12/15；停修日期原廠未載"
+    }
+   ],
    "soft": {
     "blue": {
      "s": "yes",
@@ -12600,7 +12695,15 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ"
    },
-   "discon": [],
+   "discon": [
+    {
+     "code": "PFXST6400WAD*／PFXST6400WADE*",
+     "eos": "2028/12/15",
+     "eor": "",
+     "src": "S_ST6000_LINEUP",
+     "n": "歐洲 2027/10/01 停售；台灣適用其他地區日期 2028/12/15；停修日期原廠未載"
+    }
+   ],
    "soft": {
     "blue": {
      "s": "yes",
@@ -12710,7 +12813,15 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ"
    },
-   "discon": [],
+   "discon": [
+    {
+     "code": "PFXST6500WAD*／PFXST6500WADE*",
+     "eos": "2028/12/15",
+     "eor": "",
+     "src": "S_ST6000_LINEUP",
+     "n": "歐洲 2027/10/01 停售；台灣適用其他地區日期 2028/12/15；停修日期原廠未載"
+    }
+   ],
    "soft": {
     "blue": {
      "s": "yes",
@@ -12931,7 +13042,15 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ"
    },
-   "discon": [],
+   "discon": [
+    {
+     "code": "PFXST6600WAD*／PFXST6600WADE*",
+     "eos": "2028/12/15",
+     "eor": "",
+     "src": "S_ST6000_LINEUP",
+     "n": "歐洲 2027/10/01 停售；台灣適用其他地區日期 2028/12/15；停修日期原廠未載"
+    }
+   ],
    "soft": {
     "blue": {
      "s": "yes",
@@ -13041,7 +13160,15 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ"
    },
-   "discon": [],
+   "discon": [
+    {
+     "code": "PFXST6600WAD*／PFXST6600WADE*",
+     "eos": "2028/12/15",
+     "eor": "",
+     "src": "S_ST6000_LINEUP",
+     "n": "歐洲 2027/10/01 停售；台灣適用其他地區日期 2028/12/15；停修日期原廠未載"
+    }
+   ],
    "soft": {
     "blue": {
      "s": "yes",
@@ -13151,7 +13278,15 @@ window.HMI_DATA = {
     ],
     "src": "S_CAB_FAQ"
    },
-   "discon": [],
+   "discon": [
+    {
+     "code": "PFXST6700WAD*／PFXST6700WADE*",
+     "eos": "2028/12/15",
+     "eor": "",
+     "src": "S_ST6000_LINEUP",
+     "n": "歐洲 2027/10/01 停售；台灣適用其他地區日期 2028/12/15；停修日期原廠未載"
+    }
+   ],
    "soft": {
     "blue": {
      "s": "yes",
@@ -14500,7 +14635,8 @@ window.HMI_DATA = {
      "n": "4.09.450 以前版本才支援"
     },
     "email": {
-     "s": "no"
+     "s": "no",
+     "n": "5.02 XML 部分機種標有 E-mail，原廠手冊支援功能表仍為不支援，以手冊為準"
     },
     "ipsec": {
      "s": "yes"
@@ -14611,7 +14747,8 @@ window.HMI_DATA = {
      "n": "4.09.450 以前版本才支援"
     },
     "email": {
-     "s": "no"
+     "s": "no",
+     "n": "5.02 XML 部分機種標有 E-mail，原廠手冊支援功能表仍為不支援，以手冊為準"
     },
     "ipsec": {
      "s": "yes"
@@ -14722,7 +14859,8 @@ window.HMI_DATA = {
      "n": "4.09.450 以前版本才支援"
     },
     "email": {
-     "s": "no"
+     "s": "no",
+     "n": "5.02 XML 部分機種標有 E-mail，原廠手冊支援功能表仍為不支援，以手冊為準"
     },
     "ipsec": {
      "s": "yes"
@@ -14833,7 +14971,8 @@ window.HMI_DATA = {
      "n": "4.09.450 以前版本才支援"
     },
     "email": {
-     "s": "no"
+     "s": "no",
+     "n": "5.02 XML 部分機種標有 E-mail，原廠手冊支援功能表仍為不支援，以手冊為準"
     },
     "ipsec": {
      "s": "yes"
@@ -14944,7 +15083,8 @@ window.HMI_DATA = {
      "n": "4.09.450 以前版本才支援"
     },
     "email": {
-     "s": "no"
+     "s": "no",
+     "n": "5.02 XML 部分機種標有 E-mail，原廠手冊支援功能表仍為不支援，以手冊為準"
     },
     "ipsec": {
      "s": "yes"
@@ -15052,7 +15192,8 @@ window.HMI_DATA = {
      "n": "4.09.450 以前版本才支援"
     },
     "email": {
-     "s": "no"
+     "s": "no",
+     "n": "5.02 XML 部分機種標有 E-mail，原廠手冊支援功能表仍為不支援，以手冊為準"
     },
     "ipsec": {
      "s": "yes"
