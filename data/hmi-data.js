@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 11:27:32",
+ "updated": "2026-11-26 11:36:35",
  "sourceVersion": "5.02",
  "series": {
   "GP6000A": {
@@ -1137,6 +1137,62 @@ window.HMI_DATA = {
   "S_GP4G01_HW": {
    "title": "GP-4G01 硬體手冊（時鐘精度、備份電池 PFXZCBBT1）",
    "url": "https://proface.com/media/48482"
+  },
+  "S_GP3000_HW": {
+   "title": "GP3000 Series 硬體手冊（內建鋰電池備份時鐘資料）",
+   "url": "https://proface.com/media/48933"
+  },
+  "S_GP3500_REPL": {
+   "title": "GP-3500T 換裝 SP5000 指南（GP3000 備份電池為充電式鋰電池）",
+   "url": "https://www.proface.com/media/43384"
+  },
+  "S_LT3000_HW": {
+   "title": "LT3000 Series 硬體手冊（內建鋰電池備份時鐘資料）",
+   "url": "https://proface.com/media/48980"
+  },
+  "S_ST3000_HW": {
+   "title": "ST3000 Series 硬體手冊（內建鋰電池備份時鐘資料）",
+   "url": "https://proface.com/media/48972"
+  },
+  "S_GP3000_WCI": {
+   "title": "GP3000 系列安裝說明：注意事項（鋰電池備份內部時鐘）",
+   "url": "https://proface.com/media/48933"
+  },
+  "S_GP3000_SP5": {
+   "title": "GP3000 換 SP5000 替換手冊（GP3000 備份電池為充電式二次電池）",
+   "url": "https://www.proface.com/media/43483"
+  },
+  "S_LT3000_WCI": {
+   "title": "LT3000 系列安裝說明：注意事項（鋰電池備份內部時鐘）",
+   "url": "https://proface.com/media/48980"
+  },
+  "S_ST3000_WCI": {
+   "title": "ST3000 系列安裝說明：注意事項（鋰電池備份內部時鐘）",
+   "url": "https://proface.com/media/48972"
+  },
+  "S_GM4000M_DS": {
+   "title": "GP4000M 背面模組規格書（時鐘使用外部裝置）",
+   "url": "https://proface.com/media/55512"
+  },
+  "S_GP2300_UM": {
+   "title": "GP-2300／2301 系列使用手冊（時鐘規格）",
+   "url": "https://proface.com/media/49320"
+  },
+  "S_GP2300_WCI": {
+   "title": "GP2300 安裝說明：注意事項（電池）",
+   "url": "https://proface.com/media/48999"
+  },
+  "S_GP2500_WCI": {
+   "title": "GP2500／2600 安裝說明：注意事項（鋰電池備份內部時鐘）",
+   "url": "https://proface.com/media/48991"
+  },
+  "S_GP470_UM": {
+   "title": "GP-470／570 系列使用手冊（時鐘精度）",
+   "url": "https://proface.com/media/47008"
+  },
+  "S_GP37W2_UM": {
+   "title": "GP-37W2 使用手冊（鋰電池注意事項）",
+   "url": "https://proface.com/media/49070"
   }
  },
  "switches": [],
@@ -14467,9 +14523,9 @@ window.HMI_DATA = {
    },
    "statusLatest": "open-only",
    "rtc": {
-    "s": "unknown",
-    "src": "S_USER_RTC",
-    "n": "需確認完整機型"
+    "s": "no",
+    "src": "S_GM4000M_DS",
+    "n": "原廠規格書寫使用外部裝置的時鐘，需設定時鐘更新"
    },
    "memWeb": null,
    "features": {
@@ -18624,8 +18680,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -18752,8 +18809,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -18885,8 +18943,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -19005,8 +19064,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -19130,8 +19190,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -19261,8 +19322,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -19417,8 +19479,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -19561,8 +19624,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -19716,8 +19780,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -19866,8 +19931,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -20022,8 +20088,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -20153,8 +20220,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -20308,8 +20376,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -20459,8 +20528,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -20609,8 +20679,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -20735,8 +20806,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -20892,8 +20964,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -21032,8 +21105,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -21176,8 +21250,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -21316,8 +21391,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -21445,8 +21521,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -21587,8 +21664,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -21733,8 +21811,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -21884,8 +21963,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -22010,8 +22090,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -22149,8 +22230,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -22275,8 +22357,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -22415,8 +22498,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -22560,8 +22644,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -22697,8 +22782,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -22843,8 +22929,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -22989,8 +23076,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -23123,8 +23211,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -23287,8 +23376,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -23407,8 +23497,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -23559,8 +23650,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -23724,8 +23816,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -23871,8 +23964,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -24032,8 +24126,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -24179,8 +24274,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -24324,8 +24420,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -24461,8 +24558,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -24600,8 +24698,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -24740,8 +24839,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -24918,8 +25018,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -25076,8 +25177,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -25216,8 +25318,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -25366,8 +25469,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -25518,8 +25622,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_GP3000_WCI|S_GP3000_SP5",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘；SP5000 替換手冊寫為充電式二次電池"
    },
    "memWeb": null,
    "features": {
@@ -25654,8 +25759,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_LT3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -25789,8 +25895,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_LT3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -25929,8 +26036,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_LT3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -26069,8 +26177,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_LT3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -26204,8 +26313,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "充電式二次電池"
+    "src": "S_LT3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -26348,9 +26458,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -26479,9 +26589,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -26610,9 +26720,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -26747,9 +26857,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -26884,9 +26994,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -27027,9 +27137,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -27170,9 +27280,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -27307,9 +27417,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -27462,9 +27572,9 @@ window.HMI_DATA = {
    "statusLatest": "open-only",
    "rtc": {
     "s": "yes",
-    "src": "S_USER_RTC",
-    "how": "內建鋰電池",
-    "n": "各型號備援規格需個別確認"
+    "src": "S_ST3000_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
    },
    "memWeb": null,
    "features": {
@@ -30080,7 +30190,12 @@ window.HMI_DATA = {
     "to": "AGP-3300L、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2300_UM|S_GP2300_WCI",
+    "how": "鋰電池",
+    "n": "使用手冊有時鐘規格章節；原廠注意事項寫不要自行更換電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -30218,7 +30333,12 @@ window.HMI_DATA = {
     "to": "AGP-3300S、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2300_UM|S_GP2300_WCI",
+    "how": "鋰電池",
+    "n": "使用手冊有時鐘規格章節；原廠注意事項寫不要自行更換電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -30344,7 +30464,12 @@ window.HMI_DATA = {
     "to": "AGP-3300T、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2300_UM|S_GP2300_WCI",
+    "how": "鋰電池",
+    "n": "使用手冊有時鐘規格章節；原廠注意事項寫不要自行更換電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -30466,7 +30591,12 @@ window.HMI_DATA = {
     "to": "AST-3301B、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2300_UM|S_GP2300_WCI",
+    "how": "鋰電池",
+    "n": "使用手冊有時鐘規格章節；原廠注意事項寫不要自行更換電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -30594,7 +30724,12 @@ window.HMI_DATA = {
     "to": "AST-3301S、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2300_UM|S_GP2300_WCI",
+    "how": "鋰電池",
+    "n": "使用手冊有時鐘規格章節；原廠注意事項寫不要自行更換電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -30722,7 +30857,12 @@ window.HMI_DATA = {
     "to": "AST-3301S、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2300_UM|S_GP2300_WCI",
+    "how": "鋰電池",
+    "n": "使用手冊有時鐘規格章節；原廠注意事項寫不要自行更換電池"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -30860,7 +31000,12 @@ window.HMI_DATA = {
     "to": "AGP-3400T、GP-4401T",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2500_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -30986,7 +31131,12 @@ window.HMI_DATA = {
     "to": "AGP-3500L、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2500_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -31131,7 +31281,12 @@ window.HMI_DATA = {
     "to": "AGP-3500S、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2500_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -31282,7 +31437,12 @@ window.HMI_DATA = {
     "to": "AGP-3500T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2500_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -31433,7 +31593,12 @@ window.HMI_DATA = {
     "to": "AGP-3500T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2500_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -31584,7 +31749,12 @@ window.HMI_DATA = {
     "to": "AGP-3600T、GP-4601T（類比觸控）、GP-4601T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2500_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -31724,7 +31894,12 @@ window.HMI_DATA = {
     "to": "AGP-3600T、GP-4601T（類比觸控）、GP-4601T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
     "src": "S_CONV_GP2000"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP2500_WCI",
+    "how": "鋰電池（使用者不可自行更換）",
+    "n": "原廠注意事項寫鋰電池用於備份內部時鐘"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -31860,7 +32035,12 @@ window.HMI_DATA = {
     "to": "AST-3302B、GP-4301TW、GP-4301TM、GP-4301T",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP37W2_UM",
+    "how": "鋰電池",
+    "n": "使用手冊有鋰電池注意事項，依可裝電池判定有 RTC"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -31990,7 +32170,11 @@ window.HMI_DATA = {
     "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -32125,7 +32309,11 @@ window.HMI_DATA = {
     "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -32260,7 +32448,11 @@ window.HMI_DATA = {
     "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -32395,7 +32587,11 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -32531,7 +32727,11 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -32667,7 +32867,11 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -32803,7 +33007,11 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -32939,7 +33147,11 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -33075,7 +33287,11 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
@@ -33211,7 +33427,11 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
-   "rtc": null,
+   "rtc": {
+    "s": "yes",
+    "src": "S_GP470_UM",
+    "n": "使用手冊有時鐘精度規格"
+   },
    "memWeb": null,
    "features": {
     "remoteHmi": {
