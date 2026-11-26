@@ -230,3 +230,17 @@ S_USER_RTC,使用者提供的 RTC 整理（2026-11）,
 S_GP4100_RTC,GP-4100 彩色機安裝指南（時鐘備份電池不隨附，需另裝 RTC 電池組）,https://www.proface.com/media/60868
 S_GPEX_CLOCK,GP-Pro EX 手冊：時鐘更新（斷電後時鐘會初始化的機種）,https://www.proface.com/data/manual/gpproex/new/refer/mergedProjects/system/system_pr_synchronize_clock_gp4000.htm
 S_GP4G01_HW,GP-4G01 硬體手冊（時鐘精度、備份電池 PFXZCBBT1）,https://proface.com/media/48482
+S_GP3000_HW,GP3000 Series 硬體手冊（內建鋰電池備份時鐘資料）,https://proface.com/media/48933
+S_GP3500_REPL,GP-3500T 換裝 SP5000 指南（GP3000 備份電池為充電式鋰電池）,https://www.proface.com/media/43384
+S_LT3000_HW,LT3000 Series 硬體手冊（內建鋰電池備份時鐘資料）,https://proface.com/media/48980
+S_ST3000_HW,ST3000 Series 硬體手冊（內建鋰電池備份時鐘資料）,https://proface.com/media/48972
+S_GP3000_WCI,GP3000 系列安裝說明：注意事項（鋰電池備份內部時鐘）,https://proface.com/media/48933
+S_GP3000_SP5,GP3000 換 SP5000 替換手冊（GP3000 備份電池為充電式二次電池）,https://www.proface.com/media/43483
+S_LT3000_WCI,LT3000 系列安裝說明：注意事項（鋰電池備份內部時鐘）,https://proface.com/media/48980
+S_ST3000_WCI,ST3000 系列安裝說明：注意事項（鋰電池備份內部時鐘）,https://proface.com/media/48972
+S_GM4000M_DS,GP4000M 背面模組規格書（時鐘使用外部裝置）,https://proface.com/media/55512
+S_GP2300_UM,GP-2300／2301 系列使用手冊（時鐘規格）,https://proface.com/media/49320
+S_GP2300_WCI,GP2300 安裝說明：注意事項（電池）,https://proface.com/media/48999
+S_GP2500_WCI,GP2500／2600 安裝說明：注意事項（鋰電池備份內部時鐘）,https://proface.com/media/48991
+S_GP470_UM,GP-470／570 系列使用手冊（時鐘精度）,https://proface.com/media/47008
+S_GP37W2_UM,GP-37W2 使用手冊（鋰電池注意事項）,https://proface.com/media/49070
