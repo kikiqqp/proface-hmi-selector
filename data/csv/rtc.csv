@@ -1,0 +1,37 @@
+﻿系列,比對方式,比對值,RTC,備份方式,備註,來源
+GP6000A,全部,,有,可替換式電池,原廠規格頁寫電池可由使用者更換,S_RTC_SPEC
+GP6000A,完全相同,PFXGP6740WC*,有,可替換式一次電池,斷電可維持時鐘資料,S_USER_RTC
+GP6000S,全部,,有,可替換式電池,原廠規格頁寫電池可由使用者更換,S_RTC_SPEC
+GPH6000,完全相同,PFXGPH6400WA*,有,可替換式電池,原廠規格頁寫電池可由使用者更換,S_RTC_SPEC
+GPH6000,完全相同,PFXGPH6500WC*,有,可替換式一次電池,對應料號 PFXGPH6500WCD,S_USER_RTC
+SP5000,全部,,有,不需電池即可保存時鐘，另有選購電池,原廠規格頁註明 SP5000 不用電池即可保存 NVRAM 與時鐘資料；斷電超過 100 天需加裝選購電池才能保住時鐘,S_RTC_SPEC
+SP5000,XML群組,SP-5B90,有,超級電容＋選購備援電池,RTC 與備援元件位於主機盒 SP-5B90,S_USER_RTC
+GP4000,完全相同,GP-4201T|GP-4203T|GP-4201TW|GP-4301TW,有,充電式二次電池,時鐘精度每月 ±65 秒（室溫、斷電時）,S_RTC_SPEC
+GP4000,完全相同,GP-4301T|GP-4303T|GP-4401T|GP-4401WW|GP-4501T (Analog Touch Panel)|GP-4501T (Matrix Touch Panel)|GP-4501TW|GP-4503T|GP-4601T (Analog Touch Panel)|GP-4601T (Matrix Touch Panel)|GP-4603T,有,可替換式一次電池,時鐘精度每月 ±65 秒（室溫、斷電時）,S_RTC_SPEC
+GP4000,完全相同,GP-4311HT,有,可替換式電池,原廠規格頁寫電池可由使用者更換,S_RTC_SPEC
+GP4000,完全相同,GP-4301TTM (Matrix Touch Panel)|GP-4501TTF|GP-4601TTF|GP-4521T|GP-4621T,有,可替換式一次電池,依完整訂購型號確認電池規格,S_USER_RTC
+GP4000,完全相同,GP-4402WW|GP-4502WW,有,可替換式一次電池,電池型號 PFXZGEBT1,S_USER_RTC
+GP4000,完全相同,GP-4G01,有,可替換式一次電池,備份電池 PFXZCBBT1；時鐘精度每月 ±65 秒（室溫、斷電時）,S_GP4G01_HW
+GP4000,完全相同,GP-4104|GP-4105|GP-4106|GP-4107,無,,原廠規格頁寫使用外部裝置的時鐘,S_RTC_SPEC
+GP4000,完全相同,GP-4201TM (Modular Type)|GP-4301TM (Modular Type),無,,原廠規格頁寫使用外部裝置的時鐘；斷電或重置後時鐘初始化，需用時鐘更新設定由外部裝置更新,S_RTC_SPEC|S_GPEX_CLOCK
+GP4000,完全相同,GP-4000M (Rear Modular Type),待確認,,需確認完整機型,S_USER_RTC
+GP4000,完全相同,GP-4114T|GP-4115T|GP-4115T3|GP-4116T,有條件,選購 RTC 電池組,時鐘備份電池不隨附；未裝電池組時斷電或重置後時鐘初始化，可用時鐘更新設定由外部裝置更新,S_GP4100_RTC|S_GPEX_CLOCK
+ST6000,全部,,有,可替換式電池,原廠規格頁寫電池可由使用者更換,S_RTC_SPEC
+ST6000,完全相同,ST-6600WA01 WXGA (1280*800),有,可替換式一次電池,需依認證機型完整型號確認,S_USER_RTC
+ST6000G2,全部,,待確認,,備援元件及斷電維持時間待確認,S_USER_RTC
+STM6000,完全相同,STM-6200WA WQVGA (480*272)|STM-6400WA WVGA (800*480),有,可替換式電池,原廠規格頁寫內建即時時鐘,S_RTC_SPEC
+STM6000,完全相同,STM-6B00,有,一次電池（使用者不可更換）,原廠規格頁寫電池用於時鐘資料備份,S_RTC_SPEC
+STC6000,全部,,有,可替換式一次電池,BR2032／CR2032,S_USER_RTC
+ET6000,全部,,有,可替換式一次電池,原廠規格頁寫電池用於時鐘資料備份；01 型寫內建即時時鐘,S_RTC_SPEC
+ET5000,全部,,有,內建，電池不可拆,原廠規格頁寫內建即時時鐘,S_RTC_SPEC
+LT4000,開頭,LT-4201TM|LT-4301TM,有,充電式鋰電池,原廠規格頁寫的電池用途為資料備份,S_RTC_SPEC
+LT4000,開頭,LT-4000M,有,充電式二次電池,RTC 位於前方顯示器本體,S_USER_RTC
+GC4000,完全相同,GC-4401W,有,,原廠規格頁寫時鐘精度每月 −380～+90 秒,S_RTC_SPEC
+GC4000,完全相同,GC-4501W,有,可替換式一次電池,電池型號 PFXZGEBT1,S_USER_RTC
+GC4000,完全相同,GC-4408W,待確認,,需確認完整機型,S_USER_RTC
+GP3000,全部,,有,充電式二次電池,,S_USER_RTC
+LT3000,全部,,有,充電式二次電池,,S_USER_RTC
+ST3000,全部,,有,內建鋰電池,各型號備援規格需個別確認,S_USER_RTC
+ST3000W,全部,,待確認,,需依完整型號確認,S_USER_RTC
+HTK,全部,,待確認,,需依實機或 OEM 資料確認,S_USER_RTC
+IPC,全部,,有,工業電腦內建,,S_USER_RTC
