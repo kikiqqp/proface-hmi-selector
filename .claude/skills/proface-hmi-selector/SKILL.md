@@ -75,7 +75,7 @@ index.html
 
 ### 傳輸線
 
-`data/csv/discon.csv` 由 `build.py` 讀成每台機種的 `discon = [{code, eos, eor, n, src}]`，網頁以 `isEOS()`（全部停售日已過）標示「已停售」，舊機替換時排在後面，`nearCut()` 不列已停售機種。`data/csv/memory.csv` 讀成 `memWeb = {code, u, b, v, o, n}`（原廠規格頁的使用者資料記憶體 MB、備份記憶體 KB、變數區 KB、其他記憶體、備註），規格表以 XML 為主並用 `memU()`、`memB()` 註明原廠容量，不同時標「與 XML 不同」。「畫面記憶體」一律改稱「使用者資料記憶體」（原廠 User data memory）。`data/csv/rtc.csv` 讀成 `rtc = {s, how, n, src}`（`s`：yes、no、cond 需選購電池、unknown），規格表與比較表以 `rtcTxt()` 顯示「時鐘（RTC）」，沒有符合的列顯示「未建檔」。`data/csv/software.csv` 讀成 `soft = {blue, bos}`（狀態代碼同功能），沒有符合的列預設為 `no` 並註明原廠清單未列。舊機替換的開口相同清單以 `isRec()` 比對原廠建議替換文字中的型號（`tok()`、`mkey()`，GP6000 以 PFX 型號前綴比對），原廠建議排最前並標 `b-rec`。
+`data/csv/discon.csv` 由 `build.py` 讀成每台機種的 `discon = [{code, eos, eor, n, src}]`，網頁以 `isEOS()`（全部停售日已過）標示「已停售」，舊機替換時排在後面，`nearCut()` 不列已停售機種。`data/csv/memory.csv` 讀成 `memWeb = {code, u, b, v, o, n}`（原廠規格頁的使用者資料記憶體 MB、備份記憶體 KB、變數區 KB、其他記憶體、備註），規格表以 XML 為主並用 `memU()`、`memB()` 註明原廠容量，不同時標「與 XML 不同」。「畫面記憶體」一律改稱「使用者資料記憶體」（原廠 User data memory）。`data/csv/rtc.csv` 讀成 `rtc = {s, how, n, src}`（`s`：yes、no、cond 需選購電池或沒有電池備份、unknown），規格表與比較表以 `rtcTxt()` 顯示「時鐘（RTC）」，沒有符合的列顯示「未建檔」。`data/csv/software.csv` 讀成 `soft = {blue, bos}`（狀態代碼同功能），沒有符合的列預設為 `no` 並註明原廠清單未列。舊機替換的開口相同清單以 `isRec()` 比對原廠建議替換文字中的型號（`tok()`、`mkey()`，GP6000 以 PFX 型號前綴比對），原廠建議排最前並標 `b-rec`。
 
 `data/csv/cables.csv` 由 `build.py` 讀成每台機種的 `cable = {t, kinds, n, src}`。`kinds` 只能是 `CABLE_KINDS`（`USB A`、`USB mini-B`、`USB micro-B`、`Tool`），網頁「找機種」的傳輸線篩選用它比對，說明頁的傳輸線表也由它自動產生。使用者要求：一般 USB 線只寫型式，不寫原廠型號；只有原廠專用線（USB A 對 USB A 的 CA3-USBCB-01、GP2000 的 GPW-CB02、GPW-CB03、GPW-CB-SET）寫型號，並註明支援機種。目前未建檔：GPH6000、ET5000、HTK。
 
