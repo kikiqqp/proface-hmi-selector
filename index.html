@@ -413,7 +413,7 @@ function check(m) {
   if (F.size.length && !(m.inch && sizeBuckets.some(b => F.size.includes(b.id) && b.t(m.inch)))) miss.push('尺寸 ' + (m.inch ? m.inch + ' 吋' : '不適用'));
   if (F.aspect.length) { const w = WIDE.has(m.resolution); if (!F.aspect.includes(w ? 'w' : 'n')) miss.push(w ? '寬螢幕' : '非寬螢幕'); }
   if (F.cut.length && !F.cut.includes(cutKey(m.cutout))) miss.push('開口 ' + (cutKey(m.cutout) || '未建檔'));
-  for (const k of F.feats) { if (k === 'rtc') { const s = m.rtc?.s; if (s === 'cond') cond.push('RTC 需選購電池'); else if (s !== 'yes') miss.push('RTC ' + (s ? RTCS[s] : '未建檔')); continue; } const s = f(m,k).s; if (s === 'cond') cond.push(D.featureDefs[k].label + ' 有條件'); else if (s !== 'yes') miss.push(D.featureDefs[k].label + ' ' + (SLAB[s] || '待確認')); }
+  for (const k of F.feats) { if (k === 'rtc') { const s = m.rtc?.s; if (s === 'cond') cond.push('RTC 有條件' + (m.rtc.how ? '（' + m.rtc.how + '）' : '')); else if (s !== 'yes') miss.push('RTC ' + (s ? RTCS[s] : '未建檔')); continue; } const s = f(m,k).s; if (s === 'cond') cond.push(D.featureDefs[k].label + ' 有條件'); else if (s !== 'yes') miss.push(D.featureDefs[k].label + ' ' + (SLAB[s] || '待確認')); }
   const IF = {lan1:m.ethernet >= 1, lan2:m.ethernet >= 2, rs232:comHas(m,'RS232C'), rs485:comHas(m,'RS422/485'), usb:m.usbA >= 1, card:m.cardSlot === true};
   for (const k of F.iface) if (!IF[k]) miss.push(IFACE_OPTS.find(o => o[0]===k)[1] + ' 不符');
   if (F.touch.length) {
