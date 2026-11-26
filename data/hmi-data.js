@@ -1,5 +1,5 @@
 window.HMI_DATA = {
- "updated": "2026-11-26 09:18:48",
+ "updated": "2026-11-26 10:11:52",
  "sourceVersion": "5.02",
  "series": {
   "GP6000A": {
@@ -1183,6 +1183,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1307,6 +1308,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1434,6 +1436,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1561,6 +1564,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1688,6 +1692,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1815,6 +1820,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -1942,6 +1948,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2069,6 +2076,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2196,6 +2204,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2310,6 +2319,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2422,6 +2432,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2534,6 +2545,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2646,6 +2658,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2758,6 +2771,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2870,6 +2884,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -2978,6 +2993,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -3075,6 +3091,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -3177,6 +3194,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3290,6 +3308,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3406,6 +3425,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3522,6 +3542,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3638,6 +3659,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3754,6 +3776,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3870,6 +3893,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -3986,6 +4010,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4116,6 +4141,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4232,6 +4258,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4348,6 +4375,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4465,6 +4493,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4579,6 +4608,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4696,6 +4726,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4813,6 +4844,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -4929,6 +4961,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5046,6 +5079,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5163,6 +5197,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5280,6 +5315,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5411,6 +5447,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5528,6 +5565,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5645,6 +5683,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5795,6 +5834,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -5955,6 +5995,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6118,6 +6159,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6281,6 +6323,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6444,6 +6487,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6607,6 +6651,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6770,6 +6815,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -6945,6 +6991,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7108,6 +7155,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7262,6 +7310,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7419,6 +7468,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7576,6 +7626,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7732,6 +7783,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -7889,6 +7941,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8046,6 +8099,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8203,6 +8257,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8373,6 +8428,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8530,6 +8586,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8687,6 +8744,7 @@ window.HMI_DATA = {
      }
     ]
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8810,6 +8868,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -8929,6 +8988,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -9048,6 +9108,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -9159,6 +9220,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9291,6 +9353,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9423,6 +9486,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9555,6 +9619,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9682,6 +9747,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -9799,6 +9865,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -9912,6 +9979,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -10025,6 +10093,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -10138,6 +10207,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10267,6 +10337,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10392,6 +10463,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -10519,6 +10591,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10652,6 +10725,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10770,6 +10844,7 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7A"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -10892,6 +10967,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11014,6 +11090,7 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7B"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11159,6 +11236,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11274,6 +11352,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11394,6 +11473,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11527,6 +11607,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "cond",
@@ -11658,6 +11739,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -11777,6 +11859,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "cond",
@@ -11908,6 +11991,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12033,6 +12117,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12150,6 +12235,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12272,6 +12358,7 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F10.4A"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12418,6 +12505,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12537,6 +12625,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12656,6 +12745,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12775,6 +12865,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -12892,6 +12983,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13011,6 +13103,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13130,6 +13223,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13245,6 +13339,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13369,6 +13464,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13481,6 +13577,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13604,6 +13701,7 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F5.7C"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13716,6 +13814,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13836,6 +13935,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -13959,6 +14059,7 @@ window.HMI_DATA = {
    "xmlAlias": {
     "5.02": "F10.4B"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14072,6 +14173,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14192,6 +14294,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14312,6 +14415,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14426,6 +14530,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14516,6 +14621,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14606,6 +14712,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14696,6 +14803,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14786,6 +14894,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14874,6 +14983,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -14981,6 +15091,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15088,6 +15199,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15193,6 +15305,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15307,6 +15420,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15417,6 +15531,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15528,6 +15643,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15638,6 +15754,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15749,6 +15866,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15860,6 +15978,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -15966,6 +16085,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16066,6 +16186,7 @@ window.HMI_DATA = {
     "5.02": "free"
    },
    "statusLatest": "free",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16167,6 +16288,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16281,6 +16403,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16395,6 +16518,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16509,6 +16633,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16623,6 +16748,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16734,6 +16860,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -16848,6 +16975,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -16957,6 +17085,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -17066,6 +17195,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -17172,6 +17302,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -17294,6 +17425,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -17421,6 +17553,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -17535,6 +17668,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -17654,6 +17788,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -17779,6 +17914,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -17929,6 +18065,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -18067,6 +18204,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -18216,6 +18354,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -18360,6 +18499,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -18510,6 +18650,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -18635,6 +18776,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -18784,6 +18926,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -18929,6 +19072,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -19073,6 +19217,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -19193,6 +19338,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -19344,6 +19490,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -19478,6 +19625,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -19616,6 +19764,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -19750,6 +19899,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -19873,6 +20023,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -20009,6 +20160,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -20149,6 +20301,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -20294,6 +20447,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -20414,6 +20568,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -20547,6 +20702,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -20667,6 +20823,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -20801,6 +20958,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -20940,6 +21098,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -21071,6 +21230,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -21211,6 +21371,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -21351,6 +21512,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -21479,6 +21641,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -21637,6 +21800,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -21751,6 +21915,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -21897,6 +22062,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -22056,6 +22222,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -22197,6 +22364,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -22352,6 +22520,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -22493,6 +22662,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -22632,6 +22802,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -22763,6 +22934,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -22896,6 +23068,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -23030,6 +23203,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -23202,6 +23376,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -23354,6 +23529,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -23488,6 +23664,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -23632,6 +23809,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -23778,6 +23956,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -23908,6 +24087,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -24037,6 +24217,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -24171,6 +24352,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -24305,6 +24487,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -24434,6 +24617,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no"
@@ -24572,6 +24756,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -24696,6 +24881,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -24820,6 +25006,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -24950,6 +25137,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -25080,6 +25268,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -25216,6 +25405,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -25352,6 +25542,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -25482,6 +25673,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -25630,6 +25822,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -25777,6 +25970,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -25887,6 +26081,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -25997,6 +26192,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -26105,6 +26301,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -26200,6 +26397,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -26330,6 +26528,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -26469,6 +26668,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -26610,6 +26810,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -26751,6 +26952,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -26892,6 +27094,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -27033,6 +27236,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -27174,6 +27378,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -27315,6 +27520,7 @@ window.HMI_DATA = {
     "5.02": "full"
    },
    "statusLatest": "full",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -27457,6 +27663,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -27598,6 +27805,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -27739,6 +27947,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -27880,6 +28089,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -28021,6 +28231,7 @@ window.HMI_DATA = {
     "5.02": "open-only"
    },
    "statusLatest": "open-only",
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "yes",
@@ -28116,7 +28327,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 2,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28135,6 +28346,7 @@ window.HMI_DATA = {
     "to": "AGP-3300L、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -28252,7 +28464,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 2,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28271,6 +28483,7 @@ window.HMI_DATA = {
     "to": "AGP-3300S、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -28376,7 +28589,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 2,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28395,6 +28608,7 @@ window.HMI_DATA = {
     "to": "AGP-3300T、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -28496,7 +28710,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28515,6 +28729,7 @@ window.HMI_DATA = {
     "to": "AST-3301B、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -28622,7 +28837,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28641,6 +28856,7 @@ window.HMI_DATA = {
     "to": "AST-3301S、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -28748,7 +28964,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28767,6 +28983,7 @@ window.HMI_DATA = {
     "to": "AST-3301S、GP-4301TM、GP-4301TW、GP-4301T",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -28884,7 +29101,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 8,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -28903,6 +29120,7 @@ window.HMI_DATA = {
     "to": "AGP-3400T、GP-4401T",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -29008,7 +29226,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 8,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29027,6 +29245,7 @@ window.HMI_DATA = {
     "to": "AGP-3500L、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -29151,7 +29370,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 8,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29170,6 +29389,7 @@ window.HMI_DATA = {
     "to": "AGP-3500S、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -29300,7 +29520,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 8,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29319,6 +29539,7 @@ window.HMI_DATA = {
     "to": "AGP-3500T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -29449,7 +29670,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 8,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29468,6 +29689,7 @@ window.HMI_DATA = {
     "to": "AGP-3500T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -29598,7 +29820,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 8,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29617,6 +29839,7 @@ window.HMI_DATA = {
     "to": "AGP-3600T、GP-4601T（類比觸控）、GP-4601T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -29736,7 +29959,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 8,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29755,6 +29978,7 @@ window.HMI_DATA = {
     "to": "AGP-3600T、GP-4601T（類比觸控）、GP-4601T（矩陣式觸控）；視訊視窗（V-tag）無法轉換",
     "src": "S_CONV_GP2000"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -29870,7 +30094,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -29889,6 +30113,7 @@ window.HMI_DATA = {
     "to": "AST-3302B、GP-4301TW、GP-4301TM、GP-4301T",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -29998,7 +30223,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30017,6 +30242,7 @@ window.HMI_DATA = {
     "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -30131,7 +30357,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30150,6 +30376,7 @@ window.HMI_DATA = {
     "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -30264,7 +30491,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30283,6 +30510,7 @@ window.HMI_DATA = {
     "to": "AST-3501C、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -30397,7 +30625,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30416,6 +30644,7 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -30531,7 +30760,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30550,6 +30779,7 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -30665,7 +30895,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30684,6 +30914,7 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -30799,7 +31030,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30818,6 +31049,7 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -30933,7 +31165,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -30952,6 +31184,7 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -31067,7 +31300,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -31086,6 +31319,7 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
@@ -31201,7 +31435,7 @@ window.HMI_DATA = {
    "emailXml": null,
    "ezLanXml": null,
    "remoteHmiMaxXml": null,
-   "appMemoryMB": 1,
+   "appMemoryMB": null,
    "appMemoryExpandedMB": null,
    "backupMemoryKB": null,
    "revisions": [],
@@ -31220,6 +31454,7 @@ window.HMI_DATA = {
     "to": "AST-3501T、GP-4501TW、GP-4501T（類比觸控）、GP-4501T（矩陣式觸控）",
     "src": "S_CONV_GP70"
    },
+   "memWeb": null,
    "features": {
     "remoteHmi": {
      "s": "no",
