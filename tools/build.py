@@ -37,7 +37,7 @@ STATUS = {"支援": "yes", "不支援": "no", "有條件": "cond", "舊版": "en
           "✓": "yes", "✗": "no", "yes": "yes", "no": "no", "cond": "cond", "ended": "ended", "unknown": "unknown"}
 MOUNT = {"方形": "rect", "圓孔": "round", "盒型": "box", "手持": "handheld", "IPC": "ipc"}
 SAME_CUT = {"相同": True, "不同": False, "": None}
-MODEL_STATUS = {"可新建": "full", "免費版": "free", "僅開啟": "open-only", "不支援": "absent", "": "full"}
+MODEL_STATUS = {"可新建": "full", "免費版": "free", "僅開啟": "open-only", "不支援": "absent", "待確認": "unknown", "": "full"}
 # 傳輸線接頭代碼：USB A 指 USB A 對 USB A 專用傳輸線（CA3-USBCB-01），Tool 指 GP2000 等舊機的圓形 Tool 連接埠
 CABLE_KINDS = {"USB A", "USB mini-B", "USB micro-B", "Tool"}
 FORM = {"面板": "panel", "盒型": "box", "手持": "handheld", "IPC": "ipc", "": "panel"}
@@ -329,7 +329,7 @@ def build(check_only=False):
         "series": series,
         "versions": gen["versions"],
         "status": {"full": "可新建專案", "free": "可新建專案（免費版可用）", "open-only": "僅可開啟舊專案，不可新建",
-                   "absent": "該版本未收錄"},
+                   "absent": "該版本未收錄", "unknown": "該版 XML 名稱寫成代稱，狀態待確認"},
         "featureDefs": fdefs,
         "sources": sources,
         "switches": switches,

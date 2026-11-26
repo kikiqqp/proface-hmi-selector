@@ -17,6 +17,7 @@
     5. 這裡只放 XML 裡的事實，人工整理的資料 (開口、功能表、替換) 放在 data/csv/ 底下。
 """
 import json
+import re
 import sys
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -38,8 +39,16 @@ SERIES_KEY = {
     "STM6000 Series": "STM6000", "STC6000 Series": "STC6000", "ET6000 Series": "ET6000",
     "ET5000 Series": "ET5000", "GP6000 Series (Standard)": "GP6000S",
     "GP6000 Series (Advanced)": "GP6000A", "GPH6000 Series (Handheld)": "GPH6000",
-    "HTK Series": "HTK", "IPC Series (PC/AT)": "IPC", "IPC Series(PC/AT)": "IPC",
+    "HTK Series": "HTK", "ST6000 2nd Gen Series": "ST6000G2", "IPC Series (PC/AT)": "IPC", "IPC Series(PC/AT)": "IPC",
 }
+
+
+# 5.02 的 XML 有 5 台機種的名稱寫成 F5.7A、F10.4B 這類代稱，見 main() 的說明
+PLACEHOLDER = re.compile(r"^F\d+(\.\d+)?[A-Z]$")
+
+
+def idx_name(m):
+    return m["name"].strip()
 
 
 def prop_value(p):
@@ -226,9 +235,36 @@ def main(args):
             f = find(v, m)
             versions[v] = status_of(f) if f is not None else "absent"
         present = [v for v in all_vers if versions[v] != "absent"]
+        # 代稱：5.02 的 XML 把部分機種的名稱寫成 F5.7A 這類代稱（同 id、同 offline_name、規格相同）。
+        # 這時沿用舊版 XML 的正式名稱，寫代稱的版本狀態標為待確認，不直接採信。
+        xml_alias = None
+        if PLACEHOLDER.match(m["name"].strip()):
+            for v in reversed(all_vers):
+                f = find(v, m)
+                if f is not None and not PLACEHOLDER.match(f["name"].strip()) and f["offlineName"] == m["offlineName"]:
+                    xml_alias = m["name"].strip()
+                    m = dict(m, name=f["name"])
+                    break
+            if xml_alias:
+                for v in all_vers:
+                    f = find(v, m)
+                    if f is not None and PLACEHOLDER.match(f["name"].strip()):
+                        versions[v] = "unknown"
         mm = normalize(m, present[0], present, versions)
+        if xml_alias:
+            mm["xmlAlias"] = {v: idx_name(find(v, m)) for v in all_vers if find(v, m) is not None and PLACEHOLDER.match(idx_name(find(v, m)))}
+        # 新版 XML 新增的 COM 埠（例如 5.02 起 GP6000 Advanced 支援序列介面擴充單元）分開記錄，
+        # 主要欄位保留前一版就有的 COM 埠，避免把選配擴充的埠算成本體內建
+        prev = [v for v in present if v != latest_ver]
+        if versions[latest_ver] != "absent" and prev:
+            old = normalize(find(prev[-1], m), "", [], {})["com"]
+            if len(mm["com"]) > len(old) and mm["com"][:len(old)] == old:
+                mm["comAdded"] = {"since": latest_ver, "ports": mm["com"][len(old):]}
+                mm["com"] = old
         if versions[latest_ver] == "absent":
             mm["statusLatest"] = "absent"
+        elif versions[latest_ver] == "unknown":
+            mm["statusLatest"] = "unknown"
         result.append(mm)
     out = Path(__file__).resolve().parent.parent / "data" / "models.generated.json"
     out.write_text(json.dumps({"sourceVersion": latest_ver, "versions": all_vers, "models": result}, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -54,7 +54,7 @@ def src_title(sid):
 wb = Workbook()
 ws = wb.active
 ws.title = "機種總表"
-VS = {"full": "可新建", "free": "免費版可用", "open-only": "僅可開啟", "absent": "未收錄"}
+VS = {"full": "可新建", "free": "免費版可用", "open-only": "僅可開啟", "unknown": "待確認", "absent": "未收錄"}
 VERS = D.get("versions", [D["sourceVersion"]])
 HAS_SW = any(m.get("switches") for m in D["models"])
 head = ["系列", "機種", "尺寸 (吋)", "解析度"] + [f"GP-Pro EX {v}" for v in VERS] + ["首次出現 XML", "開口 W×H (mm)", "面板厚 (mm)", "開口備註",
@@ -112,7 +112,10 @@ for k, v in widths.items():
 w2 = wb.create_sheet("待確認事項")
 w2.append(["#", "項目", "說明", "目前處理方式", "您的確認"])
 issues = [
-    ("GP6000 Advanced Remote HMI 連線數", "原廠 Client for Win 頁寫 5 台，5.01 XML 寫 3 台。", "暫採原廠網頁 5 台，備註標示衝突。"),
+    ("GP6000 Advanced Remote HMI 連線數", "已確認：5.02 版本說明寫 5.02 起增加為 5 台，5.02 XML 也是 5 台（5.01 為 3 台）。", "採 5 台，最低版本 5.02 的說明寫在備註。"),
+    ("5.02 XML 的代稱機種", "GP-4301TW、GP-4501TW、GP-4301TM 模組型、ST-6300TA、ST-6500TA 在 5.02 XML 名稱寫成 F5.7B 等代稱，規格不變。", "沿用原名，5.02 狀態標「待確認」，請在 GP-Pro EX 5.02 的機種選單確認。"),
+    ("SP-5B40、SP-5B41 的 COM3～COM9", "5.02 XML 新增，原廠文件未說明來源。", "主欄只列 COM1、COM2，另列於「其他 COM 埠」。"),
+    ("ST6000 2nd Gen 開口與功能", "原廠產品頁標示即將推出，尚無規格頁。", "開口留空；Remote HMI 依 Client for Win 頁 3 台，其餘依 XML。"),
     ("SP5000 Open Box 的 GP-Viewer EX", "手冊功能表列為支援，授權設定頁卻排除 Open Box。", "標示「有條件」。"),
     ("Web Server", "原廠手冊註明 4.09.450 以前版本才支援，5.x 各機種皆不可用；XML 仍標示 yes。", "現行機種一律標「舊版才有」或 ✗，不採 XML 值。"),
     ("GP6000 Standard 不支援 GP-Viewer EX、E-mail", "手冊 1.5 功能表如此標示，業務上影響大。", "照手冊標 ✗，請以實機或原廠窗口確認。"),
