@@ -251,14 +251,29 @@ def build(check_only=False):
                 mw["n"] = r["備註"]
             mrules.append({"m": make_matcher(r), "mw": mw, "where": w})
 
+    # 時鐘（RTC）（選用檔案）：有、無、有條件（需選購電池）、待確認
+    rtcrules = []
+    if (CSV_DIR / "rtc.csv").exists():
+        for r in read_csv("rtc.csv"):
+            st = {"有": "yes", "無": "no", "有條件": "cond", "待確認": "unknown"}.get(r.get("RTC", ""))
+            if not st:
+                errors.append(f"{r['_where']}：RTC 只能是 有／無／有條件／待確認")
+                continue
+            rv = {"s": st, "src": r.get("來源", "")}
+            if r.get("備份方式"):
+                rv["how"] = r["備份方式"]
+            if r.get("備註"):
+                rv["n"] = r["備註"]
+            rtcrules.append({"m": make_matcher(r), "rt": rv, "where": r["_where"]})
+
     # 檢查來源代號與系列代號
-    for group, items in (("功能", frules), ("開口", crules), ("替換", rrules), ("特殊開關", srules), ("傳輸線", cbrules), ("停售", drules), ("軟體", swrules), ("記憶體", mrules)):
+    for group, items in (("功能", frules), ("開口", crules), ("替換", rrules), ("特殊開關", srules), ("傳輸線", cbrules), ("停售", drules), ("軟體", swrules), ("記憶體", mrules), ("時鐘", rtcrules)):
         for it in items:
             if it["m"]["series"] and it["m"]["series"] not in series:
                 errors.append(f"{it['where']}：系列代號 {it['m']['series']} 不在 series.csv")
             srcs = it.get("src") or [x for x in [it.get("c", {}).get("src"), it.get("r", {}).get("src")] if x]
             srcs = [y for x in srcs for y in split_src(x)] + split_src(it.get("cb", {}).get("src", ""))
-            srcs += split_src(it.get("d", {}).get("src", "")) + split_src(it.get("v", {}).get("src", ""))
+            srcs += split_src(it.get("d", {}).get("src", "")) + split_src(it.get("v", {}).get("src", "")) + split_src(it.get("rt", {}).get("src", ""))
             for s in srcs:
                 if s not in sources:
                     errors.append(f"{it['where']}：來源代號 {s} 不在 sources.csv")
@@ -329,10 +344,15 @@ def build(check_only=False):
             if matches(it["m"], m):
                 used.add(("mw", i))
                 memw = it["mw"]
-        mm = dict(m, memWeb=memw, features=feats, featureSrc=fsrc, cutout=cut, replace=reps, switches=sws, cable=cable, discon=disc, soft=soft)
+        rtc = None
+        for i, it in enumerate(rtcrules):
+            if matches(it["m"], m):
+                used.add(("rt", i))
+                rtc = it["rt"]
+        mm = dict(m, rtc=rtc, memWeb=memw, features=feats, featureSrc=fsrc, cutout=cut, replace=reps, switches=sws, cable=cable, discon=disc, soft=soft)
         models.append(mm)
 
-    for tag, items in (("f", frules), ("c", crules), ("r", rrules), ("s", srules), ("cb", cbrules), ("d", drules), ("sw", swrules), ("mw", mrules)):
+    for tag, items in (("f", frules), ("c", crules), ("r", rrules), ("s", srules), ("cb", cbrules), ("d", drules), ("sw", swrules), ("mw", mrules), ("rt", rtcrules)):
         for i, it in enumerate(items):
             if (tag, i) not in used:
                 print(f"提醒：{it['where']} 沒有對應到任何機種")

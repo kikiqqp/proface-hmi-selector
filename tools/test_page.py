@@ -164,6 +164,7 @@ async def run(chrome):
             txt = await pg.inner_text("#mDetail")
             ok("F5.7B" in txt and "待確認" in txt, "查機種：GP-4301TW 標出 5.02 XML 代稱與待確認")
             ok("原廠規格頁 8 MB" in txt and "原廠規格頁 128 KB" in txt and "PFXGP4301TADW" in txt, "查機種：GP-4301TW 使用者資料與備份記憶體註明原廠規格頁容量")
+            ok("時鐘（RTC）" in txt and "充電式二次電池" in txt, "查機種：GP-4301TW 顯示時鐘（RTC）與備份方式")
 
             await pg.click('[data-ms="GP2000"]')
             await pg.click('#mGroups [data-mg="GP-23** Series"]')
