@@ -111,7 +111,7 @@ def load_extra_models():
             "cardSlot": {"有": True, "無": False}.get(r.get("記憶卡槽", "")),
             "ftpXml": None, "webXml": None, "emailXml": None, "ezLanXml": None,
             "remoteHmiMaxXml": num(r.get("RemoteHMI連線數", ""), w, "RemoteHMI連線數"),
-            "appMemoryMB": num(r.get("畫面記憶體MB", ""), w, "畫面記憶體MB"), "appMemoryExpandedMB": None,
+            "appMemoryMB": num(r.get("使用者資料記憶體MB", ""), w, "使用者資料記憶體MB"), "appMemoryExpandedMB": None,
             "backupMemoryKB": None, "revisions": [], "firstSeen": r.get("首次版本", "") or "人工新增",
             "inVersions": [], "versions": {}, "statusLatest": MODEL_STATUS.get(st, "full"), "manualNote": r.get("備註", ""), "software": r.get("開發軟體", ""),
             "convert": {"to": r["GP-Pro EX轉換"], "src": r.get("轉換來源", "")} if r.get("GP-Pro EX轉換") else None,
@@ -233,8 +233,26 @@ def build(check_only=False):
             rep["n"] = r["備註"]
         rrules.append({"m": make_matcher(r), "r": rep, "where": r["_where"]})
 
+    # 原廠規格頁的記憶體（選用檔案）：網頁以 XML 為主，這裡的數值只做註明與比對
+    mrules = []
+    if (CSV_DIR / "memory.csv").exists():
+        for r in read_csv("memory.csv"):
+            w = r["_where"]
+            if not r.get("原廠型號"):
+                errors.append(f"{w}：原廠型號不可空白")
+            mw = {"code": r.get("原廠型號", "")}
+            for key, col in (("u", "使用者資料記憶體MB"), ("b", "備份記憶體KB"), ("v", "變數區KB")):
+                v = num(r.get(col, ""), w, col)
+                if v is not None:
+                    mw[key] = v
+            if r.get("其他記憶體"):
+                mw["o"] = r["其他記憶體"]
+            if r.get("備註"):
+                mw["n"] = r["備註"]
+            mrules.append({"m": make_matcher(r), "mw": mw, "where": w})
+
     # 檢查來源代號與系列代號
-    for group, items in (("功能", frules), ("開口", crules), ("替換", rrules), ("特殊開關", srules), ("傳輸線", cbrules), ("停售", drules), ("軟體", swrules)):
+    for group, items in (("功能", frules), ("開口", crules), ("替換", rrules), ("特殊開關", srules), ("傳輸線", cbrules), ("停售", drules), ("軟體", swrules), ("記憶體", mrules)):
         for it in items:
             if it["m"]["series"] and it["m"]["series"] not in series:
                 errors.append(f"{it['where']}：系列代號 {it['m']['series']} 不在 series.csv")
@@ -306,10 +324,15 @@ def build(check_only=False):
             if matches(it["m"], m):
                 used.add(("sw", i))
                 soft[it["k"]] = it["v"]
-        mm = dict(m, features=feats, featureSrc=fsrc, cutout=cut, replace=reps, switches=sws, cable=cable, discon=disc, soft=soft)
+        memw = None
+        for i, it in enumerate(mrules):
+            if matches(it["m"], m):
+                used.add(("mw", i))
+                memw = it["mw"]
+        mm = dict(m, memWeb=memw, features=feats, featureSrc=fsrc, cutout=cut, replace=reps, switches=sws, cable=cable, discon=disc, soft=soft)
         models.append(mm)
 
-    for tag, items in (("f", frules), ("c", crules), ("r", rrules), ("s", srules), ("cb", cbrules), ("d", drules), ("sw", swrules)):
+    for tag, items in (("f", frules), ("c", crules), ("r", rrules), ("s", srules), ("cb", cbrules), ("d", drules), ("sw", swrules), ("mw", mrules)):
         for i, it in enumerate(items):
             if (tag, i) not in used:
                 print(f"提醒：{it['where']} 沒有對應到任何機種")

@@ -57,10 +57,27 @@ ws.title = "機種總表"
 VS = {"full": "可新建", "free": "免費版可用", "open-only": "僅可開啟", "unknown": "待確認", "absent": "未收錄"}
 VERS = D.get("versions", [D["sourceVersion"]])
 HAS_SW = any(m.get("switches") for m in D["models"])
+def mem_web(m):
+    w = m.get("memWeb")
+    if not w:
+        return ""
+    parts = [w["code"]]
+    if "u" in w:
+        parts.append(f"使用者資料記憶體 {w['u']} MB")
+    if "b" in w:
+        parts.append(f"備份記憶體 {w['b']} KB")
+    if "v" in w:
+        parts.append(f"變數區 {w['v']} KB")
+    for k in ("o", "n"):
+        if w.get(k):
+            parts.append(w[k])
+    return "；".join(parts)
+
+
 head = ["系列", "機種", "尺寸 (吋)", "解析度"] + [f"GP-Pro EX {v}" for v in VERS] + ["首次出現 XML", "開口 W×H (mm)", "面板厚 (mm)", "開口備註",
         "Remote HMI", "Remote HMI 連線數", "Remote HMI 最低版本", "GP-Viewer EX", "Pro-face Connect", "FTP Server",
         "Web Server", "E-mail", "IPsec", "EZ LAN", "功能備註", "型態", "觸控", "LAN 埠", "COM 埠", "USB A",
-        "USB mini/micro B", "記憶卡槽", "畫面記憶體 MB", "原廠建議替換"] + (["特殊開關切換"] if HAS_SW else []) + ["開口來源", "功能來源", "XML 群組", "XML 名稱",
+        "USB mini/micro B", "記憶卡槽", "使用者資料記憶體 MB", "備份記憶體 KB", "原廠規格頁記憶體", "原廠建議替換"] + (["特殊開關切換"] if HAS_SW else []) + ["開口來源", "功能來源", "XML 群組", "XML 名稱",
         "修正意見（請填）"]
 ws.append(head)
 for m in D["models"]:
@@ -92,7 +109,7 @@ for m in D["models"]:
         "；".join(notes), FORM.get(m["form"], m["form"]), TOUCH.get(m["touch"], m["touch"] or ""),
         m["ethernet"] if m["ethernet"] is not None else "", "、".join(f"{x['port']} {x['type']}" for x in m["com"]),
         m["usbA"] if m["usbA"] is not None else "", usbmb, "有" if m["cardSlot"] else "無" if m["cardSlot"] is False else "",
-        m["appMemoryMB"] or "", rep, *(["；".join(f"{x['sw']} {x['use'] or x['zh']}" for x in m.get("switches", []))] if HAS_SW else []), src_title(c.get("src", "")), "、".join(src_title(s) for s in sorted(fsrc)),
+        m["appMemoryMB"] or "", m.get("backupMemoryKB") if m.get("backupMemoryKB") is not None else "", mem_web(m), rep, *(["；".join(f"{x['sw']} {x['use'] or x['zh']}" for x in m.get("switches", []))] if HAS_SW else []), src_title(c.get("src", "")), "、".join(src_title(s) for s in sorted(fsrc)),
         m["group"], m["name"], None,
     ])
 hdr_fill = PatternFill("solid", fgColor="EAF2FB")
@@ -103,7 +120,7 @@ for cell in ws[1]:
 ws.freeze_panes = "C2"
 from openpyxl.utils import get_column_letter
 wd = {"系列": 16, "機種": 30, "解析度": 16, "開口 W×H (mm)": 14, "開口備註": 26, "功能備註": 40, "COM 埠": 30,
-      "原廠建議替換": 36, "特殊開關切換": 30, "開口來源": 28, "功能來源": 40, "XML 名稱": 26, "修正意見（請填）": 30}
+      "原廠規格頁記憶體": 40, "原廠建議替換": 36, "特殊開關切換": 30, "開口來源": 28, "功能來源": 40, "XML 名稱": 26, "修正意見（請填）": 30}
 widths = {get_column_letter(i + 1): wd.get(h, 11) for i, h in enumerate(head)}
 for k, v in widths.items():
     ws.column_dimensions[k].width = v
